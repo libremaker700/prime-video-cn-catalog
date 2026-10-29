@@ -5,12 +5,13 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest.mock import Mock
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from catalog import write_json
-from title_lookup import apply_cache, bangumi_patch, cache_key, identity, run, sanitize, wiki_patch, mentions_original
+from title_lookup import apply_cache, bangumi_patch, cache_key, identity, run, sanitize, wiki_patch, mentions_original, Lookup
 
 CLOCK = datetime(2026, 10, 29, 16, tzinfo=timezone.utc)
 
@@ -170,10 +171,37 @@ class TitlesTests(unittest.TestCase):
             self.assertEqual(report['monthly_reserved'],4)
             self.assertEqual(report['cache_hits'],1)
 
+    def test_expired_pending_entry_rechecks_saved_source_before_searching(self):
+        with tempfile.TemporaryDirectory() as directory:
+            r=record()
+            root=self.setup_repo(directory,[r])
+            write_json(root/'data/title-cache.json',{'schema':1,'records':{cache_key(r):{
+                'identity':identity(r),'status':'pending_review','next_retry_at':'2026-10-01T00:00:00+00:00',
+                'evidence':{'results':[{'url':'https://zh.wikipedia.org/wiki/测试作品'}]}}},'budgets':{}})
+            client=Fake()
+            report=self.run_lookup(root,client=client)
+            self.assertEqual((client.search_calls,client.direct_calls),(0,0))
+            self.assertEqual(report['cache_hits'],1)
+
     def test_sitcom_is_a_tv_definition_not_a_movie(self):
         page={'extract':'《测试作品》（英语：Example 1）是一部2020年首播的美国情境喜剧。','fullurl':'https://zh.wikipedia.org/wiki/测试作品'}
         self.assertIsNotNone(wiki_patch(record(),page,'now'))
         self.assertIsNone(wiki_patch(record()|{'kind':'movie'},page,'now'))
+
+    def test_search_snippet_cannot_replace_source_definition(self):
+        definition='《测试作品》（英语：Example 1）是一部2020年首播的电视剧。'
+        for raw in (None,definition):
+            session=Mock()
+            session.post.return_value.status_code=200
+            session.post.return_value.json.return_value={'usage':{'credits':1},'results':[{
+                'title':'测试作品','url':'https://zh.wikipedia.org/wiki/测试作品','content':definition,'raw_content':raw}]}
+            session.get.return_value.status_code=503
+            client=Lookup('private-test-key',session)
+            patch,evidence=client.search(record(),'now')
+            self.assertEqual(bool(patch),bool(raw))
+            self.assertEqual(session.post.call_count,1)
+            self.assertEqual(session.post.call_args.kwargs['json']['search_depth'],'basic')
+            self.assertFalse(session.post.call_args.kwargs['json']['auto_parameters'])
 
 
 if __name__=='__main__':

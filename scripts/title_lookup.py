@@ -285,7 +285,12 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
             updated.append(out)
             continue
         report['attempted'] += 1
-        patch = client.direct(out, checked_at)
+        patch = None
+        if old.get('identity') == identity(out) and old.get('evidence', {}).get('results'):
+            patch = client.verify_results(out, old['evidence']['results'], checked_at)
+            if patch:
+                report['cache_hits'] += 1
+        patch = patch or client.direct(out, checked_at)
         evidence = {'status': 'direct_source'}
         if patch:
             report['direct_verified'] += 1
