@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-29T15:48:08+00:00",
+  "searched": 4,
+  "direct_verified": 0,
+  "cache_hits": 0,
+  "skipped_verified": 7,
+  "pending": 75,
+  "attempted": 4,
+  "monthly_reserved": 4,
+  "monthly_limit": 100,
+  "remaining_unverified": 149,
+  "direct_network_errors": 3,
+  "verified_changes": [
+    {
+      "id": "seed:vinland-saga",
+      "before": "Vinland Saga",
+      "after": "海盗战记",
+      "name_status": "user_app_preference"
+    }
+  ],
+  "published_name_changes": 1,
+  "status": "completed",
+  "version": {
+    "version": "651859829de60b13",
+    "catalog_sha256": "651859829de60b13aa4a8f76852f59ddb08ee7c4dc64ca9b09f06846e80f9064",
+    "catalog_path": "releases/651859829de60b13aa4a8f76852f59ddb08ee7c4dc64ca9b09f06846e80f9064/catalog.json",
+    "generated_at": "2026-10-29T15:48:16+00:00",
+    "last_success_at": "2026-10-29T00:56:48+00:00",
+    "publication_reason": "verified_title_lookup",
+    "item_count": 156,
+    "image_count": 127
+  }
+}

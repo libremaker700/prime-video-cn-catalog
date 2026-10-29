@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-29T01:18:23+00:00",
+  "generated_at": "2026-10-29T15:48:16+00:00",
   "item_count": 156,
   "items": [
     {
@@ -547,9 +547,15 @@
       "english_title": "Vinland Saga",
       "prime_id": null,
       "prime_official_name_zh": null,
-      "display_name_zh": "Vinland Saga",
-      "aliases_zh": [],
-      "name_status": "pending_review",
+      "display_name_zh": "海盗战记",
+      "aliases_zh": [
+        "冰海战记",
+        "海盜戰記",
+        "冰海戰記",
+        "Vinland Saga",
+        "ヴィンランド・サガ"
+      ],
+      "name_status": "user_app_preference",
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {},
@@ -582,6 +588,16 @@
           "name": "中文维基百科",
           "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98",
           "retrieved_at": "2026-10-28T23:33:19+00:00"
+        },
+        {
+          "type": "user_confirmed_title",
+          "url": "https://bangumi.tv/subject/240386",
+          "retrieved_at": "2026-10-29T15:38:27+00:00"
+        },
+        {
+          "type": "user_confirmed_title",
+          "url": "https://baike.baidu.com/item/海盗战记/22441962",
+          "retrieved_at": "2026-10-29T15:38:27+00:00"
         }
       ],
       "updated_at": "2026-10-28T23:33:19+00:00",

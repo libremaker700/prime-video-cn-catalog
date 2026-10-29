@@ -1,10 +1,10 @@
 {
-  "version": "07673ce6aa4e4a46",
-  "catalog_sha256": "07673ce6aa4e4a4696af7a5c291ea7bed2047845b347348d37bf45ee4e1426ff",
-  "catalog_path": "releases/07673ce6aa4e4a4696af7a5c291ea7bed2047845b347348d37bf45ee4e1426ff/catalog.json",
-  "generated_at": "2026-10-29T01:18:23+00:00",
+  "version": "651859829de60b13",
+  "catalog_sha256": "651859829de60b13aa4a8f76852f59ddb08ee7c4dc64ca9b09f06846e80f9064",
+  "catalog_path": "releases/651859829de60b13aa4a8f76852f59ddb08ee7c4dc64ca9b09f06846e80f9064/catalog.json",
+  "generated_at": "2026-10-29T15:48:16+00:00",
   "last_success_at": "2026-10-29T00:56:48+00:00",
-  "publication_reason": "restore_snapshot_identity_fields",
+  "publication_reason": "verified_title_lookup",
   "item_count": 156,
   "image_count": 127
 }
