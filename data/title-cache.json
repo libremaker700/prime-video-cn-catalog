@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "records": {
+    "201e00049e9853625cb799639926afee2a78ccb44c2f82a2f6adcdc714189ddc": {
+      "identity": {
+        "id": "prime:B01N4UWE2T",
+        "prime_id": "B01N4UWE2T",
+        "kind": "tv",
+        "original_title": "Powerless",
+        "english_title": "Powerless",
+        "first_air_year": 2017
+      },
+      "checked_at": "2026-10-29T15:48:08+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "query": "Powerless 2017 电视剧 中文名 国内译名",
+        "usage": {
+          "credits": 1
+        },
+        "results": [
+          {
+            "title": "无能为力(电视剧) - 维基百科，自由的百科全书",
+            "url": "https://zh.wikipedia.org/zh-hans/%E7%84%A1%E8%83%BD%E7%82%BA%E5%8A%9B_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+            "score": 0.6649108
+          },
+          {
+            "title": "DC Comics' Powerless - Unaired Pilot (with Vanessa Hudgens ...",
+            "url": "https://www.reddit.com/r/television/comments/130b7ti/dc_comics_powerless_unaired_pilot_with_vanessa",
+            "score": 0.43223172
+          },
+          {
+            "title": "Powerless (TV Series 2017) — The Movie Database (TMDB)",
+            "url": "https://www.themoviedb.org/tv/68001-powerless",
+            "score": 0.4256297
+          },
+          {
+            "title": "Powerless | official trailer (2017) DC Comics Wayne Industries ...",
+            "url": "https://www.youtube.com/watch?v=0PfnmAV0eFM",
+            "score": 0.42033842
+          },
+          {
+            "title": "无力(2017) : r/ForgottenTV",
+            "url": "https://www.reddit.com/r/ForgottenTV/comments/1e6q3oc/powerless_2017?tl=zh-hans",
+            "score": 0.37161595
+          },
+          {
+            "title": "Wayne or Lose - Powerless (Season 1, Episode 1)",
+            "url": "https://tv.apple.com/us/episode/wayne-or-lose/umc.cmc.78skfqjpuraf7olpdvh5hjp22?showId=umc.cmc.3lt3shlq7m43cgkfi2e6rj22x",
+            "score": 0.32069415
+          }
+        ],
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-28T15:48:08+00:00"
+    },
+    "417f330e832c8b2b7f1f3d0d2ad478e9bf297df910e63b3fff5dfbdad0df305b": {
+      "identity": {
+        "id": "prime:B0824SJW7J",
+        "prime_id": "B0824SJW7J",
+        "kind": "tv",
+        "original_title": "Sneaky Pete",
+        "english_title": "Sneaky Pete",
+        "first_air_year": 2015
+      },
+      "checked_at": "2026-10-29T15:48:08+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "query": "Sneaky Pete 2015 电视剧 中文名 国内译名",
+        "usage": {
+          "credits": 1
+        },
+        "results": [
+          {
+            "title": "一口氣看完了《詐欺擔保人》，這是Netflix 最近新上的影集",
+            "url": "https://www.facebook.com/leftymovie/posts/%E4%B8%80%E5%8F%A3%E6%B0%A3%E7%9C%8B%E5%AE%8C%E4%BA%86%E8%A9%90%E6%AC%BA%E6%93%94%E4%BF%9D%E4%BA%BA%E9%80%99%E6%98%AF-netflix-%E6%9C%80%E8%BF%91%E6%96%B0%E4%B8%8A%E7%9A%84%E5%BD%B1%E9%9B%86%E6%88%91%E8%A6%BA%E5%BE%97%E5%BE%88%E8%81%B0%E6%98%8E%E5%BE%88%E6%8E%A8%E8%96%A6%E7%B5%A6%E5%A4%A7%E5%AE%B6%E4%B8%BB%E8%A7%92%E6%98%AF%E4%B8%80%E4%BD%8D%E8%A9%90%E6%AC%BA%E5%B8%AB%E9%99%B0%E9%8C%AF%E9%99%BD%E5%B7%AE%E4%B8%8B%E9%A0%82%E6%9B%BF%E4%BA%86%E7%8D%84%E5%8F%8B%E7%9A%84%E8%BA%AB%E4%BB%BD%E4%BE%86%E5%88%B0%E4%BA%86%E6%96%B0%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%83%B3%E4%B8%8D%E5%88%B0%E9%80%99%E5%AE%B6%E5%BA%AD%E4%B9%9F%E6%98%AF%E8%A4%87%E9%9B%9C%E5%88%B0/1629037551919731",
+            "score": 0.5198388
+          },
+          {
+            "title": "老闆猴on X: \"🎭 美国高智商犯罪剧集《诈欺担保人》 ...",
+            "url": "https://x.com/wuliangfazun/status/1918130422699180322",
+            "score": 0.43323857
+          },
+          {
+            "title": "Sneaky Pete : r/netflix",
+            "url": "https://www.reddit.com/r/netflix/comments/1ltn0yf/sneaky_pete?tl=zh-hant",
+            "score": 0.1690218
+          },
+          {
+            "title": "詐欺擔保人(2015)",
+            "url": "https://www.themoviedb.org/tv/64199-sneaky-pete?language=zh-TW",
+            "score": 0.16498712
+          },
+          {
+            "title": "诈欺担保人第一季",
+            "url": "https://baike.baidu.com/item/%E8%AF%88%E6%AC%BA%E6%8B%85%E4%BF%9D%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%AD%A3/18336606",
+            "score": 0.106309816
+          },
+          {
+            "title": "〔美劇〕《詐欺擔保人》：冒充身分不夠，欠債騙子還要幫罪犯擔保 - 凱特C",
+            "url": "https://katecfilms.blogspot.com/2017/02/blog-post.html",
+            "score": 0.051087577
+          }
+        ],
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-28T15:48:08+00:00"
+    },
+    "0fba2c2d140edd40a7fc51619e837724ef52c8676876c0fefe856f0392cfbe18": {
+      "identity": {
+        "id": "prime:B086HWJ1FS",
+        "prime_id": "B086HWJ1FS",
+        "kind": "tv",
+        "original_title": "Made in Heaven",
+        "english_title": "Made in Heaven",
+        "first_air_year": 2019
+      },
+      "checked_at": "2026-10-29T15:48:08+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "query": "Made in Heaven 2019 电视剧 中文名 国内译名",
+        "usage": {
+          "credits": 1
+        },
+        "results": [
+          {
+            "title": "Made In Heaven - Season 1",
+            "url": "https://www.primevideo.com/detail/0OO47CBJ1NU885PDG2V3IA05LU?tr=vc",
+            "score": 0.72884524
+          },
+          {
+            "title": "Made in Heaven（Indian television series ...",
+            "url": "https://baike.baidu.com/en/item/Made%20in%20Heaven/1772417",
+            "score": 0.72418857
+          },
+          {
+            "title": "Made in Heaven",
+            "url": "https://www.rottentomatoes.com/tv/made_in_heaven",
+            "score": 0.55072874
+          },
+          {
+            "title": "Made in Heaven (TV Series 2019)",
+            "url": "https://www.themoviedb.org/tv/87407-made-in-heaven?language=tr",
+            "score": 0.5010992
+          },
+          {
+            "title": "Made In Heaven (@madeinheaventv)",
+            "url": "https://www.instagram.com/madeinheaventv",
+            "score": 0.486015
+          },
+          {
+            "title": "MADE IN HEAVEN | S01E01- All That Glitters Is Gold",
+            "url": "https://www.youtube.com/watch?v=oYWcsnyI4i4",
+            "score": 0.26206252
+          }
+        ],
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-28T15:48:08+00:00"
+    },
+    "63a1e71c622cb1a5a8d7e7d5282cec409587e37c2d117749e224db6de41bb6d4": {
+      "identity": {
+        "id": "prime:B086VWBXP5",
+        "prime_id": "B086VWBXP5",
+        "kind": "tv",
+        "original_title": "The Man in the High Castle",
+        "english_title": "The Man in the High Castle",
+        "first_air_year": 2015
+      },
+      "checked_at": "2026-10-29T15:48:08+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "query": "The Man in the High Castle 2015 电视剧 中文名 国内译名",
+        "usage": {
+          "credits": 1
+        },
+        "results": [
+          {
+            "title": "高堡奇人",
+            "url": "https://baike.baidu.com/item/%E9%AB%98%E5%A0%A1%E5%A5%87%E4%BA%BA/16620656",
+            "score": 0.8506799
+          },
+          {
+            "title": "高堡奇人 - 维基百科，自由的百科全书",
+            "url": "https://zh.wikipedia.org/zh-hans/%E9%AB%98%E5%A0%A1%E5%A5%87%E4%BA%BA",
+            "score": 0.6977124
+          },
+          {
+            "title": "Prime Video: The Man in the High Castle - Season 1",
+            "url": "https://www.primevideo.com/detail/0MJFK5BDOS4K13C3WBUIB7NY98",
+            "score": 0.6854659
+          },
+          {
+            "title": "高堡奇人(電視劇) - 維基百科，自由的百科全書",
+            "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%A0%A1%E5%A5%87%E4%BA%BA_(%E7%94%B5%E8%A7%86%E5%89%A7)",
+            "score": 0.51866865
+          },
+          {
+            "title": "The Man in the High Castle: Cast, Plot, Where to Stream - Netflix Tudum",
+            "url": "https://www.netflix.com/tudum/articles/the-man-in-the-high-castle-release-date-news",
+            "score": 0.47110215
+          },
+          {
+            "title": "The Man in the High Castle Season 1 - Official Comic-Con Trailer | Prime Video",
+            "url": "https://www.youtube.com/watch?v=zzayf9GpXCI",
+            "score": 0.35481355
+          }
+        ],
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-28T15:48:08+00:00"
+    }
+  },
+  "budgets": {
+    "2026-10": 4
+  },
+  "last_run_at": "2026-10-29T15:48:08+00:00"
+}
