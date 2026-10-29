@@ -1,0 +1,35 @@
+name: Test Google AI Overview in browser
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install ordinary Chromium browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Search Vinland Saga without account or API key
+        env:
+          GOOGLE_PROBE_OUTPUT: ${{ runner.temp }}/google-overview-probe
+        run: python scripts/probe_google_overview.py
+      - name: Save browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-overview-probe
+          path: ${{ runner.temp }}/google-overview-probe/
+          if-no-files-found: ignore
+          retention-days: 7
