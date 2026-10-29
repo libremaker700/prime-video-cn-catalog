@@ -36,6 +36,8 @@ def error_summary(response):
     try:
         error = response.json().get("error", {})
         result["api_status"] = error.get("status")
+        # The whole report is scrubbed before writing; no request URL or headers.
+        result["message"] = str(error.get("message", ""))[:1200]
         result["quota_limit_zero"] = False
         reasons = []
         for detail in error.get("details", []):
@@ -80,6 +82,7 @@ def run(key):
             return report | {"failure": "model_list_failed", "error": error_summary(models)}
         available = {m.get("name") for m in models.json().get("models", [])}
         report["requested_model_available"] = "models/" + MODEL in available
+        report["model_methods"] = next((m.get("supportedGenerationMethods", []) for m in models.json().get("models", []) if m.get("name") == "models/" + MODEL), [])
         if not report["requested_model_available"]:
             return report | {"failure": "requested_model_unavailable"}
         report["generation_requests"] = 1
