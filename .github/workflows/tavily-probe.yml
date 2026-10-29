@@ -1,0 +1,32 @@
+name: Test Tavily Chinese title search
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.34.2
+      - name: One basic search without automatic retries
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TAVILY_PROBE_REPORT: ${{ runner.temp }}/tavily-probe-report.json
+        run: python scripts/probe_tavily.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tavily-title-probe
+          path: ${{ runner.temp }}/tavily-probe-report.json
+          if-no-files-found: ignore
+          retention-days: 7
