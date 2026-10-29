@@ -171,7 +171,10 @@ class Clients:
             patch.update(self.localized_summary(summary, source, previous or {}, clean(data["title"])))
         hero = (data.get("images") or {}).get("heroshot", "")
         if re.fullmatch(r"https://m\.media-amazon\.com/images/S/pv-target-images/[a-f0-9]{64}\.(jpg|png)", hero):
-            hero = hero.rsplit(".", 1)[0] + "._SX1280_FMjpg_.jpg"
+            # Amazon rejects a JPG format request for some PNG originals (HTTP 403).
+            # Keep the official source encoding; image() converts decoded bytes to JPEG locally.
+            ext = hero.rsplit(".", 1)[1]
+            hero = hero.rsplit(".", 1)[0] + f"._SX1280_FM{ext}_.{ext}"
             image = self.image(hero, scope="season" if television else "series", season=sn if television else None, source_type="prime_official")
             patch.update(poster=image, poster_scope=image["scope"], poster_status="ok")
         if television:

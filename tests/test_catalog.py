@@ -24,6 +24,17 @@ def record(n=0):
 
 
 class CatalogTests(unittest.TestCase):
+    def test_prime_preserves_png_source_encoding_before_local_jpeg_conversion(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            client=Clients(Path(tmp),print)
+            for ext in ("png","jpg"):
+                data={"title":"作品", "entityType":"TV Show", "seasonNumber":2,
+                      "images":{"heroshot":"https://m.media-amazon.com/images/S/pv-target-images/"+"a"*64+"."+ext}}
+                with patch.object(client,"image",return_value={"scope":"season"}) as image:
+                    client.prime_patch("B012345678",data)
+                    self.assertTrue(image.call_args.args[0].endswith(f"._SX1280_FM{ext}_.{ext}"))
+                    self.assertEqual(image.call_args.kwargs["season"],2)
+
     def test_schedule_boundary_future_and_bad_dates(self):
         clock = datetime(2026, 11, 5, 0, 0, tzinfo=timezone.utc)
         self.assertTrue(due({"last_success_at": "2026-10-29T00:00:00+00:00"}, clock=clock))
