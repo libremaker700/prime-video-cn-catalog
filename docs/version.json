@@ -1,21 +1,8 @@
 {
-  "version": "c34f7013070b0775",
-  "catalog_sha256": "c34f7013070b077565e57885870fc092d1ef0dc6005776e2d791ef7429ff1919",
-  "generated_at": "2026-10-29T00:00:00+08:00",
-  "last_success_at": "2026-10-29T00:00:00+08:00",
+  "version": "557a75c6a8754a48",
+  "catalog_sha256": "557a75c6a8754a48a3ff91e0cf521cd789ad4516d1b7699e0bfb76592b41e1ba",
+  "generated_at": "2026-10-29T00:22:54+00:00",
+  "last_success_at": "2026-10-29T00:22:54+00:00",
   "item_count": 156,
-  "image_count": 127,
-  "stats": {
-    "total": 154,
-    "official_mapped": 121,
-    "pending_identity": 33,
-    "seasons": 225,
-    "season_overviews": 109,
-    "images_ok": 127,
-    "images_rejected": 0,
-    "series_posters": 18,
-    "season_posters": 109,
-    "wiki_merged": 5,
-    "wiki_only": 2
-  }
+  "image_count": 127
 }
