@@ -1,0 +1,53 @@
+# 种子目录：Prime Video 作品的稳定识别信息。
+# prime_id 未知时留空（null），绝不编造；后续可填官方 ASIN / 季度 ID。
+# kind: movie | tv | anime ；seasons 仅电视剧/动漫填写。
+seeds:
+  - slug: the-tomorrow-war
+    original_title: "The Tomorrow War"
+    english_title: "The Tomorrow War"
+    year: 2021
+    kind: movie
+    prime_id: null
+    seasons: []
+  - slug: fallout
+    original_title: "Fallout"
+    english_title: "Fallout"
+    year: 2024
+    kind: tv
+    prime_id: null
+    seasons: [1, 2]
+  - slug: the-boys
+    original_title: "The Boys"
+    english_title: "The Boys"
+    year: 2019
+    kind: tv
+    prime_id: null
+    seasons: [1, 2, 3, 4]
+  - slug: reacher
+    original_title: "Reacher"
+    english_title: "Reacher"
+    year: 2022
+    kind: tv
+    prime_id: null
+    seasons: [1, 2, 3]
+  - slug: invincible
+    original_title: "Invincible"
+    english_title: "Invincible"
+    year: 2021
+    kind: anime
+    prime_id: null
+    seasons: [1, 2, 3]
+  - slug: vinland-saga
+    original_title: "ヴィンランド・サガ"
+    english_title: "Vinland Saga"
+    year: 2019
+    kind: anime
+    prime_id: null
+    seasons: [1, 2]
+  - slug: jack-ryan
+    original_title: "Tom Clancy's Jack Ryan"
+    english_title: "Jack Ryan"
+    year: 2018
+    kind: tv
+    prime_id: null
+    seasons: [1, 2, 3, 4]
