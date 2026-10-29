@@ -11,6 +11,7 @@ import yaml
 
 from catalog import match, merge, now, publish, repair, write_json
 from sources import Clients, SourceError
+from title_lookup import apply_cache
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -182,6 +183,8 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
     baseline = load(root / "data/fallback_catalog.json", {"items": []})["items"]
     rules = load(root / "data/title-overrides.json", {"rules": []})["rules"]
     items = repair(current["items"], baseline, rules)
+    title_cache = load(root / "data/title-cache.json", {"records": {}})
+    items = [apply_cache(item, title_cache) for item in items]
     seeds = yaml.safe_load((root / "config/seeds.yaml").read_text(encoding="utf-8"))["seeds"]
     items = add_seeds(items, seeds)
     if args.repair:
@@ -212,6 +215,7 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
     if len(refreshed) < len(current["items"]):
         raise ValueError("refresh would drop existing records")
     refreshed = repair(refreshed, baseline, rules)
+    refreshed = [apply_cache(item, title_cache) for item in refreshed]
     version = publish(docs, refreshed, previous, success=True)
     report["version"] = version
     write_json(root / "logs/last_run.json", report)

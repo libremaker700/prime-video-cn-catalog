@@ -1,0 +1,77 @@
+name: Update verified Chinese titles
+
+# Check daily; title-cache.json enforces seven days independently of full crawling.
+on:
+  schedule:
+    - cron: '47 3 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Maximum unresolved titles to attempt (0–20); verified names are always reused'
+        default: '12'
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+jobs:
+  titles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Resolve missing and unverified titles within budget
+        id: lookup
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TITLE_LOOKUP_LIMIT: ${{ inputs.limit || vars.TITLE_LOOKUP_LIMIT || '12' }}
+          TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
+          MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$MANUAL_RUN" = 'true' ]; then
+            python scripts/title_lookup.py --force
+          else
+            python scripts/title_lookup.py
+          fi
+      - name: Preserve search budget even when a later operation fails
+        if: always() && steps.lookup.outcome != 'skipped'
+        run: |
+          if [ -f data/title-cache.json ]; then
+            git config user.name 'catalog-bot'
+            git config user.email 'catalog-bot@users.noreply.github.com'
+            git add data/title-cache.json
+            git diff --cached --quiet || git commit -m 'catalog: save title lookup cache and budget'
+            git push
+          fi
+      - name: Validate complete catalogue before publishing
+        run: python scripts/validate.py
+      - name: Persist verified names, pending evidence and usage reservations
+        run: |
+          git config user.name 'catalog-bot'
+          git config user.email 'catalog-bot@users.noreply.github.com'
+          git add data/title-cache.json logs/title-lookup.json docs
+          git diff --cached --quiet || git commit -m 'catalog: persist title lookup and verified names'
+          git push
+      - name: Publish verified catalogue to Oracle
+        env:
+          OCI_MIRROR_ENABLED: ${{ vars.OCI_MIRROR_ENABLED || 'false' }}
+          OCI_CATALOG_UPLOAD_URL: ${{ secrets.OCI_CATALOG_UPLOAD_URL }}
+          OCI_CATALOG_PUBLIC_URL: ${{ vars.OCI_CATALOG_PUBLIC_URL }}
+        run: python scripts/publish_oci.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4

@@ -286,7 +286,7 @@ class Clients:
         if not title:
             return None
         kind = family(record["kind"])
-        hint = "电影" if kind == "movie" else "电视剧 动画"
+        hint = "电影" if kind == "movie" else ("电视动画" if record["kind"] == "anime" else "电视剧")
         api = "https://zh.wikipedia.org/w/api.php"
         result = self.request(api, params={"action": "query", "list": "search", "srsearch": f"{title} {hint}", "srlimit": 3, "format": "json", "variant": "zh-hans"}).json()
         hits = result.get("query", {}).get("search", [])
