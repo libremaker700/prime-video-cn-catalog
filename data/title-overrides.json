@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "originalTitle": "Fallout",
+      "mediaType": "tv",
+      "preferredTitleZh": "辐射",
+      "aliasesZh": [
+        "异尘余生",
+        "异塵餘生",
+        "异尘馀生"
+      ],
+      "status": "user_app_preference"
+    },
+    {
+      "originalTitle": "Reacher",
+      "mediaType": "tv",
+      "preferredTitleZh": "侠探杰克",
+      "aliasesZh": [
+        "神隐任务",
+        "神隱任務"
+      ],
+      "status": "user_app_preference"
+    }
+  ]
+}
