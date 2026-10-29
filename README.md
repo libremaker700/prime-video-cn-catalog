@@ -62,6 +62,16 @@ GitHub Actions Secrets 可配置 `TMDB_API_KEY`，以及 `TRANSLATE_PROVIDER` + 
 
 中文维基条目保留原始来源链接；其内容适用来源站许可。TMDB 补充资料需遵守 TMDB 的使用与署名要求。本项目没有与 Amazon 或 TMDB 的官方隶属关系。
 
+## Gemini 接入验证
+
+Actions 中的 `Test Gemini Chinese title search` 是手动触发的一部作品诊断。
+它通过仓库 Secret `GEMINI_API_KEY` 调用 Gemini 2.5 Flash，启用 Google Search，
+核验 Vinland Saga（2019 年电视动画第一季）的中文名、身份及中文简介。
+每次最多一次生成请求，不自动换模型或重试；额度或权限不足时明确失败。
+报告检查响应中的搜索查询、引用来源及身份字段，诊断不等于全目录采集验收。
+密钥不写入仓库或报告；报告仅保留经过脱敏的选定字段。
+该诊断不更新 `docs/`、成功时间、Oracle 或 App，现有每周采集暂未启用 Gemini。
+
 ## Oracle Object Storage 分发
 
 Oracle 镜像只保存公开 JSON 与图片，使用现有账号的对象存储免费额度，不依赖账号内的 VPN 虚拟机、SSH 密钥或虚拟机端口。免费额度有容量、请求数和流量限制，不代表无限免费；用量以账号控制台及 Oracle 当前规则为准。当前个人用目录只有约 13 MB。
