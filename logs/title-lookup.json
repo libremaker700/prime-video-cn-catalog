@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-29T15:52:36+00:00",
+  "checked_at": "2026-10-29T15:54:46+00:00",
   "searched": 0,
   "direct_verified": 0,
-  "cache_hits": 2,
-  "skipped_verified": 7,
+  "cache_hits": 0,
+  "skipped_verified": 9,
   "pending": 71,
   "attempted": 0,
   "monthly_reserved": 4,
@@ -11,30 +11,7 @@
   "remaining_unverified": 147,
   "direct_network_errors": 0,
   "source_diagnostics": [],
-  "verified_changes": [
-    {
-      "id": "prime:B086VWBXP5",
-      "before": "高堡奇人",
-      "after": "高堡奇人",
-      "name_status": "verified_title_sources"
-    },
-    {
-      "id": "prime:B01N4UWE2T",
-      "before": "无能为力",
-      "after": "无能为力",
-      "name_status": "verified_title_sources"
-    }
-  ],
-  "published_name_changes": 2,
-  "status": "completed",
-  "version": {
-    "version": "27e73ce27cb71d53",
-    "catalog_sha256": "27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4",
-    "catalog_path": "releases/27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4/catalog.json",
-    "generated_at": "2026-10-29T15:52:36+00:00",
-    "last_success_at": "2026-10-29T00:56:48+00:00",
-    "publication_reason": "verified_title_lookup",
-    "item_count": 156,
-    "image_count": 127
-  }
+  "verified_changes": [],
+  "published_name_changes": 0,
+  "status": "completed"
 }
