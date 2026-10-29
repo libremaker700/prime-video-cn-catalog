@@ -10,8 +10,8 @@
         "english_title": "Powerless",
         "first_air_year": 2017
       },
-      "checked_at": "2026-10-29T15:48:08+00:00",
-      "status": "pending_review",
+      "checked_at": "2026-10-29T15:52:36+00:00",
+      "status": "verified",
       "evidence": {
         "query": "Powerless 2017 电视剧 中文名 国内译名",
         "usage": {
@@ -51,7 +51,22 @@
         ],
         "status": "pending_review"
       },
-      "next_retry_at": "2026-11-28T15:48:08+00:00"
+      "next_retry_at": "2026-11-28T15:48:08+00:00",
+      "patch": {
+        "display_name_zh": "无能为力",
+        "aliases_zh": [
+          "无能为力"
+        ],
+        "name_status": "verified_title_sources",
+        "name_checked_at": "2026-10-29T15:52:36+00:00",
+        "sources": [
+          {
+            "type": "wikipedia_title",
+            "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E7%82%BA%E5%8A%9B_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+            "retrieved_at": "2026-10-29T15:52:36+00:00"
+          }
+        ]
+      }
     },
     "417f330e832c8b2b7f1f3d0d2ad478e9bf297df910e63b3fff5dfbdad0df305b": {
       "identity": {
@@ -166,8 +181,8 @@
         "english_title": "The Man in the High Castle",
         "first_air_year": 2015
       },
-      "checked_at": "2026-10-29T15:48:08+00:00",
-      "status": "pending_review",
+      "checked_at": "2026-10-29T15:52:36+00:00",
+      "status": "verified",
       "evidence": {
         "query": "The Man in the High Castle 2015 电视剧 中文名 国内译名",
         "usage": {
@@ -207,11 +222,26 @@
         ],
         "status": "pending_review"
       },
-      "next_retry_at": "2026-11-28T15:48:08+00:00"
+      "next_retry_at": "2026-11-28T15:48:08+00:00",
+      "patch": {
+        "display_name_zh": "高堡奇人",
+        "aliases_zh": [
+          "高堡奇人"
+        ],
+        "name_status": "verified_title_sources",
+        "name_checked_at": "2026-10-29T15:52:36+00:00",
+        "sources": [
+          {
+            "type": "wikipedia_title",
+            "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%A0%A1%E5%A5%87%E4%BA%BA_(%E7%94%B5%E8%A7%86%E5%89%A7)",
+            "retrieved_at": "2026-10-29T15:52:36+00:00"
+          }
+        ]
+      }
     }
   },
   "budgets": {
     "2026-10": 4
   },
-  "last_run_at": "2026-10-29T15:48:08+00:00"
+  "last_run_at": "2026-10-29T15:52:36+00:00"
 }
