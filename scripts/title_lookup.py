@@ -79,7 +79,7 @@ def wiki_patch(record, page, checked_at):
         return None
     if str(expected) not in lead:
         return None
-    words = {'movie': ('电影', '電影', '影片'), 'tv': ('电视剧', '電視劇', '影集', '剧集', '劇集'), 'anime': ('电视动画', '電視動畫', '动画影集', '動畫影集', '动画剧集', '動畫劇集')}.get(record.get('kind'), ())
+    words = {'movie': ('电影', '電影', '影片'), 'tv': ('电视剧', '電視劇', '影集', '剧集', '劇集', '情境喜剧', '情境喜劇', '情景喜剧', '情景喜劇'), 'anime': ('电视动画', '電視動畫', '动画影集', '動畫影集', '动画剧集', '動畫劇集')}.get(record.get('kind'), ())
     title = re.match(r'^《([^》]{1,90})》', lead)
     url = page.get('fullurl', '')
     if not title or not chinese(title[1]) or not any(w in lead for w in words) or urlsplit(url).hostname != 'zh.wikipedia.org':
@@ -122,6 +122,7 @@ class Lookup:
         self.session = session or requests.Session()
         self.requests = 0
         self.network_errors = 0
+        self.diagnostics = []
         self.stopped = False
 
     def get_json(self, url, **kwargs):
@@ -129,6 +130,7 @@ class Lookup:
             response = self.session.get(url, headers={'User-Agent': 'PrimeVideoCnCatalog/3.0 (public title verification)'}, timeout=(8, 20), allow_redirects=False, **kwargs)
             if response.status_code == 200:
                 return response.json()
+            self.diagnostics.append({'host': urlsplit(url).hostname, 'http_status': response.status_code})
         except (requests.RequestException, ValueError):
             pass
         self.network_errors += 1
@@ -170,7 +172,7 @@ class Lookup:
         try:
             response = self.session.post('https://api.tavily.com/search', headers={'Authorization': 'Bearer ' + self.key},
                 json={'query': query, 'search_depth': 'basic', 'auto_parameters': False, 'max_results': 6,
-                      'include_answer': False, 'include_raw_content': False, 'include_images': False, 'include_usage': True},
+                      'include_answer': False, 'include_raw_content': 'text', 'include_images': False, 'include_usage': True},
                 timeout=(8, 45), allow_redirects=False)
             if response.status_code != 200:
                 self.stopped = True
@@ -179,17 +181,31 @@ class Lookup:
         except (requests.RequestException, ValueError):
             self.stopped = True
             return None, {'query': query, 'error': 'search_unavailable', 'results': []}
-        results, patches = [], []
+        results = []
         for item in payload.get('results', [])[:6]:
             url = item.get('url', '')
             if urlsplit(url).scheme != 'https' or urlsplit(url).username or urlsplit(url).password:
                 continue
             results.append({'title': str(item.get('title', ''))[:200], 'url': url, 'score': item.get('score')})
+            if urlsplit(url).hostname == 'zh.wikipedia.org' and item.get('raw_content'):
+                # Only the first defining paragraph, not snippets or a later mention.
+                paragraphs = [p.strip() for p in str(item['raw_content']).split('\n') if p.strip().startswith('《')]
+                if paragraphs:
+                    results[-1]['definition'] = paragraphs[0][:1000]
+                    results[-1]['page_sha256'] = hashlib.sha256(item['raw_content'].encode()).hexdigest()
+        patch = self.verify_results(record, results, checked_at)
+        return patch, {'query': query, 'usage': payload.get('usage'), 'results': results,
+                       'status': 'verified' if patch else 'pending_review'}
+
+    def verify_results(self, record, results, checked_at):
+        patches = []
+        for item in results:
+            url = item.get('url', '')
             parts = urlsplit(url)
             # Search only locates a page. The page API must independently pass identity gates.
             if parts.hostname == 'zh.wikipedia.org':
                 candidate = unquote(parts.path.rsplit('/', 1)[-1])
-                patch = self.wiki_page(record, candidate, checked_at)
+                patch = wiki_patch(record, {'extract': item.get('definition', ''), 'fullurl': url}, checked_at) or self.wiki_page(record, candidate, checked_at)
                 if patch and patch not in patches:
                     patches.append(patch)
             elif parts.hostname in ('bgm.tv', 'bangumi.tv') and re.fullmatch(r'/subject/\d+', parts.path):
@@ -198,16 +214,14 @@ class Lookup:
                 if patch and patch not in patches:
                     patches.append(patch)
         unique = {norm(p['display_name_zh']) for p in patches}
-        patch = patches[0] if len(unique) == 1 else None
-        return patch, {'query': query, 'usage': payload.get('usage'), 'results': results,
-                       'status': 'verified' if patch else 'pending_review'}
+        return patches[0] if len(unique) == 1 else None
 
 
 def load(path, default):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
 
 
-def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, client=None):
+def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, client=None, review_saved=False):
     clock = clock or datetime.now(timezone.utc)
     checked_at = clock.isoformat(timespec='seconds')
     path = root / 'data/title-cache.json'
@@ -251,6 +265,15 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
             report['skipped_verified'] += 1
             updated.append(out)
             continue
+        if review_saved and old.get('identity') == identity(out) and old.get('evidence', {}).get('results'):
+            patch = client.verify_results(out, old['evidence']['results'], checked_at)
+            if patch:
+                patch = sanitize(patch, client.key)
+                cache['records'][key] = old | {'status': 'verified', 'patch': patch, 'checked_at': checked_at}
+                out = merge(out, patch)
+                report['cache_hits'] += 1
+            updated.append(out)
+            continue
         if old.get('next_retry_at') and checked_at < old['next_retry_at']:
             updated.append(out)
             continue
@@ -289,6 +312,7 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
     report['monthly_reserved'] = used
     report['remaining_unverified'] = sum(not name_verified(r) for r in updated)
     report['direct_network_errors'] = getattr(client, 'network_errors', 0)
+    report['source_diagnostics'] = getattr(client, 'diagnostics', [])
     report['verified_changes'] = [{'id': a['id'], 'before': a['display_name_zh'], 'after': b['display_name_zh'], 'name_status': b.get('name_status')}
                                   for a,b in zip(current['items'], updated) if a != b]
     report['published_name_changes'] = sum(a != b for a,b in zip(current['items'], updated))
@@ -308,9 +332,10 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--force', action='store_true', help='Bypass the weekly timer, not verified cache/budget/cooldown')
+    parser.add_argument('--review-saved', action='store_true', help='Recheck saved source pages without repeating paid searches')
     args = parser.parse_args()
     try:
-        run(force=args.force, limit=int(os.getenv('TITLE_LOOKUP_LIMIT','12')), monthly_limit=int(os.getenv('TITLE_LOOKUP_MONTHLY_LIMIT','100')))
+        run(force=args.force, review_saved=args.review_saved, limit=int(os.getenv('TITLE_LOOKUP_LIMIT','12')), monthly_limit=int(os.getenv('TITLE_LOOKUP_MONTHLY_LIMIT','100')))
     except Exception as exc:
         print('Title lookup aborted:', type(exc).__name__, '(transport and credentials suppressed)')
         raise SystemExit(1)

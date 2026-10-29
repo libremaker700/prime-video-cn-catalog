@@ -78,6 +78,8 @@ GitHub Actions Secrets 可配置 `TMDB_API_KEY`，以及 `TRANSLATE_PROVIDER` + 
 - 仅修改名称、别名及来源，原有作品身份、季度、简介、海报及播放映射均保留。生成新目录版本但不推进官网全量采集的 `last_success_at`。发布继续校验哈希、全部图片，Oracle 清单最后切换。
 
 `logs/title-lookup.json` 记录本轮请求数、直连核验数、剩余待核验数和实际名称变更。
+手动设置 `review_saved=true`、`limit=0` 可以只重读已保存的来源页面，不重复消耗搜索额度。
+后续 basic 搜索同时请求来源正文；可用时只解析维基正文的首个定义段，并保留段落及正文哈希，不把搜索摘要作为定义段。
 Tavily 是网页搜索服务；本步骤没有接入外语简介的 AI 翻译，也不把搜索摘要作为分季简介。
 
 ## Gemini 接入验证

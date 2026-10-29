@@ -10,6 +10,10 @@ on:
         description: 'Maximum unresolved titles to attempt (0–20); verified names are always reused'
         default: '12'
         type: string
+      review_saved:
+        description: 'Only recheck saved evidence; set limit=0 to make no new searches'
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -39,8 +43,11 @@ jobs:
           TITLE_LOOKUP_LIMIT: ${{ inputs.limit || vars.TITLE_LOOKUP_LIMIT || '12' }}
           TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' }}
+          REVIEW_SAVED: ${{ inputs.review_saved || 'false' }}
         run: |
-          if [ "$MANUAL_RUN" = 'true' ]; then
+          if [ "$REVIEW_SAVED" = 'true' ]; then
+            python scripts/title_lookup.py --force --review-saved
+          elif [ "$MANUAL_RUN" = 'true' ]; then
             python scripts/title_lookup.py --force
           else
             python scripts/title_lookup.py

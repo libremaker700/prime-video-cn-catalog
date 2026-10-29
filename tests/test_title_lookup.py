@@ -43,6 +43,8 @@ class Fake:
             self.stopped = True
             return None, {'error': 'HTTP 429'}
         return patch_for(r), {'results': [{'title': '测试作品', 'url': 'https://zh.wikipedia.org/wiki/测试作品'}]}
+    def verify_results(self, r, results, checked):
+        return patch_for(r)
 
 
 class TitlesTests(unittest.TestCase):
@@ -154,6 +156,24 @@ class TitlesTests(unittest.TestCase):
             self.assertEqual(result['direct_verified'],1)
             self.assertEqual(client.search_calls,0)
             self.assertNotIn(client.key,json.dumps(sanitize({'text':client.key},client.key)))
+
+    def test_review_saved_evidence_verifies_without_another_search(self):
+        with tempfile.TemporaryDirectory() as directory:
+            r=record()
+            root=self.setup_repo(directory,[r])
+            write_json(root/'data/title-cache.json',{'schema':1,'records':{cache_key(r):{
+                'identity':identity(r),'status':'pending_review','next_retry_at':'2027-01-01T00:00:00+00:00',
+                'evidence':{'results':[{'url':'https://zh.wikipedia.org/wiki/测试作品'}]}}},'budgets':{'2026-10':4}})
+            client=Fake()
+            report=self.run_lookup(root,client=client,force=True,limit=0,review_saved=True)
+            self.assertEqual((client.search_calls,client.direct_calls),(0,0))
+            self.assertEqual(report['monthly_reserved'],4)
+            self.assertEqual(report['cache_hits'],1)
+
+    def test_sitcom_is_a_tv_definition_not_a_movie(self):
+        page={'extract':'《测试作品》（英语：Example 1）是一部2020年首播的美国情境喜剧。','fullurl':'https://zh.wikipedia.org/wiki/测试作品'}
+        self.assertIsNotNone(wiki_patch(record(),page,'now'))
+        self.assertIsNone(wiki_patch(record()|{'kind':'movie'},page,'now'))
 
 
 if __name__=='__main__':
