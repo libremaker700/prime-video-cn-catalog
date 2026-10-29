@@ -46,10 +46,10 @@
 pip install requests Pillow PyYAML
 python scripts/import_bootstrap.py <资料包解压目录>   # 导入 App 快照（首版/回退基线）
 python scripts/sync.py --force   # 立即刷新已有种子一次
-python scripts/sync.py --due     # 距上次成功 <72 小时自动跳过（定时任务用）
+python scripts/sync.py --due     # 距上次成功不满7天(604800秒)自动跳过（定时任务用）
 python scripts/validate.py       # 校验 JSON/图片一致性、横屏比例与 scope 纪律
 ```
 可选仓库 Secrets：`TMDB_API_KEY`、`TRANSLATE_PROVIDER` + `DEEPL_API_KEY`
 或 `TRANSLATE_API_KEY/TRANSLATE_MODEL/TRANSLATE_BASE_URL`（见 config/translation.md）。
 
-定时：GitHub Actions 每日检查、满 3 天才真正更新，支持手动触发（见 .github/workflows/update.yml）。
+定时：GitHub Actions 每日检查一次，距上次成功更新满 7 天（604800 秒，可用仓库变量 UPDATE_INTERVAL_SECONDS 覆盖）才真正采集、校验并发布；首次运行立即更新，手动触发强制更新。更新失败时保留上一版数据且不修改上次成功时间，下一日检查自动重试。
