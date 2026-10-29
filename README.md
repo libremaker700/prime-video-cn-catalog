@@ -6,6 +6,8 @@
 
 - [版本清单](https://libremaker700.github.io/prime-video-cn-catalog/version.json)
 - [兼容目录](https://libremaker700.github.io/prime-video-cn-catalog/catalog.json)
+- [Oracle 资料镜像版本清单](https://objectstorage.us-phoenix-1.oraclecloud.com/n/ax9hsd5wg0wx/b/prime-video-catalog/o/catalog/version.json)
+- [Oracle 资料镜像目录](https://objectstorage.us-phoenix-1.oraclecloud.com/n/ax9hsd5wg0wx/b/prime-video-catalog/o/catalog/catalog.json)
 - 图片地址：`https://libremaker700.github.io/prime-video-cn-catalog/images/<SHA-256>.jpg`
 
 2026-10-29 修复时保留 156 条作品、127 张横屏图（18 张整剧/电影图、109 张分季图）、109 条非空分季简介。121 条作品保留既有官方 ID 映射，35 条没有官方 ID，统一标为 `pending_review`。这些数量描述已有覆盖，不代表本次全部从官网重新获取。
@@ -59,3 +61,19 @@ python scripts/validate.py
 GitHub Actions Secrets 可配置 `TMDB_API_KEY`，以及 `TRANSLATE_PROVIDER` + `DEEPL_API_KEY` 或 `TRANSLATE_API_KEY` / `TRANSLATE_MODEL` / `TRANSLATE_BASE_URL`。实际翻译配置见 [config/translation.md](config/translation.md)。Key 不写入源码、日志或公开目录。仓库 Variables 可设置 `UPDATE_INTERVAL_SECONDS`（默认 604800）与 `DISCOVERY_LIMIT`（默认 20）。
 
 中文维基条目保留原始来源链接；其内容适用来源站许可。TMDB 补充资料需遵守 TMDB 的使用与署名要求。本项目没有与 Amazon 或 TMDB 的官方隶属关系。
+
+## Oracle Object Storage 分发
+
+Oracle 镜像只保存公开 JSON 与图片，使用现有账号的对象存储免费额度，不依赖账号内的 VPN 虚拟机、SSH 密钥或虚拟机端口。免费额度有容量、请求数和流量限制，不代表无限免费；用量以账号控制台及 Oracle 当前规则为准。当前个人用目录只有约 13 MB。
+
+工作流在数据校验与提交后调用 `scripts/publish_oci.py`。它只选取校验通过的图片、固定版本目录、兼容目录和版本清单；不上传其他仓库文件。图片与目录先上传并校验，`version.json` 最后上传，失败时不推进镜像指针。图片及固定版本文件可长期缓存，版本清单使用 `no-cache`。版本和目录哈希一致时不重复上传。
+
+配置项：
+
+- 仓库 Variable `OCI_MIRROR_ENABLED=true`。
+- 仓库 Variable `OCI_CATALOG_PUBLIC_URL`：资料下载前缀，以上两个镜像地址去掉文件名后的 HTTPS 地址。
+- 仓库 Secret `OCI_CATALOG_UPLOAD_URL`：仅允许向 `prime-video-catalog` 桶的 `catalog/` 前缀写入的 Oracle PAR 上传地址。它是凭据，不能写入源码、App 或日志。
+
+首次配置的只写授权在 **2027-10-29 02:30 UTC（北京时间 10:30）**到期，到期前需要在 Oracle 控制台续设受限授权并更新 Secret。工作流不会自行扩大权限或创建新凭据。App 始终使用不含凭据的公开下载地址。
+
+手动选择 Actions 的 `publish` 模式会强制重新同步现有资料并部署，便于修复镜像；不触发官网采集。成功后仍须在电视自己的网络下测试，桌面电脑的下载测试不能替代电视关闭 VPN 的验收。

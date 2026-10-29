@@ -65,6 +65,17 @@ jobs:
           if [ -f data/discovery_queue.json ]; then git add data/discovery_queue.json; fi
           git diff --cached --quiet || git commit -m "catalog: auto update $(date -u +%F)"
           git push
+      - name: Publish verified catalogue to Oracle Object Storage
+        env:
+          OCI_MIRROR_ENABLED: ${{ vars.OCI_MIRROR_ENABLED || 'false' }}
+          OCI_CATALOG_UPLOAD_URL: ${{ secrets.OCI_CATALOG_UPLOAD_URL }}
+          OCI_CATALOG_PUBLIC_URL: ${{ vars.OCI_CATALOG_PUBLIC_URL }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "publish" ]; then
+            python scripts/publish_oci.py --force
+          else
+            python scripts/publish_oci.py
+          fi
       - name: Preserve failed-attempt diagnostics
         if: failure()
         uses: actions/upload-artifact@v4
