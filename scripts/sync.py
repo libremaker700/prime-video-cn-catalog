@@ -20,7 +20,9 @@ Prime Video 中文影视资料自动同步程序
 - 新目录为空、或条目数较上一版骤降 >50% 时中止发布，保留上一版文件不动。
 - 输出先写临时文件，校验通过后原子替换 docs/catalog.json 与 docs/version.json。
 - 图片以内容 SHA-256 哈希命名、去重；仅 1.70~1.85 宽高比且可正常解码的图片入库。
-- 3 天节奏：--due 模式下距上次成功 <72 小时自动跳过；--force 或手动触发强制运行。
+- 7 天节奏（UPDATE_INTERVAL_SECONDS 默认 604800 秒）：--due 模式下距上次成功
+  不满 7 天自动跳过；--force 或手动触发强制运行。首次运行（无 version.json）立即更新。
+  更新失败或触发安全闸时不写 version.json，上次成功时间不变，下一日检查继续重试。
 """
 import argparse, hashlib, io, json, os, re, sys, time
 from datetime import datetime, timezone, timedelta
@@ -257,8 +259,8 @@ def build_record(seed):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--force", action="store_true", help="忽略3天间隔强制运行")
-    ap.add_argument("--due", action="store_true", help="距上次成功<72h则跳过")
+    ap.add_argument("--force", action="store_true", help="忽略7天间隔强制运行")
+    ap.add_argument("--due", action="store_true", help="距上次成功不满7天(604800秒)则跳过")
     args = ap.parse_args()
     DOCS.mkdir(parents=True, exist_ok=True); IMAGES.mkdir(parents=True, exist_ok=True); LOGS.mkdir(exist_ok=True)
     ver_path, cat_path = DOCS / "version.json", DOCS / "catalog.json"
@@ -269,8 +271,9 @@ def main():
     if args.due and not args.force and ver_path.exists():
         try:
             last = datetime.fromisoformat(json.loads(ver_path.read_text())["last_success_at"])
-            if NOW() - last < timedelta(hours=72):
-                log(f"距上次成功 {NOW()-last} <72h，跳过本次运行"); return 0
+            interval = int(os.environ.get("UPDATE_INTERVAL_SECONDS", "604800"))
+            if NOW() - last < timedelta(seconds=interval):
+                log(f"距上次成功 {NOW()-last} 不满 {interval} 秒（7天），跳过本次运行"); return 0
         except Exception: pass
     seeds = yaml.safe_load((ROOT / "config/seeds.yaml").read_text(encoding="utf-8"))["seeds"]
     boot_seeds = ROOT / "data/seeds_from_bootstrap.json"
@@ -286,6 +289,61 @@ def main():
         try: items.append(build_record(seed))
         except Exception as e: log(f"  !! 采集失败，跳过该条: {e}")
         time.sleep(0.4)
+    # 合并刷新：本次只刷新精编种子，其余存量条目（App 快照基线）原样保留，不以少覆多；
+    # 且刷新结果未核验而旧记录资料更全时保留旧记录，防止网络故障把好数据降级覆盖
+    if prev:
+        def _norm(x): return re.sub(r"[^a-z0-9]+", "", (x or "").lower())
+        def _keys(rec):
+            ks = set()
+            if rec.get("prime_id"): ks.add("id:" + rec["prime_id"])
+            for f in ("original_title", "english_title"):
+                n = _norm(rec.get(f))
+                if n: ks.add("t:" + n)  # 空标题不产生键，绝不互相吞并
+            return ks
+        def _merge_fields(new, p):
+            """字段级合并：新记录只覆盖它真正刷新的字段，旧记录的官方ID、用户偏好名、
+            别名、分季海报与分季简介在新记录缺失时一律保留，避免刷新反而丢数据。"""
+            if p.get("prime_id") and not new.get("prime_id"):
+                new["prime_id"] = p["prime_id"]
+                if str(p.get("id", "")).startswith("prime:"): new["id"] = p["id"]
+            if p.get("name_status") == "user_app_preference":
+                old = new.get("display_name_zh")
+                new["display_name_zh"] = p["display_name_zh"]; new["name_status"] = "user_app_preference"
+                al = list(p.get("aliases_zh", []))
+                if old and old != new["display_name_zh"] and old not in al: al.append(old)
+                new["aliases_zh"] = al
+            if not new.get("poster") and p.get("poster"):
+                new["poster"], new["poster_scope"] = p["poster"], p.get("poster_scope")
+                new["poster_status"] = "ok"
+            p_seasons = {s["season"]: s for s in p.get("seasons", [])}
+            for s in new.get("seasons", []):
+                ps = p_seasons.pop(s["season"], None)
+                if not ps: continue
+                if not s.get("poster") and ps.get("poster"):
+                    s["poster"], s["poster_scope"], s["poster_status"] = ps["poster"], ps.get("poster_scope"), "ok"
+                if not s.get("synopsis_zh") and ps.get("synopsis_zh"):
+                    s["synopsis_zh"] = ps["synopsis_zh"]; s["synopsis_source_type"] = ps.get("synopsis_source_type")
+                    s["synopsis_status"] = "ok"
+            for sn, ps in p_seasons.items():
+                new.setdefault("seasons", []).append(ps)
+            new["seasons"] = sorted(new.get("seasons", []), key=lambda x: x["season"])
+            return new
+        prev_items_list = list(prev.get("items", []))
+        prev_keys = [_keys(p) for p in prev_items_list]
+        used = set(); merged_items = []
+        for i in items:
+            ik = _keys(i); hit = next((idx for idx, pk in enumerate(prev_keys)
+                                       if idx not in used and ik & pk), None)
+            if hit is not None:
+                used.add(hit); p = prev_items_list[hit]
+                if i.get("name_status") != "verified" and (p.get("synopsis_zh") or p.get("poster") or p.get("seasons")):
+                    log(f'  保留旧记录（本次未核验）: {i.get("original_title")}')
+                    merged_items.append(p); continue
+                merged_items.append(_merge_fields(i, p)); continue
+            merged_items.append(i)
+        kept = [p for idx, p in enumerate(prev_items_list) if idx not in used]
+        log(f"合并刷新：本次刷新 {len(merged_items)} 条，保留存量 {len(kept)} 条")
+        items = merged_items + kept
     # 发布安全闸
     if not items or (prev_items and len(items) < prev_items * 0.5):
         log(f"!! 安全闸触发：新条目 {len(items)} vs 上一版 {prev_items}，保留上一版，退出")
@@ -299,7 +357,7 @@ def main():
                "catalog_sha256": hashlib.sha256(blob.encode()).hexdigest(),
                "generated_at": catalog["generated_at"], "last_success_at": catalog["generated_at"],
                "item_count": len(items),
-               "image_count": sum(1 for i in items if i.get("poster"))}
+               "image_count": sum(1 for i in items if i.get("poster")) + sum(1 for i in items for s in i.get("seasons", []) if s.get("poster"))}
     tmp = DOCS / ".catalog.tmp"; tmp.write_text(blob, encoding="utf-8")
     json.loads(tmp.read_text(encoding="utf-8"))  # 写后回读校验
     tmp.replace(cat_path)
