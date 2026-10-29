@@ -1,0 +1,58 @@
+name: Update Prime Video CN Catalog
+
+# 每日触发一次，由脚本按 version.json 的 last_success_at 判断是否满 3 天；
+# 手动 workflow_dispatch 强制更新。失败或数据异常时脚本退出码非 0，
+# 工作流不会提交，上一版 Pages 数据保持不变。
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install requests Pillow PyYAML
+      - name: Sync (skip if <72h since last success; manual run forces)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TRANSLATE_PROVIDER: ${{ secrets.TRANSLATE_PROVIDER }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+          TRANSLATE_MODEL: ${{ secrets.TRANSLATE_MODEL }}
+          TRANSLATE_BASE_URL: ${{ secrets.TRANSLATE_BASE_URL }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/sync.py --force
+          else
+            python scripts/sync.py --due
+          fi
+      - name: Validate before publish
+        run: python scripts/validate.py
+      - name: Commit only changed files
+        run: |
+          git config user.name "catalog-bot"
+          git config user.email "catalog-bot@users.noreply.github.com"
+          git add docs logs
+          git diff --cached --quiet || git commit -m "catalog: auto update $(date -u +%F)"
+          git push
+      - name: Deploy GitHub Pages (docs/)
+        uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
