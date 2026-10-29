@@ -1,0 +1,14 @@
+{
+  "status": "repaired",
+  "version": {
+    "version": "07673ce6aa4e4a46",
+    "catalog_sha256": "07673ce6aa4e4a4696af7a5c291ea7bed2047845b347348d37bf45ee4e1426ff",
+    "catalog_path": "releases/07673ce6aa4e4a4696af7a5c291ea7bed2047845b347348d37bf45ee4e1426ff/catalog.json",
+    "generated_at": "2026-10-29T01:18:23+00:00",
+    "last_success_at": "2026-10-29T00:56:48+00:00",
+    "publication_reason": "restore_snapshot_identity_fields",
+    "item_count": 156,
+    "image_count": 127
+  },
+  "note": "No network crawl; last_success_at was not advanced."
+}

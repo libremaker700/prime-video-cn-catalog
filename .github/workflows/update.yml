@@ -4,9 +4,17 @@ name: Update Prime Video CN Catalog
 # 手动 workflow_dispatch 强制更新。失败或数据异常时脚本退出码非 0，
 # 工作流不会提交，上一版 Pages 数据保持不变。
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'sync = 强制采集；publish = 仅验证并发布当前目录'
+        type: choice
+        options: [sync, publish]
+        default: sync
 
 permissions:
   contents: write
@@ -20,17 +28,22 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install deps
-        run: pip install requests Pillow PyYAML
+        run: pip install -r requirements.txt
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
       - name: Sync (skip if <7 days / 604800s since last success; manual run forces)
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sync')
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          UPDATE_INTERVAL_SECONDS: "604800"
+          UPDATE_INTERVAL_SECONDS: ${{ vars.UPDATE_INTERVAL_SECONDS || '604800' }}
+          DISCOVERY_LIMIT: ${{ vars.DISCOVERY_LIMIT || '20' }}
           TRANSLATE_PROVIDER: ${{ secrets.TRANSLATE_PROVIDER }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
@@ -48,9 +61,18 @@ jobs:
         run: |
           git config user.name "catalog-bot"
           git config user.email "catalog-bot@users.noreply.github.com"
-          git add docs logs
+          git add docs logs/last_run.json
+          if [ -f data/discovery_queue.json ]; then git add data/discovery_queue.json; fi
           git diff --cached --quiet || git commit -m "catalog: auto update $(date -u +%F)"
           git push
+      - name: Preserve failed-attempt diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-failed-attempt
+          path: logs/last_attempt.json
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Deploy GitHub Pages (docs/)
         uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

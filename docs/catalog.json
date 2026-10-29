@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-29T00:56:48+00:00",
+  "generated_at": "2026-10-29T01:18:23+00:00",
   "item_count": 156,
   "items": [
     {
@@ -30,36 +30,48 @@
           "retrieved_at": "2026-10-29T00:56:40+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:56:40+00:00"
+      "updated_at": "2026-10-29T00:56:40+00:00",
+      "identity_status": "pending_review"
     },
     {
       "id": "prime:B0FLSZBRZJ",
       "slug": "fallout",
       "kind": "tv",
-      "year": 2024,
+      "identity_status": "verified_official_mapping",
+      "prime_id": "B0FLSZBRZJ",
+      "seed_id": "B0FLSZBRZJ",
       "original_title": "Fallout",
       "english_title": "Fallout",
-      "prime_id": "B0FLSZBRZJ",
-      "prime_official_name_zh": null,
       "display_name_zh": "辐射",
+      "name_status": "user_app_preference",
+      "prime_official_name_zh": "辐射 第二季",
       "aliases_zh": [
         "异尘余生",
         "异塵餘生",
         "异尘馀生"
       ],
-      "name_status": "user_app_preference",
       "synopsis_zh": "《异尘馀生》（英语：Fallout）是一部美国后末日剧情影集，改编自蒂姆·凯恩和伦纳德·博亚尔斯基创作的同名电子游戏系列，由格雷厄姆·华格纳和吉妮瓦・罗伯森-多瑞开创担任节目统筹，华顿·哥金斯和艾拉·彭内尔等主演，2024年4月10日在线上串流媒体平台Amazon Prime Video首播。",
       "synopsis_source_type": "existing_chinese",
-      "details": {},
+      "details": {
+        "first_air_year": 2024,
+        "seed_year": "2025",
+        "seed_year_scope": "app_selected_entry_year_not_necessarily_series_first_air",
+        "release_date": "2025年12月15日",
+        "genres": "动作片 / 科幻",
+        "official_type": "TV Show"
+      },
       "poster": null,
+      "poster_scope": null,
       "poster_status": "missing",
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
       "seasons": [
         {
           "season": 1,
-          "id": "seed:fallout:s1",
+          "id": "prime:B0FLSZBRZJ:s1",
+          "official_id": "B0CN4GGGQ2",
+          "official_title_zh": "辐射 第一季",
           "synopsis_zh": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/6ca7406e119d3aac2f210875d5960add7dfefab3084458ea572c04ac5527e761.jpg",
             "width": 1080,
@@ -71,16 +83,19 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2024,
+          "release_date": "2024年4月9日"
         },
         {
           "season": 2,
-          "id": "seed:fallout:s2",
+          "id": "prime:B0FLSZBRZJ:s2",
+          "official_id": "B0FLSZBRZJ",
+          "official_title_zh": "辐射 第二季",
           "synopsis_zh": "《辐射》改编自史上最伟大的电子游戏系列之一，讲述的是在几乎一无所有的废土世界，权贵与蝼蚁的生存史诗。末日降临两百年后，养尊处优的避难所居民被迫重返地表，迎接他们的是错综复杂、光怪陆离 又危机四伏的疯狂世界。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/5040de63730da8fdcb837cbec2e40578cd2c4da57480fc7ab4d4f193eca04bbe.jpg",
             "width": 1280,
@@ -92,13 +107,19 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2025,
+          "release_date": "2025年12月15日"
         }
       ],
       "sources": [
+        {
+          "type": "app_snapshot",
+          "name": "Prime Video 官方页（App既有映射快照）",
+          "url": "https://www.primevideo.com/-/zh/detail/B0FLSZBRZJ",
+          "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
         {
           "type": "existing_chinese",
           "name": "中文维基百科",
@@ -106,32 +127,46 @@
           "retrieved_at": "2026-10-29T00:56:42+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:56:42+00:00"
+      "updated_at": "2026-10-29T00:56:42+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "year": 2024,
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
     },
     {
       "id": "prime:B0FX3G8F44",
       "slug": "the-boys",
       "kind": "tv",
-      "year": 2019,
+      "identity_status": "verified_official_mapping",
+      "prime_id": "B0FX3G8F44",
+      "seed_id": "B0FX3G8F44",
       "original_title": "The Boys",
       "english_title": "The Boys",
-      "prime_id": "B0FX3G8F44",
-      "prime_official_name_zh": null,
       "display_name_zh": "黑袍纠察队",
-      "aliases_zh": [],
       "name_status": "verified",
+      "prime_official_name_zh": "英雄克星 第五季",
+      "aliases_zh": [],
       "synopsis_zh": "《黑袍纠察队》（又译为《英雄克星》，英语：The Boys）是一部讽刺超级英雄类型的美国网路电视影集，根据盖斯·恩尼斯和德瑞克·罗伯森的同名漫画改编，由埃里克·克里普基、伊凡·戈博和塞斯·罗根开创，于2019年7月26日在亚马逊影片首播第一季。于2026年5月20日结束最终季第五季。",
       "synopsis_source_type": "existing_chinese",
-      "details": {},
+      "details": {
+        "first_air_year": 2019,
+        "seed_year": "2026",
+        "seed_year_scope": "app_selected_entry_year_not_necessarily_series_first_air",
+        "release_date": "2026年4月7日",
+        "genres": "动作片 / 喜剧 / 剧情片",
+        "official_type": "TV Show"
+      },
       "poster": null,
+      "poster_scope": null,
       "poster_status": "missing",
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
       "seasons": [
         {
           "season": 1,
-          "id": "seed:the-boys:s1",
+          "id": "prime:B0FX3G8F44:s1",
+          "official_id": "B0DWSKFWQJ",
+          "official_title_zh": "英雄克星 — 第1季",
           "synopsis_zh": "《英雄克星》的背景是一个超级英雄因巨大名利而变堕落的世界，该剧以一群自称“伙计们”的义警为主角，他们决意以他们工人阶层的坚韧及打击不公的精神，打垮腐败的超级英雄。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/164120971f8de6801756a9ebf0e02f7d9d909f2672935023984fed28eb73e035.jpg",
             "width": 1080,
@@ -143,16 +178,19 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2019,
+          "release_date": "2019年7月25日"
         },
         {
           "season": 2,
-          "id": "seed:the-boys:s2",
+          "id": "prime:B0FX3G8F44:s2",
+          "official_id": "B0FH4VFV7M",
+          "official_title_zh": "英雄克星》第2季",
           "synopsis_zh": "《英雄克星》第2季情节更加紧凑、更加疯狂绝望：布彻尔、休伊和小组成员因上一季的损失而慌不择路，他们一方面逃避法律制裁，另一方面又努力反击超级英雄。与此同时，超级英雄管理公司沃特趁着超级恶人造成的恐慌大捞一笔。另外，一个新超级英雄“风暴”改变了公司形象，并挑战了地位早已经不太牢固的祖国人。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/b25ea57664b9ab837b7a10e6eda72e03dd012123799f3613068a6b9cec2f7140.jpg",
             "width": 1280,
@@ -164,16 +202,19 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2020,
+          "release_date": "2020年9月3日"
         },
         {
           "season": 3,
-          "id": "seed:the-boys:s3",
+          "id": "prime:B0FX3G8F44:s3",
+          "official_id": "B0F9T8VC4C",
+          "official_title_zh": "英雄克星》第三季",
           "synopsis_zh": "这是平静的一年。祖国人被制服、布彻尔为政府工作、偏偏由休伊来监督。但是两人都渴望将这种和平与宁静变成血与骨。因此，当英雄克星们得知一种神秘的反超级武器时，七人组再次合体，开始了一场战争，并追逐第一个超级英雄的传说：士兵男孩。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/c6a987b4088e8fc9c51aeca9f6d163a2e5b287405ae7c90932a76db4df5db1ba.jpg",
             "width": 1280,
@@ -185,16 +226,19 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2022,
+          "release_date": "2022年6月2日"
         },
         {
           "season": 4,
-          "id": "seed:the-boys:s4",
+          "id": "prime:B0FX3G8F44:s4",
+          "official_id": "B0CLWVYPXF",
+          "official_title_zh": "The Boys 英雄克星 第四季",
           "synopsis_zh": "世界正处在崩溃的边缘。有史以来，维多利亚纽曼从未如此接近总统选举的成功，却受到了一心想要巩固权力的祖国人的摆布。只剩下几个月寿命的布彻尔失去了贝卡的儿子，而其他英雄克星的成员也受够了他的谎言。较于以往，形势更加危急，他们必须找到一种合作方式，及时拯救世界。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/a051ba0b3c42b6acf98b58460d7a21c6d8747074f843d17d8d182cc8ecd84ecf.jpg",
             "width": 1280,
@@ -206,10 +250,10 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2024,
+          "release_date": "2024年6月12日"
         },
         {
           "season": 5,
@@ -238,41 +282,61 @@
       ],
       "sources": [
         {
+          "type": "app_snapshot",
+          "name": "Prime Video 官方页（App既有映射快照）",
+          "url": "https://www.primevideo.com/-/zh/detail/B0FX3G8F44",
+          "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
           "type": "existing_chinese",
           "name": "中文维基百科",
           "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%A2%8D%E7%B3%BE%E5%AF%9F%E9%9A%8A_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
           "retrieved_at": "2026-10-29T00:22:12+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:22:12+00:00"
+      "updated_at": "2026-10-29T00:22:12+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "year": 2019,
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
     },
     {
       "id": "prime:B0H8N9812R",
       "slug": "reacher",
       "kind": "tv",
-      "year": 2022,
+      "identity_status": "verified_official_mapping",
+      "prime_id": "B0H8N9812R",
+      "seed_id": "B0H8N9812R",
       "original_title": "Reacher",
       "english_title": "Reacher",
-      "prime_id": "B0H8N9812R",
-      "prime_official_name_zh": null,
       "display_name_zh": "侠探杰克",
+      "name_status": "user_app_preference",
+      "prime_official_name_zh": "侠探杰克》第四季",
       "aliases_zh": [
         "神隐任务",
         "神隱任務"
       ],
-      "name_status": "user_app_preference",
       "synopsis_zh": "《神隐任务》（英语：Reacher）是一部美国动作犯罪网络电视影集，改编自李·查德的《杰克·李奇》系列书籍，艾伦·瑞奇森饰演标题人物杰克·李奇，曾是美国陆军宪兵少校，退伍后在美国四处漂泊，旅途其中对抗危险的罪犯。\n该剧每一季改编自原作其中一部小说。第一季2022年2月4日上线亚马逊Prime影音。亚马逊在该剧首播三天后续订了第二季，定于2023年12月14日播出；第二季播出前，该剧已续订第三季。第三季于2025年2月20日首播，播出前同样已续订第四季。2026年5月，该剧续订第五季。",
       "synopsis_source_type": "existing_chinese",
-      "details": {},
+      "details": {
+        "first_air_year": 2022,
+        "seed_year": "2026",
+        "seed_year_scope": "app_selected_entry_year_not_necessarily_series_first_air",
+        "release_date": "2026年8月11日",
+        "genres": "剧情片 / 动作片",
+        "official_type": "TV Show"
+      },
       "poster": null,
+      "poster_scope": null,
       "poster_status": "missing",
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
       "seasons": [
         {
           "season": 1,
-          "id": "seed:reacher:s1",
+          "id": "prime:B0H8N9812R:s1",
+          "official_id": "B09ML1QV1S",
+          "official_title_zh": "烈探雷彻-第1季",
           "synopsis_zh": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。《侠探杰克》第一季改编自李查德的全球畅销小说《杀戮空间》。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/5e77fdea764452da2fa9db756e7f19d38e5285e8dcb02c6cb65f2b8e25917258.jpg",
             "width": 1280,
@@ -284,28 +348,38 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2022,
+          "release_date": "2022年2月3日"
         },
         {
           "season": 2,
-          "id": "seed:reacher:s2",
+          "id": "prime:B0H8N9812R:s2",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 3,
-          "id": "seed:reacher:s3",
+          "id": "prime:B0H8N9812R:s3",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 4,
@@ -334,38 +408,58 @@
       ],
       "sources": [
         {
+          "type": "app_snapshot",
+          "name": "Prime Video 官方页（App既有映射快照）",
+          "url": "https://www.primevideo.com/-/zh/detail/B0H8N9812R",
+          "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
           "type": "existing_chinese",
           "name": "中文维基百科",
           "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E9%9A%B1%E4%BB%BB%E5%8B%99_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
           "retrieved_at": "2026-10-29T00:22:20+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:22:20+00:00"
+      "updated_at": "2026-10-29T00:22:20+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "year": 2022,
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
     },
     {
       "id": "prime:B08WJN83XZ",
       "slug": "invincible",
       "kind": "anime",
-      "year": 2021,
+      "identity_status": "verified_official_mapping",
+      "prime_id": "B08WJN83XZ",
+      "seed_id": "B08WJN83XZ",
       "original_title": "Invincible",
       "english_title": "Invincible",
-      "prime_id": "B08WJN83XZ",
-      "prime_official_name_zh": null,
       "display_name_zh": "无敌少侠",
-      "aliases_zh": [],
       "name_status": "verified",
+      "prime_official_name_zh": "无敌少侠》第1季",
+      "aliases_zh": [],
       "synopsis_zh": "《无敌少侠》（英语：Invincible）是美国超级英雄成人动画影集，故事改编自劳勃·柯克曼和科瑞·沃克共同创作的同名超级英雄角色。该剧于2021年3月25日在Amazon Prime Video首播。2021年4月，Amazon宣布续订了第二季和第三季。",
       "synopsis_source_type": "existing_chinese",
-      "details": {},
+      "details": {
+        "first_air_year": "2021",
+        "seed_year": "2021",
+        "seed_year_scope": "app_selected_entry_year_not_necessarily_series_first_air",
+        "release_date": "2021年3月25日",
+        "genres": "动画 / 动作片",
+        "official_type": "TV Show"
+      },
       "poster": null,
+      "poster_scope": null,
       "poster_status": "missing",
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
       "seasons": [
         {
           "season": 1,
-          "id": "seed:invincible:s1",
+          "id": "prime:B08WJN83XZ:s1",
+          "official_id": "B08WJN83XZ",
+          "official_title_zh": "无敌少侠》第1季",
           "synopsis_zh": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/df54e0f0b4d31d60b43503d2526aa8aae3fe8ac8b9e5e9f4460d763bd6aece60.jpg",
             "width": 1080,
@@ -377,28 +471,38 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2021,
+          "release_date": "2021年3月25日"
         },
         {
           "season": 2,
-          "id": "seed:invincible:s2",
+          "id": "prime:B08WJN83XZ:s2",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 3,
-          "id": "seed:invincible:s3",
+          "id": "prime:B08WJN83XZ:s3",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 4,
@@ -417,13 +521,22 @@
       ],
       "sources": [
         {
+          "type": "app_snapshot",
+          "name": "Prime Video 官方页（App既有映射快照）",
+          "url": "https://www.primevideo.com/-/zh/detail/B08WJN83XZ",
+          "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
           "type": "existing_chinese",
           "name": "中文维基百科",
           "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E6%95%B5%E5%B0%91%E4%BF%A0_(%E5%8B%95%E7%95%AB)",
           "retrieved_at": "2026-10-29T00:22:27+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:22:27+00:00"
+      "updated_at": "2026-10-29T00:22:27+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "year": 2021,
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
     },
     {
       "id": "seed:vinland-saga",
@@ -451,7 +564,7 @@
           "synopsis_source_type": null,
           "poster": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "synopsis_status": "missing"
         },
         {
           "season": 2,
@@ -460,7 +573,7 @@
           "synopsis_source_type": null,
           "poster": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "synopsis_status": "missing"
         }
       ],
       "sources": [
@@ -471,32 +584,46 @@
           "retrieved_at": "2026-10-28T23:33:19+00:00"
         }
       ],
-      "updated_at": "2026-10-28T23:33:19+00:00"
+      "updated_at": "2026-10-28T23:33:19+00:00",
+      "identity_status": "pending_review"
     },
     {
       "id": "prime:B0CNDCMN8R",
-      "slug": "jack-ryan",
+      "slug": "tom-clancy-s-jack-ryan",
       "kind": "tv",
-      "year": 2018,
+      "identity_status": "verified_official_mapping",
+      "prime_id": "B0CNDCMN8R",
+      "seed_id": "B0CNDCMN8R",
       "original_title": "Tom Clancy's Jack Ryan",
       "english_title": "Jack Ryan",
-      "prime_id": "B0CNDCMN8R",
-      "prime_official_name_zh": null,
       "display_name_zh": "汤姆·克兰西之杰克·莱恩",
-      "aliases_zh": [],
       "name_status": "verified",
+      "prime_official_name_zh": "汤姆克兰西的杰克瑞恩 第1季",
+      "aliases_zh": [
+        "汤姆·克兰西之杰克·莱恩"
+      ],
       "synopsis_zh": "《汤姆·克兰西之杰克·莱恩》（英语：Tom Clancy's Jack Ryan）或简称《杰克·莱恩》（英语：Jack Ryan），是一部美国政治动作惊悚电视剧，改编自汤姆·克兰西所创作的虚构角色杰克·莱恩，剧情讲述隶属中情局的杰克得在任何场合做出适当的判断，以阻止所有对美国不利的恐怖威胁。",
       "synopsis_source_type": "existing_chinese",
-      "details": {},
+      "details": {
+        "first_air_year": 2018,
+        "seed_year": "2018",
+        "seed_year_scope": "app_selected_entry_year_not_necessarily_series_first_air",
+        "release_date": "2018年8月30日",
+        "genres": "动作片 / 剧情片 / 悬疑",
+        "official_type": "TV Show"
+      },
       "poster": null,
+      "poster_scope": null,
       "poster_status": "missing",
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
       "seasons": [
         {
           "season": 1,
-          "id": "seed:jack-ryan:s1",
+          "id": "prime:B0CNDCMN8R:s1",
+          "official_id": "B0CNDCMN8R",
+          "official_title_zh": "汤姆克兰西的杰克瑞恩 第1季",
           "synopsis_zh": "中情局分析员杰克莱恩和新上任的上司詹姆斯格里尔追踪一系列可疑的金融交易的模式，这让他们开展了一场横跨欧洲和中东的生死追捕，目标人物是正在准备对美国及其盟国发起大规模袭击的一位新崛起的恐怖主义首脑。",
           "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
           "poster": {
             "path": "images/a3d3ce40dd140cec7f0b194f64f54a099b78e345530020827cd32075d2ebbeba.jpg",
             "width": 1280,
@@ -508,40 +635,61 @@
             "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
             "source_type": "app_snapshot_official_mapping"
           },
-          "poster_status": "ok",
-          "status": "pending_review",
           "poster_scope": "season",
-          "synopsis_status": "ok"
+          "poster_status": "ok",
+          "year": 2018,
+          "release_date": "2018年8月30日"
         },
         {
           "season": 2,
-          "id": "seed:jack-ryan:s2",
+          "id": "prime:B0CNDCMN8R:s2",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 3,
-          "id": "seed:jack-ryan:s3",
+          "id": "prime:B0CNDCMN8R:s3",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         },
         {
           "season": 4,
-          "id": "seed:jack-ryan:s4",
+          "id": "prime:B0CNDCMN8R:s4",
+          "official_id": null,
+          "official_title_zh": null,
           "synopsis_zh": "",
           "synopsis_source_type": null,
+          "synopsis_status": "missing",
           "poster": null,
+          "poster_scope": null,
           "poster_status": "missing",
-          "status": "pending_review"
+          "year": null,
+          "release_date": null
         }
       ],
       "sources": [
+        {
+          "type": "app_snapshot",
+          "name": "Prime Video 官方页（App既有映射快照）",
+          "url": "https://www.primevideo.com/-/zh/detail/B0CNDCMN8R",
+          "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
         {
           "type": "existing_chinese",
           "name": "中文维基百科",
@@ -549,7 +697,10 @@
           "retrieved_at": "2026-10-29T00:22:45+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:22:45+00:00"
+      "updated_at": "2026-10-29T00:22:45+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "year": 2018,
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
     },
     {
       "id": "seed:seed-91f9b0126f4e69b8",
@@ -2111,7 +2262,7 @@
     },
     {
       "id": "seed:seed-75e76252b6300b96",
-      "slug": "deutschland",
+      "slug": "deutschland-e0d8e407",
       "kind": "tv",
       "identity_status": "pending_review",
       "prime_id": null,
@@ -2729,7 +2880,7 @@
     },
     {
       "id": "seed:seed-2869c4196d490d2d",
-      "slug": "deutschland",
+      "slug": "deutschland-bf7b9902",
       "kind": "tv",
       "identity_status": "pending_review",
       "prime_id": null,

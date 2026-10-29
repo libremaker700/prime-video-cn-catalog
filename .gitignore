@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .env
 docs/.catalog.tmp
+.venv/
+docs/.version.json.tmp
+logs/last_attempt.json
