@@ -1,6 +1,6 @@
 name: Update Prime Video CN Catalog
 
-# 每日触发一次，由脚本按 version.json 的 last_success_at 判断是否满 3 天；
+# 每日触发一次，由脚本按 version.json 的 last_success_at 判断是否满 7 天（604800 秒）；
 # 手动 workflow_dispatch 强制更新。失败或数据异常时脚本退出码非 0，
 # 工作流不会提交，上一版 Pages 数据保持不变。
 on:
@@ -27,9 +27,10 @@ jobs:
           python-version: "3.12"
       - name: Install deps
         run: pip install requests Pillow PyYAML
-      - name: Sync (skip if <72h since last success; manual run forces)
+      - name: Sync (skip if <7 days / 604800s since last success; manual run forces)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          UPDATE_INTERVAL_SECONDS: "604800"
           TRANSLATE_PROVIDER: ${{ secrets.TRANSLATE_PROVIDER }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
