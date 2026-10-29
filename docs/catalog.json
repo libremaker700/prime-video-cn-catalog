@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-29T15:48:16+00:00",
+  "generated_at": "2026-10-29T15:52:36+00:00",
   "item_count": 156,
   "items": [
     {
@@ -4115,9 +4115,11 @@
       "original_title": "The Man in the High Castle",
       "english_title": "The Man in the High Castle",
       "display_name_zh": "高堡奇人",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_title_sources",
       "prime_official_name_zh": "高堡奇人》 — 第1季",
-      "aliases_zh": [],
+      "aliases_zh": [
+        "高堡奇人"
+      ],
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {
@@ -4205,10 +4207,16 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B086VWBXP5",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia_title",
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%A0%A1%E5%A5%87%E4%BA%BA_(%E7%94%B5%E8%A7%86%E5%89%A7)",
+          "retrieved_at": "2026-10-29T15:52:36+00:00"
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "name_checked_at": "2026-10-29T15:52:36+00:00"
     },
     {
       "id": "prime:B0H25ZJSSC",
@@ -5030,9 +5038,11 @@
       "original_title": "Powerless",
       "english_title": "Powerless",
       "display_name_zh": "无能为力",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_title_sources",
       "prime_official_name_zh": "Powerless: Season 1",
-      "aliases_zh": [],
+      "aliases_zh": [
+        "无能为力"
+      ],
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {
@@ -5078,10 +5088,16 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B01N4UWE2T",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia_title",
+          "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E7%82%BA%E5%8A%9B_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+          "retrieved_at": "2026-10-29T15:52:36+00:00"
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "name_checked_at": "2026-10-29T15:52:36+00:00"
     },
     {
       "id": "prime:B0DJ9MKHTZ",
