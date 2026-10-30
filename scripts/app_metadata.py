@@ -18,6 +18,20 @@ def normalize_fields(items):
     """Keep current top-level fields and support the original nested movie format."""
     result = copy.deepcopy(items)
     for item in result:
+        # Prime encodes some specials as 202 etc. These are not ordinary App seasons.
+        # Retain their source metadata separately without adding unsupported UI seasons
+        # or image references outside the App's validated image manifest.
+        supported, extras = [], {s['season']: s for s in item.get('official_unmapped_seasons', [])}
+        for season in item.get('seasons', []):
+            number = season.get('season')
+            if type(number) is int and number > 200:
+                extras[number] = {key: value for key, value in season.items() if key not in ('poster', 'poster_scope', 'poster_status')}
+            else:
+                supported.append(season)
+        if 'seasons' in item:
+            item['seasons'] = supported
+        if extras:
+            item['official_unmapped_seasons'] = [extras[n] for n in sorted(extras)]
         if item.get('identity_status') == 'verified_official_mapping' and (item.get('details') or {}).get('official_type') == 'Movie':
             item['kind'] = 'movie'
         if item.get('kind') != 'movie':

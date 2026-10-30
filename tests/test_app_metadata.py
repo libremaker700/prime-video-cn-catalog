@@ -33,4 +33,13 @@ class AppMappings(unittest.TestCase):
         result=normalize_fields([movie])[0]
         self.assertEqual(result['kind'],'movie');self.assertEqual(result['release_date'],'2015-01-01')
 
+    def test_encoded_specials_stay_outside_supported_seasons_and_image_manifest(self):
+        item={'kind':'anime','seasons':[{'season':4,'synopsis_zh':'第四季'},{'season':202,'official_title_zh':'特别篇','official_compact_id':'0R4L986D9M1W0RF5Y2I4CPFZ6K','synopsis_zh':'特别篇简介','poster':{'path':'images/special.jpg'},'poster_scope':'season'}]}
+        result=normalize_fields([item])[0]
+        self.assertEqual(result['seasons'],[item['seasons'][0]])
+        extra=result['official_unmapped_seasons'][0]
+        self.assertEqual((extra['season'],extra['synopsis_zh']),(202,'特别篇简介'))
+        self.assertNotIn('poster',extra);self.assertNotIn('poster_scope',extra)
+        self.assertEqual(normalize_fields([result]),[result])
+
 if __name__=='__main__':unittest.main()

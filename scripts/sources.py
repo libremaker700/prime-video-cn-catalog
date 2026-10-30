@@ -212,7 +212,7 @@ class Clients:
                 link = season_entry.get("seasonLink", "")
                 found = re.fullmatch(r"/-/zh/detail/([A-Z0-9]{10}|[A-Z0-9]{26})(?:\?[^\s<>]*)?", link)
                 number = season_entry.get("sequenceNumber")
-                if found and type(number) is int and number > 0:
+                if found and type(number) is int and 1 <= number <= 200:
                     mappings.append({"season": number, "official_compact_id": found.group(1),
                                      "official_catalog_id": season_entry.get("seasonId"),
                                      "official_link": "/-/zh/detail/" + found.group(1)})

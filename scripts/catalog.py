@@ -147,7 +147,7 @@ def validate(catalog, docs, version=None, raw=None):
         if item.get("prime_id") and not re.fullmatch(r"(?:[A-Z0-9]{10}|[A-Z0-9]{26})", item["prime_id"]):
             errors.append(f'{item["id"]}: invalid official ID')
         sns = [s.get("season") for s in item.get("seasons", [])]
-        if len(set(sns)) != len(sns) or any(type(n) is not int or n < 0 for n in sns):
+        if len(set(sns)) != len(sns) or any(type(n) is not int or not 0 <= n <= 200 for n in sns):
             errors.append(f'{item["id"]}: invalid/duplicate season')
         for season in item.get('seasons', []):
             for key in ('official_id', 'official_compact_id'):

@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-30T00:57:19+00:00",
+  "generated_at": "2026-10-30T01:00:11+00:00",
   "item_count": 168,
   "items": [
     {
@@ -872,44 +872,6 @@
             }
           ],
           "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0L4S6GN5QKGODF5COGHK3Q4D8N"
-        },
-        {
-          "season": 202,
-          "official_compact_id": "0O9QQKFZNXT71V3Y7XX9EUQ1JP",
-          "official_catalog_id": "amzn1.dv.gti.99f5ca48-0da4-429a-9646-ea25bd233055",
-          "official_link": "/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
-          "official_id": "0O9QQKFZNXT71V3Y7XX9EUQ1JP",
-          "official_title_zh": "《无敌少侠》推出 “原子女侠伊芙”特别剧集",
-          "year": 2021,
-          "release_date": "2021年3月25日",
-          "official_checked_at": "2026-10-30T00:52:28+00:00",
-          "sources": [
-            {
-              "type": "prime_official",
-              "name": "Prime Video public page",
-              "url": "https://www.primevideo.com/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
-              "retrieved_at": "2026-10-30T00:52:28+00:00"
-            }
-          ],
-          "synopsis_zh": "在这集特别前传中，又称“原子女侠伊芙”的萨曼莎伊芙威金斯在成长过程中，在自己的家里渐渐变得格格不入。随着一位与她的过往有交集的不速之客重新进入她的生活，她发现了自己的悲惨过往，知道了她的超能力的来历以及她真正的潜能。",
-          "synopsis_status": "ok",
-          "synopsis_source_type": "prime_official",
-          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
-          "poster": {
-            "path": "images/1622b0a3e5bd55f7f472cd49df046464e4332d4489b0df6413038c5c7f5a1219.jpg",
-            "sha256": "1622b0a3e5bd55f7f472cd49df046464e4332d4489b0df6413038c5c7f5a1219",
-            "width": 1280,
-            "height": 720,
-            "scope": "season",
-            "season_number": 202,
-            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/4c60c137819dcdee0a4c62570748c0dc9f0fcfb3fefb02b65edd1c7487032da9._SX1280_FMpng_.png",
-            "source_type": "prime_official",
-            "provenance": "public_source_download",
-            "retrieved_at": "2026-10-30T00:52:28+00:00"
-          },
-          "poster_scope": "season",
-          "poster_status": "ok",
-          "id": "prime:B08WJN83XZ:s202"
         }
       ],
       "sources": [
@@ -963,7 +925,33 @@
       "metadata_attempted_at": "2026-10-30T00:52:28+00:00",
       "refresh_status": "checked",
       "prime_series_id": "amzn1.dv.gti.54bbb23a-e025-f9d2-e85b-dec8a2ae9988",
-      "metadata_checked_at": "2026-10-30T00:52:28+00:00"
+      "metadata_checked_at": "2026-10-30T00:52:28+00:00",
+      "official_unmapped_seasons": [
+        {
+          "season": 202,
+          "official_compact_id": "0O9QQKFZNXT71V3Y7XX9EUQ1JP",
+          "official_catalog_id": "amzn1.dv.gti.99f5ca48-0da4-429a-9646-ea25bd233055",
+          "official_link": "/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
+          "official_id": "0O9QQKFZNXT71V3Y7XX9EUQ1JP",
+          "official_title_zh": "《无敌少侠》推出 “原子女侠伊芙”特别剧集",
+          "year": 2021,
+          "release_date": "2021年3月25日",
+          "official_checked_at": "2026-10-30T00:52:28+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
+              "retrieved_at": "2026-10-30T00:52:28+00:00"
+            }
+          ],
+          "synopsis_zh": "在这集特别前传中，又称“原子女侠伊芙”的萨曼莎伊芙威金斯在成长过程中，在自己的家里渐渐变得格格不入。随着一位与她的过往有交集的不速之客重新进入她的生活，她发现了自己的悲惨过往，知道了她的超能力的来历以及她真正的潜能。",
+          "synopsis_status": "ok",
+          "synopsis_source_type": "prime_official",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0O9QQKFZNXT71V3Y7XX9EUQ1JP",
+          "id": "prime:B08WJN83XZ:s202"
+        }
+      ]
     },
     {
       "id": "seed:vinland-saga",

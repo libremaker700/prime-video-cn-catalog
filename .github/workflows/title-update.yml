@@ -42,12 +42,14 @@ jobs:
         env:
           TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python scripts/title_lookup.py --check-keys
       - name: Resolve missing and unverified titles within budget
         id: lookup
         env:
           TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           TITLE_LOOKUP_LIMIT: ${{ inputs.limit || vars.TITLE_LOOKUP_LIMIT || '12' }}
           TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' }}
