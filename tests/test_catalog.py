@@ -13,7 +13,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from catalog import match, merge, publish, repair, validate, write_json
 from sources import Clients, SourceError, parse_prime, pick_tmdb
-from sync import due, run
+from sync import due, run, record_due
 
 
 def record(n=0):
@@ -183,7 +183,7 @@ class BatchTests(unittest.TestCase):
             self.assertEqual((report["processed"], report["checked"], report["failures"]), (156, 156, 0))
 
     def test_total_or_partial_network_failure_preserves_published_bytes_and_retries(self):
-        for fail in ("all", "B000000078"):
+        for fail in ("all",):
             with self.subTest(fail=fail), tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
                 root = self.setup_repo(tmp)
                 old = {p.name: p.read_bytes() for p in (root / "docs").iterdir()}
@@ -193,6 +193,29 @@ class BatchTests(unittest.TestCase):
                 self.assertEqual(len(fake.seen), 156)
                 self.assertTrue(due(json.loads(old["version.json"])))
                 self.assertEqual(json.loads((root / "logs/last_attempt.json").read_bytes())["status"], "failed")
+
+    def test_partial_batch_retains_failed_record_and_does_not_advance_full_success(self):
+        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
+            root=self.setup_repo(tmp);before=json.loads((root/'docs/catalog.json').read_bytes())
+            fake=self.client('B000000078')
+            self.assertEqual(run(root,['--force','--no-discovery'],fake),0)
+            version=json.loads((root/'docs/version.json').read_bytes());after=json.loads((root/'docs/catalog.json').read_bytes())
+            self.assertEqual(version['refresh_status'],'partial')
+            self.assertEqual(version['last_success_at'],'2020-01-01T00:00:00+00:00')
+            self.assertIn('last_partial_at',version)
+            self.assertEqual(len(after['items']),156)
+            old=next(x for x in before['items'] if x['prime_id']=='B000000078')
+            failed=next(x for x in after['items'] if x['prime_id']=='B000000078')
+            for key,value in old.items():self.assertEqual(failed.get(key),value)
+            report=json.loads((root/'logs/last_run.json').read_bytes())
+            self.assertEqual((report['checked'],report['failures'],report['status']),(155,1,'partial'))
+
+    def test_successful_records_wait_seven_days_failed_records_retry_after_six_hours(self):
+        clock=datetime(2026,10,30,12,tzinfo=timezone.utc)
+        good={'refresh_status':'checked','metadata_checked_at':'2026-10-29T12:00:00+00:00'}
+        bad={'refresh_status':'failed','metadata_attempted_at':'2026-10-30T05:00:00+00:00'}
+        self.assertFalse(record_due(good,604800,clock));self.assertTrue(record_due(bad,604800,clock))
+        self.assertTrue(due({'refresh_status':'partial','last_attempt_at':bad['metadata_attempted_at'],'last_success_at':'2026-10-29T12:00:00+00:00'},clock=clock))
 
     def test_not_due_has_no_file_writes_or_network(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):

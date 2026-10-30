@@ -149,6 +149,11 @@ def validate(catalog, docs, version=None, raw=None):
         sns = [s.get("season") for s in item.get("seasons", [])]
         if len(set(sns)) != len(sns) or any(type(n) is not int or n < 0 for n in sns):
             errors.append(f'{item["id"]}: invalid/duplicate season')
+        for season in item.get('seasons', []):
+            for key in ('official_id', 'official_compact_id'):
+                value = season.get(key)
+                if value and not re.fullmatch(r'(?:[A-Z0-9]{10}|[A-Z0-9]{26})', str(value)):
+                    errors.append(f'{item["id"]}: invalid season identity')
     checked = {}
     for owner, sn, poster, scope in poster_refs(items):
         try:
@@ -198,7 +203,9 @@ def write_json(path, value):
     return data
 
 
-def publish(docs, items, previous, *, success=False, reason="sync"):
+def publish(docs, items, previous, *, success=False, reason="sync", refresh=None):
+    from app_metadata import normalize_fields
+    items = normalize_fields(items)
     catalog = {"schema": "prime-video-cn-catalog/1", "generated_at": now(), "item_count": len(items), "items": items}
     failures = validate(catalog, docs)
     if failures:
@@ -211,6 +218,20 @@ def publish(docs, items, previous, *, success=False, reason="sync"):
                "last_success_at": catalog["generated_at"] if success else previous.get("last_success_at"),
                "publication_reason": reason, "item_count": len(items),
                "image_count": len({p["path"] for _, _, p, _ in poster_refs(items)})}
+    for key in ('refresh_status', 'last_attempt_at', 'last_partial_at', 'last_full_success_at', 'refresh_counts'):
+        if key in previous:
+            version[key] = copy.deepcopy(previous[key])
+    if refresh:
+        version['refresh_status'] = refresh['status']
+        version['last_attempt_at'] = catalog['generated_at']
+        version['refresh_counts'] = {key: refresh[key] for key in ('processed', 'checked', 'reused', 'pending', 'failures')}
+        if refresh['status'] == 'partial':
+            version['last_partial_at'] = catalog['generated_at']
+        elif refresh['status'] == 'success' and success:
+            version['last_full_success_at'] = catalog['generated_at']
+    old_path = previous.get('catalog_path')
+    if old_path and old_path != rel:
+        version['previous_catalog_path'] = old_path
     release = docs / rel
     release.parent.mkdir(parents=True, exist_ok=True)
     if release.exists() and release.read_bytes() != raw:

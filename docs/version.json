@@ -1,10 +1,11 @@
 {
-  "version": "27e73ce27cb71d53",
-  "catalog_sha256": "27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4",
-  "catalog_path": "releases/27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4/catalog.json",
-  "generated_at": "2026-10-29T15:52:36+00:00",
+  "version": "ef3dfa2891b382b7",
+  "catalog_sha256": "ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa",
+  "catalog_path": "releases/ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa/catalog.json",
+  "generated_at": "2026-10-29T23:56:57+00:00",
   "last_success_at": "2026-10-29T00:56:48+00:00",
-  "publication_reason": "verified_title_lookup",
+  "publication_reason": "app_metadata_alignment",
   "item_count": 156,
-  "image_count": 127
+  "image_count": 127,
+  "previous_catalog_path": "releases/27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4/catalog.json"
 }

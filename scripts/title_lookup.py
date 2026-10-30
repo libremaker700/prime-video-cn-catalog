@@ -65,8 +65,9 @@ def mentions_original(title, text):
 
 def sanitize(value, key):
     text = json.dumps(value, ensure_ascii=False)
-    if key:
-        text = text.replace(key, '[REDACTED]')
+    for secret in key if isinstance(key, (list, tuple)) else [key]:
+        if secret:
+            text = text.replace(secret, '[REDACTED]')
     return json.loads(re.sub(r'tvly-[A-Za-z0-9_-]{12,}', '[REDACTED]', text))
 
 
@@ -117,8 +118,14 @@ def bangumi_patch(record, subject, checked_at):
 
 
 class Lookup:
-    def __init__(self, key='', session=None):
-        self.key = key
+    def __init__(self, key='', session=None, keys=None):
+        supplied = keys if keys is not None else ([key] if key else [os.getenv('TAVILY_API_KEY_1', ''), os.getenv('TAVILY_API_KEY_2', '')])
+        self.keys = list(dict.fromkeys(str(value).strip() for value in supplied if str(value).strip()))
+        if not self.keys and os.getenv('TAVILY_API_KEY', '').strip():
+            self.keys = [os.environ['TAVILY_API_KEY'].strip()]
+        self.key = self.keys[0] if self.keys else ''
+        self.active_key = 0
+        self.failovers = 0
         self.session = session or requests.Session()
         self.requests = 0
         self.network_errors = 0
@@ -163,22 +170,44 @@ class Lookup:
         patches = [p for hit in payload.get('query', {}).get('search', []) if (p := self.wiki_page(record, hit['title'], checked_at))]
         return patches[0] if len(patches) == 1 else None
 
-    def search(self, record, checked_at):
+    def search_with_budget(self, record, checked_at, reserve):
+        return self.search(record, checked_at, reserve)
+
+    def search(self, record, checked_at, reserve=None):
         title = record.get('english_title') or record.get('original_title')
         hint = {'movie': '电影', 'tv': '电视剧', 'anime': '电视动画'}.get(record.get('kind'), '')
         query = f'{title} {year(record) or ""} {hint} 中文名 国内译名'.strip()
-        # One basic search, no retry or automatic upgrade; caller reserves budget first.
-        self.requests += 1
-        try:
-            response = self.session.post('https://api.tavily.com/search', headers={'Authorization': 'Bearer ' + self.key},
+        # At most one attempt per configured key. Reserve every HTTP request first.
+        # Rate limits, timeouts and server errors stop the run without key cycling.
+        response = None
+        while self.active_key < len(self.keys):
+            slot = self.active_key + 1
+            if reserve and not reserve(slot):
+                self.stopped = True
+                return None, {'query': query, 'error': 'local_budget_exhausted', 'results': []}
+            self.requests += 1
+            try:
+                response = self.session.post('https://api.tavily.com/search', headers={'Authorization': 'Bearer ' + self.keys[self.active_key]},
                 json={'query': query, 'search_depth': 'basic', 'auto_parameters': False, 'max_results': 6,
                       'include_answer': False, 'include_raw_content': 'text', 'include_images': False, 'include_usage': True},
                 timeout=(8, 45), allow_redirects=False)
-            if response.status_code != 200:
+            except requests.RequestException:
                 self.stopped = True
-                return None, {'query': query, 'error': 'HTTP ' + str(response.status_code), 'results': []}
+                return None, {'query': query, 'error': 'search_unavailable', 'key_slot': slot, 'results': []}
+            if response.status_code == 200:
+                break
+            if response.status_code in (401, 403, 432, 433) and self.active_key + 1 < len(self.keys):
+                self.active_key += 1
+                self.failovers += 1
+                continue
+            self.stopped = True
+            return None, {'query': query, 'error': 'HTTP ' + str(response.status_code), 'key_slot': slot, 'results': []}
+        if response is None:
+            self.stopped = True
+            return None, {'query': query, 'error': 'no_search_key', 'results': []}
+        try:
             payload = response.json()
-        except (requests.RequestException, ValueError):
+        except ValueError:
             self.stopped = True
             return None, {'query': query, 'error': 'search_unavailable', 'results': []}
         results = []
@@ -221,6 +250,22 @@ def load(path, default):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
 
 
+def check_keys():
+    """Authenticate each key via /usage without searching or storing account data."""
+    client = Lookup()
+    slots = []
+    for index, secret in enumerate(client.keys):
+        status = None
+        try:
+            response = client.session.get('https://api.tavily.com/usage', headers={'Authorization': 'Bearer ' + secret}, timeout=(8, 20), allow_redirects=False)
+            status = response.status_code
+        except requests.RequestException:
+            pass
+        slots.append({'slot': index + 1, 'http_status': status, 'authenticated': status == 200})
+    print(json.dumps({'configured_unique_keys': len(client.keys), 'slots': slots, 'searches': 0}))
+    return 0 if any(s['authenticated'] for s in slots) else 1
+
+
 def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, client=None, review_saved=False):
     clock = clock or datetime.now(timezone.utc)
     checked_at = clock.isoformat(timespec='seconds')
@@ -246,12 +291,23 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
                 item['aliases_zh'] = list(dict.fromkeys(item.get('aliases_zh', []) + rule.get('aliasesZh', [])))
                 if rule.get('sources'):
                     item.update(sources=merge(item, {'sources': rule['sources']})['sources'])
-    client = client or Lookup(os.environ.get('TAVILY_API_KEY', '').strip())
+    client = client or Lookup()
     limit, monthly_limit = max(0, min(limit, 20)), max(0, min(monthly_limit, 200))
     month = clock.strftime('%Y-%m')
     used = int(cache.setdefault('budgets', {}).get(month, 0))
     report = {'checked_at': checked_at, 'searched': 0, 'direct_verified': 0, 'cache_hits': 0,
               'skipped_verified': 0, 'pending': 0, 'attempted': 0, 'monthly_reserved': used, 'monthly_limit': monthly_limit}
+    def reserve(slot=None):
+        nonlocal used
+        if used >= monthly_limit:
+            return False
+        used += 1
+        report['searched'] += 1
+        cache['budgets'][month] = used
+        usage = cache.setdefault('key_usage', {}).setdefault(month, {})
+        usage[str(slot or 'legacy')] = usage.get(str(slot or 'legacy'), 0) + 1
+        write_json(path, cache)
+        return True
     # Rotate unresolved entries, prioritizing entirely missing Chinese names.
     items.sort(key=lambda r: (chinese(r.get('display_name_zh')), cache.get('records', {}).get(cache_key(r), {}).get('checked_at', ''), r['id']))
     updated = []
@@ -268,7 +324,7 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
         if review_saved and old.get('identity') == identity(out) and old.get('evidence', {}).get('results'):
             patch = client.verify_results(out, old['evidence']['results'], checked_at)
             if patch:
-                patch = sanitize(patch, client.key)
+                patch = sanitize(patch, getattr(client, 'keys', [client.key]))
                 cache['records'][key] = old | {'status': 'verified', 'patch': patch, 'checked_at': checked_at}
                 out = merge(out, patch)
                 report['cache_hits'] += 1
@@ -295,26 +351,26 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
         if patch:
             report['direct_verified'] += 1
         elif client.key and not client.stopped and used < monthly_limit:
-            used += 1
-            cache['budgets'][month] = used
-            # Reserve and persist before sending a potentially chargeable request.
-            write_json(path, cache)
-            patch, evidence = client.search(out, checked_at)
-            report['searched'] += 1
+            if hasattr(client, 'search_with_budget'):
+                patch, evidence = client.search_with_budget(out, checked_at, reserve)
+            elif reserve():
+                patch, evidence = client.search(out, checked_at)
         entry = {'identity': identity(out), 'checked_at': checked_at, 'status': 'verified' if patch else 'pending_review',
                  'evidence': evidence, 'next_retry_at': (clock + timedelta(days=30)).isoformat(timespec='seconds')}
         if patch:
-            entry['patch'] = sanitize({k:v for k,v in patch.items() if k in FIELDS}, client.key)
+            entry['patch'] = sanitize({k:v for k,v in patch.items() if k in FIELDS}, getattr(client, 'keys', [client.key]))
             out = merge(out, entry['patch'])
         else:
             report['pending'] += 1
-        cache['records'][key] = sanitize(entry, client.key)
+        cache['records'][key] = sanitize(entry, getattr(client, 'keys', [client.key]))
         updated.append(out)
     # Preserve catalogue order, IDs, playback binding, seasons, summaries and posters.
     order = {r['id']: n for n,r in enumerate(current['items'])}
     updated.sort(key=lambda r: order[r['id']])
     cache['last_run_at'] = checked_at
     report['monthly_reserved'] = used
+    report['keys_configured'] = len(getattr(client, 'keys', [client.key] if client.key else []))
+    report['key_failovers'] = getattr(client, 'failovers', 0)
     report['remaining_unverified'] = sum(not name_verified(r) for r in updated)
     report['direct_network_errors'] = getattr(client, 'network_errors', 0)
     report['source_diagnostics'] = getattr(client, 'diagnostics', [])
@@ -326,7 +382,7 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
         report['version'] = publish(root/'docs', updated, version, reason='verified_title_lookup')
     # Never store a credential or raw transport errors in public data/logs.
     raw = json.dumps(cache, ensure_ascii=False)
-    if client.key and client.key in raw:
+    if any(secret and secret in raw for secret in getattr(client, 'keys', [client.key])):
         raise ValueError('credential detected in title cache')
     write_json(path, cache)
     write_json(root/'logs/title-lookup.json', report)
@@ -338,8 +394,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--force', action='store_true', help='Bypass the weekly timer, not verified cache/budget/cooldown')
     parser.add_argument('--review-saved', action='store_true', help='Recheck saved source pages without repeating paid searches')
+    parser.add_argument('--check-keys', action='store_true', help='Check configured keys via /usage without searching')
     args = parser.parse_args()
     try:
+        if args.check_keys:
+            raise SystemExit(check_keys())
         run(force=args.force, review_saved=args.review_saved, limit=int(os.getenv('TITLE_LOOKUP_LIMIT','12')), monthly_limit=int(os.getenv('TITLE_LOOKUP_MONTHLY_LIMIT','100')))
     except Exception as exc:
         print('Title lookup aborted:', type(exc).__name__, '(transport and credentials suppressed)')

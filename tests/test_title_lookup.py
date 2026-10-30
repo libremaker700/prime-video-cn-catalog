@@ -203,6 +203,34 @@ class TitlesTests(unittest.TestCase):
             self.assertEqual(session.post.call_args.kwargs['json']['search_depth'],'basic')
             self.assertFalse(session.post.call_args.kwargs['json']['auto_parameters'])
 
+    def test_two_keys_failover_reserves_each_request_and_stays_on_backup(self):
+        session=Mock();bad=Mock(status_code=432);good=Mock(status_code=200)
+        good.json.return_value={'results':[]};session.post.side_effect=[bad,good,good]
+        client=Lookup(session=session,keys=['first-private-key','second-private-key']);slots=[]
+        reserve=lambda slot:slots.append(slot) or True
+        client.search_with_budget(record(),'now',reserve);client.search_with_budget(record(2),'now',reserve)
+        self.assertEqual(slots,[1,2,2]);self.assertEqual(client.requests,3);self.assertEqual(client.failovers,1)
+        self.assertEqual([c.kwargs['headers']['Authorization'] for c in session.post.call_args_list],['Bearer first-private-key','Bearer second-private-key','Bearer second-private-key'])
+
+    def test_budget_prevents_an_unreserved_backup_request(self):
+        session=Mock();session.post.return_value.status_code=401
+        client=Lookup(session=session,keys=['first-private-key','second-private-key'])
+        _,evidence=client.search_with_budget(record(),'now',lambda slot:slot==1)
+        self.assertEqual(session.post.call_count,1);self.assertEqual(evidence['error'],'local_budget_exhausted')
+
+    def test_rate_limits_and_uncertain_timeouts_do_not_cycle_keys(self):
+        session=Mock();session.post.return_value.status_code=429
+        client=Lookup(session=session,keys=['first-private-key','second-private-key'])
+        client.search(record(),'now');self.assertEqual(session.post.call_count,1);self.assertTrue(client.stopped)
+        import requests
+        session=Mock();session.post.side_effect=requests.Timeout('transport detail')
+        client=Lookup(session=session,keys=['first-private-key','second-private-key'])
+        _,evidence=client.search(record(),'now');self.assertEqual(session.post.call_count,1);self.assertNotIn('transport detail',str(evidence))
+
+    def test_both_keys_are_redacted(self):
+        out=sanitize({'a':'first-private-key','b':'second-private-key'},['first-private-key','second-private-key'])
+        self.assertEqual(out,{'a':'[REDACTED]','b':'[REDACTED]'})
+
 
 if __name__=='__main__':
     unittest.main()

@@ -36,10 +36,18 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
+      - name: Align public App mappings
+        run: python scripts/import_app_metadata.py
+      - name: Verify configured search credentials without searches
+        env:
+          TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
+          TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
+        run: python scripts/title_lookup.py --check-keys
       - name: Resolve missing and unverified titles within budget
         id: lookup
         env:
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
+          TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
           TITLE_LOOKUP_LIMIT: ${{ inputs.limit || vars.TITLE_LOOKUP_LIMIT || '12' }}
           TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' }}
@@ -64,6 +72,8 @@ jobs:
           fi
       - name: Validate complete catalogue before publishing
         run: python scripts/validate.py
+      - name: Retain active and previous releases only
+        run: python scripts/prune_publication.py
       - name: Persist verified names, pending evidence and usage reservations
         run: |
           git config user.name 'catalog-bot'

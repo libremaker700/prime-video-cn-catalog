@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh every catalogue record; publish only validated, complete batch results."""
+"""Refresh due records; publish a complete valid catalogue retaining failed entries."""
 import argparse
 import copy
 import json
@@ -12,6 +12,7 @@ import yaml
 from catalog import match, merge, now, publish, repair, write_json
 from sources import Clients, SourceError
 from title_lookup import apply_cache
+from app_metadata import apply_app_metadata
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -23,6 +24,12 @@ def load(path, default):
 def due(version, interval=604800, clock=None):
     """Bad/future timestamps cannot indefinitely suppress refreshes."""
     try:
+        if version.get('refresh_status') == 'partial' and version.get('last_attempt_at'):
+            attempted = datetime.fromisoformat(version['last_attempt_at'])
+            current = clock or datetime.now(timezone.utc)
+            if attempted.tzinfo is not None:
+                elapsed = (current - attempted).total_seconds()
+                return elapsed < 0 or elapsed >= 21600
         last = datetime.fromisoformat(version["last_success_at"])
         clock = clock or datetime.now(timezone.utc)
         if last.tzinfo is None:
@@ -30,6 +37,21 @@ def due(version, interval=604800, clock=None):
         age = clock - last
         return age.total_seconds() < 0 or age >= timedelta(seconds=interval)
     except (KeyError, ValueError, TypeError):
+        return True
+
+
+def record_due(record, interval, clock=None):
+    current = clock or datetime.now(timezone.utc)
+    status = record.get('refresh_status')
+    key = 'metadata_checked_at' if status == 'checked' else 'metadata_attempted_at'
+    wait = interval if status in ('checked', 'pending_source_or_identity') else 21600
+    try:
+        attempted = datetime.fromisoformat(record[key])
+        if attempted.tzinfo is None:
+            return True
+        age = (current - attempted).total_seconds()
+        return age < 0 or age >= wait
+    except (KeyError, TypeError, ValueError):
         return True
 
 
@@ -116,7 +138,8 @@ def refresh_record(record, clients):
                 checked.append("wikipedia")
         except SourceError as exc:
             failures.append({"source": "wikipedia", "reason": str(exc)})
-    out["refresh_status"] = "failed" if failures else ("checked" if checked else "pending_source_or_identity")
+    out['metadata_attempted_at'] = now()
+    out["refresh_status"] = ("partial" if checked else "failed") if failures else ("checked" if checked else "pending_source_or_identity")
     if checked:
         out["metadata_checked_at"] = now()
         out["updated_at"] = now()
@@ -183,6 +206,9 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
     baseline = load(root / "data/fallback_catalog.json", {"items": []})["items"]
     rules = load(root / "data/title-overrides.json", {"rules": []})["rules"]
     items = repair(current["items"], baseline, rules)
+    app_asset = load(root / 'data/app-metadata.json', None)
+    if app_asset:
+        items = apply_app_metadata(items, app_asset)
     title_cache = load(root / "data/title-cache.json", {"records": {}})
     items = [apply_cache(item, title_cache) for item in items]
     seeds = yaml.safe_load((root / "config/seeds.yaml").read_text(encoding="utf-8"))["seeds"]
@@ -196,19 +222,30 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
     clients = clients_factory(docs, print)
     refreshed, reports = [], []
     for item in items:
-        record, report = refresh_record(item, clients)
+        if not args.force and not record_due(item, interval):
+            record, report = copy.deepcopy(item), {'id': item['id'], 'checked': [], 'failures': [], 'status': 'reused', 'previous_status': item.get('refresh_status')}
+        else:
+            record, report = refresh_record(item, clients)
         refreshed.append(record)
         reports.append(report)
         print(f'{len(reports)}/{len(items)} {item["id"]}: {report["status"]}', flush=True)
     queue, additions, discovery_failures = ([], [], []) if args.no_discovery else discover(refreshed, clients, int(os.getenv("DISCOVERY_LIMIT", "20")))
     failures = sum(len(r["failures"]) for r in reports) + len(discovery_failures)
     checked = sum(bool(r["checked"]) for r in reports)
-    report = {"started_at": started, "finished_at": now(), "status": "failed" if failures or not checked else "success",
+    reused = sum(r['status'] == 'reused' for r in reports)
+    pending = sum(r['status'] == 'pending_source_or_identity' or (r['status'] == 'reused' and r.get('previous_status') != 'checked') for r in reports)
+    complete = not failures and not pending and all(r['status'] == 'checked' or (r['status'] == 'reused' and r.get('previous_status') == 'checked') for r in reports)
+    status = 'success' if complete else 'partial' if checked or additions else 'failed'
+    report = {"started_at": started, "finished_at": now(), "status": status,
               "processed": len(items), "checked": checked, "retained_without_refresh": len(items) - checked,
+              "reused": reused, "pending": pending,
               "new_verified_titles": len(additions), "failures": failures, "records": reports,
               "discovery_failures": discovery_failures, "discovery_queue": queue}
-    if failures or not checked:
+    if not checked and not additions:
         write_json(root / "logs/last_attempt.json", report)
+        if not failures:
+            print('No new verified source updates; published catalogue unchanged.')
+            return 0
         print(f"Refresh incomplete: {failures} errors, {checked} checked. Published files and last_success_at remain unchanged.")
         return 2
     refreshed += additions
@@ -216,11 +253,11 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
         raise ValueError("refresh would drop existing records")
     refreshed = repair(refreshed, baseline, rules)
     refreshed = [apply_cache(item, title_cache) for item in refreshed]
-    version = publish(docs, refreshed, previous, success=True)
+    version = publish(docs, refreshed, previous, success=complete, reason='sync' if complete else 'partial_sync', refresh=report)
     report["version"] = version
     write_json(root / "logs/last_run.json", report)
     write_json(root / "data/discovery_queue.json", queue)
-    print(f'Published {len(refreshed)} records, {version["image_count"]} unique images, version={version["version"]}.')
+    print(f'Published {len(refreshed)} records ({status}, {failures} source errors retained), {version["image_count"]} images, version={version["version"]}.')
     return 0
 
 

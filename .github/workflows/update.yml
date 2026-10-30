@@ -1,8 +1,7 @@
 name: Update Prime Video CN Catalog
 
 # 每日触发一次，由脚本按 version.json 的 last_success_at 判断是否满 7 天（604800 秒）；
-# 手动 workflow_dispatch 强制更新。失败或数据异常时脚本退出码非 0，
-# 工作流不会提交，上一版 Pages 数据保持不变。
+# 手动强制更新；单条失败保留旧资料并标注部分更新，全败或校验异常不发布。
 on:
   push:
     branches: [main]
@@ -38,6 +37,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
+      - name: Align public App mappings and compatible movie fields
+        run: python scripts/import_app_metadata.py
       - name: Sync (skip if <7 days / 604800s since last success; manual run forces)
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sync')
         env:
@@ -57,11 +58,14 @@ jobs:
           fi
       - name: Validate before publish
         run: python scripts/validate.py
+      - name: Retain active and previous releases only
+        run: python scripts/prune_publication.py
       - name: Commit only changed files
         run: |
           git config user.name "catalog-bot"
           git config user.email "catalog-bot@users.noreply.github.com"
-          git add docs logs/last_run.json
+          git add docs
+          if [ -f logs/last_run.json ]; then git add logs/last_run.json; fi
           if [ -f data/discovery_queue.json ]; then git add data/discovery_queue.json; fi
           git diff --cached --quiet || git commit -m "catalog: auto update $(date -u +%F)"
           git push
