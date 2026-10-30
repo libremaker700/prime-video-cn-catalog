@@ -1,17 +1,17 @@
 {
-  "started_at": "2026-10-30T00:30:55+00:00",
-  "finished_at": "2026-10-30T00:35:55+00:00",
+  "started_at": "2026-10-30T00:38:17+00:00",
+  "finished_at": "2026-10-30T00:57:19+00:00",
   "status": "partial",
   "processed": 156,
-  "checked": 28,
-  "retained_without_refresh": 128,
+  "checked": 121,
+  "retained_without_refresh": 35,
   "reused": 0,
-  "pending": 128,
-  "deferred": 116,
-  "attempted": 40,
-  "budget_seconds": 300,
-  "new_verified_titles": 0,
-  "failures": 1,
+  "pending": 35,
+  "deferred": 0,
+  "attempted": 156,
+  "budget_seconds": 1200,
+  "new_verified_titles": 12,
+  "failures": 6,
   "records": [
     {
       "id": "seed:the-tomorrow-war",
@@ -363,851 +363,1146 @@
         "prime_official:B0B5LFBYJW",
         "prime_official:0RQM30WHZ0O19EQ9XPUZ19E6N3"
       ],
-      "failures": [
-        {
-          "source": "wikipedia",
-          "reason": "refresh time budget reached; retained previous metadata"
-        }
-      ],
-      "status": "partial"
+      "failures": [],
+      "status": "checked"
     },
     {
       "id": "seed:seed-f55985a91f7dcfae",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8NLVH1L",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8NLVH1L"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-bea09172a92995f0",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-160622687487ccb8",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0HCML147X",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HCML147X",
+        "prime_official:0OQCO2B69OEVL2NTGI87FIJWDL",
+        "prime_official:0ORNKPJ5IRV5SN5THD155V05ES"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HK5LCWRC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HK5LCWRC"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-9d0817297a4c9742",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H4NW3HYP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4NW3HYP"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H4GD3B6G",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4GD3B6G",
+        "prime_official:0Q7GFNBQ6IPO87MX4G4WD4GT4I",
+        "prime_official:0H2D58AC8YVVZ44OTTZ1LGUFHW"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B76J495K",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B76J495K",
+        "prime_official:0OLC53FWQRZ38BXD9UW2C09WDD",
+        "prime_official:0QHAUXBITDS9DLFYMM1WYEE4LK"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08T6S3KMR",
-      "checked": [],
+      "checked": [
+        "prime_official:B08T6S3KMR"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-557850c46c1a2bb1",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0F54XFS1H",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F54XFS1H"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-ba12f7e6e0e333bd",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H38ZZ8GZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H38ZZ8GZ",
+        "prime_official:0T540BA2YI1XDMC8QF7Q5CFPZQ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08J18TQ9T",
-      "checked": [],
+      "checked": [
+        "prime_official:B08J18TQ9T"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FLX154BL",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FLX154BL"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DJPRGTF2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DJPRGTF2"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B086VWBXP5",
-      "checked": [],
+      "checked": [
+        "prime_official:B086VWBXP5",
+        "prime_official:0LLBXS00DJMRFVG28GB7JB3WHF",
+        "prime_official:0N8Y66TN6W2H7BM081ZZBO84VE",
+        "prime_official:0LTTRFTWMZXER0OFWQFGG2MFOT"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H25ZJSSC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H25ZJSSC",
+        "prime_official:0RMOJJ5V14E4YSAMTDMUD4I5OV"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08957N5FJ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08957N5FJ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08TT3V5FJ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08TT3V5FJ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0C4VLB35N",
-      "checked": [],
+      "checked": [
+        "prime_official:B0C4VLB35N"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08B49FXST",
-      "checked": [],
+      "checked": [
+        "prime_official:B08B49FXST",
+        "prime_official:0NQQHDOS2PH6YC0KTF7HIGIK5W"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0875LMZGR",
-      "checked": [],
+      "checked": [
+        "prime_official:B0875LMZGR"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HGZ25YMQ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HGZ25YMQ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-5a45f08cb318d422",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B09QH98YG1",
-      "checked": [],
+      "checked": [
+        "prime_official:B09QH98YG1",
+        "prime_official:0UB2ZI7XTDU5ENEYYH4GR048TQ",
+        "prime_official:0NGJWN4I3V9O8AY50RRY31MQV4"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-e763c3d458ac9ac0",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8MTCYVM",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8MTCYVM"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-afb3de5a4eab80b8",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ff6c7082dfb90f4e",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H45HCW5V",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H45HCW5V"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B01N4UWE2T",
-      "checked": [],
+      "checked": [
+        "prime_official:B01N4UWE2T"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DJ9MKHTZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DJ9MKHTZ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-ec29e2814121fd18",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-2429a2a6318f3f3b",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B094P1XDXR",
-      "checked": [],
+      "checked": [
+        "prime_official:B094P1XDXR"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-d6693d6235945ba2",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8TKPV7G",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TKPV7G",
+        "prime_official:0QUM5BE864IQNUMSMGS6NBVSSC"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B09PVRLSLB",
-      "checked": [],
+      "checked": [
+        "prime_official:B09PVRLSLB",
+        "prime_official:0NNEP0PVMYZBMHYAZOD63QDETV"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B09GPSWV6L",
-      "checked": [],
+      "checked": [
+        "prime_official:B09GPSWV6L"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-f6920f665d91db8c",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B857V4TH",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B857V4TH"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B6QGZXXP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B6QGZXXP"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DGNX438P",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DGNX438P"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H3FQ4YYL",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H3FQ4YYL"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-a5bbef0d5c350b1e",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GYPZYNH3",
-      "checked": [],
-      "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "checked": [
+        "prime_official:0GZ3QJUCJ4NQH7LN4473BVF6E9",
+        "prime_official:0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+        "prime_official:0TK5BQA4A3PR2279WGFHTQNX7G"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GYPZYNH3",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "partial"
     },
     {
       "id": "seed:seed-048b35d4cf75514f",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GT2JSFBC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GT2JSFBC"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B08F62FXXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08F62FXXZ",
+        "prime_official:0N805JDAOQ0OMZJBPJ69M0OP6C"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HGLKXKCW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HGLKXKCW",
+        "prime_official:0N20FPWUDHNXHS2F8NEEQHY63D"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8LFCLSQ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8LFCLSQ",
+        "prime_official:0S7NABDHXG9Y76ZT6RBYL6W11D"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TFMYXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TFMYXZ"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TQGHP3",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TQGHP3",
+        "prime_official:0HFHXUEBB1RL9N5YR48S6XF3RR"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FNNHM1MT",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FNNHM1MT",
+        "prime_official:0FOT2IDMBS1WKUD3OA2QVHI004"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CV3TXFXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CV3TXFXZ",
+        "prime_official:0OI4F9W11ELNU28PK4FIJ2QPYQ",
+        "prime_official:0LSZQU1YSSD3P6XMI7V2N7NNEG"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B086VWYY84",
-      "checked": [],
+      "checked": [
+        "prime_official:B086VWYY84",
+        "prime_official:0TEO51CZ36DC3ZFX8P5JD60009",
+        "prime_official:0KVVYBZY0BSL18E864O4HEA48V"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CVY2YX65",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CVY2YX65",
+        "prime_official:0G88E4BE21TZA35FIJ8U6ZBKJW"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-826c0cb517e9db67",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H5TJGKYD",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H5TJGKYD"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GGLLCQM5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGLLCQM5"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H8V4PTP8",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H8V4PTP8"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H8MH1JP1",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H8MH1JP1"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-c2245c6840823126",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ebe36097d3165ea5",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-46f0f5520a4ef7ec",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0BX1XSPG4",
-      "checked": [],
+      "checked": [
+        "prime_official:B0BX1XSPG4"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B09D3R3L71",
-      "checked": [],
+      "checked": [
+        "prime_official:B09D3R3L71",
+        "prime_official:0KXH9VD79G06M5UDF3Q3DFLQKD"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CKM3N1ZP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CKM3N1ZP"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DM9PWSZC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DM9PWSZC"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CTXS6DFD",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CTXS6DFD"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-27b9df9181f6a7ae",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H1F6SPGZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H1F6SPGZ",
+        "prime_official:0SHGKA0J8D4G01ZGD647627NEJ",
+        "prime_official:0HXBV30J672YHO5G6L7TPEO44R",
+        "prime_official:0HO8ENK0AIDHSLMA7DJV43S6YS",
+        "prime_official:0JZ7BYV8EYHMAW6DDHA0KGA9LP"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GGWH7SZ5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGWH7SZ5"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-6ea0dbd122298b94",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GGVRT9J2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGVRT9J2"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HHFPWWVB",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HHFPWWVB"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "seed:seed-c9049a79e4dbbcf8",
       "checked": [],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0DTDTKSQW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DTDTKSQW"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FZLS3ZTN",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FZLS3ZTN"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZ73JQKC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZ73JQKC"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H4WHJ9M5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4WHJ9M5"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CBHFMWND",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CBHFMWND"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GHXTWRV2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GHXTWRV2"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DWJZ75SF",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DWJZ75SF"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HBL5T7TV",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HBL5T7TV"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GSCGQ1PY",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GSCGQ1PY",
+        "prime_official:0L40BWIL4O7CRFWIGQHXJ8VPJP",
+        "prime_official:0MFJDCRJF8210XA40PIVEN88HP",
+        "prime_official:0Q4GHMY9F2LNPKHJ11FJ93VRBC",
+        "prime_official:0MJZ794A9PTH2Q7UA78IBLIE53",
+        "prime_official:0LKHXQ4MYLT5CUUQF5L03FMR94",
+        "prime_official:0RBOHEI4K3IQ4IMYNH1EUA87T4"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FKTRNLL8",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FKTRNLL8"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B015ENAX9U",
-      "checked": [],
+      "checked": [
+        "prime_official:B015ENAX9U"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HG2VCRBC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HG2VCRBC",
+        "prime_official:0R4L986D9M1W0RF5Y2I4CPFZ6K",
+        "prime_official:0OPZS74MAGYLYFSR5L6D8MZP8L",
+        "prime_official:0I93O6QU985ZMYRJXJHNUQFN08",
+        "prime_official:0OP2PH2BEV5WLOS6LSHPZ9483R",
+        "prime_official:0K97ZSD778725B5U3YIIFFLAPD",
+        "prime_official:0J72EXQ5VNXESUTBYHUQIT512U",
+        "prime_official:0U69XSZZEE5DF5T4WSUMDFWMD7",
+        "prime_official:0TKQ59W5MKNT1QI8IXPAXDOSK8",
+        "prime_official:0LAXCVJRCJR3Q2G2IP2RPH2KU3",
+        "prime_official:0PUAJJRY0B2H5E5T4I47FZNK5Y",
+        "prime_official:0GPXJIOHXS3FC0R3R49ZQXG92Y",
+        "prime_official:0O5E1TJVR05JLQY65GQQFWHNJW",
+        "prime_official:0QHMKCNRZ2H313BIB67BFYMIO1",
+        "prime_official:0LR6C9VB5U8BS8D8INC1JHUN72"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FW4NGZFP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FW4NGZFP"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0F7HFJ64C",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F7HFJ64C"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GDVGCMGW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GDVGCMGW"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DDHZF36Y",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DDHZF36Y",
+        "prime_official:0SK0IDGT7V1MMG6VPSK3SH1QXH"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DNKHQM8B",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DNKHQM8B"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8NZ2TJ5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8NZ2TJ5"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0CGKHJM4B",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CGKHJM4B"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZHLSV86",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZHLSV86"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TFCPHM",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TFCPHM"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B000U63ZDS",
-      "checked": [],
+      "checked": [
+        "prime_official:B000U63ZDS",
+        "prime_official:0QX0P4DRLK5GVNK0MJ48Y809IW",
+        "prime_official:0MW3B1HTCJCI1S6F53INNRAFBI",
+        "prime_official:0MW3B1Z93Q29ZKBTKHBKMICWYF",
+        "prime_official:0FBAC364JEX5LCTFK1S5LF1BPD",
+        "prime_official:0GUP7XZH3ZKNIB46OIP97J8MPK",
+        "prime_official:0MW3B1VCHHR97CPUZ1NCGQLUSQ",
+        "prime_official:0JKQMQSG0SIM7N1ZZALNH81WHM",
+        "prime_official:0K61W81Y427R2IOVY2FGI8GJTU"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B09ZP5ZM9Z",
-      "checked": [],
+      "checked": [
+        "prime_official:B09ZP5ZM9Z",
+        "prime_official:0FUHYQYX015T1NTJA281M3J8MI",
+        "prime_official:0TAQ18EHBGDDXR03GGAOED01MX",
+        "prime_official:0QHR9PHMTZSRLZ6HY2BOY6LD1C",
+        "prime_official:0GVR2LALMS63QI6IT5K6J1VNH7",
+        "prime_official:0QBQBIVAJYT4661750PL8O96OL"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZ39BDJS",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZ39BDJS"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DP9GC5NY",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DP9GC5NY"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0F3DYQ77M",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F3DYQ77M"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DNHSF1W4",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DNHSF1W4"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FNWN756K",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FNWN756K"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0H4BZVYZ3",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4BZVYZ3"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B00103DRW4",
-      "checked": [],
+      "checked": [
+        "prime_official:B00103DRW4"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B073VD4W4Z",
-      "checked": [],
+      "checked": [
+        "prime_official:B073VD4W4Z"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0FHJHX1YZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FHJHX1YZ",
+        "prime_official:0GEB35CUYRCDVXUV0UXQY9FHIF",
+        "prime_official:0TN0LO4HFYN5HB2YSI7IOSOQA2"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DXKQSSL9",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DXKQSSL9"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DSJPQPJ9",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DSJPQPJ9"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0HN5HYTB6",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HN5HYTB6"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     },
     {
       "id": "prime:B0DH5DMSRW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DH5DMSRW"
+      ],
       "failures": [],
-      "status": "deferred",
-      "reason": "refresh time budget reached"
+      "status": "checked"
     }
   ],
-  "discovery_failures": [],
-  "discovery_queue": [],
+  "discovery_failures": [
+    {
+      "source": "discovery_detail",
+      "official_id": "B0GMYXX8PC",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "B0HJ8F5HPZ",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "B0H1X7MMLP",
+      "reason": "Prime page is not a film/TV title"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "0S0WXS1U1QJ8MTVB4G4NWZTHTQ",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "B0H3QRLYCN",
+      "reason": "Prime page identity mismatch"
+    }
+  ],
+  "discovery_queue": [
+    {
+      "prime_id": "B0GMYXX8PC",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "B0HJ8F5HPZ",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "B0H1X7MMLP",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "Prime page is not a film/TV title"
+    },
+    {
+      "prime_id": "0S0WXS1U1QJ8MTVB4G4NWZTHTQ",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "B0H3QRLYCN",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "0PLOVHXBJJ2U3EEF2BW02YGYGJ",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0T0W5IBN2BBDVHNONZV7O56801",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0NM0EQAY1WIB964DQTBLGA9G7X",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0K04DMLEJSTE354379LLPZ9ZAN",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0ILGJ4D4ZYPGJCCG2VNGX3LCR3",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "possible existing series/new season; identity needs confirmation"
+    },
+    {
+      "prime_id": "0L8V88NU7CFYRKM857QDN2O5B4",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0RIGW4JX68ZVOHH5ZIKMJTBWJW",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0N8YGO7AQVQZK6IVPX5ALBLVD5",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0NNPX1A132JM0QS6EKLWJA24LB",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0H3GSOTSH3G0D10TMM93QQX7Y2",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0HGV581LYP7SK1E5WWCTPV7BVY",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0TN7D9O4HCUK1DTOF6R1NRZOUG",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0KCNXR520PFM6OD1SRMMG36ZSU",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0I4OWKAPLUWIO5013W3F3ZN952",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "possible existing series/new season; identity needs confirmation"
+    },
+    {
+      "prime_id": "0IT5QD04WG06AKTABIYKVOTHYM",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-10-30T00:57:02+00:00",
+      "status": "pending_review",
+      "reason": "possible existing series/new season; identity needs confirmation"
+    }
+  ],
   "version": {
-    "version": "7fa9c17d9536749f",
-    "catalog_sha256": "7fa9c17d9536749f4aba6651a71cb11819cb280e270982dc75e6620b3cf3c7cd",
-    "catalog_path": "releases/7fa9c17d9536749f4aba6651a71cb11819cb280e270982dc75e6620b3cf3c7cd/catalog.json",
-    "generated_at": "2026-10-30T00:35:55+00:00",
+    "version": "c5c4700964ba9561",
+    "catalog_sha256": "c5c4700964ba9561bc0f80eafebe1b6a2f54c4cfc9bfa095bdee14e8f1be082d",
+    "catalog_path": "releases/c5c4700964ba9561bc0f80eafebe1b6a2f54c4cfc9bfa095bdee14e8f1be082d/catalog.json",
+    "generated_at": "2026-10-30T00:57:19+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
     "publication_reason": "partial_sync",
-    "item_count": 156,
-    "image_count": 178,
+    "item_count": 168,
+    "image_count": 235,
     "refresh_status": "partial",
-    "last_attempt_at": "2026-10-30T00:35:55+00:00",
-    "last_partial_at": "2026-10-30T00:35:55+00:00",
+    "last_attempt_at": "2026-10-30T00:57:19+00:00",
+    "last_partial_at": "2026-10-30T00:57:19+00:00",
     "refresh_counts": {
       "processed": 156,
-      "checked": 28,
+      "checked": 121,
       "reused": 0,
-      "pending": 128,
-      "failures": 1,
-      "attempted": 40,
-      "deferred": 116,
-      "budget_seconds": 300
+      "pending": 35,
+      "failures": 6,
+      "attempted": 156,
+      "deferred": 0,
+      "budget_seconds": 1200
     },
-    "previous_catalog_path": "releases/a85fb87584b9331b10145d15c642408b76036b794ee87bbc27d30903831ae62f/catalog.json"
+    "previous_catalog_path": "releases/7fa9c17d9536749f4aba6651a71cb11819cb280e270982dc75e6620b3cf3c7cd/catalog.json"
   }
 }
