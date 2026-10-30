@@ -1,7 +1,7 @@
 name: Update Prime Video CN Catalog
 
-# 每日触发一次，由脚本按 version.json 的 last_success_at 判断是否满 7 天（604800 秒）；
-# 手动强制更新；单条失败保留旧资料并标注部分更新，全败或校验异常不发布。
+# Check daily; the script enforces the seven-day interval and partial retry schedule.
+# Manual runs force collection. Retain failed records and never publish invalid data.
 on:
   push:
     branches: [main]
@@ -10,12 +10,12 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'sync = 强制采集；publish = 仅验证并发布当前目录'
+        description: 'sync = force collection; publish = validate and publish the existing catalog'
         type: choice
         options: [sync, publish]
         default: sync
       budget_seconds:
-        description: '采集预算秒数（60～1800；留空使用仓库设置，默认1200）'
+        description: 'Collection budget in seconds (60-1800; blank uses the repository setting, default 1200)'
         type: string
         default: ''
 

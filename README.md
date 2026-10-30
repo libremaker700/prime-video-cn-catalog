@@ -1,37 +1,35 @@
-# Prime Video 中文影视资料同步
+# Prime Video Chinese Metadata Catalog
 
-为个人电视 App 提供经身份匹配的中文名、英文/原文名、逐季简介、日期、分类和16:9海报。仓库发布公开资料，不包含播放地址、片源会话、收藏、播放进度或上传凭据。
+Public film and TV metadata for a personal Android TV app: verified title mappings, Chinese and original-language names, season descriptions, release dates, genres, and landscape artwork. This repository does not publish playback URLs, provider sessions, personal watchlists, playback progress, signing keys, or upload credentials.
 
-## 发布与 App
+## Publication and app updates
 
-GitHub Pages：`https://libremaker700.github.io/prime-video-cn-catalog/`。
-Oracle 镜像：`https://objectstorage.us-phoenix-1.oraclecloud.com/n/ax9hsd5wg0wx/b/prime-video-catalog/o/catalog/`。
-App自动下载使用GitHub；Oracle保留独立手动网络测试。
+Public catalog: [GitHub Pages](https://libremaker700.github.io/prime-video-cn-catalog/).
+An optional Oracle Object Storage mirror is configured through the repository's `OCI_CATALOG_PUBLIC_URL` variable. Its full address does not need to be repeated here. The app downloads updates from GitHub; Oracle remains available for an explicit connectivity check.
 
-App先读version.json，再读releases/<SHA256>/catalog.json，核对目录和全部海报后原子切换，失败继续使用有效旧版。图片以内容哈希命名，逐张解码，宽至少960、16:9。App版本和资料版本独立，不根据未经片源核验的新发现条目自动增加可播放作品。
+The app reads `version.json`, downloads `releases/<SHA256>/catalog.json`, verifies the original bytes and every referenced image, and switches its local catalog atomically. A failed update leaves the last valid catalog available. Images use content hashes, are decoded before acceptance, and must be landscape artwork at least 960 pixels wide with a 16:9 aspect ratio. App and catalog versions are independent. Newly discovered metadata does not add playable titles without separate playback-source verification.
 
-## 资料身份和 App 映射
+## Identity mappings and compatible fields
 
-保留156条初始公开资料，基础快照为data/fallback_catalog.json；快照不等于一次新官网采集，来源和时间按真实情况保留。
+The initial snapshot contained 156 records in `data/fallback_catalog.json`. A retained snapshot is not a fresh crawl; source provenance and timestamps remain explicit.
 
-data/app-metadata.json只保存App已有官方编号、英文原名和官方分季链接，不包含片源vodId或媒体URL。App项目用tools/prime-official/export-cloud-metadata.py导出。云端scripts/import_app_metadata.py按官方编号和作品类型补缺失原名、分季ID，统一电影日期/分类字段，不编造身份或推进采集成功时间。
+`data/app-metadata.json` contains public official identifiers, original names, and saved official season links. It excludes provider playback IDs and media URLs. The app project's `tools/prime-official/export-cloud-metadata.py` exports this whitelist. `scripts/import_app_metadata.py` matches official identity and media type, fills missing names and season IDs, and normalizes legacy movie date/genre fields without advancing crawl-success timestamps.
 
-逐季抓取支持ASIN和官方compact ID，精确核对季度号；旧ASIN不可用时尝试同季已保存的官方链接。只有一个链接不等于该季内容已更新。App 1.3.36起接收云端英文名、旧版嵌套电影日期/分类，以及通过原有compact链接核验的季度资料。界面、线路、选集和个人数据仍由App管理。
+Season refresh supports official ASINs and compact IDs, verifies the exact season number, and can use a saved same-season compact link when an older ASIN is unavailable. A saved link alone does not mean its content was refreshed. App 1.3.36 and later can receive these mapped names, compatible movie fields, and verified season metadata. Playback routes and personal state remain under app control.
 
-官网规范地址的跳转最多跟随4次，只接受同站HTTPS（Prime的带www和不带www域名视作同站）；跨站、降级和登录外站跳转拒绝。单个作品404或正常302不计为整个网站不可用，仍核对最终页面的作品及季度身份。
+Canonical redirects are limited to four HTTPS redirects within the same site. Prime's `www` and non-`www` hosts are treated as one site. Cross-site, insecure, or external login redirects are refused. A normal redirect or an individual missing title does not open a site-wide failure circuit. Final page identity is still verified.
 
-App普通季度范围为0～200；官网将部分特别篇编码为202等更大数值。这类信息保存在official_unmapped_seasons作来源记录，不加入普通季度或图片清单，避免一条特别篇使整份目录被旧App拒收；既有季度和播放映射保留。
+Ordinary app season numbers are limited to 0–200. Prime sometimes encodes specials as 202 or larger values. Those entries are retained separately in `official_unmapped_seasons`, outside the ordinary season and artwork manifests, so they cannot make the catalog incompatible with existing app validation.
 
-## 每周采集与失败保留
+## Refresh schedule and failure retention
 
-Update Prime Video CN Catalog每天北京时间约11:17检查，默认完整周期604800秒。
+The catalog workflow checks daily at approximately 03:17 UTC (11:17 Asia/Shanghai). The default full refresh interval is 604800 seconds.
 
-- 最近完整采集未满7天且没有到期部分失败任务时跳过。
-- 成功条目7天复用；失败或部分成功条目6小时后可重试，日检会补它们；缺身份条目按7天轮转。
-- 正常条目可更新，失败条目保留旧资料；仍发布包含全部旧作品的完整目录，标refresh_status=partial。
-- 部分更新只推进last_partial_at/last_attempt_at，不推进last_success_at。App区别显示完整与部分更新。
-- 全部来源失败、图片/目录校验失败或作品数量异常时不发布，原版本指针保留；失败诊断由Actions artifact保存。
-- 每轮默认20分钟采集预算，给验证和发布留出时间；到限保留未完成作品，已核验结果按部分更新发布。下轮优先处理尚未尝试及最早尝试的作品，发布顺序保持不变。可用SYNC_BUDGET_SECONDS设置60～1800秒；请求及重试等待受剩余时间约束。
+- Reuse successful records for seven days. Failed or partial records become eligible for retry after six hours and are retried by the daily workflow. Records without a usable source or identity rotate on a seven-day interval.
+- Publish verified changes while retaining old metadata for failed records. Keep every existing title and mark incomplete refreshes as `refresh_status=partial`.
+- Partial refreshes update `last_partial_at` and `last_attempt_at`, but do not advance `last_success_at` or claim a full refresh. The app displays full and partial refresh times separately.
+- Do not publish when every source fails, validation fails, or the existing title set would be lost. Failed-attempt diagnostics are retained as an Actions artifact.
+- Default to a 20-minute collection budget, leaving time for validation and publication. Retain deferred records and resume unvisited or oldest attempts first while preserving catalog order. `SYNC_BUDGET_SECONDS` accepts 60–1800 seconds; request timeouts and retry delays respect the remaining budget.
 
 ```bash
 python -m unittest discover -s tests -v
@@ -42,31 +40,33 @@ python scripts/validate.py
 python scripts/prune_publication.py
 ```
 
-手动mode=sync强制采集；mode=publish只对齐、验证并发布现有资料。TMDB和翻译可按需配置TMDB_API_KEY、TRANSLATE_PROVIDER、DEEPL_API_KEY或TRANSLATE_API_KEY/TRANSLATE_MODEL/TRANSLATE_BASE_URL，见config/translation.md。
+Manual `mode=sync` forces collection. `mode=publish` aligns and validates the existing catalog without collecting new content. Optional TMDB and translation settings are described in [Translation configuration](config/translation.md).
 
-## 中文名查询与双 Tavily 密钥
+## Chinese title lookup and two Tavily credentials
 
-Update verified Chinese titles每天北京时间约11:47检查，名称有独立7天周期。已核验名称、用户偏好和缓存直接复用；未核验条目先查中文维基/Bangumi，可靠来源仍不足才调用Tavily。核对原名、年份、类型，不用摘要猜片名或代替分季简介。
+The title workflow checks daily at approximately 03:47 UTC (11:47 Asia/Shanghai), with an independent seven-day title-cache schedule. It reuses verified names, saved preferences, and cached evidence. Unverified titles first use Chinese Wikipedia or Bangumi; Tavily is used only when reliable evidence is still missing. Original name, year, and media type must agree. Search snippets are not used to invent names or replace season descriptions.
 
-Actions Secrets：TAVILY_API_KEY_1为主密钥，TAVILY_API_KEY_2为备用。两者调用同一个Tavily接口，是两份凭据。相同密钥去重；旧单密钥环境仍兼容TAVILY_API_KEY。
+Configure `TAVILY_API_KEY_1` as the primary credential and `TAVILY_API_KEY_2` as the backup in Actions Secrets. They authenticate to the same Tavily API. Duplicate values are deduplicated; legacy environments can still use `TAVILY_API_KEY` when numbered credentials are absent.
 
-- 主密钥遇到401/403认证或432/433额度错误，可切备用；每个密钥最多一次尝试，后续沿用可用备用。
-- 429限速、超时和服务端错误停止本轮付费请求，不循环密钥绕过限速，不升级搜索档位或开启付费。
-- 每次实际HTTP请求发送前保存预算，包括失败主请求和备用请求；两个密钥共用月预算，并分别记录槽位用量。
-- 默认每轮尝试12部、上限20；每月预留100次请求、上限200。Variables为TITLE_LOOKUP_LIMIT和TITLE_LOOKUP_MONTHLY_LIMIT；其他程序消耗的账户额度不在本账本内。
-- 缓存按作品身份长期复用，未核验记录至少30天后重查。review_saved=true、limit=0只重查已保存来源，不发新搜索。
-- python scripts/title_lookup.py --check-keys只调用官方/usage验证密钥，输出槽位和HTTP状态，不输出密钥或账户响应，也不搜索。工作流会自动检查。
+- Authentication/account-quota responses 401, 403, 432, or 433 can switch to the backup. Each credential is attempted at most once per query, and a working backup is reused afterward.
+- Rate limiting (429), timeouts, and server failures stop paid requests for the run. The workflow does not cycle keys to bypass rate limits or enable a more expensive search tier.
+- Reserve budget before every HTTP request, including failed primary and backup attempts. Both slots share one monthly budget and have separate usage counters.
+- Defaults: at most 12 titles per run (hard limit 20) and 100 reserved requests per month (hard limit 200). Configure `TITLE_LOOKUP_LIMIT` and `TITLE_LOOKUP_MONTHLY_LIMIT` as repository variables. Usage by other programs is outside this local ledger.
+- Reuse verified identity-based results; wait at least 30 days before retrying unresolved entries. `review_saved=true` with `limit=0` reviews saved evidence without new searches.
+- `python scripts/title_lookup.py --check-keys` calls the official `/usage` endpoint and reports only slot/status information. It does not print credentials or account responses and does not perform searches.
 
-## 文件保留
+## Retention
 
-正式保留两个工作流：资料采集/发布、名称查询/发布。旧Gemini、Google AI概览、一次性Tavily探测及旧全量导入副本已移除。当前及前一个不可变目录和它们引用的全部图片保留，其余旧目录/无引用哈希图片由prune_publication.py清理。Git历史可恢复旧文件。
+Two production workflows are maintained: catalog collection/publication and verified title lookup/publication. Obsolete Gemini, Google Overview, and one-off Tavily probes and bootstrap import copies have been removed.
 
-名称缓存、预算、偏好规则、基础资料、App映射、镜像发布工具保留。
+Keep the active and previous immutable catalog releases and every image referenced by either. `scripts/prune_publication.py` removes older hash-named releases and unreferenced hash-named images. Git history remains available for recovery. Retain title evidence, the request ledger, preference rules, the fallback snapshot, app identity mappings, and mirror publication tools.
 
-## Oracle 镜像
+## Optional Oracle mirror and security boundary
 
-图片和不可变目录先上传核验，version.json最后切换。Variable OCI_MIRROR_ENABLED=true启用，OCI_CATALOG_PUBLIC_URL设置公共前缀，Secret OCI_CATALOG_UPLOAD_URL保存受限写入PAR地址，不使用虚拟机或SSH密钥。
+Enable the mirror with `OCI_MIRROR_ENABLED=true` and configure `OCI_CATALOG_PUBLIC_URL` as its public read endpoint. Store the scoped, expiring upload PAR URL only in the `OCI_CATALOG_UPLOAD_URL` Actions Secret. The upload URL is a credential and must never be committed, displayed in documentation, or copied into an APK. Renew it before its configured expiry.
 
-现有只写PAR授权到期时间2027-10-29 02:30 UTC，届时由用户续设授权并更新Secret，代码不会扩大权限。电视可达性需在真实电视网络检查。
+`scripts/publish_oci.py` selects only validated catalog JSON and referenced artwork. It uploads assets first, verifies the immutable catalog, and changes `version.json` last. It does not publish keystores, APKs, provider configuration, logs, or arbitrary local files, and does not use a virtual machine or SSH credentials.
 
-本项目不隶属于Amazon或TMDB；补充资料保留真实来源与许可要求。密钥不进入公开仓库、日志、目录或APK。
+Public read addresses intentionally expose catalog metadata and artwork; knowing such an address does not grant a cloud account login or upload permission. Anonymous traffic can still consume requests or bandwidth. Keep private data outside public buckets, protect the repository's write access and Actions Secrets, and review traffic and permissions in the cloud console. Removing a README link does not erase copies in Git history or make a public endpoint secret.
+
+This project is not affiliated with Amazon or TMDB. Source attribution and applicable license requirements remain attached to supplemental metadata.

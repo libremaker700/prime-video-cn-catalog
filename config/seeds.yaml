@@ -1,6 +1,6 @@
-# 种子目录：Prime Video 作品的稳定识别信息。
-# prime_id 未知时留空（null），绝不编造；后续可填官方 ASIN / 季度 ID。
-# kind: movie | tv | anime ；seasons 仅电视剧/动漫填写。
+# Seed catalog with stable Prime Video title identities.
+# Leave unknown prime_id values null; never invent an official ASIN or season ID.
+# kind: movie | tv | anime; only TV/anime entries have seasons.
 seeds:
   - slug: the-tomorrow-war
     original_title: "The Tomorrow War"
