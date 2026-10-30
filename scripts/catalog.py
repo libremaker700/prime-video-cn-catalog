@@ -225,6 +225,9 @@ def publish(docs, items, previous, *, success=False, reason="sync", refresh=None
         version['refresh_status'] = refresh['status']
         version['last_attempt_at'] = catalog['generated_at']
         version['refresh_counts'] = {key: refresh[key] for key in ('processed', 'checked', 'reused', 'pending', 'failures')}
+        for key in ('attempted', 'deferred', 'budget_seconds'):
+            if key in refresh:
+                version['refresh_counts'][key] = refresh[key]
         if refresh['status'] == 'partial':
             version['last_partial_at'] = catalog['generated_at']
         elif refresh['status'] == 'success' and success:

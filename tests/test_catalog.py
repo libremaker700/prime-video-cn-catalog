@@ -9,6 +9,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
+from types import SimpleNamespace
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from catalog import match, merge, publish, repair, validate, write_json
@@ -24,6 +25,31 @@ def record(n=0):
 
 
 class CatalogTests(unittest.TestCase):
+    def test_only_bounded_https_same_site_redirects_are_followed(self):
+        with tempfile.TemporaryDirectory() as tmp, patch('sources.time.sleep'):
+            client = Clients(Path(tmp), print)
+            redirect = SimpleNamespace(status_code=302, headers={'Location': '/detail/canonical'})
+            good = SimpleNamespace(status_code=200)
+            with patch.object(client.session, 'request', side_effect=[redirect, good]) as request:
+                self.assertIs(client.request('https://www.primevideo.com/detail/old'), good)
+                self.assertEqual(request.call_args.args[1], 'https://www.primevideo.com/detail/canonical')
+                self.assertIsNone(request.call_args.kwargs['params'])
+            for location in ('https://evil.example/detail', 'http://www.primevideo.com/detail', 'https://user:password@www.primevideo.com/detail', '/detail/old'):
+                with self.subTest(location=location), patch.object(client.session, 'request', return_value=SimpleNamespace(status_code=302, headers={'Location': location})) as request:
+                    with self.assertRaises(SourceError):client.request('https://www.primevideo.com/detail/old')
+                    self.assertEqual(request.call_count, 1)
+            with patch.object(client.session, 'request', side_effect=lambda *a,**k: SimpleNamespace(status_code=302,headers={'Location': a[1]+'x'})) as request:
+                with self.assertRaises(SourceError):client.request('https://www.primevideo.com/detail/loop')
+                self.assertEqual(request.call_count, 5)
+            self.assertFalse(client.blocked)
+
+    def test_missing_individual_titles_do_not_open_the_site_circuit(self):
+        with tempfile.TemporaryDirectory() as tmp, patch('sources.time.sleep'):
+            client = Clients(Path(tmp), print)
+            with patch.object(client.session, 'request', return_value=SimpleNamespace(status_code=404,headers={})):
+                for n in range(4):
+                    with self.assertRaises(SourceError):client.request(f'https://www.primevideo.com/detail/missing{n}')
+            self.assertFalse(client.blocked)
     def test_prime_preserves_png_source_encoding_before_local_jpeg_conversion(self):
         with tempfile.TemporaryDirectory() as tmp:
             client=Clients(Path(tmp),print)
@@ -34,6 +60,32 @@ class CatalogTests(unittest.TestCase):
                     client.prime_patch("B012345678",data)
                     self.assertTrue(image.call_args.args[0].endswith(f"._SX1280_FM{ext}_.{ext}"))
                     self.assertEqual(image.call_args.kwargs["season"],2)
+
+    def test_request_budget_limits_timeout_and_prevents_late_requests(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            client = Clients(Path(tmp), print)
+            client.deadline = 105
+            with patch('sources.time.monotonic', return_value=100), patch.object(client.session, 'request') as request:
+                request.return_value.status_code = 200
+                client.request('https://www.primevideo.com/example')
+                self.assertEqual(request.call_args.kwargs['timeout'], (2.5, 2.5))
+            with patch('sources.time.monotonic', return_value=105), patch.object(client.session, 'request') as request:
+                with self.assertRaisesRegex(SourceError, 'time budget reached'):
+                    client.request('https://www.primevideo.com/example')
+                request.assert_not_called()
+
+    def test_retry_backoff_stops_at_deadline_without_second_http_request(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            client = Clients(Path(tmp), print)
+            clock = [100.0]
+            client.deadline = 101
+            with patch('sources.time.monotonic', side_effect=lambda: clock[0]), patch('sources.time.sleep', side_effect=lambda seconds: clock.__setitem__(0, clock[0] + seconds)) as sleep, patch.object(client.session, 'request') as request:
+                request.return_value.status_code = 503
+                request.return_value.headers = {'Retry-After': '30'}
+                with self.assertRaisesRegex(SourceError, 'time budget reached'):
+                    client.request('https://www.primevideo.com/example')
+                self.assertEqual(request.call_count, 1)
+                sleep.assert_called_once_with(1.0)
 
     def test_schedule_boundary_future_and_bad_dates(self):
         clock = datetime(2026, 11, 5, 0, 0, tzinfo=timezone.utc)
@@ -216,6 +268,32 @@ class BatchTests(unittest.TestCase):
         bad={'refresh_status':'failed','metadata_attempted_at':'2026-10-30T05:00:00+00:00'}
         self.assertFalse(record_due(good,604800,clock));self.assertTrue(record_due(bad,604800,clock))
         self.assertTrue(due({'refresh_status':'partial','last_attempt_at':bad['metadata_attempted_at'],'last_success_at':'2026-10-29T12:00:00+00:00'},clock=clock))
+
+    def test_time_budget_publishes_checked_results_retains_deferred_and_resumes_oldest(self):
+        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
+            root = self.setup_repo(tmp)
+            original = json.loads((root/'docs/catalog.json').read_bytes())['items']
+            # Already attempted records go after previously unvisited records.
+            original[0]['metadata_attempted_at'] = '2026-10-30T00:00:00+00:00'
+            write_json(root/'docs/catalog.json', {'items': original})
+            clock = [0.0]
+            base = self.client()
+            class Bounded(base):
+                def prime_patch(self, asin, data, previous):
+                    clock[0] += 61
+                    return super().prime_patch(asin, data, previous)
+            with patch.dict('os.environ', {'SYNC_BUDGET_SECONDS': '60'}), patch('sync.time.monotonic', side_effect=lambda: clock[0]):
+                self.assertEqual(run(root, ['--force', '--no-discovery'], Bounded), 0)
+            self.assertEqual(Bounded.seen, ['B000000001'])
+            after = json.loads((root/'docs/catalog.json').read_bytes())['items']
+            self.assertEqual([item['id'] for item in after], [item['id'] for item in original])
+            self.assertEqual(after[0], original[0])
+            self.assertEqual(after[2:], original[2:])
+            report = json.loads((root/'logs/last_run.json').read_bytes())
+            self.assertEqual((report['checked'], report['deferred'], report['attempted'], report['status']), (1, 155, 1, 'partial'))
+            version = json.loads((root/'docs/version.json').read_bytes())
+            self.assertEqual(version['last_success_at'], '2020-01-01T00:00:00+00:00')
+            self.assertNotIn('last_full_success_at', version)
 
     def test_not_due_has_no_file_writes_or_network(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):

@@ -18,6 +18,8 @@ data/app-metadata.json只保存App已有官方编号、英文原名和官方分�
 
 逐季抓取支持ASIN和官方compact ID，精确核对季度号；旧ASIN不可用时尝试同季已保存的官方链接。只有一个链接不等于该季内容已更新。App 1.3.36起接收云端英文名、旧版嵌套电影日期/分类，以及通过原有compact链接核验的季度资料。界面、线路、选集和个人数据仍由App管理。
 
+官网规范地址的跳转最多跟随4次，只接受同站HTTPS（Prime的带www和不带www域名视作同站）；跨站、降级和登录外站跳转拒绝。单个作品404或正常302不计为整个网站不可用，仍核对最终页面的作品及季度身份。
+
 ## 每周采集与失败保留
 
 Update Prime Video CN Catalog每天北京时间约11:17检查，默认完整周期604800秒。
@@ -27,6 +29,7 @@ Update Prime Video CN Catalog每天北京时间约11:17检查，默认完整周�
 - 正常条目可更新，失败条目保留旧资料；仍发布包含全部旧作品的完整目录，标refresh_status=partial。
 - 部分更新只推进last_partial_at/last_attempt_at，不推进last_success_at。App区别显示完整与部分更新。
 - 全部来源失败、图片/目录校验失败或作品数量异常时不发布，原版本指针保留；失败诊断由Actions artifact保存。
+- 每轮默认20分钟采集预算，给验证和发布留出时间；到限保留未完成作品，已核验结果按部分更新发布。下轮优先处理尚未尝试及最早尝试的作品，发布顺序保持不变。可用SYNC_BUDGET_SECONDS设置60～1800秒；请求及重试等待受剩余时间约束。
 
 ```bash
 python -m unittest discover -s tests -v

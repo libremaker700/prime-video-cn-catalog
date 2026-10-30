@@ -14,6 +14,10 @@ on:
         type: choice
         options: [sync, publish]
         default: sync
+      budget_seconds:
+        description: '采集预算秒数（60～1800；留空使用仓库设置，默认1200）'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -45,6 +49,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           UPDATE_INTERVAL_SECONDS: ${{ vars.UPDATE_INTERVAL_SECONDS || '604800' }}
           DISCOVERY_LIMIT: ${{ vars.DISCOVERY_LIMIT || '20' }}
+          SYNC_BUDGET_SECONDS: ${{ inputs.budget_seconds || vars.SYNC_BUDGET_SECONDS || '1200' }}
           TRANSLATE_PROVIDER: ${{ secrets.TRANSLATE_PROVIDER }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}

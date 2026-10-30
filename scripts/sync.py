@@ -4,6 +4,7 @@ import argparse
 import copy
 import json
 import os
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -220,25 +221,39 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
         return 0
     started = now()
     clients = clients_factory(docs, print)
+    budget = int(os.getenv('SYNC_BUDGET_SECONDS', '1200'))
+    if not 60 <= budget <= 1800:
+        raise ValueError('SYNC_BUDGET_SECONDS must be between 60 and 1800')
+    clients.deadline = time.monotonic() + budget
     refreshed, reports = [], []
-    for item in items:
+    # Resume unvisited/oldest attempts first, while keeping the published order stable.
+    worklist = sorted(items, key=lambda item: str(item.get('metadata_attempted_at') or ''))
+    for item in worklist:
         if not args.force and not record_due(item, interval):
             record, report = copy.deepcopy(item), {'id': item['id'], 'checked': [], 'failures': [], 'status': 'reused', 'previous_status': item.get('refresh_status')}
+        elif time.monotonic() >= clients.deadline:
+            record, report = copy.deepcopy(item), {'id': item['id'], 'checked': [], 'failures': [], 'status': 'deferred', 'reason': 'refresh time budget reached'}
         else:
             record, report = refresh_record(item, clients)
         refreshed.append(record)
         reports.append(report)
         print(f'{len(reports)}/{len(items)} {item["id"]}: {report["status"]}', flush=True)
-    queue, additions, discovery_failures = ([], [], []) if args.no_discovery else discover(refreshed, clients, int(os.getenv("DISCOVERY_LIMIT", "20")))
+    order = {item['id']: n for n, item in enumerate(items)}
+    refreshed.sort(key=lambda item: order[item['id']])
+    reports.sort(key=lambda report: order[report['id']])
+    budget_reached = time.monotonic() >= clients.deadline
+    queue, additions, discovery_failures = ([], [], []) if args.no_discovery or budget_reached else discover(refreshed, clients, int(os.getenv("DISCOVERY_LIMIT", "20")))
     failures = sum(len(r["failures"]) for r in reports) + len(discovery_failures)
     checked = sum(bool(r["checked"]) for r in reports)
     reused = sum(r['status'] == 'reused' for r in reports)
-    pending = sum(r['status'] == 'pending_source_or_identity' or (r['status'] == 'reused' and r.get('previous_status') != 'checked') for r in reports)
+    deferred = sum(r['status'] == 'deferred' for r in reports)
+    pending = sum(r['status'] in ('pending_source_or_identity', 'deferred') or (r['status'] == 'reused' and r.get('previous_status') != 'checked') for r in reports)
     complete = not failures and not pending and all(r['status'] == 'checked' or (r['status'] == 'reused' and r.get('previous_status') == 'checked') for r in reports)
     status = 'success' if complete else 'partial' if checked or additions else 'failed'
     report = {"started_at": started, "finished_at": now(), "status": status,
               "processed": len(items), "checked": checked, "retained_without_refresh": len(items) - checked,
-              "reused": reused, "pending": pending,
+              "reused": reused, "pending": pending, "deferred": deferred,
+              "attempted": len(items) - reused - deferred, "budget_seconds": budget,
               "new_verified_titles": len(additions), "failures": failures, "records": reports,
               "discovery_failures": discovery_failures, "discovery_queue": queue}
     if not checked and not additions:

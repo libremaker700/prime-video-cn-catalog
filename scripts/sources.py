@@ -6,7 +6,7 @@ import json
 import os
 import re
 import time
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 from PIL import Image
@@ -73,35 +73,64 @@ class Clients:
         self.blocked = set()
         self.host_failures = {}
         self.cache = {}
+        self.deadline = None
         self.tmdb_key = os.getenv("TMDB_API_KEY", "").strip()
 
-    def request(self, url, *, params=None, method="GET", **kwargs):
+    def remaining(self):
+        if self.deadline is None:
+            return None
+        seconds = self.deadline - time.monotonic()
+        if seconds <= 0:
+            raise SourceError("refresh time budget reached; retained previous metadata")
+        return seconds
+
+    def pause(self, seconds):
+        remaining = self.remaining()
+        time.sleep(seconds if remaining is None else min(seconds, remaining))
+        self.remaining()
+
+    def request(self, url, *, params=None, method="GET", _redirects=0, **kwargs):
+        self.remaining()
         host = urlparse(url).hostname
         if host in self.blocked:
             raise SourceError(f"{host}: circuit open after rate limit/unavailability")
         delay = max(0, (1.0 if host == "zh.wikipedia.org" else 0.25) - (time.monotonic() - self.last_request.get(host, 0)))
         if delay:
-            time.sleep(delay)
+            self.pause(delay)
         for attempt in range(3):
             self.last_request[host] = time.monotonic()
+            remaining = self.remaining()
+            timeout = (8, 20) if remaining is None else (min(8, remaining / 2), min(20, remaining / 2))
             try:
-                response = self.session.request(method, url, params=params, timeout=(8, 20), allow_redirects=False, **kwargs)
+                response = self.session.request(method, url, params=params, timeout=timeout, allow_redirects=False, **kwargs)
             except requests.RequestException:
                 if attempt < 2:
-                    time.sleep(2 ** attempt)
+                    self.pause(2 ** attempt)
                     continue
                 self.blocked.add(host)
                 raise SourceError(f"{host}: network unavailable") from None
             if response.status_code == 200:
                 self.host_failures[host] = 0
                 return response
+            if response.status_code in (301, 302, 303, 307, 308):
+                target = urljoin(url, response.headers.get('Location', ''))
+                parsed = urlparse(target)
+                prime_hosts = {'www.primevideo.com', 'primevideo.com'}
+                same_site = parsed.hostname == host or (host in prime_hosts and parsed.hostname in prime_hosts)
+                trusted = parsed.scheme == 'https' and same_site and parsed.port in (None, 443) and not parsed.username and not parsed.password
+                if method == 'GET' and target != url and trusted and _redirects < 4:
+                    # No query/API-key parameters are copied to the redirected URL.
+                    return self.request(target, method=method, _redirects=_redirects + 1, **kwargs)
+                raise SourceError(f'{host}: redirect unavailable or refused')
             if response.status_code in (429, 500, 502, 503, 504) and attempt < 2:
                 retry = response.headers.get("Retry-After", "")
-                time.sleep(min(30, int(retry)) if retry.isdigit() else 2 ** (attempt + 1))
+                self.pause(min(30, int(retry)) if retry.isdigit() else 2 ** (attempt + 1))
                 continue
-            self.host_failures[host] = self.host_failures.get(host, 0) + 1
-            if response.status_code in (401, 429) or self.host_failures[host] >= 3:
-                self.blocked.add(host)
+            # Missing individual titles and canonical redirects are not a site outage.
+            if response.status_code in (401, 403, 429, 500, 502, 503, 504):
+                self.host_failures[host] = self.host_failures.get(host, 0) + 1
+                if response.status_code in (401, 429) or self.host_failures[host] >= 3:
+                    self.blocked.add(host)
             # Do not include exception URLs/query strings: they can contain API keys.
             raise SourceError(f"{host}: HTTP {response.status_code}")
         raise SourceError(f"{host}: retry exhausted")
