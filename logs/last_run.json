@@ -1,54 +1,2334 @@
 {
-  "ok": true,
+  "started_at": "2026-10-30T00:06:05+00:00",
+  "finished_at": "2026-10-30T00:26:18+00:00",
+  "status": "partial",
+  "processed": 156,
+  "checked": 10,
+  "retained_without_refresh": 146,
+  "reused": 0,
+  "pending": 31,
+  "new_verified_titles": 0,
+  "failures": 244,
+  "records": [
+    {
+      "id": "seed:the-tomorrow-war",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0FLSZBRZJ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FLSZBRZJ",
+          "reason": "www.primevideo.com: HTTP 302"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B0CN4GGGQ2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FX3G8F44",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FX3G8F44",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B0DWSKFWQJ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B0FH4VFV7M",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B0F9T8VC4C",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B0CLWVYPXF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H8N9812R",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H8N9812R",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "B09ML1QV1S",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0PW27PB7O60V7NZOIXFYF68ZG8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0H1T1C23B07HLZPPHJSSPMYSL7",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08WJN83XZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08WJN83XZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0KRK7IABRYDORGPDYP1XO3OT0Q",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0RI8K407MG2FJ6F2GBY1PQTIGX",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0L4S6GN5QKGODF5COGHK3Q4D8N",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:vinland-saga",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0CNDCMN8R",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CNDCMN8R",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OMZBKL7NFW0Z3SOHFJH1LEJ3O",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0IDSFXM96JUS4CR2VDMJJ6LZBQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OV0R0PHPSCIG43BU1Y81U8IQG",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-91f9b0126f4e69b8",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0HFKGHNH6",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HFKGHNH6",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0J0XJCDB0KSVIU3PD8KMX5TOG0",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B089XSMKR4",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B089XSMKR4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JC81MKW4OTQOTDRS5HUW1W6IE",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0G9EVIYYA98UM8453TY18R265D",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NPYZ4WLKJQS6C48ZHC6391571",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0PDPADIKB64TJHJZD0C8MZD129",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09PZG2979",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09PZG2979",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0R3MTHCYG6XL7IO4J8LL4FBNT5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0IAJHAARVF80XQ37H6JV3RROL6",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0TRPUVCMBE3U349CTIUPXE4X26",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H31VL8YK",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H31VL8YK",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0KMAMO9155DE5SP91E46RT4KGL",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QLA1KJJ0L3LT24YUMQJ9IK4PH",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HX4CXWWO3E6NRVF81QOS54D6P",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0SAECKOR9UIXEFAIJ6YO070NE4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HYZJWW6XQYD3FD7W20LZG6W9D",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0RKKFE0USMHNZ3I6NK7O4BDZPM",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GVBYW4RR",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GVBYW4RR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HOTXWLB4X8ZZBL1S2YQUGKXVJ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0S1RE65JRS6XKX8QJZT0POG3TW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LL3K38UDB290H69CXCWL1F9D3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0SPJS4W18NPJZC6L5DSDLZ8Y6D",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "prime:B0GZLX5228",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GZLX5228",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-73f59adce0b9843b",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0GYQHYW8H",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GYQHYW8H",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NMIOPNJUSU1CNHEFZ0R3K6Q96",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MJZ6KMSS9UHBKYUADEFZTK4IR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HHBD8YYD",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HHBD8YYD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HF4L8KV3",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HF4L8KV3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0TJUQYHPIQC5R8KOUZ5P1C3F22",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0824SJW7J",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0824SJW7J",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0I1DKYX6WOUA7B9MM5457PZMDN",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0G0YCKK7OIAMSL42QC00BU5VT2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09F59CZ7R",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09F59CZ7R",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QTL61M0QM31AWS92ZBI4Y1AZC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0O0T3QWQ2OOTT8KCKC1PW233XW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "prime:B0CLM8LHS7",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CLM8LHS7",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0K67FVL3VHXNTE3JST8GXWOOFG",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0G3DWE2OT6QBWBAEWJ7EM1458X",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0875KQ9MV",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0875KQ9MV",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0SP2U705DOGQQJPBD7IJBLSHDF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0R4LW5GOJCDAJX84LS17OB6LBK",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GM5E1RA8Q2EDGTB5SC1UB76VY",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-8a99d30414ac52c6",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-7a805ae029221891",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H4LD7LYS",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4LD7LYS",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HIYALAUVS1FS8HVF299SZONEY",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QGUP4W6GL3ZLYRD6RC3WWZEZ2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0R245YWI2U7TB3YKMV1JWUFGT7",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OBDSPAICFE4VNWZNFPW2I8TYU",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0P5PBGVVW11X6D7IBS6OP020Q8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-7e818a0fb48093a8",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "seed:seed-ed9b36ce082e41c8",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "seed:seed-75e76252b6300b96",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B08B49VWZ8",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08B49VWZ8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JXJPKJ7VBVQ3V6S1LX3YJ1BD1",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QX1HV46SQRWSIYAG9F6YF2EN8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QBRE5FXDJZ7B0PZUIZEQZMNPP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H3CZ7L43",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H3CZ7L43",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H1SN3LJ5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H1SN3LJ5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B086VXXBB2",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B086VXXBB2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JTCA6FGIYYFQHHTGF8JZEW3BA",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-d964796538cc0532",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "seed:seed-8b7e715b9f79ab02",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "prime:B0CBFTRGPZ",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CBFTRGPZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HJ2H3R5HW77Y4Y2A2XCI1BZGF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "prime:B086HWJ1FS",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B086HWJ1FS",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NHULYTA95DYUY6CX2118S2SNT",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08XC2DV8N",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08XC2DV8N",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-2869c4196d490d2d",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0CLRQGR5G",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CLRQGR5G",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B5LFBYJW",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B5LFBYJW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0RQM30WHZ0O19EQ9XPUZ19E6N3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-f55985a91f7dcfae",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0B8NLVH1L",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8NLVH1L",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-bea09172a92995f0",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-160622687487ccb8",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0HCML147X",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HCML147X",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OQCO2B69OEVL2NTGI87FIJWDL",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0ORNKPJ5IRV5SN5THD155V05ES",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HK5LCWRC",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HK5LCWRC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "seed:seed-9d0817297a4c9742",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H4NW3HYP",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4NW3HYP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H4GD3B6G",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4GD3B6G",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0Q7GFNBQ6IPO87MX4G4WD4GT4I",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0H2D58AC8YVVZ44OTTZ1LGUFHW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B76J495K",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B76J495K",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OLC53FWQRZ38BXD9UW2C09WDD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QHAUXBITDS9DLFYMM1WYEE4LK",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08T6S3KMR",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08T6S3KMR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-557850c46c1a2bb1",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0F54XFS1H",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0F54XFS1H",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-ba12f7e6e0e333bd",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H38ZZ8GZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H38ZZ8GZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0T540BA2YI1XDMC8QF7Q5CFPZQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08J18TQ9T",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08J18TQ9T",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FLX154BL",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FLX154BL",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DJPRGTF2",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DJPRGTF2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B086VWBXP5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B086VWBXP5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LLBXS00DJMRFVG28GB7JB3WHF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0N8Y66TN6W2H7BM081ZZBO84VE",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LTTRFTWMZXER0OFWQFGG2MFOT",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H25ZJSSC",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H25ZJSSC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0RMOJJ5V14E4YSAMTDMUD4I5OV",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08957N5FJ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08957N5FJ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08TT3V5FJ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08TT3V5FJ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0C4VLB35N",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0C4VLB35N",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08B49FXST",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08B49FXST",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NQQHDOS2PH6YC0KTF7HIGIK5W",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0875LMZGR",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0875LMZGR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HGZ25YMQ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HGZ25YMQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-5a45f08cb318d422",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B09QH98YG1",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09QH98YG1",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0UB2ZI7XTDU5ENEYYH4GR048TQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NGJWN4I3V9O8AY50RRY31MQV4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-e763c3d458ac9ac0",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0B8MTCYVM",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8MTCYVM",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-afb3de5a4eab80b8",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-ff6c7082dfb90f4e",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H45HCW5V",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H45HCW5V",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B01N4UWE2T",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B01N4UWE2T",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DJ9MKHTZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DJ9MKHTZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-ec29e2814121fd18",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-2429a2a6318f3f3b",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B094P1XDXR",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B094P1XDXR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-d6693d6235945ba2",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0B8TKPV7G",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8TKPV7G",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QUM5BE864IQNUMSMGS6NBVSSC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09PVRLSLB",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09PVRLSLB",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NNEP0PVMYZBMHYAZOD63QDETV",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09GPSWV6L",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09GPSWV6L",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-f6920f665d91db8c",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0B857V4TH",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B857V4TH",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B6QGZXXP",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B6QGZXXP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DGNX438P",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DGNX438P",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H3FQ4YYL",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H3FQ4YYL",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-a5bbef0d5c350b1e",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0GYPZYNH3",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GYPZYNH3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GZ3QJUCJ4NQH7LN4473BVF6E9",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-048b35d4cf75514f",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0GT2JSFBC",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GT2JSFBC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B08F62FXXZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08F62FXXZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0N805JDAOQ0OMZJBPJ69M0OP6C",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HGLKXKCW",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HGLKXKCW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0N20FPWUDHNXHS2F8NEEQHY63D",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B8LFCLSQ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8LFCLSQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0S7NABDHXG9Y76ZT6RBYL6W11D",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B8TFMYXZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8TFMYXZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B8TQGHP3",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8TQGHP3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HFHXUEBB1RL9N5YR48S6XF3RR",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FNNHM1MT",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FNNHM1MT",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0FOT2IDMBS1WKUD3OA2QVHI004",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CV3TXFXZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CV3TXFXZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OI4F9W11ELNU28PK4FIJ2QPYQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LSZQU1YSSD3P6XMI7V2N7NNEG",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B086VWYY84",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B086VWYY84",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0TEO51CZ36DC3ZFX8P5JD60009",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0KVVYBZY0BSL18E864O4HEA48V",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CVY2YX65",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CVY2YX65",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0G88E4BE21TZA35FIJ8U6ZBKJW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-826c0cb517e9db67",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H5TJGKYD",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H5TJGKYD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GGLLCQM5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GGLLCQM5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H8V4PTP8",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H8V4PTP8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "prime:B0H8MH1JP1",
+      "checked": [
+        "wikipedia"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H8MH1JP1",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "seed:seed-c2245c6840823126",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-ebe36097d3165ea5",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "seed:seed-46f0f5520a4ef7ec",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0BX1XSPG4",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0BX1XSPG4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09D3R3L71",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09D3R3L71",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0KXH9VD79G06M5UDF3Q3DFLQKD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CKM3N1ZP",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CKM3N1ZP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DM9PWSZC",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DM9PWSZC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CTXS6DFD",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CTXS6DFD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-27b9df9181f6a7ae",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0H1F6SPGZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H1F6SPGZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0SHGKA0J8D4G01ZGD647627NEJ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HXBV30J672YHO5G6L7TPEO44R",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0HO8ENK0AIDHSLMA7DJV43S6YS",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JZ7BYV8EYHMAW6DDHA0KGA9LP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GGWH7SZ5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GGWH7SZ5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-6ea0dbd122298b94",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0GGVRT9J2",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GGVRT9J2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HHFPWWVB",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HHFPWWVB",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "seed:seed-c9049a79e4dbbcf8",
+      "checked": [],
+      "failures": [],
+      "status": "pending_source_or_identity"
+    },
+    {
+      "id": "prime:B0DTDTKSQW",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DTDTKSQW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FZLS3ZTN",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FZLS3ZTN",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GZ73JQKC",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GZ73JQKC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H4WHJ9M5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4WHJ9M5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CBHFMWND",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CBHFMWND",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GHXTWRV2",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GHXTWRV2",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DWJZ75SF",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DWJZ75SF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HBL5T7TV",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HBL5T7TV",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GSCGQ1PY",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GSCGQ1PY",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0L40BWIL4O7CRFWIGQHXJ8VPJP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MFJDCRJF8210XA40PIVEN88HP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0Q4GHMY9F2LNPKHJ11FJ93VRBC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MJZ794A9PTH2Q7UA78IBLIE53",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LKHXQ4MYLT5CUUQF5L03FMR94",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0RBOHEI4K3IQ4IMYNH1EUA87T4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FKTRNLL8",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FKTRNLL8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B015ENAX9U",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B015ENAX9U",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HG2VCRBC",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HG2VCRBC",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0R4L986D9M1W0RF5Y2I4CPFZ6K",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OPZS74MAGYLYFSR5L6D8MZP8L",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0I93O6QU985ZMYRJXJHNUQFN08",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0OP2PH2BEV5WLOS6LSHPZ9483R",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0K97ZSD778725B5U3YIIFFLAPD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0J72EXQ5VNXESUTBYHUQIT512U",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0U69XSZZEE5DF5T4WSUMDFWMD7",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0TKQ59W5MKNT1QI8IXPAXDOSK8",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LAXCVJRCJR3Q2G2IP2RPH2KU3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0PUAJJRY0B2H5E5T4I47FZNK5Y",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GPXJIOHXS3FC0R3R49ZQXG92Y",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0O5E1TJVR05JLQY65GQQFWHNJW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QHMKCNRZ2H313BIB67BFYMIO1",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0LR6C9VB5U8BS8D8INC1JHUN72",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FW4NGZFP",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FW4NGZFP",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0F7HFJ64C",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0F7HFJ64C",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GDVGCMGW",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GDVGCMGW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DDHZF36Y",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DDHZF36Y",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0SK0IDGT7V1MMG6VPSK3SH1QXH",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DNKHQM8B",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DNKHQM8B",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B8NZ2TJ5",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8NZ2TJ5",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0CGKHJM4B",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0CGKHJM4B",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GZHLSV86",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GZHLSV86",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0B8TFCPHM",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0B8TFCPHM",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B000U63ZDS",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B000U63ZDS",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QX0P4DRLK5GVNK0MJ48Y809IW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MW3B1HTCJCI1S6F53INNRAFBI",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MW3B1Z93Q29ZKBTKHBKMICWYF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0FBAC364JEX5LCTFK1S5LF1BPD",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GUP7XZH3ZKNIB46OIP97J8MPK",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MW3B1VCHHR97CPUZ1NCGQLUSQ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JKQMQSG0SIM7N1ZZALNH81WHM",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B09ZP5ZM9Z",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B09ZP5ZM9Z",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0FUHYQYX015T1NTJA281M3J8MI",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0TAQ18EHBGDDXR03GGAOED01MX",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QHR9PHMTZSRLZ6HY2BOY6LD1C",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GVR2LALMS63QI6IT5K6J1VNH7",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0QBQBIVAJYT4661750PL8O96OL",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0GZ39BDJS",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GZ39BDJS",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DP9GC5NY",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DP9GC5NY",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0F3DYQ77M",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0F3DYQ77M",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DNHSF1W4",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DNHSF1W4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FNWN756K",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FNWN756K",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0H4BZVYZ3",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4BZVYZ3",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B00103DRW4",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B00103DRW4",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B073VD4W4Z",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B073VD4W4Z",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0FHJHX1YZ",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0FHJHX1YZ",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0GEB35CUYRCDVXUV0UXQY9FHIF",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DXKQSSL9",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DXKQSSL9",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DSJPQPJ9",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DSJPQPJ9",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0HN5HYTB6",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HN5HYTB6",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    },
+    {
+      "id": "prime:B0DH5DMSRW",
+      "checked": [],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0DH5DMSRW",
+          "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+        }
+      ],
+      "status": "failed"
+    }
+  ],
+  "discovery_failures": [
+    {
+      "source": "prime_storefront",
+      "reason": "www.primevideo.com: circuit open after rate limit/unavailability"
+    }
+  ],
+  "discovery_queue": [],
   "version": {
-    "version": "971c3d518987ad3a",
-    "catalog_sha256": "971c3d518987ad3a5de07fea755dc387d985408f71cebcbf11016720afae4fba",
-    "generated_at": "2026-10-29T00:56:48+00:00",
+    "version": "a85fb87584b9331b",
+    "catalog_sha256": "a85fb87584b9331b10145d15c642408b76036b794ee87bbc27d30903831ae62f",
+    "catalog_path": "releases/a85fb87584b9331b10145d15c642408b76036b794ee87bbc27d30903831ae62f/catalog.json",
+    "generated_at": "2026-10-30T00:26:18+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
+    "publication_reason": "partial_sync",
     "item_count": 156,
-    "image_count": 127
-  },
-  "log": [
-    "[2026-10-29T00:56:40+00:00] 开始采集：已有种子更新 7 部精编种子（存量基线 156 条，上一版 156 条）；新作品发现 0（发现与更新分开，未核验不导入）",
-    "[2026-10-29T00:56:40+00:00] - The Tomorrow War (2021, movie)",
-    "[2026-10-29T00:56:42+00:00]   中文名匹配: 明日之戰 (score=8, 年份一致/正文出现原名/类型词一致)",
-    "[2026-10-29T00:56:42+00:00] - Fallout (2024, tv)",
-    "[2026-10-29T00:56:43+00:00]   中文名匹配: 異塵餘生 (電視劇) (score=10, 年份一致/正文出现原名/类型词一致/标题消歧义与类型一致)",
-    "[2026-10-29T00:56:44+00:00] - The Boys (2019, tv)",
-    "[2026-10-29T00:56:44+00:00]   wiki 搜索失败 The Boys 2019 电视剧: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=The+Boys+2019+%E7%94%B5%E8%A7%86%E5%89%A7&srlimit=6&format=json",
-    "[2026-10-29T00:56:44+00:00]   wiki 搜索失败 The Boys 2019: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=The+Boys+2019&srlimit=6&format=json",
-    "[2026-10-29T00:56:44+00:00]   wiki 搜索失败 The Boys: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=The+Boys&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   wiki 搜索失败 The Boys: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=The+Boys&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   中文名未达阈值 (best=0) -> pending_review",
-    "[2026-10-29T00:56:45+00:00] - Reacher (2022, tv)",
-    "[2026-10-29T00:56:45+00:00]   wiki 搜索失败 Reacher 2022 电视剧: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Reacher+2022+%E7%94%B5%E8%A7%86%E5%89%A7&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   wiki 搜索失败 Reacher 2022: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Reacher+2022&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   wiki 搜索失败 Reacher: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Reacher&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   wiki 搜索失败 Reacher: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Reacher&srlimit=6&format=json",
-    "[2026-10-29T00:56:45+00:00]   中文名未达阈值 (best=0) -> pending_review",
-    "[2026-10-29T00:56:46+00:00] - Invincible (2021, anime)",
-    "[2026-10-29T00:56:46+00:00]   wiki 搜索失败 Invincible 2021 动画: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Invincible+2021+%E5%8A%A8%E7%94%BB&srlimit=6&format=json",
-    "[2026-10-29T00:56:46+00:00]   wiki 搜索失败 Invincible 2021: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Invincible+2021&srlimit=6&format=json",
-    "[2026-10-29T00:56:46+00:00]   wiki 搜索失败 Invincible: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Invincible&srlimit=6&format=json",
-    "[2026-10-29T00:56:46+00:00]   wiki 搜索失败 Invincible: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Invincible&srlimit=6&format=json",
-    "[2026-10-29T00:56:46+00:00]   中文名未达阈值 (best=0) -> pending_review",
-    "[2026-10-29T00:56:47+00:00] - Vinland Saga (2019, anime)",
-    "[2026-10-29T00:56:47+00:00]   wiki 搜索失败 Vinland Saga 2019 动画: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Vinland+Saga+2019+%E5%8A%A8%E7%94%BB&srlimit=6&format=json",
-    "[2026-10-29T00:56:47+00:00]   wiki 搜索失败 Vinland Saga 2019: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Vinland+Saga+2019&srlimit=6&format=json",
-    "[2026-10-29T00:56:47+00:00]   wiki 搜索失败 Vinland Saga: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Vinland+Saga&srlimit=6&format=json",
-    "[2026-10-29T00:56:47+00:00]   wiki 搜索失败 ヴィンランド・サガ: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B5%E3%82%AC&srlimit=6&format=json",
-    "[2026-10-29T00:56:47+00:00]   中文名未达阈值 (best=0) -> pending_review",
-    "[2026-10-29T00:56:47+00:00] - Jack Ryan (2018, tv)",
-    "[2026-10-29T00:56:48+00:00]   wiki 搜索失败 Jack Ryan 2018 电视剧: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Jack+Ryan+2018+%E7%94%B5%E8%A7%86%E5%89%A7&srlimit=6&format=json",
-    "[2026-10-29T00:56:48+00:00]   wiki 搜索失败 Jack Ryan 2018: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Jack+Ryan+2018&srlimit=6&format=json",
-    "[2026-10-29T00:56:48+00:00]   wiki 搜索失败 Jack Ryan: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Jack+Ryan&srlimit=6&format=json",
-    "[2026-10-29T00:56:48+00:00]   wiki 搜索失败 Tom Clancy's Jack Ryan: 429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&list=search&variant=zh-hans&srsearch=Tom+Clancy%27s+Jack+Ryan&srlimit=6&format=json",
-    "[2026-10-29T00:56:48+00:00]   中文名未达阈值 (best=0) -> pending_review",
-    "[2026-10-29T00:56:48+00:00]   保留旧记录（本次未核验）: The Boys",
-    "[2026-10-29T00:56:48+00:00]   保留旧记录（本次未核验）: Reacher",
-    "[2026-10-29T00:56:48+00:00]   保留旧记录（本次未核验）: Invincible",
-    "[2026-10-29T00:56:48+00:00]   保留旧记录（本次未核验）: ヴィンランド・サガ",
-    "[2026-10-29T00:56:48+00:00]   保留旧记录（本次未核验）: Tom Clancy's Jack Ryan",
-    "[2026-10-29T00:56:48+00:00] 合并刷新：本次刷新 7 条，保留存量 149 条"
-  ]
+    "image_count": 127,
+    "refresh_status": "partial",
+    "last_attempt_at": "2026-10-30T00:26:18+00:00",
+    "refresh_counts": {
+      "processed": 156,
+      "checked": 10,
+      "reused": 0,
+      "pending": 31,
+      "failures": 244
+    },
+    "last_partial_at": "2026-10-30T00:26:18+00:00",
+    "previous_catalog_path": "releases/ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa/catalog.json"
+  }
 }

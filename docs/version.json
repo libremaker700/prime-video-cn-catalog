@@ -1,11 +1,21 @@
 {
-  "version": "ef3dfa2891b382b7",
-  "catalog_sha256": "ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa",
-  "catalog_path": "releases/ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa/catalog.json",
-  "generated_at": "2026-10-29T23:56:57+00:00",
+  "version": "a85fb87584b9331b",
+  "catalog_sha256": "a85fb87584b9331b10145d15c642408b76036b794ee87bbc27d30903831ae62f",
+  "catalog_path": "releases/a85fb87584b9331b10145d15c642408b76036b794ee87bbc27d30903831ae62f/catalog.json",
+  "generated_at": "2026-10-30T00:26:18+00:00",
   "last_success_at": "2026-10-29T00:56:48+00:00",
-  "publication_reason": "app_metadata_alignment",
+  "publication_reason": "partial_sync",
   "item_count": 156,
   "image_count": 127,
-  "previous_catalog_path": "releases/27e73ce27cb71d5347a72a1ebc4f1869023b4114b5cc52ca1e758820bfbd5ea4/catalog.json"
+  "refresh_status": "partial",
+  "last_attempt_at": "2026-10-30T00:26:18+00:00",
+  "refresh_counts": {
+    "processed": 156,
+    "checked": 10,
+    "reused": 0,
+    "pending": 31,
+    "failures": 244
+  },
+  "last_partial_at": "2026-10-30T00:26:18+00:00",
+  "previous_catalog_path": "releases/ef3dfa2891b382b715fd5be3f43ecb53b8cf41068028e8c593c99fde5ff069fa/catalog.json"
 }

@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-29T15:52:36+00:00",
+  "generated_at": "2026-10-30T00:26:18+00:00",
   "item_count": 156,
   "items": [
     {
@@ -31,7 +31,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:56:40+00:00",
-      "identity_status": "pending_review"
+      "identity_status": "pending_review",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0FLSZBRZJ",
@@ -86,7 +88,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年4月9日"
+          "release_date": "2024年4月9日",
+          "official_compact_id": "0HAQAA7JM43QWX0H6GUD3IOF70",
+          "official_link": "/-/zh/detail/0HAQAA7JM43QWX0H6GUD3IOF70",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -110,7 +115,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2025,
-          "release_date": "2025年12月15日"
+          "release_date": "2025年12月15日",
+          "official_compact_id": "0KBDY8OBBE3Y0RV5FOQH96H3N6",
+          "official_link": "/-/zh/detail/0KBDY8OBBE3Y0RV5FOQH96H3N6",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -130,7 +138,9 @@
       "updated_at": "2026-10-29T00:56:42+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "year": 2024,
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FX3G8F44",
@@ -181,7 +191,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年7月25日"
+          "release_date": "2019年7月25日",
+          "official_compact_id": "0S1FYJ3LY9KTL9C7WFFAGA9F6F",
+          "official_link": "/-/zh/detail/0S1FYJ3LY9KTL9C7WFFAGA9F6F",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -205,7 +218,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2020,
-          "release_date": "2020年9月3日"
+          "release_date": "2020年9月3日",
+          "official_compact_id": "0FVU5GW8977QYZ5QYQ3ONWAMZ6",
+          "official_link": "/-/zh/detail/0FVU5GW8977QYZ5QYQ3ONWAMZ6",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -229,7 +245,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年6月2日"
+          "release_date": "2022年6月2日",
+          "official_compact_id": "0KLHD5C1JIVZCJZ1D4O1Z5ZCMQ",
+          "official_link": "/-/zh/detail/0KLHD5C1JIVZCJZ1D4O1Z5ZCMQ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -253,7 +272,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年6月12日"
+          "release_date": "2024年6月12日",
+          "official_compact_id": "0SSV1CIYHPUKDFUE5JOYRDKF06",
+          "official_link": "/-/zh/detail/0SSV1CIYHPUKDFUE5JOYRDKF06",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -277,7 +299,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2026,
-          "release_date": "2026年4月7日"
+          "release_date": "2026年4月7日",
+          "official_compact_id": "0N9BB22P2FZ8UD2BBLNX07RP22",
+          "official_link": "/-/zh/detail/0N9BB22P2FZ8UD2BBLNX07RP22",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -297,7 +322,9 @@
       "updated_at": "2026-10-29T00:22:12+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "year": 2019,
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H8N9812R",
@@ -351,7 +378,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年2月3日"
+          "release_date": "2022年2月3日",
+          "official_compact_id": "0RTZ57DQ6PBHH29UN5JS7U7CW4",
+          "official_link": "/-/zh/detail/0RTZ57DQ6PBHH29UN5JS7U7CW4",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -365,7 +395,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0PW27PB7O60V7NZOIXFYF68ZG8",
+          "official_link": "/-/zh/detail/0PW27PB7O60V7NZOIXFYF68ZG8",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -379,7 +412,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0H1T1C23B07HLZPPHJSSPMYSL7",
+          "official_link": "/-/zh/detail/0H1T1C23B07HLZPPHJSSPMYSL7",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -403,7 +439,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2026,
-          "release_date": "2026年8月11日"
+          "release_date": "2026年8月11日",
+          "official_compact_id": "0K16R3PLUFGC2JUE457C26O4OD",
+          "official_link": "/-/zh/detail/0K16R3PLUFGC2JUE457C26O4OD",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -423,7 +462,9 @@
       "updated_at": "2026-10-29T00:22:20+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "year": 2022,
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08WJN83XZ",
@@ -474,7 +515,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2021,
-          "release_date": "2021年3月25日"
+          "release_date": "2021年3月25日",
+          "official_compact_id": "0K677J96WQ96K6UY6BL15O70CO",
+          "official_link": "/-/zh/detail/0K677J96WQ96K6UY6BL15O70CO",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -488,7 +532,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0KRK7IABRYDORGPDYP1XO3OT0Q",
+          "official_link": "/-/zh/detail/0KRK7IABRYDORGPDYP1XO3OT0Q",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -502,7 +549,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0RI8K407MG2FJ6F2GBY1PQTIGX",
+          "official_link": "/-/zh/detail/0RI8K407MG2FJ6F2GBY1PQTIGX",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -516,7 +566,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0L4S6GN5QKGODF5COGHK3Q4D8N",
+          "official_link": "/-/zh/detail/0L4S6GN5QKGODF5COGHK3Q4D8N",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -536,7 +589,9 @@
       "updated_at": "2026-10-29T00:22:27+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "year": 2021,
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:vinland-saga",
@@ -601,7 +656,9 @@
         }
       ],
       "updated_at": "2026-10-28T23:33:19+00:00",
-      "identity_status": "pending_review"
+      "identity_status": "pending_review",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0CNDCMN8R",
@@ -654,7 +711,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2018,
-          "release_date": "2018年8月30日"
+          "release_date": "2018年8月30日",
+          "official_compact_id": "0ONGKHWBI6Y2CABWUR56DP08PM",
+          "official_link": "/-/zh/detail/0ONGKHWBI6Y2CABWUR56DP08PM",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -668,7 +728,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OMZBKL7NFW0Z3SOHFJH1LEJ3O",
+          "official_link": "/-/zh/detail/0OMZBKL7NFW0Z3SOHFJH1LEJ3O",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -682,7 +745,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0IDSFXM96JUS4CR2VDMJJ6LZBQ",
+          "official_link": "/-/zh/detail/0IDSFXM96JUS4CR2VDMJJ6LZBQ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -696,7 +762,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OV0R0PHPSCIG43BU1Y81U8IQG",
+          "official_link": "/-/zh/detail/0OV0R0PHPSCIG43BU1Y81U8IQG",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -716,7 +785,9 @@
       "updated_at": "2026-10-29T00:22:45+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "year": 2018,
-      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）"
+      "poster_note": "未取得合格16:9横屏图（TMDB未配置或维基图多为竖版海报，按规则拒绝拉伸补位）",
+      "metadata_attempted_at": "2026-10-30T00:06:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-91f9b0126f4e69b8",
@@ -747,7 +818,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:06:08+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0HFKGHNH6",
@@ -798,7 +871,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2016,
-          "release_date": "2016年8月7日"
+          "release_date": "2016年8月7日",
+          "official_compact_id": "0J8GPBDF8W2OHBR7TY72OTAML5",
+          "official_link": "/-/zh/detail/0J8GPBDF8W2OHBR7TY72OTAML5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -812,7 +888,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0J0XJCDB0KSVIU3PD8KMX5TOG0",
+          "official_link": "/-/zh/detail/0J0XJCDB0KSVIU3PD8KMX5TOG0",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -824,7 +903,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:06:10+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B089XSMKR4",
@@ -875,7 +956,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2014,
-          "release_date": "2014年8月26日"
+          "release_date": "2014年8月26日",
+          "official_compact_id": "0U448L1Q6RDC7K5XQAM388FHUW",
+          "official_link": "/-/zh/detail/0U448L1Q6RDC7K5XQAM388FHUW",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -889,7 +973,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0JC81MKW4OTQOTDRS5HUW1W6IE",
+          "official_link": "/-/zh/detail/0JC81MKW4OTQOTDRS5HUW1W6IE",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -903,7 +990,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0G9EVIYYA98UM8453TY18R265D",
+          "official_link": "/-/zh/detail/0G9EVIYYA98UM8453TY18R265D",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -917,7 +1007,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NPYZ4WLKJQS6C48ZHC6391571",
+          "official_link": "/-/zh/detail/0NPYZ4WLKJQS6C48ZHC6391571",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -931,7 +1024,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0PDPADIKB64TJHJZD0C8MZD129",
+          "official_link": "/-/zh/detail/0PDPADIKB64TJHJZD0C8MZD129",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -943,7 +1039,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:06:13+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09PZG2979",
@@ -994,7 +1092,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年1月27日"
+          "release_date": "2022年1月27日",
+          "official_compact_id": "0O1MH4HMS00EO6XP75LWG5TB89",
+          "official_link": "/-/zh/detail/0O1MH4HMS00EO6XP75LWG5TB89",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1008,7 +1109,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0R3MTHCYG6XL7IO4J8LL4FBNT5",
+          "official_link": "/-/zh/detail/0R3MTHCYG6XL7IO4J8LL4FBNT5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1022,7 +1126,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0IAJHAARVF80XQ37H6JV3RROL6",
+          "official_link": "/-/zh/detail/0IAJHAARVF80XQ37H6JV3RROL6",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -1036,7 +1143,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0TRPUVCMBE3U349CTIUPXE4X26",
+          "official_link": "/-/zh/detail/0TRPUVCMBE3U349CTIUPXE4X26",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1048,7 +1158,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:06:14+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H31VL8YK",
@@ -1099,7 +1211,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2014,
-          "release_date": "2014年2月5日"
+          "release_date": "2014年2月5日",
+          "official_compact_id": "0P0DV8Z9VVEL112BN1FL17DW9T",
+          "official_link": "/-/zh/detail/0P0DV8Z9VVEL112BN1FL17DW9T",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1113,7 +1228,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0KMAMO9155DE5SP91E46RT4KGL",
+          "official_link": "/-/zh/detail/0KMAMO9155DE5SP91E46RT4KGL",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1127,7 +1245,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QLA1KJJ0L3LT24YUMQJ9IK4PH",
+          "official_link": "/-/zh/detail/0QLA1KJJ0L3LT24YUMQJ9IK4PH",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -1141,7 +1262,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HX4CXWWO3E6NRVF81QOS54D6P",
+          "official_link": "/-/zh/detail/0HX4CXWWO3E6NRVF81QOS54D6P",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -1155,7 +1279,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0SAECKOR9UIXEFAIJ6YO070NE4",
+          "official_link": "/-/zh/detail/0SAECKOR9UIXEFAIJ6YO070NE4",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -1169,7 +1296,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HYZJWW6XQYD3FD7W20LZG6W9D",
+          "official_link": "/-/zh/detail/0HYZJWW6XQYD3FD7W20LZG6W9D",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 7,
@@ -1183,7 +1313,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0RKKFE0USMHNZ3I6NK7O4BDZPM",
+          "official_link": "/-/zh/detail/0RKKFE0USMHNZ3I6NK7O4BDZPM",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1195,7 +1328,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:06:17+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GVBYW4RR",
@@ -1207,11 +1342,13 @@
       "original_title": "The Marvelous Mrs. Maisel",
       "english_title": "The Marvelous Mrs. Maisel",
       "display_name_zh": "了不起的麦瑟尔夫人",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "神奇的梅赛尔太太》第一季",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "了不起的麦瑟尔夫人"
+      ],
+      "synopsis_zh": "《了不起的麦瑟尔夫人》（英语：The Marvelous Mrs. Maisel，新马译《神奇的梅赛尔太太》，港台译《漫才梅索太太》）是一部由艾米·谢曼-帕拉迪诺开创，于2017年3月17日在亚马逊影片开播的美国时代喜剧剧情电视剧。故事以生活在20世纪1950年代的犹太女性米琪·梅索为中心，描绘时代女性的成长与蜕变，在以男性为主的社会中，如何自我觉醒找到属于自己的未来，该剧由瑞秋·布罗斯纳安主演。\n本剧首播后，不仅获得观众不错的反响，取得影评人的好评，更荣获金球奖与评论家选择电视奖肯定。2018年5月20日，在第2季尚未首播的情况下，亚马逊提前宣布续订第3季，第3季于2019年12月6日播出。2019年12月12日续订第4季，于2022年2月18日播出，首播时播放两集，之后每星期播放一集。2022年2月17日，续订第5季也是最后一季。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": "2017",
         "seed_year": "2017",
@@ -1246,7 +1383,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2017,
-          "release_date": "2017年3月16日"
+          "release_date": "2017年3月16日",
+          "official_compact_id": "0P3VTTUCWIHY69UODQVTH7XD19",
+          "official_link": "/-/zh/detail/0P3VTTUCWIHY69UODQVTH7XD19",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1260,7 +1400,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HOTXWLB4X8ZZBL1S2YQUGKXVJ",
+          "official_link": "/-/zh/detail/0HOTXWLB4X8ZZBL1S2YQUGKXVJ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1274,7 +1417,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0S1RE65JRS6XKX8QJZT0POG3TW",
+          "official_link": "/-/zh/detail/0S1RE65JRS6XKX8QJZT0POG3TW",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -1288,7 +1434,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LL3K38UDB290H69CXCWL1F9D3",
+          "official_link": "/-/zh/detail/0LL3K38UDB290H69CXCWL1F9D3",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -1302,7 +1451,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0SPJS4W18NPJZC6L5DSDLZ8Y6D",
+          "official_link": "/-/zh/detail/0SPJS4W18NPJZC6L5DSDLZ8Y6D",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1311,10 +1463,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B0GVBYW4RR",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%89%8D%E6%A2%85%E7%B4%A2%E5%A4%AA%E5%A4%AA",
+          "retrieved_at": "2026-10-30T00:07:06+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:07:06+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%89%8D%E6%A2%85%E7%B4%A2%E5%A4%AA%E5%A4%AA",
+      "metadata_attempted_at": "2026-10-30T00:07:06+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:07:06+00:00"
     },
     {
       "id": "prime:B0GZLX5228",
@@ -1377,7 +1540,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:07:09+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-73f59adce0b9843b",
@@ -1408,7 +1573,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:07:13+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GYQHYW8H",
@@ -1459,7 +1626,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2014,
-          "release_date": "2014年8月27日"
+          "release_date": "2014年8月27日",
+          "official_compact_id": "0KX3BATRA5DNVFH0BCF4TNRXRX",
+          "official_link": "/-/zh/detail/0KX3BATRA5DNVFH0BCF4TNRXRX",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1473,7 +1643,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NMIOPNJUSU1CNHEFZ0R3K6Q96",
+          "official_link": "/-/zh/detail/0NMIOPNJUSU1CNHEFZ0R3K6Q96",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1487,7 +1660,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MJZ6KMSS9UHBKYUADEFZTK4IR",
+          "official_link": "/-/zh/detail/0MJZ6KMSS9UHBKYUADEFZTK4IR",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1499,7 +1675,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:07:14+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HHBD8YYD",
@@ -1562,7 +1740,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:07:19+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HF4L8KV3",
@@ -1613,7 +1793,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2020,
-          "release_date": "2020年5月14日"
+          "release_date": "2020年5月14日",
+          "official_compact_id": "0KTTV7ZE1BITQI1I7HKJD3HWZH",
+          "official_link": "/-/zh/detail/0KTTV7ZE1BITQI1I7HKJD3HWZH",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1627,7 +1810,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0TJUQYHPIQC5R8KOUZ5P1C3F22",
+          "official_link": "/-/zh/detail/0TJUQYHPIQC5R8KOUZ5P1C3F22",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1639,7 +1825,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:08:00+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0824SJW7J",
@@ -1690,7 +1878,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2015,
-          "release_date": "2015年8月6日"
+          "release_date": "2015年8月6日",
+          "official_compact_id": "0H7IG219C1SMXMM10KCWWB5SRA",
+          "official_link": "/-/zh/detail/0H7IG219C1SMXMM10KCWWB5SRA",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1704,7 +1895,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0I1DKYX6WOUA7B9MM5457PZMDN",
+          "official_link": "/-/zh/detail/0I1DKYX6WOUA7B9MM5457PZMDN",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1718,7 +1912,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0G0YCKK7OIAMSL42QC00BU5VT2",
+          "official_link": "/-/zh/detail/0G0YCKK7OIAMSL42QC00BU5VT2",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1730,7 +1927,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:08:01+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09F59CZ7R",
@@ -1742,11 +1941,13 @@
       "original_title": "The Wheel of Time",
       "english_title": "The Wheel of Time",
       "display_name_zh": "时光之轮",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "时光之轮：第一季",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "时光之轮"
+      ],
+      "synopsis_zh": "《时光之轮》（英语：The Wheel of Time）是一部奇幻类型的美国网路影集，改编自罗伯特·乔丹创作的同名小说系列。罗莎蒙·派克领衔出演女主角沐瑞·达欧崔。影集由索尼影视电视和亚马逊工作室联合制作，拉夫·朱德金斯担当节目统筹。第一季于2021年11月19日在亚马逊影片首播，共8集，2021年12月24日完结。2021年5月，在影集首播之前，亚马逊预订第二季。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": "2021",
         "seed_year": "2021",
@@ -1781,7 +1982,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2021,
-          "release_date": "2021年11月18日"
+          "release_date": "2021年11月18日",
+          "official_compact_id": "0U3073DE9J38JXZ5WLZW5O8MH3",
+          "official_link": "/-/zh/detail/0U3073DE9J38JXZ5WLZW5O8MH3",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1795,7 +1999,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QTL61M0QM31AWS92ZBI4Y1AZC",
+          "official_link": "/-/zh/detail/0QTL61M0QM31AWS92ZBI4Y1AZC",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1809,7 +2016,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0O0T3QWQ2OOTT8KCKC1PW233XW",
+          "official_link": "/-/zh/detail/0O0T3QWQ2OOTT8KCKC1PW233XW",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1818,10 +2028,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B09F59CZ7R",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E6%99%82%E5%85%89%E4%B9%8B%E8%BC%AA_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+          "retrieved_at": "2026-10-30T00:08:04+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:08:04+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E6%99%82%E5%85%89%E4%B9%8B%E8%BC%AA_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+      "metadata_attempted_at": "2026-10-30T00:08:04+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:08:04+00:00"
     },
     {
       "id": "prime:B0CLM8LHS7",
@@ -1872,7 +2093,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年1月18日"
+          "release_date": "2024年1月18日",
+          "official_compact_id": "0HZWTBZYQQXYW48YBANMDM2MZE",
+          "official_link": "/-/zh/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1886,7 +2110,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0K67FVL3VHXNTE3JST8GXWOOFG",
+          "official_link": "/-/zh/detail/0K67FVL3VHXNTE3JST8GXWOOFG",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 30,
@@ -1900,7 +2127,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0G3DWE2OT6QBWBAEWJ7EM1458X",
+          "official_link": "/-/zh/detail/0G3DWE2OT6QBWBAEWJ7EM1458X",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -1912,7 +2142,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:08:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0875KQ9MV",
@@ -1963,7 +2195,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年1月24日"
+          "release_date": "2019年1月24日",
+          "official_compact_id": "0QG1VHNFBFX41DMFQJSFBZ1XOI",
+          "official_link": "/-/zh/detail/0QG1VHNFBFX41DMFQJSFBZ1XOI",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -1977,7 +2212,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0SP2U705DOGQQJPBD7IJBLSHDF",
+          "official_link": "/-/zh/detail/0SP2U705DOGQQJPBD7IJBLSHDF",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -1991,7 +2229,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0R4LW5GOJCDAJX84LS17OB6LBK",
+          "official_link": "/-/zh/detail/0R4LW5GOJCDAJX84LS17OB6LBK",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -2005,7 +2246,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GM5E1RA8Q2EDGTB5SC1UB76VY",
+          "official_link": "/-/zh/detail/0GM5E1RA8Q2EDGTB5SC1UB76VY",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2017,7 +2261,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:08:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-8a99d30414ac52c6",
@@ -2048,7 +2294,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:08:15+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-7a805ae029221891",
@@ -2079,7 +2327,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:09:06+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H4LD7LYS",
@@ -2130,7 +2380,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2015,
-          "release_date": "2015年11月22日"
+          "release_date": "2015年11月22日",
+          "official_compact_id": "0I5H35HHPY3456HRI7TQO7EKLX",
+          "official_link": "/-/zh/detail/0I5H35HHPY3456HRI7TQO7EKLX",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -2144,7 +2397,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HIYALAUVS1FS8HVF299SZONEY",
+          "official_link": "/-/zh/detail/0HIYALAUVS1FS8HVF299SZONEY",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -2158,7 +2414,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QGUP4W6GL3ZLYRD6RC3WWZEZ2",
+          "official_link": "/-/zh/detail/0QGUP4W6GL3ZLYRD6RC3WWZEZ2",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -2172,7 +2431,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0R245YWI2U7TB3YKMV1JWUFGT7",
+          "official_link": "/-/zh/detail/0R245YWI2U7TB3YKMV1JWUFGT7",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -2186,7 +2448,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OBDSPAICFE4VNWZNFPW2I8TYU",
+          "official_link": "/-/zh/detail/0OBDSPAICFE4VNWZNFPW2I8TYU",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -2200,7 +2465,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0P5PBGVVW11X6D7IBS6OP020Q8",
+          "official_link": "/-/zh/detail/0P5PBGVVW11X6D7IBS6OP020Q8",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2212,7 +2480,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:09:10+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-7e818a0fb48093a8",
@@ -2223,12 +2493,14 @@
       "seed_id": "seed-7e818a0fb48093a8",
       "original_title": "Upload",
       "english_title": "Upload",
-      "display_name_zh": "上载新生",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "display_name_zh": "上传天地",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": null,
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "上传天地"
+      ],
+      "synopsis_zh": "《上传天地》（英语：Upload，又译《上载新生》）是一部美国科幻喜剧电视剧，由格雷格·丹尼尔斯创作，第一季于2020年5月1日在亚马逊影片播放。共10集同月，续订第二季。于2022年3月11日播放，第二季共7集。2022年5月，续订第三季。，于2023年10月20日首播。2024年3月，续订第四季也是最后一季。 \n根据2024年10月10日的报道，第四季已完成拍摄。第四季于2025年8月25日播放，共有4集。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": null,
         "seed_year": "2020",
@@ -2241,9 +2513,21 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [],
-      "sources": [],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%82%B3%E5%A4%A9%E5%9C%B0",
+          "retrieved_at": "2026-10-30T00:09:12+00:00"
+        }
+      ],
+      "updated_at": "2026-10-30T00:09:12+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%82%B3%E5%A4%A9%E5%9C%B0",
+      "metadata_attempted_at": "2026-10-30T00:09:12+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-10-30T00:09:12+00:00"
     },
     {
       "id": "seed:seed-ed9b36ce082e41c8",
@@ -2255,11 +2539,13 @@
       "original_title": "Utopia",
       "english_title": "Utopia",
       "display_name_zh": "乌托邦",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": null,
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "乌托邦"
+      ],
+      "synopsis_zh": "《乌托邦》（英语：Utopia）是一部美国网络电视剧集，改编自英国同名剧集，由美国女作家吉莉安·弗琳开创并执笔编剧，于2020年9月25日在亚马逊影片首播。2020年11月，亚马逊宣布取消制作第二季。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": null,
         "seed_year": "2020",
@@ -2272,9 +2558,21 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [],
-      "sources": [],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E6%89%98%E9%82%A6_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+          "retrieved_at": "2026-10-30T00:09:14+00:00"
+        }
+      ],
+      "updated_at": "2026-10-30T00:09:14+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E6%89%98%E9%82%A6_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+      "metadata_attempted_at": "2026-10-30T00:09:14+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-10-30T00:09:14+00:00"
     },
     {
       "id": "seed:seed-75e76252b6300b96",
@@ -2305,7 +2603,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:09:25+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B08B49VWZ8",
@@ -2356,7 +2656,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2014,
-          "release_date": "2014年2月5日"
+          "release_date": "2014年2月5日",
+          "official_compact_id": "0I1CFRBL3MWI0DJ0QUUNPHG2P5",
+          "official_link": "/-/zh/detail/0I1CFRBL3MWI0DJ0QUUNPHG2P5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -2370,7 +2673,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0JXJPKJ7VBVQ3V6S1LX3YJ1BD1",
+          "official_link": "/-/zh/detail/0JXJPKJ7VBVQ3V6S1LX3YJ1BD1",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -2384,7 +2690,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QX1HV46SQRWSIYAG9F6YF2EN8",
+          "official_link": "/-/zh/detail/0QX1HV46SQRWSIYAG9F6YF2EN8",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -2398,7 +2707,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QBRE5FXDJZ7B0PZUIZEQZMNPP",
+          "official_link": "/-/zh/detail/0QBRE5FXDJZ7B0PZUIZEQZMNPP",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2410,7 +2722,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:10:02+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H3CZ7L43",
@@ -2473,7 +2787,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:10:07+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H1SN3LJ5",
@@ -2536,7 +2852,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:10:13+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B086VXXBB2",
@@ -2587,7 +2905,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2015,
-          "release_date": "2015年11月4日"
+          "release_date": "2015年11月4日",
+          "official_compact_id": "0I1CWVRUIFHRR47BBZXEGCSZL5",
+          "official_link": "/-/zh/detail/0I1CWVRUIFHRR47BBZXEGCSZL5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -2601,7 +2922,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0JTCA6FGIYYFQHHTGF8JZEW3BA",
+          "official_link": "/-/zh/detail/0JTCA6FGIYYFQHHTGF8JZEW3BA",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2613,7 +2937,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:10:15+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-d964796538cc0532",
@@ -2625,11 +2951,13 @@
       "original_title": "The Romanoffs",
       "english_title": "The Romanoffs",
       "display_name_zh": "罗曼诺夫后裔",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": null,
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "罗曼诺夫后裔"
+      ],
+      "synopsis_zh": "《罗曼诺夫后裔》（英语：The Romanoffs）是一部美国独立单元类型的网络电视剧集，由马修·韦纳创作、主编、制作和执导，于2018年10月12日在亚马逊影片首播。2019年7月，亚马逊宣布不再制作第二季。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": null,
         "seed_year": "2018",
@@ -2642,9 +2970,21 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [],
-      "sources": [],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%9B%BC%E8%AB%BE%E5%A4%AB%E5%BE%8C%E8%A3%94",
+          "retrieved_at": "2026-10-30T00:10:21+00:00"
+        }
+      ],
+      "updated_at": "2026-10-30T00:10:21+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%9B%BC%E8%AB%BE%E5%A4%AB%E5%BE%8C%E8%A3%94",
+      "metadata_attempted_at": "2026-10-30T00:10:21+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-10-30T00:10:21+00:00"
     },
     {
       "id": "seed:seed-8b7e715b9f79ab02",
@@ -2656,11 +2996,13 @@
       "original_title": "Harlem",
       "english_title": "Harlem",
       "display_name_zh": "哈林教父",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": null,
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "哈林教父"
+      ],
+      "synopsis_zh": "《哈林教父》（英语：Godfather of Harlem）是一部美国犯罪电视剧，于2019年9月29日在Epix上首播。本剧由克里斯·布兰卡托和Paul Eckstein编剧，主演是科力士·韦德加，他饰演1960年代的纽约市黑帮“瘤子”约翰逊。科力士与尼娜·杨·邦奇奥维、James Acheson、约翰·雷利和Markuann Smith担任执行制作人。邦奇奥维也担任节目统筹。2020年2月12日，续订第二季，于2021年4月18日播放。2022年1月13日，续订第三季。\n一部根据本剧的纪录片《By Whatever Means Necessary: The Times of Godfather of Harlem》于2020年11月8日播放。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": null,
         "seed_year": "2021",
@@ -2673,9 +3015,21 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [],
-      "sources": [],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "sources": [
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E6%9E%97%E6%95%99%E7%88%B6",
+          "retrieved_at": "2026-10-30T00:11:03+00:00"
+        }
+      ],
+      "updated_at": "2026-10-30T00:11:03+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E5%93%88%E6%9E%97%E6%95%99%E7%88%B6",
+      "metadata_attempted_at": "2026-10-30T00:11:03+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-10-30T00:11:03+00:00"
     },
     {
       "id": "prime:B0CBFTRGPZ",
@@ -2687,11 +3041,13 @@
       "original_title": "Gen V",
       "english_title": "Gen V",
       "display_name_zh": "V世代",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "V世代 第一季",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "V世代"
+      ],
+      "synopsis_zh": "《V世代》（英语：Gen V），是一部美国超级英雄网路剧，由蜜雪儿·费兹卡斯（Michele Fazekas）与塔拉·巴特斯（Tara Butters）开创，为根据盖斯·恩尼斯和德瑞克·罗伯森的同名漫画的故事线《溜之大吉》（We Gotta Go Now）改编，由埃里克·克里普基开创的影集《黑袍纠察队》之衍生剧。本剧紧接在《黑袍纠察队》第三季之后，第四季之前，本剧于2023年9月29日在亚马逊的Prime Video首播。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": 2023,
         "seed_year": "2023",
@@ -2726,7 +3082,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2023,
-          "release_date": "2023年9月28日"
+          "release_date": "2023年9月28日",
+          "official_compact_id": "0QL016992N86EED5P1FO3ER0P5",
+          "official_link": "/-/zh/detail/0QL016992N86EED5P1FO3ER0P5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -2740,7 +3099,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HJ2H3R5HW77Y4Y2A2XCI1BZGF",
+          "official_link": "/-/zh/detail/0HJ2H3R5HW77Y4Y2A2XCI1BZGF",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2749,10 +3111,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B0CBFTRGPZ",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/V%E4%B8%96%E4%BB%A3",
+          "retrieved_at": "2026-10-30T00:11:08+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:11:08+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/V%E4%B8%96%E4%BB%A3",
+      "metadata_attempted_at": "2026-10-30T00:11:08+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:11:08+00:00"
     },
     {
       "id": "prime:B086HWJ1FS",
@@ -2803,7 +3176,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年3月5日"
+          "release_date": "2019年3月5日",
+          "official_compact_id": "0OO47CBJ1NU885PDG2V3IA05LU",
+          "official_link": "/-/zh/detail/0OO47CBJ1NU885PDG2V3IA05LU",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -2817,7 +3193,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NHULYTA95DYUY6CX2118S2SNT",
+          "official_link": "/-/zh/detail/0NHULYTA95DYUY6CX2118S2SNT",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -2829,7 +3208,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:11:09+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08XC2DV8N",
@@ -2892,7 +3273,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:11:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-2869c4196d490d2d",
@@ -2923,7 +3306,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:11:13+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0CLRQGR5G",
@@ -2986,7 +3371,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:12:06+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B5LFBYJW",
@@ -3037,7 +3424,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年10月27日"
+          "release_date": "2022年10月27日",
+          "official_compact_id": "0O60NCJ6DOQX1ILR17G161O60A",
+          "official_link": "/-/zh/detail/0O60NCJ6DOQX1ILR17G161O60A",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -3051,7 +3441,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0RQM30WHZ0O19EQ9XPUZ19E6N3",
+          "official_link": "/-/zh/detail/0RQM30WHZ0O19EQ9XPUZ19E6N3",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -3063,7 +3456,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:12:08+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-f55985a91f7dcfae",
@@ -3094,7 +3489,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:12:12+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8NLVH1L",
@@ -3157,7 +3554,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:12:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-bea09172a92995f0",
@@ -3188,7 +3587,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:12:18+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-160622687487ccb8",
@@ -3219,7 +3620,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:13:00+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0HCML147X",
@@ -3270,7 +3673,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年3月28日"
+          "release_date": "2019年3月28日",
+          "official_compact_id": "0RGBACTBHQCJGR54IGCZGS46I5",
+          "official_link": "/-/zh/detail/0RGBACTBHQCJGR54IGCZGS46I5",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -3284,7 +3690,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OQCO2B69OEVL2NTGI87FIJWDL",
+          "official_link": "/-/zh/detail/0OQCO2B69OEVL2NTGI87FIJWDL",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -3298,7 +3707,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0ORNKPJ5IRV5SN5THD155V05ES",
+          "official_link": "/-/zh/detail/0ORNKPJ5IRV5SN5THD155V05ES",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -3310,7 +3722,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:13:02+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HK5LCWRC",
@@ -3321,12 +3735,14 @@
       "seed_id": "B0HK5LCWRC",
       "original_title": "The Last Tycoon",
       "english_title": "The Last Tycoon",
-      "display_name_zh": "最后的大亨",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "display_name_zh": "终极大亨",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "The Last Tycoon - Season 1 (4K UHD)",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "终极大亨"
+      ],
+      "synopsis_zh": "《终极大亨》（英语：The Last Tycoon）是一部美国电视剧。本剧主演是马修·波莫和凯尔塞·格拉玛，松散地改编自法兰西斯·史考特·费兹杰罗的最后一本小说《最后的大亨》。亚马逊工作室于2016年7月27日将试播集买下成连续剧。第一季在2017年7月28日首播，但本剧于2017年9月9日被取消。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": 2016,
         "seed_year": "2016",
@@ -3370,10 +3786,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B0HK5LCWRC",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%A5%B5%E5%A4%A7%E4%BA%A8",
+          "retrieved_at": "2026-10-30T00:13:05+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:13:05+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%A5%B5%E5%A4%A7%E4%BA%A8",
+      "metadata_attempted_at": "2026-10-30T00:13:05+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:13:05+00:00"
     },
     {
       "id": "seed:seed-9d0817297a4c9742",
@@ -3404,7 +3831,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:13:12+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H4NW3HYP",
@@ -3467,7 +3896,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:13:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H4GD3B6G",
@@ -3518,7 +3949,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年5月30日"
+          "release_date": "2019年5月30日",
+          "official_compact_id": "0N5FH7XUZ601N8GCSJYX4SNNXD",
+          "official_link": "/-/zh/detail/0N5FH7XUZ601N8GCSJYX4SNNXD",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -3532,7 +3966,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0Q7GFNBQ6IPO87MX4G4WD4GT4I",
+          "official_link": "/-/zh/detail/0Q7GFNBQ6IPO87MX4G4WD4GT4I",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -3546,7 +3983,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0H2D58AC8YVVZ44OTTZ1LGUFHW",
+          "official_link": "/-/zh/detail/0H2D58AC8YVVZ44OTTZ1LGUFHW",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -3558,7 +3998,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:14:03+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B76J495K",
@@ -3609,7 +4051,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2020,
-          "release_date": "2020年11月12日"
+          "release_date": "2020年11月12日",
+          "official_compact_id": "0QDIAC9J59XTEVU2QP2D772MP2",
+          "official_link": "/-/zh/detail/0QDIAC9J59XTEVU2QP2D772MP2",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -3623,7 +4068,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OLC53FWQRZ38BXD9UW2C09WDD",
+          "official_link": "/-/zh/detail/0OLC53FWQRZ38BXD9UW2C09WDD",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -3637,7 +4085,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QHAUXBITDS9DLFYMM1WYEE4LK",
+          "official_link": "/-/zh/detail/0QHAUXBITDS9DLFYMM1WYEE4LK",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -3649,7 +4100,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:14:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08T6S3KMR",
@@ -3712,7 +4165,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:14:16+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-557850c46c1a2bb1",
@@ -3743,7 +4198,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:14:22+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0F54XFS1H",
@@ -3806,7 +4263,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:14:24+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-ba12f7e6e0e333bd",
@@ -3837,7 +4296,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:15:06+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H38ZZ8GZ",
@@ -3888,7 +4349,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年8月29日"
+          "release_date": "2019年8月29日",
+          "official_compact_id": "0QRNING4ZLNCGHMVBZ7HUYQEQG",
+          "official_link": "/-/zh/detail/0QRNING4ZLNCGHMVBZ7HUYQEQG",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -3902,7 +4366,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0T540BA2YI1XDMC8QF7Q5CFPZQ",
+          "official_link": "/-/zh/detail/0T540BA2YI1XDMC8QF7Q5CFPZQ",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -3914,7 +4381,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:15:07+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08J18TQ9T",
@@ -3977,7 +4446,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:15:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FLX154BL",
@@ -4040,7 +4511,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:15:17+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DJPRGTF2",
@@ -4103,7 +4576,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:15:26+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B086VWBXP5",
@@ -4156,7 +4631,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2015,
-          "release_date": "2015年1月14日"
+          "release_date": "2015年1月14日",
+          "official_compact_id": "0MJFK5BDOS4K13C3WBUIB7NY98",
+          "official_link": "/-/zh/detail/0MJFK5BDOS4K13C3WBUIB7NY98",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -4170,7 +4648,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LLBXS00DJMRFVG28GB7JB3WHF",
+          "official_link": "/-/zh/detail/0LLBXS00DJMRFVG28GB7JB3WHF",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -4184,7 +4665,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0N8Y66TN6W2H7BM081ZZBO84VE",
+          "official_link": "/-/zh/detail/0N8Y66TN6W2H7BM081ZZBO84VE",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -4198,7 +4682,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LTTRFTWMZXER0OFWQFGG2MFOT",
+          "official_link": "/-/zh/detail/0LTTRFTWMZXER0OFWQFGG2MFOT",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -4216,7 +4703,9 @@
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "name_checked_at": "2026-10-29T15:52:36+00:00"
+      "name_checked_at": "2026-10-29T15:52:36+00:00",
+      "metadata_attempted_at": "2026-10-30T00:15:26+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H25ZJSSC",
@@ -4267,7 +4756,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2016,
-          "release_date": "2016年8月15日"
+          "release_date": "2016年8月15日",
+          "official_compact_id": "0S304LYZTSAWOEZOCG19GHXZQH",
+          "official_link": "/-/zh/detail/0S304LYZTSAWOEZOCG19GHXZQH",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -4281,7 +4773,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0RMOJJ5V14E4YSAMTDMUD4I5OV",
+          "official_link": "/-/zh/detail/0RMOJJ5V14E4YSAMTDMUD4I5OV",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -4293,7 +4788,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:04+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08957N5FJ",
@@ -4356,7 +4853,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:07+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08TT3V5FJ",
@@ -4419,7 +4918,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0C4VLB35N",
@@ -4482,7 +4983,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08B49FXST",
@@ -4533,7 +5036,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2014,
-          "release_date": "2014年8月27日"
+          "release_date": "2014年8月27日",
+          "official_compact_id": "0IZFKGFT4P119DAGBXOSF2SNCU",
+          "official_link": "/-/zh/detail/0IZFKGFT4P119DAGBXOSF2SNCU",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -4547,7 +5053,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NQQHDOS2PH6YC0KTF7HIGIK5W",
+          "official_link": "/-/zh/detail/0NQQHDOS2PH6YC0KTF7HIGIK5W",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -4559,7 +5068,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:15+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0875LMZGR",
@@ -4622,7 +5133,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:16:16+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HGZ25YMQ",
@@ -4685,7 +5198,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:17:06+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-5a45f08cb318d422",
@@ -4716,7 +5231,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:17:10+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B09QH98YG1",
@@ -4767,7 +5284,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年8月31日"
+          "release_date": "2022年8月31日",
+          "official_compact_id": "0TUVXIO58IUNEPNBF8363Z7YGL",
+          "official_link": "/-/zh/detail/0TUVXIO58IUNEPNBF8363Z7YGL",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -4781,7 +5301,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0UB2ZI7XTDU5ENEYYH4GR048TQ",
+          "official_link": "/-/zh/detail/0UB2ZI7XTDU5ENEYYH4GR048TQ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -4795,7 +5318,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NGJWN4I3V9O8AY50RRY31MQV4",
+          "official_link": "/-/zh/detail/0NGJWN4I3V9O8AY50RRY31MQV4",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -4807,7 +5333,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:17:14+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-e763c3d458ac9ac0",
@@ -4838,7 +5366,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:17:17+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8MTCYVM",
@@ -4901,7 +5431,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:17:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-afb3de5a4eab80b8",
@@ -4932,7 +5464,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:18:02+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ff6c7082dfb90f4e",
@@ -4963,7 +5497,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:18:03+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H45HCW5V",
@@ -5026,7 +5562,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:18:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B01N4UWE2T",
@@ -5097,7 +5635,9 @@
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "name_checked_at": "2026-10-29T15:52:36+00:00"
+      "name_checked_at": "2026-10-29T15:52:36+00:00",
+      "metadata_attempted_at": "2026-10-30T00:18:05+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DJ9MKHTZ",
@@ -5160,7 +5700,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:18:13+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-ec29e2814121fd18",
@@ -5191,7 +5733,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:18:14+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-2429a2a6318f3f3b",
@@ -5222,7 +5766,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:03+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B094P1XDXR",
@@ -5285,7 +5831,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-d6693d6235945ba2",
@@ -5316,7 +5864,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:11+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8TKPV7G",
@@ -5367,7 +5917,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年2月8日"
+          "release_date": "2024年2月8日",
+          "official_compact_id": "0LKGO5GGRQLMJ7SOPWTD3NT0CK",
+          "official_link": "/-/zh/detail/0LKGO5GGRQLMJ7SOPWTD3NT0CK",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -5381,7 +5934,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QUM5BE864IQNUMSMGS6NBVSSC",
+          "official_link": "/-/zh/detail/0QUM5BE864IQNUMSMGS6NBVSSC",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -5393,7 +5949,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09PVRLSLB",
@@ -5444,7 +6002,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2022,
-          "release_date": "2022年4月14日"
+          "release_date": "2022年4月14日",
+          "official_compact_id": "0MXZP4ODBZSOP24GEX7IY9ZWJM",
+          "official_link": "/-/zh/detail/0MXZP4ODBZSOP24GEX7IY9ZWJM",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -5458,7 +6019,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0NNEP0PVMYZBMHYAZOD63QDETV",
+          "official_link": "/-/zh/detail/0NNEP0PVMYZBMHYAZOD63QDETV",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -5470,7 +6034,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09GPSWV6L",
@@ -5533,7 +6099,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:19:23+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-f6920f665d91db8c",
@@ -5564,7 +6132,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:20:05+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B857V4TH",
@@ -5627,7 +6197,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:20:07+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B6QGZXXP",
@@ -5690,7 +6262,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:20:08+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DGNX438P",
@@ -5753,7 +6327,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:20:13+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H3FQ4YYL",
@@ -5816,7 +6392,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:20:14+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-a5bbef0d5c350b1e",
@@ -5847,7 +6425,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:21:00+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GYPZYNH3",
@@ -5888,7 +6468,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GZ3QJUCJ4NQH7LN4473BVF6E9",
+          "official_link": "/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 102,
@@ -5924,7 +6507,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:21:04+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-048b35d4cf75514f",
@@ -5955,7 +6540,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:21:05+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GT2JSFBC",
@@ -6018,7 +6605,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:21:20+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B08F62FXXZ",
@@ -6069,7 +6658,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2013,
-          "release_date": "2013年4月18日"
+          "release_date": "2013年4月18日",
+          "official_compact_id": "0OFMXQO94IONS509HPFSN4SCTC",
+          "official_link": "/-/zh/detail/0OFMXQO94IONS509HPFSN4SCTC",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6083,7 +6675,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0N805JDAOQ0OMZJBPJ69M0OP6C",
+          "official_link": "/-/zh/detail/0N805JDAOQ0OMZJBPJ69M0OP6C",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6095,7 +6690,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:21:25+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HGLKXKCW",
@@ -6146,7 +6743,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2019,
-          "release_date": "2019年9月12日"
+          "release_date": "2019年9月12日",
+          "official_compact_id": "0KJRORQWQI2SZMEKSTTP5A09I7",
+          "official_link": "/-/zh/detail/0KJRORQWQI2SZMEKSTTP5A09I7",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6160,7 +6760,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0N20FPWUDHNXHS2F8NEEQHY63D",
+          "official_link": "/-/zh/detail/0N20FPWUDHNXHS2F8NEEQHY63D",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6172,7 +6775,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:22:00+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B8LFCLSQ",
@@ -6223,7 +6828,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2020,
-          "release_date": "2020年2月20日"
+          "release_date": "2020年2月20日",
+          "official_compact_id": "0M8DF75985NBNID4SCTP3X0AZJ",
+          "official_link": "/-/zh/detail/0M8DF75985NBNID4SCTP3X0AZJ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6237,7 +6845,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0S7NABDHXG9Y76ZT6RBYL6W11D",
+          "official_link": "/-/zh/detail/0S7NABDHXG9Y76ZT6RBYL6W11D",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6249,7 +6860,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:22:03+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B8TFMYXZ",
@@ -6312,7 +6925,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:22:06+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B8TQGHP3",
@@ -6363,7 +6978,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2023,
-          "release_date": "2023年4月27日"
+          "release_date": "2023年4月27日",
+          "official_compact_id": "0U5UNXQ1U9T6S6J2XCIV6UAMWF",
+          "official_link": "/-/zh/detail/0U5UNXQ1U9T6S6J2XCIV6UAMWF",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6377,7 +6995,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HFHXUEBB1RL9N5YR48S6XF3RR",
+          "official_link": "/-/zh/detail/0HFHXUEBB1RL9N5YR48S6XF3RR",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6389,7 +7010,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:22:08+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FNNHM1MT",
@@ -6440,7 +7063,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2025,
-          "release_date": "2025年2月26日"
+          "release_date": "2025年2月26日",
+          "official_compact_id": "0FDRQYNQWZ8H8H1YL6G9P4N0G9",
+          "official_link": "/-/zh/detail/0FDRQYNQWZ8H8H1YL6G9P4N0G9",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6454,7 +7080,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0FOT2IDMBS1WKUD3OA2QVHI004",
+          "official_link": "/-/zh/detail/0FOT2IDMBS1WKUD3OA2QVHI004",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6466,7 +7095,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:22:20+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CV3TXFXZ",
@@ -6517,7 +7148,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年3月27日"
+          "release_date": "2024年3月27日",
+          "official_compact_id": "0NSLIEJWB87INLA7KSPVQ5F0XB",
+          "official_link": "/-/zh/detail/0NSLIEJWB87INLA7KSPVQ5F0XB",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6531,7 +7165,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OI4F9W11ELNU28PK4FIJ2QPYQ",
+          "official_link": "/-/zh/detail/0OI4F9W11ELNU28PK4FIJ2QPYQ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -6545,7 +7182,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LSZQU1YSSD3P6XMI7V2N7NNEG",
+          "official_link": "/-/zh/detail/0LSZQU1YSSD3P6XMI7V2N7NNEG",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6557,7 +7197,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:00+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B086VWYY84",
@@ -6608,7 +7250,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2018,
-          "release_date": "2018年11月14日"
+          "release_date": "2018年11月14日",
+          "official_compact_id": "0GHZNA6U8558U4POH0GTAOURF0",
+          "official_link": "/-/zh/detail/0GHZNA6U8558U4POH0GTAOURF0",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6622,7 +7267,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0TEO51CZ36DC3ZFX8P5JD60009",
+          "official_link": "/-/zh/detail/0TEO51CZ36DC3ZFX8P5JD60009",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -6636,7 +7284,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0KVVYBZY0BSL18E864O4HEA48V",
+          "official_link": "/-/zh/detail/0KVVYBZY0BSL18E864O4HEA48V",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6648,7 +7299,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:01+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CVY2YX65",
@@ -6699,7 +7352,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年5月8日"
+          "release_date": "2024年5月8日",
+          "official_compact_id": "0PNRI6RQY7CIO04HACV89WK5I3",
+          "official_link": "/-/zh/detail/0PNRI6RQY7CIO04HACV89WK5I3",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -6713,7 +7369,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0G88E4BE21TZA35FIJ8U6ZBKJW",
+          "official_link": "/-/zh/detail/0G88E4BE21TZA35FIJ8U6ZBKJW",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -6725,7 +7384,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:03+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-826c0cb517e9db67",
@@ -6756,7 +7417,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:05+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H5TJGKYD",
@@ -6819,7 +7482,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GGLLCQM5",
@@ -6882,7 +7547,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:23:14+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H8V4PTP8",
@@ -6894,11 +7561,13 @@
       "original_title": "Carrie",
       "english_title": "Carrie",
       "display_name_zh": "魔女嘉莉",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "魔女嘉莉 第一季",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "魔女嘉莉"
+      ],
+      "synopsis_zh": "《魔女嘉莉》（英语：Carrie）是一部2026年美国超自然恐怖迷你剧，由麦可·弗拉纳根开发，并由亚马逊米高梅工作室为Amazon Prime Video制作。本剧是同名系列的首部电视剧改编作品，改编自史蒂芬·金于1974年出版的同名小说，也是该小说的第四次影视改编。剧情讲述嘉莉·怀特自幼与世隔绝，在父亲去世后开始进入高中就读，并逐渐展现神秘的念动力。随著故事发展，她也逐步走向那场恶名昭彰的暴行。主演包括萨默·H·豪威尔珊曼莎·史洛扬、席安娜·阿奎东、艾莉森·桑顿、乔尔·欧莱特、乔西·托塔、亚瑟·康提、塔莉亚·杜德克、安柏·米桑德及马修·里沃德。\n小说的电视剧改编计画最早于2002年展开，当时米高梅电视公司打算制作一部电视电影，作为后门试播集，但后来遭国家广播公司放弃。2019年，FX电视网曾著手开发迷你剧版本，但电视网最终并未正式订购制作。亚马逊公司于2024年宣布为Amazon Prime Video开发新的改编作品，由弗拉纳根担任节目统筹，金则加入担任执行制作人。本剧于2025年4月获正式预订制作，并于同年6月至10月在加拿大温哥华进行主要拍摄。\n《魔女嘉莉》于2026年10月7日在Amazon Prime Video首播。本剧获得影评人的正面评价，评论者赞扬弗拉纳根对原作素材的现代化诠释、作品主题及演员表现，尤其肯定豪威尔与史洛扬的演出；不过，部分评论者对剧情相较于原著所作的改动持不同看法。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": 2026,
         "seed_year": "2026",
@@ -6942,10 +7611,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B0H8V4PTP8",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E5%A5%B3%E5%98%89%E8%8E%89_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+          "retrieved_at": "2026-10-30T00:24:03+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:24:03+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E5%A5%B3%E5%98%89%E8%8E%89_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+      "metadata_attempted_at": "2026-10-30T00:24:03+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:24:03+00:00"
     },
     {
       "id": "prime:B0H8MH1JP1",
@@ -6957,11 +7637,13 @@
       "original_title": "Blade Runner 2099",
       "english_title": "Blade Runner 2099",
       "display_name_zh": "银翼杀手2099",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "name_status": "verified_wikipedia",
       "prime_official_name_zh": "银翼杀手 2099 第一季",
-      "aliases_zh": [],
-      "synopsis_zh": "",
-      "synopsis_source_type": null,
+      "aliases_zh": [
+        "银翼杀手2099"
+      ],
+      "synopsis_zh": "《银翼杀手2099》（英语：Blade Runner 2099）是一部2026年发行的美国科幻迷你影集，由西尔卡·路易莎为Amazon Prime Video创作。本剧为银翼杀手系列的一部分，并作为电影《银翼杀手》（1982年）及《银翼杀手2049》（2017年）的续集。该系列作品改编自菲利普·K·迪克于1968年出版的小说《银翼杀手》。该影集预定于2026年11月25日首播。",
+      "synopsis_source_type": "wikipedia",
       "details": {
         "first_air_year": 2026,
         "seed_year": "2026",
@@ -7005,10 +7687,21 @@
           "name": "Prime Video 官方页（App既有映射快照）",
           "url": "https://www.primevideo.com/-/zh/detail/B0H8MH1JP1",
           "retrieved_at": "2026-10-29T00:00:00+08:00"
+        },
+        {
+          "type": "wikipedia",
+          "name": "中文维基百科",
+          "url": "https://zh.wikipedia.org/wiki/%E9%8A%80%E7%BF%BC%E6%AE%BA%E6%89%8B2099",
+          "retrieved_at": "2026-10-30T00:24:05+00:00"
         }
       ],
-      "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "updated_at": "2026-10-30T00:24:05+00:00",
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "synopsis_status": "ok",
+      "synopsis_source_url": "https://zh.wikipedia.org/wiki/%E9%8A%80%E7%BF%BC%E6%AE%BA%E6%89%8B2099",
+      "metadata_attempted_at": "2026-10-30T00:24:05+00:00",
+      "refresh_status": "partial",
+      "metadata_checked_at": "2026-10-30T00:24:05+00:00"
     },
     {
       "id": "seed:seed-c2245c6840823126",
@@ -7039,7 +7732,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:24:06+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ebe36097d3165ea5",
@@ -7070,7 +7765,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:24:09+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-46f0f5520a4ef7ec",
@@ -7101,7 +7798,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:24:13+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0BX1XSPG4",
@@ -7164,7 +7863,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:10+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09D3R3L71",
@@ -7215,7 +7916,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2021,
-          "release_date": "2021年9月8日"
+          "release_date": "2021年9月8日",
+          "official_compact_id": "0SKY9JMJL5LAVGTX0DZEPEZN87",
+          "official_link": "/-/zh/detail/0SKY9JMJL5LAVGTX0DZEPEZN87",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -7229,7 +7933,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0KXH9VD79G06M5UDF3Q3DFLQKD",
+          "official_link": "/-/zh/detail/0KXH9VD79G06M5UDF3Q3DFLQKD",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -7241,7 +7948,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:10+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CKM3N1ZP",
@@ -7304,7 +8013,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DM9PWSZC",
@@ -7367,7 +8078,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CTXS6DFD",
@@ -7430,7 +8143,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:21+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-27b9df9181f6a7ae",
@@ -7461,7 +8176,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:25:25+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H1F6SPGZ",
@@ -7502,7 +8219,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0SHGKA0J8D4G01ZGD647627NEJ",
+          "official_link": "/-/zh/detail/0SHGKA0J8D4G01ZGD647627NEJ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -7516,7 +8236,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HXBV30J672YHO5G6L7TPEO44R",
+          "official_link": "/-/zh/detail/0HXBV30J672YHO5G6L7TPEO44R",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -7530,7 +8253,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0HO8ENK0AIDHSLMA7DJV43S6YS",
+          "official_link": "/-/zh/detail/0HO8ENK0AIDHSLMA7DJV43S6YS",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -7544,7 +8270,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0JZ7BYV8EYHMAW6DDHA0KGA9LP",
+          "official_link": "/-/zh/detail/0JZ7BYV8EYHMAW6DDHA0KGA9LP",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -7568,7 +8297,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2026,
-          "release_date": "2026年6月2日"
+          "release_date": "2026年6月2日",
+          "official_compact_id": "0OT6JCWNTHGSU7KAL5EBV7UJ5P",
+          "official_link": "/-/zh/detail/0OT6JCWNTHGSU7KAL5EBV7UJ5P",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -7580,7 +8312,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:08+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GGWH7SZ5",
@@ -7643,7 +8377,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:08+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-6ea0dbd122298b94",
@@ -7674,7 +8410,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:09+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GGVRT9J2",
@@ -7737,7 +8475,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:10+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HHFPWWVB",
@@ -7800,7 +8540,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:11+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "seed:seed-c9049a79e4dbbcf8",
@@ -7831,7 +8573,9 @@
       "seasons": [],
       "sources": [],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0DTDTKSQW",
@@ -7894,7 +8638,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FZLS3ZTN",
@@ -7957,7 +8703,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GZ73JQKC",
@@ -8020,7 +8768,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H4WHJ9M5",
@@ -8068,7 +8818,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2026年9月22日",
+      "genres": "年轻成人观众 / 喜剧 / 爱情",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CBHFMWND",
@@ -8116,7 +8870,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2022年1月13日",
+      "genres": "儿童 / 冒险片 / 喜剧 / 奇幻",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GHXTWRV2",
@@ -8164,7 +8922,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2026年3月19日",
+      "genres": "动作片 / 剧情片 / 科幻",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DWJZ75SF",
@@ -8212,7 +8974,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "1992年6月4日",
+      "genres": "动作片 / 悬疑",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HBL5T7TV",
@@ -8260,7 +9026,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2002年6月20日",
+      "genres": "动作片",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GSCGQ1PY",
@@ -8311,7 +9081,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2009,
-          "release_date": "2009年4月8日"
+          "release_date": "2009年4月8日",
+          "official_compact_id": "0K8D7DPVRQZCE0CUSM6V7MAH0T",
+          "official_link": "/-/zh/detail/0K8D7DPVRQZCE0CUSM6V7MAH0T",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -8325,7 +9098,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0L40BWIL4O7CRFWIGQHXJ8VPJP",
+          "official_link": "/-/zh/detail/0L40BWIL4O7CRFWIGQHXJ8VPJP",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -8339,7 +9115,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MFJDCRJF8210XA40PIVEN88HP",
+          "official_link": "/-/zh/detail/0MFJDCRJF8210XA40PIVEN88HP",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -8353,7 +9132,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0Q4GHMY9F2LNPKHJ11FJ93VRBC",
+          "official_link": "/-/zh/detail/0Q4GHMY9F2LNPKHJ11FJ93VRBC",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -8367,7 +9149,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MJZ794A9PTH2Q7UA78IBLIE53",
+          "official_link": "/-/zh/detail/0MJZ794A9PTH2Q7UA78IBLIE53",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -8381,7 +9166,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LKHXQ4MYLT5CUUQF5L03FMR94",
+          "official_link": "/-/zh/detail/0LKHXQ4MYLT5CUUQF5L03FMR94",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 7,
@@ -8395,7 +9183,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0RBOHEI4K3IQ4IMYNH1EUA87T4",
+          "official_link": "/-/zh/detail/0RBOHEI4K3IQ4IMYNH1EUA87T4",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -8407,7 +9198,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FKTRNLL8",
@@ -8455,12 +9248,16 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2002年5月30日",
+      "genres": "动作片",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B015ENAX9U",
       "slug": "title-b015enax9u",
-      "kind": "anime",
+      "kind": "movie",
       "identity_status": "verified_official_mapping",
       "prime_id": "B015ENAX9U",
       "seed_id": "B015ENAX9U",
@@ -8503,7 +9300,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2015年9月24日",
+      "genres": "动漫 / 动画 / 冒险片 / 喜剧",
+      "metadata_attempted_at": "2026-10-30T00:26:12+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HG2VCRBC",
@@ -8512,8 +9313,8 @@
       "identity_status": "verified_official_mapping",
       "prime_id": "B0HG2VCRBC",
       "seed_id": "B0HG2VCRBC",
-      "original_title": null,
-      "english_title": null,
+      "original_title": "Supernatural",
+      "english_title": "Supernatural",
       "display_name_zh": "邪恶力量",
       "name_status": "existing_app_curated_not_fresh_web_verified",
       "prime_official_name_zh": "邪恶力量: 第 1 季",
@@ -8554,7 +9355,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2005,
-          "release_date": "2005年9月12日"
+          "release_date": "2005年9月12日",
+          "official_compact_id": "0LPSHRG0T7GCFRY8WUGBX19YJR",
+          "official_link": "/-/zh/detail/0LPSHRG0T7GCFRY8WUGBX19YJR",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -8568,7 +9372,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0R4L986D9M1W0RF5Y2I4CPFZ6K",
+          "official_link": "/-/zh/detail/0R4L986D9M1W0RF5Y2I4CPFZ6K",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -8582,7 +9389,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OPZS74MAGYLYFSR5L6D8MZP8L",
+          "official_link": "/-/zh/detail/0OPZS74MAGYLYFSR5L6D8MZP8L",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -8596,7 +9406,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0I93O6QU985ZMYRJXJHNUQFN08",
+          "official_link": "/-/zh/detail/0I93O6QU985ZMYRJXJHNUQFN08",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -8610,7 +9423,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0OP2PH2BEV5WLOS6LSHPZ9483R",
+          "official_link": "/-/zh/detail/0OP2PH2BEV5WLOS6LSHPZ9483R",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -8624,7 +9440,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0K97ZSD778725B5U3YIIFFLAPD",
+          "official_link": "/-/zh/detail/0K97ZSD778725B5U3YIIFFLAPD",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 7,
@@ -8638,7 +9457,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0J72EXQ5VNXESUTBYHUQIT512U",
+          "official_link": "/-/zh/detail/0J72EXQ5VNXESUTBYHUQIT512U",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 8,
@@ -8652,7 +9474,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0U69XSZZEE5DF5T4WSUMDFWMD7",
+          "official_link": "/-/zh/detail/0U69XSZZEE5DF5T4WSUMDFWMD7",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 9,
@@ -8666,7 +9491,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0TKQ59W5MKNT1QI8IXPAXDOSK8",
+          "official_link": "/-/zh/detail/0TKQ59W5MKNT1QI8IXPAXDOSK8",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 10,
@@ -8680,7 +9508,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LAXCVJRCJR3Q2G2IP2RPH2KU3",
+          "official_link": "/-/zh/detail/0LAXCVJRCJR3Q2G2IP2RPH2KU3",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 11,
@@ -8694,7 +9525,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0PUAJJRY0B2H5E5T4I47FZNK5Y",
+          "official_link": "/-/zh/detail/0PUAJJRY0B2H5E5T4I47FZNK5Y",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 12,
@@ -8708,7 +9542,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GPXJIOHXS3FC0R3R49ZQXG92Y",
+          "official_link": "/-/zh/detail/0GPXJIOHXS3FC0R3R49ZQXG92Y",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 13,
@@ -8722,7 +9559,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0O5E1TJVR05JLQY65GQQFWHNJW",
+          "official_link": "/-/zh/detail/0O5E1TJVR05JLQY65GQQFWHNJW",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 14,
@@ -8736,7 +9576,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QHMKCNRZ2H313BIB67BFYMIO1",
+          "official_link": "/-/zh/detail/0QHMKCNRZ2H313BIB67BFYMIO1",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 15,
@@ -8750,7 +9593,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0LR6C9VB5U8BS8D8INC1JHUN72",
+          "official_link": "/-/zh/detail/0LR6C9VB5U8BS8D8INC1JHUN72",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -8762,7 +9608,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FW4NGZFP",
@@ -8825,7 +9673,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0F7HFJ64C",
@@ -8888,7 +9738,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GDVGCMGW",
@@ -8936,7 +9788,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2003年2月6日",
+      "genres": "爱情 / 喜剧",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DDHZF36Y",
@@ -8987,7 +9843,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2024,
-          "release_date": "2024年10月3日"
+          "release_date": "2024年10月3日",
+          "official_compact_id": "0OLZ0ZJ0EXFTZVZQ435THX4OGU",
+          "official_link": "/-/zh/detail/0OLZ0ZJ0EXFTZVZQ435THX4OGU",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -9001,7 +9860,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0SK0IDGT7V1MMG6VPSK3SH1QXH",
+          "official_link": "/-/zh/detail/0SK0IDGT7V1MMG6VPSK3SH1QXH",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -9013,7 +9875,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DNKHQM8B",
@@ -9076,7 +9940,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B8NZ2TJ5",
@@ -9139,7 +10005,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0CGKHJM4B",
@@ -9202,7 +10070,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GZHLSV86",
@@ -9250,7 +10120,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2026年6月4日",
+      "genres": "动作片 / 奇幻",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0B8TFCPHM",
@@ -9298,7 +10172,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2023年3月2日",
+      "genres": "剧情片 / 运动",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B000U63ZDS",
@@ -9349,7 +10227,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2006,
-          "release_date": "2006年7月6日"
+          "release_date": "2006年7月6日",
+          "official_compact_id": "0QK8C8IWSX2MO0EB7ETU8EABM3",
+          "official_link": "/-/zh/detail/0QK8C8IWSX2MO0EB7ETU8EABM3",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -9363,7 +10244,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QX0P4DRLK5GVNK0MJ48Y809IW",
+          "official_link": "/-/zh/detail/0QX0P4DRLK5GVNK0MJ48Y809IW",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -9377,7 +10261,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MW3B1HTCJCI1S6F53INNRAFBI",
+          "official_link": "/-/zh/detail/0MW3B1HTCJCI1S6F53INNRAFBI",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -9391,7 +10278,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MW3B1Z93Q29ZKBTKHBKMICWYF",
+          "official_link": "/-/zh/detail/0MW3B1Z93Q29ZKBTKHBKMICWYF",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -9405,7 +10295,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0FBAC364JEX5LCTFK1S5LF1BPD",
+          "official_link": "/-/zh/detail/0FBAC364JEX5LCTFK1S5LF1BPD",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -9419,7 +10312,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GUP7XZH3ZKNIB46OIP97J8MPK",
+          "official_link": "/-/zh/detail/0GUP7XZH3ZKNIB46OIP97J8MPK",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 7,
@@ -9433,7 +10329,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0MW3B1VCHHR97CPUZ1NCGQLUSQ",
+          "official_link": "/-/zh/detail/0MW3B1VCHHR97CPUZ1NCGQLUSQ",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 8,
@@ -9447,7 +10346,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0JKQMQSG0SIM7N1ZZALNH81WHM",
+          "official_link": "/-/zh/detail/0JKQMQSG0SIM7N1ZZALNH81WHM",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -9459,7 +10361,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B09ZP5ZM9Z",
@@ -9510,7 +10414,10 @@
           "poster_scope": "season",
           "poster_status": "ok",
           "year": 2011,
-          "release_date": "2011年1月8日"
+          "release_date": "2011年1月8日",
+          "official_compact_id": "0QMX9ATP08X9YAVDSO0TA59430",
+          "official_link": "/-/zh/detail/0QMX9ATP08X9YAVDSO0TA59430",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 2,
@@ -9524,7 +10431,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0FUHYQYX015T1NTJA281M3J8MI",
+          "official_link": "/-/zh/detail/0FUHYQYX015T1NTJA281M3J8MI",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 3,
@@ -9538,7 +10448,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0TAQ18EHBGDDXR03GGAOED01MX",
+          "official_link": "/-/zh/detail/0TAQ18EHBGDDXR03GGAOED01MX",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 4,
@@ -9552,7 +10465,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QHR9PHMTZSRLZ6HY2BOY6LD1C",
+          "official_link": "/-/zh/detail/0QHR9PHMTZSRLZ6HY2BOY6LD1C",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 5,
@@ -9566,7 +10482,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GVR2LALMS63QI6IT5K6J1VNH7",
+          "official_link": "/-/zh/detail/0GVR2LALMS63QI6IT5K6J1VNH7",
+          "identity_source": "app_official_selector_snapshot"
         },
         {
           "season": 6,
@@ -9580,7 +10499,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0QBQBIVAJYT4661750PL8O96OL",
+          "official_link": "/-/zh/detail/0QBQBIVAJYT4661750PL8O96OL",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -9592,7 +10514,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0GZ39BDJS",
@@ -9640,7 +10564,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2026年5月7日",
+      "genres": "喜剧",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DP9GC5NY",
@@ -9688,7 +10616,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "1994年8月2日",
+      "genres": "悬疑 / 动作片",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0F3DYQ77M",
@@ -9736,7 +10668,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2025年10月16日",
+      "genres": "剧情片 / 悬疑",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DNHSF1W4",
@@ -9799,7 +10735,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FNWN756K",
@@ -9862,7 +10800,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0H4BZVYZ3",
@@ -9925,7 +10865,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B00103DRW4",
@@ -9973,7 +10915,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2007年8月23日",
+      "genres": "喜剧",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B073VD4W4Z",
@@ -10021,7 +10967,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2017年7月20日",
+      "genres": "喜剧 / 冒险片 / 剧情片",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0FHJHX1YZ",
@@ -10086,7 +11036,10 @@
           "poster_scope": null,
           "poster_status": "missing",
           "year": null,
-          "release_date": null
+          "release_date": null,
+          "official_compact_id": "0GEB35CUYRCDVXUV0UXQY9FHIF",
+          "official_link": "/-/zh/detail/0GEB35CUYRCDVXUV0UXQY9FHIF",
+          "identity_source": "app_official_selector_snapshot"
         }
       ],
       "sources": [
@@ -10098,7 +11051,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DXKQSSL9",
@@ -10146,7 +11101,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2025年4月24日",
+      "genres": "动作片 / 悬疑",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DSJPQPJ9",
@@ -10209,7 +11168,9 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0HN5HYTB6",
@@ -10257,7 +11218,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2007年10月18日",
+      "genres": "剧情片 / 冒险片",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:B0DH5DMSRW",
@@ -10305,7 +11270,11 @@
         }
       ],
       "updated_at": "2026-10-29T00:00:00+08:00",
-      "snapshot_status": "existing_app_snapshot_not_redownloaded"
+      "snapshot_status": "existing_app_snapshot_not_redownloaded",
+      "release_date": "2024年11月6日",
+      "genres": "动漫",
+      "metadata_attempted_at": "2026-10-30T00:26:18+00:00",
+      "refresh_status": "failed"
     }
   ]
 }
