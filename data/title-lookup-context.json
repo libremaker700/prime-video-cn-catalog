@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "items": [
+    {
+      "officialId": "B0BXL76TNN",
+      "originalTitle": "Batman",
+      "kind": "tv",
+      "year": 1992,
+      "season": 1,
+      "displayTitle": "蝙蝠侠：动画版 第一季",
+      "reviewedAliases": [
+        "蝙蝠侠：动画版",
+        "蝙蝠侠动画版",
+        "蝙蝠侠动画版第一季",
+        "蝙蝠侠：动画系列",
+        "蝙蝠侠动画系列",
+        "Batman: The Animated Series"
+      ],
+      "lookupTitle": "Batman: The Animated Series",
+      "officialUrl": "https://www.primevideo.com/detail/0IY0UQ0BH91GDW55AZPO3U020P",
+      "candidateLinks": [
+        "https://movie.douban.com/subject/2272384/"
+      ],
+      "evidence": {
+        "wikidataId": "Q673517",
+        "englishArticle": "https://en.wikipedia.org/wiki/Batman%3A_The_Animated_Series",
+        "englishArticleTitle": "Batman: The Animated Series",
+        "englishEntityNames": [
+          "Batman: The Animated Series",
+          "Batman: The Animated Series",
+          "Batman: The Animated Series",
+          "The Adventures of Batman & Robin.",
+          "Batman",
+          "BTAS",
+          "Batman The Animated Series",
+          "Batman: TAS",
+          "Batman TAS",
+          "1992 Batman",
+          "Batman"
+        ],
+        "typeChecked": "television_series",
+        "officialSelectedYear": 1992,
+        "officialSeason": 1,
+        "seriesStartYears": [
+          1992
+        ],
+        "yearAssessment": "official_selected_year_equals_series_first_year",
+        "sharedCast": [],
+        "officialSource": "https://www.primevideo.com/-/zh/detail/0IY0UQ0BH91GDW55AZPO3U020P",
+        "doubanId": "2272384",
+        "cachedDoubanTitle": "蝙蝠侠：动画版 第一季",
+        "cachedPageSha256": "a9c4057e7130a26830559c6140be9d44b81c7940012ea464eb435f486b2beaf8",
+        "cachedRetrievedAt": "2026-10-30T13:17:24.204634+00:00",
+        "currentDirectFetchStatus": "BLOCKED_403"
+      }
+    }
+  ]
+}

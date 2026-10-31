@@ -6,6 +6,10 @@ on:
     - cron: '47 3 * * *'
   workflow_dispatch:
     inputs:
+      official_id:
+        description: 'Optional single App official ID; recheck domestic aliases even when a Chinese name already exists'
+        default: ''
+        type: string
       limit:
         description: 'Maximum unresolved name/description targets (0–20); verified metadata is reused'
         default: '12'
@@ -60,8 +64,12 @@ jobs:
           TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' }}
           REVIEW_SAVED: ${{ inputs.review_saved || 'false' }}
+          LOOKUP_OFFICIAL_ID: ${{ inputs.official_id || '' }}
         run: |
-          if [ "$REVIEW_SAVED" = 'true' ]; then
+          if [ -n "$LOOKUP_OFFICIAL_ID" ]; then
+            python scripts/lookup_context.py --official-id "$LOOKUP_OFFICIAL_ID" --output .local/link-lookup.json
+            python scripts/lookup_jobs.py --input .local/link-lookup.json --output logs/source-title-lookup.json --execute --limit 1 --monthly-limit "$TITLE_LOOKUP_MONTHLY_LIMIT"
+          elif [ "$REVIEW_SAVED" = 'true' ]; then
             python scripts/title_lookup.py --force --review-saved
           elif [ "$MANUAL_RUN" = 'true' ]; then
             python scripts/title_lookup.py --force
@@ -95,6 +103,7 @@ jobs:
           git config user.name 'catalog-bot'
           git config user.email 'catalog-bot@users.noreply.github.com'
           git add data/title-cache.json logs/title-lookup.json docs
+          if [ -f logs/source-title-lookup.json ]; then git add logs/source-title-lookup.json; fi
           if [ -f data/source-verification.json ]; then git add data/source-verification.json; fi
           git diff --cached --quiet || git commit -m 'catalog: persist title lookup and verified names'
           git push

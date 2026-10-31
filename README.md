@@ -1,5 +1,7 @@
 # Prime Video Chinese Metadata Catalog
 
+2026-11-01: Allow a single App official ID in the title-update workflow, including titles outside the legacy cloud catalog and titles that already have a Chinese translation. Reviewed context binds the full title, official URL, year, medium and season; supplied or AI-returned Douban URLs remain candidates until their page passes identity checks. An HTTP block is not evidence that the title is absent. Source preflight can reuse reviewed domestic aliases without changing the seven-field public status format.
+
 2026-11-01: Resolve explicit season/part labels independently of Prime's numeric codes. `Season 1, Part 2` with code 102 means logical season 1, part 2. Preserve each part's official identity separately; never overwrite a complete season's artwork, synopsis or playback binding with a part. Add the user-confirmed domestic title and both punctuation variants for Angry Birds: Mystery Island.
 
 2026-10-31: Publish identity-bound source-verification results before App delivery. The App can reuse prior status without launching whole-catalog source discovery; private provider configuration and live playback data stay outside the public snapshot.

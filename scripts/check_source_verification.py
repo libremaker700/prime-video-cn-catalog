@@ -155,6 +155,10 @@ def run(root=ROOT, limit=12, budget=120, providers=None, probe=None, clock=None)
     catalog_path = root / 'docs/catalog.json'
     if catalog_path.exists():
         targets = calibrated_targets(targets, json.loads(catalog_path.read_text(encoding='utf-8')))
+    context_path = root / 'data/title-lookup-context.json'
+    if context_path.exists():
+        from lookup_context import contextualize
+        targets = contextualize(targets, json.loads(context_path.read_text(encoding='utf-8')))
     path = root / 'data/source-verification.json'
     old = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'schema': 1, 'items': []}
     clock = clock or datetime.now(timezone.utc)

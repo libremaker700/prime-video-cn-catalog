@@ -1,5 +1,6 @@
 """Run a bounded metadata batch for an exported App snapshot; no catalogue publication."""
 import argparse
+import hashlib
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -34,7 +35,9 @@ def run(input_path,output_path,*,execute=False,title='',limit=12,monthly_limit=1
     result=[]
     for r in jobs:
         # Include season here: the legacy name cache is deliberately series-wide.
-        key=cache_key(r)+':scope:'+summary_key(r)
+        context={k:r.get(k) for k in ('lookup_title','official_url','candidate_links')}
+        context_hash=hashlib.sha256(json.dumps(context,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+        key=cache_key(r)+':scope:'+summary_key(r)+':context:'+context_hash
         old=cache.setdefault('batch_records',{}).get(key,{})
         if old.get('identity')==identity(r) and (old.get('status')=='verified' or old.get('next_retry_at','')>checked):
             result.append(old);continue

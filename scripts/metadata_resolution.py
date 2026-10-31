@@ -48,16 +48,24 @@ def grounded_answer_names(answer,results):
 
 
 def query(record, stage):
-    title = record.get('english_title') or record.get('original_title') or ''
+    title = record.get('lookup_title') or record.get('english_title') or record.get('original_title') or ''
     year = record.get('details', {}).get('first_air_year') or record.get('year') or ''
-    kind = '电影' if record.get('kind') == 'movie' else '电视剧'
+    kind = {'movie':'电影','anime':'电视动画'}.get(record.get('kind'),'电视剧')
     season = record.get('season') or 0
     context = f'{title}（{year}年{kind}' + (f'，第{season}季' if season else '') + '）'
     if stage == 'tavily':
+        official = str(record.get('official_url') or '')
+        if re.fullmatch(r'https://www\.primevideo\.com/(?:-/[a-zA-Z-]+/)?detail/[A-Z0-9]{10,26}', official):
+            return f'根据官网链接 {official}，作品“{title}” {year}年{kind}' + (f' 第{season}季' if season else '') + '，查找同一作品的豆瓣条目链接和中国中文名，用[中文名]列出；避免其他作品或年份，不猜测名称或豆瓣ID。'
         # Search is not a chat-completion prompt: a long instruction dilutes the title.
         return f'"{title}" {year} 中文名'
     domain = next(iter(HOSTS[stage]))
     return f'"{title}" {year} {kind} 中文名 剧情简介'
+
+
+def candidate_links(answer):
+    """AI links are only candidates; every fetched page still needs identity proof."""
+    return list(dict.fromkeys(url.rstrip('/')+'/' for url in re.findall(r'https://movie\.douban\.com/subject/[0-9]+/?', str(answer or '')[:6000])))[:3]
 
 
 def safe_source(url, stage=None):
@@ -169,8 +177,13 @@ def resolve(client, record, checked_at, reserve=None, source_probe=None):
     combined, history, candidates = {}, [], []
     probed=set()
     probe_state = 'not_checked'
-    for stage in STAGES:
-        if stage == 'wikipedia':
+    hints = [url for url in record.get('candidate_links', []) if safe_source(url)]
+    stages = ('provided_links',) + STAGES if hints else STAGES
+    for stage in stages:
+        if stage == 'provided_links':
+            patch = client.verify_results(record, [{'url': url} for url in hints[:3]], checked_at)
+            evidence = {'stage': stage, 'status': 'verified' if patch else 'pending_review', 'results': [{'url':url} for url in hints[:3]]}
+        elif stage == 'wikipedia':
             patch = client.direct(record, checked_at)
             evidence = {'stage': stage, 'status': 'verified' if patch else 'not_found', 'results': []}
         elif client.key and (not client.stopped or (hasattr(client,'has_cached') and client.has_cached(record,stage))):
@@ -205,7 +218,7 @@ def resolve(client, record, checked_at, reserve=None, source_probe=None):
         summary_done = combined.get('synopsis_zh') or record.get('synopsis_zh')
         if name_done and summary_done and (source_probe is None or probe_state == 'matched'):
             break
-    return combined or None, {'stage_order': list(STAGES), 'stages': history, 'candidate_names': candidates[:12],
+    return combined or None, {'stage_order': list(stages), 'stages': history, 'candidate_names': candidates[:12],
                               'playback_status': probe_state, 'retryable': probe_state != 'matched',
                               'status': 'verified' if combined else 'pending_review'}
 

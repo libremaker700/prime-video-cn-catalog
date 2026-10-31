@@ -259,6 +259,10 @@ class Lookup:
                 if paragraphs:
                     results[-1]['definition'] = paragraphs[0][:1000]
                     results[-1]['page_sha256'] = hashlib.sha256(item['raw_content'].encode()).hexdigest()
+        from metadata_resolution import candidate_links
+        for url in candidate_links(payload.get('answer')):
+            if not any(row['url'] == url for row in results):
+                results.append({'url':url,'title':'AI candidate; identity unverified'})
         patch = self.verify_results(record, results, checked_at)
         return patch, {'stage': stage, 'query': query, 'usage': payload.get('usage'), 'results': results,
                        'answer_text': str(payload.get('answer') or '')[:6000],
