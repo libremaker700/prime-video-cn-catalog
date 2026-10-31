@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-10-31T03:56:49+00:00",
+  "generated_at": "2026-10-31T22:16:46+00:00",
   "item_count": 177,
   "items": [
     {
@@ -9573,10 +9573,14 @@
       "seed_id": "seed-a5bbef0d5c350b1e",
       "original_title": "Angry Birds Mystery Island A Hatchlings Adventure",
       "english_title": "Angry Birds Mystery Island A Hatchlings Adventure",
-      "display_name_zh": "愤怒的小鸟神秘岛",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "display_name_zh": "愤怒的小鸟：神秘岛",
+      "name_status": "user_app_preference",
       "prime_official_name_zh": null,
-      "aliases_zh": [],
+      "aliases_zh": [
+        "愤怒的小鸟：神秘岛",
+        "愤怒的小鸟神秘岛",
+        "Angry Birds: Mystery Island"
+      ],
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {
@@ -9624,43 +9628,6 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [
-        {
-          "season": 1,
-          "official_compact_id": "0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "official_catalog_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-          "official_link": "/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "official_id": "0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "official_title_zh": "Clifford the Big Red Dog – Season 1, Part 2",
-          "year": 2019,
-          "release_date": "2019年12月6日",
-          "official_checked_at": "2026-10-31T03:56:32+00:00",
-          "sources": [
-            {
-              "type": "prime_official",
-              "name": "Prime Video public page",
-              "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-              "retrieved_at": "2026-10-31T03:56:32+00:00"
-            }
-          ],
-          "synopsis_original": "Join Emily Elizabeth and her big red dog, Clifford, as they explore their island home and go on big new adventures! With a fun and furry new cast of characters and brand-new original songs, Clifford’s world, and heart, just keep on growing!",
-          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "synopsis_status": "translation_pending",
-          "poster": {
-            "path": "images/7bdd8e0a68344c4be099a7733189c77578f3431772958f6ff606f7fcd00e96bb.jpg",
-            "sha256": "7bdd8e0a68344c4be099a7733189c77578f3431772958f6ff606f7fcd00e96bb",
-            "width": 1280,
-            "height": 720,
-            "scope": "season",
-            "season_number": 1,
-            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e8f762913ac8486ca6f168c2214e04a1234f41955bd41d2fae53f1a37c376e5b._SX1280_FMjpg_.jpg",
-            "source_type": "prime_official",
-            "provenance": "public_source_download",
-            "retrieved_at": "2026-10-31T03:56:32+00:00"
-          },
-          "poster_scope": "season",
-          "poster_status": "ok",
-          "id": "prime:B0GYPZYNH3:s1"
-        },
         {
           "season": 2,
           "official_compact_id": "0TK5BQA4A3PR2279WGFHTQNX7G",
@@ -9737,30 +9704,6 @@
           ],
           "synopsis_original": "Come along with Emily Elizabeth, Clifford, and their friends as they spend a day at the Birdwell Fun Fair, become hard hitting reporters, and build a cool clubhouse! From throwing a welcome party for a new islander to turning the sounds of a thunderstorm into a new song, the friends learn that they can always look to each other when they feel scared and the importance of enjoying today.",
           "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9"
-        },
-        {
-          "season": 102,
-          "id": "prime:B0GYPZYNH3:s102",
-          "official_id": "B0GYPZYNH3",
-          "official_title_zh": "Clifford the Big Red Dog – Season 1, Part 2",
-          "synopsis_zh": "Join Emily Elizabeth and her big red dog, Clifford, as they explore their island home and go on big new adventures! With a fun and furry new cast of characters and brand-new original songs, Clifford’s world, and heart, just keep on growing!",
-          "synopsis_source_type": "existing_snapshot_app",
-          "synopsis_status": "ok",
-          "poster": {
-            "path": "images/45084d556dece4f9adf6f5d59f6f2cdadb219b46c32842e2b6b772c84a77a7b6.jpg",
-            "width": 1080,
-            "height": 608,
-            "sha256": "45084d556dece4f9adf6f5d59f6f2cdadb219b46c32842e2b6b772c84a77a7b6",
-            "scope": "season",
-            "season_number": 102,
-            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f04c60847d30b065e848481e7f3613858c071b029f2a99630e61aef641ba0c8e.jpg",
-            "provenance": "existing_app_official_mapping_snapshot_not_redownloaded",
-            "source_type": "app_snapshot_official_mapping"
-          },
-          "poster_scope": "season",
-          "poster_status": "ok",
-          "year": "2020",
-          "release_date": "2020年1月6日"
         }
       ],
       "sources": [
@@ -9794,7 +9737,47 @@
       "metadata_attempted_at": "2026-10-31T03:56:36+00:00",
       "refresh_status": "partial",
       "prime_series_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-      "metadata_checked_at": "2026-10-31T03:56:36+00:00"
+      "metadata_checked_at": "2026-10-31T03:56:36+00:00",
+      "official_unmapped_seasons": [
+        {
+          "season": 1,
+          "official_compact_id": "0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+          "official_catalog_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
+          "official_link": "/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+          "official_id": "0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+          "official_title_zh": "Clifford the Big Red Dog – Season 1, Part 2",
+          "year": 2019,
+          "release_date": "2019年12月6日",
+          "official_checked_at": "2026-10-31T03:56:32+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+              "retrieved_at": "2026-10-31T03:56:32+00:00"
+            }
+          ],
+          "synopsis_original": "Join Emily Elizabeth and her big red dog, Clifford, as they explore their island home and go on big new adventures! With a fun and furry new cast of characters and brand-new original songs, Clifford’s world, and heart, just keep on growing!",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
+          "synopsis_status": "translation_pending",
+          "id": "prime:B0GYPZYNH3:s1",
+          "display_season": 1,
+          "part": 2
+        },
+        {
+          "season": 102,
+          "id": "prime:B0GYPZYNH3:s102",
+          "official_id": "B0GYPZYNH3",
+          "official_title_zh": "Clifford the Big Red Dog – Season 1, Part 2",
+          "synopsis_zh": "Join Emily Elizabeth and her big red dog, Clifford, as they explore their island home and go on big new adventures! With a fun and furry new cast of characters and brand-new original songs, Clifford’s world, and heart, just keep on growing!",
+          "synopsis_source_type": "existing_snapshot_app",
+          "synopsis_status": "ok",
+          "year": "2020",
+          "release_date": "2020年1月6日",
+          "display_season": 1,
+          "part": 2
+        }
+      ]
     },
     {
       "id": "seed:seed-048b35d4cf75514f",
