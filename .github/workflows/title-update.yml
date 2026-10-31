@@ -78,6 +78,14 @@ jobs:
             git diff --cached --quiet || git commit -m 'catalog: save title lookup cache and budget'
             git push
           fi
+      - name: Check source availability after metadata resolution
+        env:
+          SOURCE_PROVIDERS_JSON: ${{ secrets.SOURCE_PROVIDERS_JSON }}
+          SOURCE_CHECK_LIMIT: ${{ vars.SOURCE_CHECK_LIMIT || '12' }}
+          SOURCE_CHECK_BUDGET_SECONDS: ${{ vars.SOURCE_CHECK_BUDGET_SECONDS || '120' }}
+        run: python scripts/check_source_verification.py --limit "$SOURCE_CHECK_LIMIT" --budget-seconds "$SOURCE_CHECK_BUDGET_SECONDS"
+      - name: Publish identity-bound source verification metadata
+        run: python scripts/publish_source_verification.py
       - name: Validate complete catalogue before publishing
         run: python scripts/validate.py
       - name: Retain active and previous releases only
@@ -87,6 +95,7 @@ jobs:
           git config user.name 'catalog-bot'
           git config user.email 'catalog-bot@users.noreply.github.com'
           git add data/title-cache.json logs/title-lookup.json docs
+          if [ -f data/source-verification.json ]; then git add data/source-verification.json; fi
           git diff --cached --quiet || git commit -m 'catalog: persist title lookup and verified names'
           git push
       - name: Publish verified catalogue to Oracle

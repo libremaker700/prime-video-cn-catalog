@@ -1,0 +1,3625 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-31T11:29:47Z",
+  "items": [
+    {
+      "officialId": "B0HH44QWRB",
+      "originalTitle": "Ali G: Who Iz I?",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Ali G: 我系水？",
+      "aliases": [
+        "Ali G: Who Iz I?",
+        "Ali G: 我系水？",
+        "阿里·G：我是谁？",
+        "AliG 我系水",
+        "阿里·G：我系水？"
+      ]
+    },
+    {
+      "officialId": "B0HF4GRKLF",
+      "originalTitle": "Verity",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "不存在的罪人",
+      "aliases": [
+        "不存在的罪人",
+        "Verity"
+      ]
+    },
+    {
+      "officialId": "B0GMYXX8PC",
+      "originalTitle": "Scream 7",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "惊声尖叫7",
+      "aliases": [
+        "惊声尖叫7",
+        "Scream 7"
+      ]
+    },
+    {
+      "officialId": "B0HJ2JTBJC",
+      "originalTitle": "Forgotten Island",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "忘却之岛",
+      "aliases": [
+        "忘却之岛",
+        "Forgotten Island",
+        "误闯遗忘岛"
+      ]
+    },
+    {
+      "officialId": "B0H61YCFG3",
+      "originalTitle": "Minions & Monsters",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "小黄人与大怪兽",
+      "aliases": [
+        "小黄人与大怪兽",
+        "Minions & Monsters",
+        "小小兵&大怪兽"
+      ]
+    },
+    {
+      "officialId": "B0HKXGTVDS",
+      "originalTitle": "Drive - The Pretenders",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "《假戏真做 - 狂飙》",
+      "aliases": [
+        "Drive - The Pretenders",
+        "假面恋人：换档追爱",
+        "《假戏真做 - 狂飙》",
+        "极速伪装者"
+      ]
+    },
+    {
+      "officialId": "B0HF4CN83Q",
+      "originalTitle": "Nimrods",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "新年狂欢",
+      "aliases": [
+        "新年狂欢",
+        "Nimrods"
+      ]
+    },
+    {
+      "officialId": "B0H7L9WVPJ",
+      "originalTitle": "NOVAK DJOKOVIC: THE WOLF IN WINTER",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "诺瓦克·德约科维奇：冬狼",
+      "aliases": [
+        "NOVAK DJOKOVIC: THE WOLF IN WINTER",
+        "诺瓦克·德约科维奇：凛冬孤狼",
+        "诺瓦克·德约科维奇：冬狼"
+      ]
+    },
+    {
+      "officialId": "B0G8SYQMTW",
+      "originalTitle": "Hungry",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "饥饿河马",
+      "aliases": [
+        "饥饿河马",
+        "Hungry"
+      ]
+    },
+    {
+      "officialId": "B0HJGR59RZ",
+      "originalTitle": "Masterplan",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "大师计划",
+      "aliases": [
+        "Masterplan",
+        "偷天父子兵",
+        "大师计划"
+      ]
+    },
+    {
+      "officialId": "B0HCM74GDL",
+      "originalTitle": "The Terminal List",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "终极名单",
+      "aliases": [
+        "The Terminal List"
+      ]
+    },
+    {
+      "officialId": "B0DHT82G2Q",
+      "originalTitle": "The Institute",
+      "kind": "tv",
+      "season": 1,
+      "year": 2025,
+      "displayTitle": "研究院",
+      "aliases": [
+        "研究院",
+        "The Institute",
+        "异能研究所 第一季"
+      ]
+    },
+    {
+      "officialId": "B0H5TN2HH1",
+      "originalTitle": "Sterling Point",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "斯特林角",
+      "aliases": [
+        "Sterling Point"
+      ]
+    },
+    {
+      "officialId": "B0HKCSHTY3",
+      "originalTitle": "Nocturne",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "夜行杀机",
+      "aliases": [
+        "夜行杀机",
+        "Nocturne",
+        "夜曲"
+      ]
+    },
+    {
+      "officialId": "B0HL3NHK3N",
+      "originalTitle": "Love in Disguise",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "伪装恋爱",
+      "aliases": [
+        "伪装恋爱",
+        "Love in Disguise"
+      ]
+    },
+    {
+      "officialId": "B0H8LN59WQ",
+      "originalTitle": "Neagley",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "《内格利》",
+      "aliases": [
+        "Neagley",
+        "侠女内莉 第一季",
+        "《内格利》"
+      ]
+    },
+    {
+      "officialId": "B0H55KL1D9",
+      "originalTitle": "Batman: Caped Crusader",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "蝙蝠侠 披风斗士",
+      "aliases": [
+        "蝙蝠侠：披风战士 第二季",
+        "Batman: Caped Crusader"
+      ]
+    },
+    {
+      "officialId": "B0HHFTB3FC",
+      "originalTitle": "I Would Rather Die",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "我宁愿死",
+      "aliases": [
+        "I Would Rather Die"
+      ]
+    },
+    {
+      "officialId": "B0H8V6XRQJ",
+      "originalTitle": "Carrie",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "魔女嘉莉",
+      "aliases": [
+        "Carrie"
+      ]
+    },
+    {
+      "officialId": "B09MKZTJF4",
+      "originalTitle": "Reacher",
+      "kind": "tv",
+      "season": 1,
+      "year": 2022,
+      "displayTitle": "侠探杰克",
+      "aliases": [
+        "Reacher"
+      ]
+    },
+    {
+      "officialId": "B0GPKJLP7G",
+      "originalTitle": "Off Campus",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "校外",
+      "aliases": [
+        "校外",
+        "校园之外 第一季",
+        "Off Campus"
+      ]
+    },
+    {
+      "officialId": "B09HYS87L3",
+      "originalTitle": "The Terminal List",
+      "kind": "tv",
+      "season": 1,
+      "year": 2022,
+      "displayTitle": "终极名单",
+      "aliases": [
+        "The Terminal List"
+      ]
+    },
+    {
+      "officialId": "B0GYYFG65X",
+      "originalTitle": "Elle",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "《艾丽》",
+      "aliases": [
+        "Elle",
+        "艾丽 第一季",
+        "《艾丽》"
+      ]
+    },
+    {
+      "officialId": "B0DQPP6DPB",
+      "originalTitle": "Wrong Turn",
+      "kind": "movie",
+      "season": 0,
+      "year": 2021,
+      "displayTitle": "致命弯道",
+      "aliases": [
+        "致命弯道",
+        "Wrong Turn (2020)",
+        "Wrong Turn"
+      ]
+    },
+    {
+      "officialId": "B0CGNQ11LL",
+      "originalTitle": "Candy Cane Lane",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "拐杖糖小道",
+      "aliases": [
+        "Candy Cane Lane",
+        "拐杖糖巷",
+        "拐杖糖小道"
+      ]
+    },
+    {
+      "officialId": "B0GX374TXC",
+      "originalTitle": "All Creatures Big and Small",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "诺亚方舟漂流记",
+      "aliases": [
+        "诺亚方舟漂流记",
+        "All Creatures Big and Small"
+      ]
+    },
+    {
+      "officialId": "B0DFZQH2P9",
+      "originalTitle": "Ace Of Hearts",
+      "kind": "movie",
+      "season": 0,
+      "year": 2008,
+      "displayTitle": "Ace Of Hearts",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GS9J11W9",
+      "originalTitle": "First Love",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "初恋",
+      "aliases": [
+        "初恋",
+        "First Love"
+      ]
+    },
+    {
+      "officialId": "B0GR9KSD1P",
+      "originalTitle": "Wishmaster",
+      "kind": "movie",
+      "season": 0,
+      "year": 1997,
+      "displayTitle": "恶魔咆哮",
+      "aliases": [
+        "恶魔咆哮",
+        "Wishmaster"
+      ]
+    },
+    {
+      "officialId": "B0F8WJ178P",
+      "originalTitle": "Swingers",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "Swingers",
+      "aliases": []
+    },
+    {
+      "officialId": "B089CVRR2S",
+      "originalTitle": "Attraction 2: Invasion",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "异星引力2：末日异战",
+      "aliases": [
+        "异星引力2：末日异战",
+        "Attraction 2: Invasion (English dub)",
+        "Attraction 2: Invasion"
+      ]
+    },
+    {
+      "officialId": "B0HKZMV2VV",
+      "originalTitle": "Capturing Bigfoot",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "大脚怪摄录",
+      "aliases": [
+        "大脚怪摄录",
+        "Capturing Bigfoot"
+      ]
+    },
+    {
+      "officialId": "B0G2GVYYNT",
+      "originalTitle": "Coyote Lake",
+      "kind": "movie",
+      "season": 0,
+      "year": 2019,
+      "displayTitle": "土狼湖",
+      "aliases": [
+        "土狼湖",
+        "Coyote Lake"
+      ]
+    },
+    {
+      "officialId": "B0GWM79X6W",
+      "originalTitle": "Northern Lights",
+      "kind": "movie",
+      "season": 0,
+      "year": 2009,
+      "displayTitle": "北极之光",
+      "aliases": [
+        "北极之光",
+        "Northern Lights"
+      ]
+    },
+    {
+      "officialId": "B0CJ5S4JJJ",
+      "originalTitle": "Spectre",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "幽灵党",
+      "aliases": [
+        "007：幽灵党"
+      ]
+    },
+    {
+      "officialId": "B09TKP4FVL",
+      "originalTitle": "First Daughter",
+      "kind": "movie",
+      "season": 0,
+      "year": 2004,
+      "displayTitle": "第一千金",
+      "aliases": []
+    },
+    {
+      "officialId": "B00BYCYCMA",
+      "originalTitle": "Death Becomes Her",
+      "kind": "movie",
+      "season": 0,
+      "year": 1992,
+      "displayTitle": "飞越长生",
+      "aliases": [
+        "飞越长生",
+        "Death Becomes Her"
+      ]
+    },
+    {
+      "officialId": "B0B5XWCFR6",
+      "originalTitle": "Sideworld: Terrors of the Sea",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "Sideworld: Terrors of the Sea",
+      "aliases": []
+    },
+    {
+      "officialId": "B0F4VQ6XXF",
+      "originalTitle": "Superman",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "超人",
+      "aliases": [
+        "超人",
+        "Superman"
+      ]
+    },
+    {
+      "officialId": "B0CXDN8MJ4",
+      "originalTitle": "Godzilla x Kong: The New Empire",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "哥斯拉大战金刚2：帝国崛起",
+      "aliases": [
+        "哥斯拉大战金刚2：帝国崛起",
+        "Godzilla x Kong: The New Empire",
+        "哥吉拉与金刚：新帝国"
+      ]
+    },
+    {
+      "officialId": "B00RW1I7WS",
+      "originalTitle": "Dracula Untold",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "德古拉元年",
+      "aliases": [
+        "德古拉元年",
+        "Dracula Untold"
+      ]
+    },
+    {
+      "officialId": "B0B6GGDTWK",
+      "originalTitle": "Blade Runner 2049",
+      "kind": "movie",
+      "season": 0,
+      "year": 2017,
+      "displayTitle": "銀翼殺手2049",
+      "aliases": [
+        "银翼杀手2049",
+        "銀翼殺手2049",
+        "Blade Runner 2049"
+      ]
+    },
+    {
+      "officialId": "B0H4WZS7VX",
+      "originalTitle": "The Love Hypothesis",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "爱情假说",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GHXVBQLM",
+      "originalTitle": "Project Hail Mary",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "挽救计划",
+      "aliases": []
+    },
+    {
+      "officialId": "B0D6JX1H78",
+      "originalTitle": "Despicable Me 4",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "神偷奶爸4",
+      "aliases": [
+        "神偷奶爸4",
+        "Despicable Me 4 (Includes 2 Mini-Movies)",
+        "Despicable Me 4"
+      ]
+    },
+    {
+      "officialId": "B0B8TL33SH",
+      "originalTitle": "John Wick: Chapter 4",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "捍衛任務4",
+      "aliases": [
+        "疾速追杀4",
+        "捍衛任務4",
+        "John Wick: Chapter 4"
+      ]
+    },
+    {
+      "officialId": "B076KR98WR",
+      "originalTitle": "Only the Brave",
+      "kind": "movie",
+      "season": 0,
+      "year": 2017,
+      "displayTitle": "勇往直前",
+      "aliases": [
+        "勇往直前",
+        "Only the Brave"
+      ]
+    },
+    {
+      "officialId": "B0D48B32ML",
+      "originalTitle": "The Amateur",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "谍网追凶",
+      "aliases": [
+        "谍网追凶",
+        "The Amateur",
+        "复仇反击战"
+      ]
+    },
+    {
+      "officialId": "B0B6RPP9KQ",
+      "originalTitle": "Lone Survivor",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "孤独的生还者",
+      "aliases": [
+        "孤独的生还者",
+        "Lone Survivor"
+      ]
+    },
+    {
+      "officialId": "B0GZHXDRBN",
+      "originalTitle": "Masters of the Universe",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "宇宙巨人：希曼崛起",
+      "aliases": []
+    },
+    {
+      "officialId": "B07QGXHP6Z",
+      "originalTitle": "The Quick and the Dead (1987)",
+      "kind": "movie",
+      "season": 0,
+      "year": 1987,
+      "displayTitle": "拓荒先锋",
+      "aliases": [
+        "拓荒先锋",
+        "The Quick and the Dead (1987)"
+      ]
+    },
+    {
+      "officialId": "B0HGFQ8SNW",
+      "originalTitle": "Helluva Boss",
+      "kind": "tv",
+      "season": 3,
+      "year": 2026,
+      "displayTitle": "极恶老大",
+      "aliases": [
+        "极恶老大 第三季",
+        "Helluva Boss",
+        "极恶老大"
+      ]
+    },
+    {
+      "officialId": "B0HH5KHSRQ",
+      "originalTitle": "Tracker",
+      "kind": "tv",
+      "season": 4,
+      "year": 2026,
+      "displayTitle": "寻踪者",
+      "aliases": [
+        "寻踪者",
+        "Tracker"
+      ]
+    },
+    {
+      "officialId": "B0HK6X91T4",
+      "originalTitle": "NCIS",
+      "kind": "tv",
+      "season": 24,
+      "year": 2026,
+      "displayTitle": "海军罪案调查处",
+      "aliases": [
+        "海军罪案调查处",
+        "NCIS",
+        "重返犯罪现场"
+      ]
+    },
+    {
+      "officialId": "B0FLHM6ZHM",
+      "originalTitle": "The Rainmaker",
+      "kind": "tv",
+      "season": 1,
+      "year": 2025,
+      "displayTitle": "造雨人",
+      "aliases": [
+        "造雨人",
+        "The Rainmaker"
+      ]
+    },
+    {
+      "officialId": "B0GRRYG4PR",
+      "originalTitle": "Extinct",
+      "kind": "tv",
+      "season": 1,
+      "year": 2017,
+      "displayTitle": "灭绝",
+      "aliases": [
+        "灭绝",
+        "Extinct"
+      ]
+    },
+    {
+      "officialId": "B0HJHRFBJC",
+      "originalTitle": "NCIS: New York",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "海军罪案调查处：纽约",
+      "aliases": [
+        "海军罪案调查处：纽约",
+        "NCIS: New York",
+        "重返犯罪现场：纽约"
+      ]
+    },
+    {
+      "officialId": "B0GLG36Z6V",
+      "originalTitle": "Seeking Persephone",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "寻找珀耳塞福涅",
+      "aliases": [
+        "寻找珀耳塞福涅",
+        "Seeking Persephone"
+      ]
+    },
+    {
+      "officialId": "B0HCNSR7D7",
+      "originalTitle": "Friends Sex and Games",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "朋友 性和游戏",
+      "aliases": [
+        "Friends Sex and Games",
+        "各取所需",
+        "朋友 性和游戏"
+      ]
+    },
+    {
+      "officialId": "B0D6F27MDK",
+      "originalTitle": "Dino Dex - Season 1",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "恐龙图鉴大冒险",
+      "aliases": [
+        "恐龙图鉴大冒险",
+        "Dino Dex",
+        "Dino Dex - Season 1"
+      ]
+    },
+    {
+      "officialId": "B0FFL9DCT8",
+      "originalTitle": "Everybody Hates Chris",
+      "kind": "tv",
+      "season": 1,
+      "year": 2005,
+      "displayTitle": "人人都恨克里斯",
+      "aliases": [
+        "人人都恨克里斯",
+        "Everybody Hates Chris",
+        "阿杰出少年"
+      ]
+    },
+    {
+      "officialId": "B0HFHGFJGG",
+      "originalTitle": "The Pendragon Cycle: Rise of the Merlin",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "潘德拉贡：梅林崛起",
+      "aliases": [
+        "潘德拉贡：梅林崛起",
+        "The Pendragon Cycle: Rise of the Merlin"
+      ]
+    },
+    {
+      "officialId": "B0H1R4TRT3",
+      "originalTitle": "From Old Country Bumpkin to Master Swordsman II",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "乡下大叔成为剑圣",
+      "aliases": []
+    },
+    {
+      "officialId": "B00C16W5HM",
+      "originalTitle": "SpongeBob SquarePants",
+      "kind": "tv",
+      "season": 1,
+      "year": 1999,
+      "displayTitle": "海绵宝宝",
+      "aliases": [
+        "海绵宝宝",
+        "SpongeBob SquarePants"
+      ]
+    },
+    {
+      "officialId": "B0DL3T52HS",
+      "originalTitle": "American Horror Story",
+      "kind": "tv",
+      "season": 1,
+      "year": 2011,
+      "displayTitle": "美国恐怖故事",
+      "aliases": [
+        "美国恐怖故事",
+        "American Horror Story",
+        "美国怪谭"
+      ]
+    },
+    {
+      "officialId": "B0FX1TVB1M",
+      "originalTitle": "Alphablocks",
+      "kind": "tv",
+      "season": 1,
+      "year": 2010,
+      "displayTitle": "字母积木",
+      "aliases": [
+        "字母积木",
+        "Alphablocks",
+        "字母积木 第一季"
+      ]
+    },
+    {
+      "officialId": "B0HLV96CXP",
+      "originalTitle": "Abbott Elementary",
+      "kind": "tv",
+      "season": 6,
+      "year": 2026,
+      "displayTitle": "小学风云",
+      "aliases": [
+        "小学风云",
+        "Abbott Elementary"
+      ]
+    },
+    {
+      "officialId": "B0HJGT22ML",
+      "originalTitle": "YAGA",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "雅嘎疑云",
+      "aliases": [
+        "雅嘎疑云",
+        "YAGA"
+      ]
+    },
+    {
+      "officialId": "B07HGK7F91",
+      "originalTitle": "Berenstain Bears: Trick or Treat",
+      "kind": "tv",
+      "season": 1,
+      "year": 2003,
+      "displayTitle": "Berenstain Bears: Trick or Treat",
+      "aliases": []
+    },
+    {
+      "officialId": "B0C4XHFFDH",
+      "originalTitle": "The Secret of Moonacre",
+      "kind": "movie",
+      "season": 0,
+      "year": 2009,
+      "displayTitle": "月亮坪的秘密",
+      "aliases": [
+        "月亮坪的秘密",
+        "The Secret of Moonacre"
+      ]
+    },
+    {
+      "officialId": "B0B8NR1S9G",
+      "originalTitle": "Dark Nature",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Dark Nature",
+      "aliases": []
+    },
+    {
+      "officialId": "B09PMKBRJ7",
+      "originalTitle": "Sing 2",
+      "kind": "movie",
+      "season": 0,
+      "year": 2021,
+      "displayTitle": "欢乐好声音2",
+      "aliases": [
+        "欢乐好声音2",
+        "Sing 2"
+      ]
+    },
+    {
+      "officialId": "B0FN6Y4CMZ",
+      "originalTitle": "Looking Through Water",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "Looking Through Water",
+      "aliases": [
+        "血结"
+      ]
+    },
+    {
+      "officialId": "B07BS3RFX3",
+      "originalTitle": "Son of Bigfoot",
+      "kind": "movie",
+      "season": 0,
+      "year": 2018,
+      "displayTitle": "我的爸爸是森林之王",
+      "aliases": [
+        "我的爸爸是森林之王",
+        "Son of Bigfoot"
+      ]
+    },
+    {
+      "officialId": "B0FT785DR6",
+      "originalTitle": "Forget Me Never",
+      "kind": "movie",
+      "season": 0,
+      "year": 1999,
+      "displayTitle": "勿忘我",
+      "aliases": [
+        "勿忘我",
+        "Forget Me Never"
+      ]
+    },
+    {
+      "officialId": "B0DNSX4HJG",
+      "originalTitle": "Ride or Die",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "亡命闺蜜",
+      "aliases": [
+        "Ride or Die",
+        "赴汤蹈火",
+        "亡命闺蜜"
+      ]
+    },
+    {
+      "officialId": "B0CH762W2W",
+      "originalTitle": "Megalodon: The Frenzy",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "疯狂巨齿鲨",
+      "aliases": [
+        "疯狂巨齿鲨",
+        "Megalodon: The Frenzy"
+      ]
+    },
+    {
+      "officialId": "B0DL3MVYQY",
+      "originalTitle": "Cold War Submarine Adventures: K-19 - Doomsday Submarine",
+      "kind": "movie",
+      "season": 0,
+      "year": 1970,
+      "displayTitle": "Cold War Submarine Adventures: K-19 - Doomsday Submarine",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GCHNBKVX",
+      "originalTitle": "AIR",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "气垫传奇",
+      "aliases": [
+        "气垫传奇",
+        "AIR"
+      ]
+    },
+    {
+      "officialId": "B0GVBYS1FM",
+      "originalTitle": "Reunion",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "同学会",
+      "aliases": [
+        "同学会",
+        "Reunion"
+      ]
+    },
+    {
+      "officialId": "B016PIMNB4",
+      "originalTitle": "Tales of Halloween",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "万圣节传说",
+      "aliases": [
+        "万圣节传说",
+        "Tales of Halloween"
+      ]
+    },
+    {
+      "officialId": "B0GZ89SGXH",
+      "originalTitle": "George and the Dragon",
+      "kind": "movie",
+      "season": 0,
+      "year": 2004,
+      "displayTitle": "乔治和龙",
+      "aliases": [
+        "乔治和龙",
+        "George and the Dragon"
+      ]
+    },
+    {
+      "officialId": "B0DN52ZRT3",
+      "originalTitle": "Truth or Dare: The Murder of Mary Gregory",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Truth or Dare: The Murder of Mary Gregory",
+      "aliases": []
+    },
+    {
+      "officialId": "B00BRAFJ94",
+      "originalTitle": "Arthur 3: The War of the Two Worlds",
+      "kind": "movie",
+      "season": 0,
+      "year": 2010,
+      "displayTitle": "亚瑟3：终极对决",
+      "aliases": [
+        "亚瑟3：终极对决",
+        "Arthur 3: The War of the Two Worlds"
+      ]
+    },
+    {
+      "officialId": "B084Q6XP1H",
+      "originalTitle": "Emma.",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "爱玛。",
+      "aliases": [
+        "爱玛。",
+        "Emma. (2020) (4K UHD)",
+        "Emma."
+      ]
+    },
+    {
+      "officialId": "B0H51M4CMJ",
+      "originalTitle": "Saturn",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Saturn",
+      "aliases": []
+    },
+    {
+      "officialId": "B0D4MR1DMV",
+      "originalTitle": "Downfall",
+      "kind": "movie",
+      "season": 0,
+      "year": 2005,
+      "displayTitle": "帝国的毁灭",
+      "aliases": [
+        "帝国的毁灭",
+        "Downfall"
+      ]
+    },
+    {
+      "officialId": "B0HKPFZGXY",
+      "originalTitle": "Dead Space: Downfall",
+      "kind": "movie",
+      "season": 0,
+      "year": 2008,
+      "displayTitle": "死亡空间：坍塌",
+      "aliases": [
+        "死亡空间：坍塌",
+        "Dead Space: Downfall",
+        "绝命异次元：坍塌"
+      ]
+    },
+    {
+      "officialId": "B0HJ3NSYV5",
+      "originalTitle": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "小羊肖恩3：怪兽来袭",
+      "aliases": [
+        "小羊肖恩3：怪兽来袭",
+        "Shaun the Sheep: The Beast of Mossy Bottom"
+      ]
+    },
+    {
+      "officialId": "B0DHRHKWN5",
+      "originalTitle": "Cargo Space Is Cold",
+      "kind": "movie",
+      "season": 0,
+      "year": 2013,
+      "displayTitle": "Cargo Space Is Cold",
+      "aliases": []
+    },
+    {
+      "officialId": "B00O8NP6U4",
+      "originalTitle": "The Purge: Anarchy",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "人类清除计划",
+      "aliases": [
+        "人类清除计划2：无政府状态",
+        "人类清除计划",
+        "The Purge: Anarchy"
+      ]
+    },
+    {
+      "officialId": "B0DNZN51G5",
+      "originalTitle": "Raising Helen",
+      "kind": "movie",
+      "season": 0,
+      "year": 2004,
+      "displayTitle": "流行教母",
+      "aliases": [
+        "流行教母",
+        "Raising Helen"
+      ]
+    },
+    {
+      "officialId": "B0DSM6D1T1",
+      "originalTitle": "Tyler Perry's Madea's Big Happy Family",
+      "kind": "movie",
+      "season": 0,
+      "year": 2011,
+      "displayTitle": "疯狂大家庭",
+      "aliases": [
+        "疯狂大家庭",
+        "Tyler Perry's Madea's Big Happy Family"
+      ]
+    },
+    {
+      "officialId": "B09NLDHQHP",
+      "originalTitle": "Antlers",
+      "kind": "movie",
+      "season": 0,
+      "year": 2021,
+      "displayTitle": "鹿角",
+      "aliases": [
+        "鹿角",
+        "Antlers (4K UHD)",
+        "Antlers"
+      ]
+    },
+    {
+      "officialId": "B0HGQN9C4X",
+      "originalTitle": "Billionaire",
+      "kind": "movie",
+      "season": 0,
+      "year": 2011,
+      "displayTitle": "Billionaire",
+      "aliases": []
+    },
+    {
+      "officialId": "B0H3YVPW7Z",
+      "originalTitle": "The Bay",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "血腥鲨港",
+      "aliases": [
+        "血腥鲨港",
+        "The Bay"
+      ]
+    },
+    {
+      "officialId": "B0GN9862C9",
+      "originalTitle": "The Bride!",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "暗黑新娘！",
+      "aliases": [
+        "暗黑新娘！",
+        "The Bride!",
+        "科学新娘！"
+      ]
+    },
+    {
+      "officialId": "B0CXJM5ZXL",
+      "originalTitle": "The Godfather",
+      "kind": "movie",
+      "season": 0,
+      "year": 1972,
+      "displayTitle": "教父",
+      "aliases": []
+    },
+    {
+      "officialId": "B00R8L51BC",
+      "originalTitle": "John Wick",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "疾速追杀",
+      "aliases": [
+        "疾速追杀",
+        "John Wick"
+      ]
+    },
+    {
+      "officialId": "B0HFJCW6VG",
+      "originalTitle": "Love Of Your Life",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "你的生命挚爱",
+      "aliases": [
+        "一生所爱",
+        "你的生命挚爱",
+        "Love Of Your Life"
+      ]
+    },
+    {
+      "officialId": "B08549T679",
+      "originalTitle": "Underwater",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "深海异兽",
+      "aliases": [
+        "深海异兽",
+        "Underwater"
+      ]
+    },
+    {
+      "officialId": "B079HS5LTY",
+      "originalTitle": "Kung Fu Panda",
+      "kind": "movie",
+      "season": 0,
+      "year": 2008,
+      "displayTitle": "功夫熊猫",
+      "aliases": []
+    },
+    {
+      "officialId": "B0FSDHZ298",
+      "originalTitle": "Icefall",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "冰湖行动",
+      "aliases": [
+        "冰湖行动",
+        "Icefall"
+      ]
+    },
+    {
+      "officialId": "B0CW8D737M",
+      "originalTitle": "Hope of Escape",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "Hope of Escape",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HJ6HCC5S",
+      "originalTitle": "Never After Dark",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "天黑不要来",
+      "aliases": [
+        "天黑不要来",
+        "Never After Dark",
+        "入夜不再"
+      ]
+    },
+    {
+      "officialId": "B0GKNRFJG7",
+      "originalTitle": "Dracula",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "吸血鬼德古拉",
+      "aliases": [
+        "吸血鬼德古拉",
+        "Dracula"
+      ]
+    },
+    {
+      "officialId": "B0HJ14KMQR",
+      "originalTitle": "Inglourious Basterds",
+      "kind": "movie",
+      "season": 0,
+      "year": 2009,
+      "displayTitle": "无耻混蛋",
+      "aliases": []
+    },
+    {
+      "officialId": "B0FJ7V2YMJ",
+      "originalTitle": "A Heart Full Of Hope",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "A Heart Full Of Hope",
+      "aliases": []
+    },
+    {
+      "officialId": "B00BZFBL5W",
+      "originalTitle": "Stephen King's Desperation",
+      "kind": "movie",
+      "season": 0,
+      "year": 2006,
+      "displayTitle": "绝望",
+      "aliases": [
+        "绝望",
+        "Stephen King's Desperation"
+      ]
+    },
+    {
+      "officialId": "B00BQJGAVC",
+      "originalTitle": "Hidalgo",
+      "kind": "movie",
+      "season": 0,
+      "year": 2004,
+      "displayTitle": "沙漠骑兵",
+      "aliases": [
+        "沙漠骑兵",
+        "Hidalgo"
+      ]
+    },
+    {
+      "officialId": "B0H8N888NW",
+      "originalTitle": "Reacher",
+      "kind": "tv",
+      "season": 4,
+      "year": 2026,
+      "displayTitle": "侠探杰克",
+      "aliases": [
+        "Reacher"
+      ]
+    },
+    {
+      "officialId": "B00C13AEIC",
+      "originalTitle": "The Middle",
+      "kind": "tv",
+      "season": 1,
+      "year": 2009,
+      "displayTitle": "左右不逢源",
+      "aliases": [
+        "左右不逢源 第一季",
+        "左右不逢源",
+        "The Middle",
+        "中产家庭 第一季"
+      ]
+    },
+    {
+      "officialId": "B0HLXK42WP",
+      "originalTitle": "Marshals",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "法警小队",
+      "aliases": [
+        "法警小队",
+        "Marshals"
+      ]
+    },
+    {
+      "officialId": "B0HK6RSLGT",
+      "originalTitle": "Georgie & Mandy's First Marriage",
+      "kind": "tv",
+      "season": 3,
+      "year": 2026,
+      "displayTitle": "乔治与曼蒂的初婚生活",
+      "aliases": [
+        "Georgie & Mandy's First Marriage",
+        "乔治和曼迪的头婚生活 第三季",
+        "乔治与曼蒂的初婚生活"
+      ]
+    },
+    {
+      "officialId": "B0HG6K6BBJ",
+      "originalTitle": "Gilmore Girls",
+      "kind": "tv",
+      "season": 1,
+      "year": 2000,
+      "displayTitle": "吉尔莫女孩",
+      "aliases": [
+        "吉尔莫女孩",
+        "Gilmore Girls"
+      ]
+    },
+    {
+      "officialId": "B0FMNS7VV8",
+      "originalTitle": "Arrow",
+      "kind": "tv",
+      "season": 1,
+      "year": 2012,
+      "displayTitle": "绿箭侠",
+      "aliases": []
+    },
+    {
+      "officialId": "B0CBMLJR64",
+      "originalTitle": "When Calls the Heart",
+      "kind": "tv",
+      "season": 1,
+      "year": 2014,
+      "displayTitle": "倾听心灵",
+      "aliases": [
+        "倾听心灵",
+        "When Calls the Heart"
+      ]
+    },
+    {
+      "officialId": "B0HG5XDXHJ",
+      "originalTitle": "A Love Other Than Yours",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "除了你之外的恋爱",
+      "aliases": [
+        "除了你之外的恋爱",
+        "A Love Other Than Yours"
+      ]
+    },
+    {
+      "officialId": "B0B6P35PB4",
+      "originalTitle": "Frasier",
+      "kind": "tv",
+      "season": 1,
+      "year": 1993,
+      "displayTitle": "欢乐一家亲",
+      "aliases": [
+        "欢乐一家亲",
+        "Frasier"
+      ]
+    },
+    {
+      "officialId": "B0H3HTHC2D",
+      "originalTitle": "The Originals",
+      "kind": "tv",
+      "season": 1,
+      "year": 2013,
+      "displayTitle": "初代吸血鬼",
+      "aliases": [
+        "初代吸血鬼",
+        "The Originals",
+        "始祖家族"
+      ]
+    },
+    {
+      "officialId": "B0H43QDQ9K",
+      "originalTitle": "THE GHOST IN THE SHELL",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "攻壳机动队",
+      "aliases": []
+    },
+    {
+      "officialId": "B0CH75NKTX",
+      "originalTitle": "Peppa Pig",
+      "kind": "tv",
+      "season": 1,
+      "year": 2004,
+      "displayTitle": "小猪佩奇",
+      "aliases": [
+        "小猪佩奇",
+        "Peppa Pig",
+        "粉红猪一家亲"
+      ]
+    },
+    {
+      "officialId": "B0HG2XRSLV",
+      "originalTitle": "Supernatural",
+      "kind": "tv",
+      "season": 1,
+      "year": 2005,
+      "displayTitle": "邪恶力量",
+      "aliases": []
+    },
+    {
+      "officialId": "B0G6KN61QV",
+      "originalTitle": "Read with PAW",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "Read with PAW",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HFWYCS79",
+      "originalTitle": "Kill Jackie",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "杀死杰姬",
+      "aliases": [
+        "杀死杰姬",
+        "Kill Jackie",
+        "Season 1"
+      ]
+    },
+    {
+      "officialId": "B0H51LFV3R",
+      "originalTitle": "Clifford the Big Red Dog",
+      "kind": "tv",
+      "season": 1,
+      "year": 2000,
+      "displayTitle": "大红狗克里弗",
+      "aliases": [
+        "大红狗克里弗",
+        "Clifford the Big Red Dog",
+        "大红狗"
+      ]
+    },
+    {
+      "officialId": "B0CVKZHM88",
+      "originalTitle": "DAMAGED",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "伤痕累累",
+      "aliases": [
+        "伤痕累累",
+        "DAMAGED (2024)",
+        "DAMAGED"
+      ]
+    },
+    {
+      "officialId": "B0DL8NTSR5",
+      "originalTitle": "The Devil's Rejects",
+      "kind": "movie",
+      "season": 0,
+      "year": 2005,
+      "displayTitle": "千尸屋2",
+      "aliases": [
+        "千尸屋2",
+        "The Devil's Rejects",
+        "猎杀猛鬼公路"
+      ]
+    },
+    {
+      "officialId": "B0CF81GSHR",
+      "originalTitle": "Hotel Transylvania: Transformania",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "精灵旅社4：变身大冒险",
+      "aliases": [
+        "Hotel Transylvania: Transformania"
+      ]
+    },
+    {
+      "officialId": "B0CJPL9MZX",
+      "originalTitle": "Disturbing the Peace",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "扰乱治安",
+      "aliases": [
+        "扰乱治安",
+        "Disturbing the Peace"
+      ]
+    },
+    {
+      "officialId": "B0D6JW47W2",
+      "originalTitle": "Lady in the Locket",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "Lady in the Locket",
+      "aliases": []
+    },
+    {
+      "officialId": "B09KL9JQNZ",
+      "originalTitle": "One Special Night",
+      "kind": "movie",
+      "season": 0,
+      "year": 1999,
+      "displayTitle": "风雪黄昏恋",
+      "aliases": [
+        "风雪黄昏恋",
+        "One Special Night"
+      ]
+    },
+    {
+      "officialId": "B0F7HF2X8K",
+      "originalTitle": "The Terminal List: Dark Wolf",
+      "kind": "tv",
+      "season": 1,
+      "year": 2025,
+      "displayTitle": "终极名单：黑狼",
+      "aliases": [
+        "The Terminal List: Dark Wolf"
+      ]
+    },
+    {
+      "officialId": "B0G1ZGGGP8",
+      "originalTitle": "Solomon Kane",
+      "kind": "movie",
+      "season": 0,
+      "year": 2012,
+      "displayTitle": "所罗门王凯恩",
+      "aliases": [
+        "所罗门王凯恩",
+        "Solomon Kane"
+      ]
+    },
+    {
+      "officialId": "B0BZSG4P1S",
+      "originalTitle": "1945: The Savage Peace",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "1945：野蛮的和平",
+      "aliases": [
+        "1945：野蛮的和平",
+        "1945: The Savage Peace"
+      ]
+    },
+    {
+      "officialId": "B093CQZ2SM",
+      "originalTitle": "The Tomorrow War",
+      "kind": "movie",
+      "season": 0,
+      "year": 2021,
+      "displayTitle": "明日之战",
+      "aliases": [
+        "The Tomorrow War"
+      ]
+    },
+    {
+      "officialId": "B084SPK31Q",
+      "originalTitle": "The Invisible Man",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "隐形人",
+      "aliases": [
+        "隐形人",
+        "The Invisible Man"
+      ]
+    },
+    {
+      "officialId": "B0B8JVKK3J",
+      "originalTitle": "The Old Way",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "老方法",
+      "aliases": [
+        "老方法",
+        "The Old Way"
+      ]
+    },
+    {
+      "officialId": "B0CG7LYBLB",
+      "originalTitle": "Totally Killer",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "绝对杀手",
+      "aliases": [
+        "Totally Killer"
+      ]
+    },
+    {
+      "officialId": "B0GNZ6LPCW",
+      "originalTitle": "Redemption",
+      "kind": "movie",
+      "season": 0,
+      "year": 2013,
+      "displayTitle": "蜂鸟特攻",
+      "aliases": [
+        "蜂鸟特攻",
+        "Redemption"
+      ]
+    },
+    {
+      "officialId": "B0CR6D6JTP",
+      "originalTitle": "A Cat's Life",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "我和喵喵的冒险旅行",
+      "aliases": [
+        "我和喵喵的冒险旅行",
+        "A Cat's Life"
+      ]
+    },
+    {
+      "officialId": "B0HKN95CGT",
+      "originalTitle": "Magic Stocking",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "魔拖拉袜",
+      "aliases": [
+        "魔拖拉袜",
+        "Magic Stocking"
+      ]
+    },
+    {
+      "officialId": "B0GPRM87JB",
+      "originalTitle": "Weekend at the End of the World",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Weekend at the End of the World",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DJB2959V",
+      "originalTitle": "9/11 The Falling Man",
+      "kind": "movie",
+      "season": 0,
+      "year": 2006,
+      "displayTitle": "911：生命的坠落",
+      "aliases": [
+        "911：生命的坠落",
+        "9/11 The Falling Man"
+      ]
+    },
+    {
+      "officialId": "B0G6HWJQKJ",
+      "originalTitle": "Arctic Blast",
+      "kind": "movie",
+      "season": 0,
+      "year": 2010,
+      "displayTitle": "极地寒流",
+      "aliases": [
+        "极地寒流",
+        "Arctic Blast"
+      ]
+    },
+    {
+      "officialId": "B0HJ2DMFRB",
+      "originalTitle": "The Stunt Driver",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "特技车手",
+      "aliases": [
+        "特技车手",
+        "The Stunt Driver"
+      ]
+    },
+    {
+      "officialId": "B0HCC4DP3G",
+      "originalTitle": "The Iceman",
+      "kind": "movie",
+      "season": 0,
+      "year": 2013,
+      "displayTitle": "冰人",
+      "aliases": [
+        "冰人",
+        "The Iceman",
+        "冷面枭雄"
+      ]
+    },
+    {
+      "officialId": "B00D5DQU0S",
+      "originalTitle": "The Skeleton Key",
+      "kind": "movie",
+      "season": 0,
+      "year": 2005,
+      "displayTitle": "万能钥匙",
+      "aliases": []
+    },
+    {
+      "officialId": "B01ICCOL3E",
+      "originalTitle": "The Purge: Election Year",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "人类清除计划3",
+      "aliases": [
+        "人类清除计划3",
+        "The Purge: Election Year"
+      ]
+    },
+    {
+      "officialId": "B06Y1PJRYQ",
+      "originalTitle": "Mad Families",
+      "kind": "movie",
+      "season": 0,
+      "year": 2017,
+      "displayTitle": "疯狂的家庭",
+      "aliases": [
+        "疯狂的家庭",
+        "Mad Families"
+      ]
+    },
+    {
+      "officialId": "B0DWSNM2V7",
+      "originalTitle": "Prey for the Devil",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "鬼祷",
+      "aliases": [
+        "鬼祷",
+        "Prey for the Devil",
+        "恶魔的光火"
+      ]
+    },
+    {
+      "officialId": "B0C4YPF1CM",
+      "originalTitle": "ETs Among Us 2: Our Alien Origins, Antarctica, Mars and Beyond",
+      "kind": "movie",
+      "season": 0,
+      "year": 2018,
+      "displayTitle": "ETs Among Us 2: Our Alien Origins, Antarctica, Mars and Beyond",
+      "aliases": []
+    },
+    {
+      "officialId": "B0CVNJ632Z",
+      "originalTitle": "In the Land of Saints and Sinners",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "圣人营救",
+      "aliases": [
+        "圣人营救",
+        "In the Land of Saints and Sinners"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0CVNJ632Z",
+        "originalTitle": "In the Land of Saints and Sinners",
+        "officialYear": 2024,
+        "kind": "movie",
+        "season": 0,
+        "imdbId": "tt15782690",
+        "releases": [
+          {
+            "year": 2023,
+            "region": "Venice film festival",
+            "url": "https://www.labiennale.org/en/cinema/2023/program-cinema-2023-public?date=2023-09-07"
+          },
+          {
+            "year": 2024,
+            "region": "US theatrical release",
+            "url": "https://www.samuelgoldwynfilms.com/press-detail/?filmname=in-the-land-of-saints-and-sinners"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B00C0IXJKI",
+      "originalTitle": "Can't Buy Me Love",
+      "kind": "movie",
+      "season": 0,
+      "year": 1987,
+      "displayTitle": "爱是非卖品",
+      "aliases": [
+        "爱是非卖品",
+        "Can't Buy Me Love"
+      ]
+    },
+    {
+      "officialId": "B0CVSMYBND",
+      "originalTitle": "Rust",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "鲁斯特",
+      "aliases": [
+        "鲁斯特",
+        "Rust"
+      ]
+    },
+    {
+      "officialId": "B0HHQMLC42",
+      "originalTitle": "You+Me - Against the World",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "你和我：与世界为敌",
+      "aliases": []
+    },
+    {
+      "officialId": "B00EQWWJCK",
+      "originalTitle": "THE PURGE",
+      "kind": "movie",
+      "season": 0,
+      "year": 2013,
+      "displayTitle": "人类清除计划",
+      "aliases": [
+        "人类清除计划",
+        "THE PURGE",
+        "国定杀戮日"
+      ]
+    },
+    {
+      "officialId": "B079HQPNPG",
+      "originalTitle": "Kung Fu Panda 2",
+      "kind": "movie",
+      "season": 0,
+      "year": 2011,
+      "displayTitle": "功夫熊猫2",
+      "aliases": []
+    },
+    {
+      "officialId": "B0F613CTP1",
+      "originalTitle": "John Wick 3 - Parabellum",
+      "kind": "movie",
+      "season": 0,
+      "year": 2019,
+      "displayTitle": "疾速追杀3",
+      "aliases": [
+        "疾速追杀3",
+        "John Wick 3 - Parabellum",
+        "捍卫任务3：全面开战"
+      ]
+    },
+    {
+      "officialId": "B0CV3VTM1R",
+      "originalTitle": "Sound of Freedom",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "自由之声",
+      "aliases": [
+        "自由之声",
+        "Sound of Freedom"
+      ]
+    },
+    {
+      "officialId": "B0BX2Z7Y85",
+      "originalTitle": "Coraline",
+      "kind": "movie",
+      "season": 0,
+      "year": 2009,
+      "displayTitle": "鬼妈妈",
+      "aliases": []
+    },
+    {
+      "officialId": "B00IGE80UE",
+      "originalTitle": "The Monuments Men",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "盟军夺宝队",
+      "aliases": [
+        "盟军夺宝队",
+        "The Monuments Men",
+        "大寻宝家"
+      ]
+    },
+    {
+      "officialId": "B0BN72M68Q",
+      "originalTitle": "Ever After",
+      "kind": "movie",
+      "season": 0,
+      "year": 1998,
+      "displayTitle": "情话童真",
+      "aliases": [
+        "情话童真",
+        "Ever After"
+      ]
+    },
+    {
+      "officialId": "B00D5UHPNC",
+      "originalTitle": "Van Helsing",
+      "kind": "movie",
+      "season": 0,
+      "year": 2004,
+      "displayTitle": "范海辛",
+      "aliases": [
+        "范海辛",
+        "Van Helsing",
+        "凡赫辛"
+      ]
+    },
+    {
+      "officialId": "B078Z4HS36",
+      "originalTitle": "The Shepherd Of The Hills",
+      "kind": "movie",
+      "season": 0,
+      "year": 1941,
+      "displayTitle": "牧岭恩仇记",
+      "aliases": [
+        "牧岭恩仇记",
+        "The Shepherd Of The Hills"
+      ]
+    },
+    {
+      "officialId": "B0HF9R5ML6",
+      "originalTitle": "Blue Ridge: The Series",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "蓝岭谋杀案",
+      "aliases": [
+        "蓝岭谋杀案",
+        "Blue Ridge: The Series"
+      ]
+    },
+    {
+      "officialId": "B0HMQ313MG",
+      "originalTitle": "Tulsa King",
+      "kind": "tv",
+      "season": 4,
+      "year": 2026,
+      "displayTitle": "塔尔萨之王",
+      "aliases": [
+        "塔尔萨之王",
+        "Tulsa King"
+      ]
+    },
+    {
+      "officialId": "B0HJ364Y4Q",
+      "originalTitle": "Eternally Yours",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "永属于你",
+      "aliases": [
+        "永属于你",
+        "Eternally Yours"
+      ]
+    },
+    {
+      "officialId": "B0GRBV3SS1",
+      "originalTitle": "Fringe: The Complete First Season",
+      "kind": "tv",
+      "season": 1,
+      "year": 2008,
+      "displayTitle": "危机边缘",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HKYBVJMG",
+      "originalTitle": "Sheriff Country",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "治安官之乡 第二季",
+      "aliases": [
+        "治安官之乡 第二季",
+        "Sheriff Country"
+      ]
+    },
+    {
+      "officialId": "B0FN7N3NTJ",
+      "originalTitle": "House of David",
+      "kind": "tv",
+      "season": 2,
+      "year": 2025,
+      "displayTitle": "大卫王朝",
+      "aliases": [
+        "House of David"
+      ]
+    },
+    {
+      "officialId": "B0H46T67K4",
+      "originalTitle": "Rules of Engagement",
+      "kind": "tv",
+      "season": 2,
+      "year": 2007,
+      "displayTitle": "约会规则",
+      "aliases": [
+        "约会规则",
+        "Rules of Engagement"
+      ]
+    },
+    {
+      "officialId": "B00C14NXMK",
+      "originalTitle": "Ghost Whisperer",
+      "kind": "tv",
+      "season": 1,
+      "year": 2005,
+      "displayTitle": "灵感应",
+      "aliases": [
+        "灵感应",
+        "Ghost Whisperer",
+        "鬼语者 第一季"
+      ]
+    },
+    {
+      "officialId": "B0DPHNSCLX",
+      "originalTitle": "Jujutsu Kaisen",
+      "kind": "tv",
+      "season": 2,
+      "year": 2023,
+      "displayTitle": "咒术回战",
+      "aliases": [
+        "咒术回战",
+        "Jujutsu Kaisen"
+      ]
+    },
+    {
+      "officialId": "B0BXL76TNN",
+      "originalTitle": "Batman",
+      "kind": "tv",
+      "season": 1,
+      "year": 1992,
+      "displayTitle": "蝙蝠侠：动画系列",
+      "aliases": [
+        "蝙蝠侠：动画系列",
+        "Batman"
+      ]
+    },
+    {
+      "officialId": "B0GR21XQRZ",
+      "originalTitle": "Elmo's World",
+      "kind": "tv",
+      "season": 1,
+      "year": 2017,
+      "displayTitle": "Elmo's World",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HK44SPP1",
+      "originalTitle": "American Horror Story",
+      "kind": "tv",
+      "season": 13,
+      "year": 2026,
+      "displayTitle": "美国恐怖故事",
+      "aliases": [
+        "美国恐怖故事",
+        "American Horror Story",
+        "美国怪谭"
+      ]
+    },
+    {
+      "officialId": "B0GZ9S8K99",
+      "originalTitle": "The Vampire Lestat",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "吸血鬼莱斯特",
+      "aliases": [
+        "吸血鬼莱斯特",
+        "The Vampire Lestat",
+        "Season 1"
+      ]
+    },
+    {
+      "officialId": "B0BX3YBRRJ",
+      "originalTitle": "Daniel Tiger's Neighborhood",
+      "kind": "tv",
+      "season": 1,
+      "year": 2012,
+      "displayTitle": "小老虎丹尼尔",
+      "aliases": [
+        "小老虎丹尼尔",
+        "Daniel Tiger's Neighborhood"
+      ]
+    },
+    {
+      "officialId": "B0FMK3YBMZ",
+      "originalTitle": "The Legend Of Longwood",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "朗伍德传奇",
+      "aliases": [
+        "朗伍德传奇",
+        "The Legend Of Longwood"
+      ]
+    },
+    {
+      "officialId": "B0CHQHM7R1",
+      "originalTitle": "A Snapshot of Forever",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "A Snapshot of Forever",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DPPRK5TM",
+      "originalTitle": "Playground",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Playground",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DPZVBFSG",
+      "originalTitle": "My Fault: London",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "我的过错：伦敦",
+      "aliases": [
+        "My Fault: London",
+        "我的错误：伦敦版",
+        "我的过错：伦敦"
+      ]
+    },
+    {
+      "officialId": "B00D5XOXG6",
+      "originalTitle": "The Dog Who Saved Halloween",
+      "kind": "movie",
+      "season": 0,
+      "year": 2011,
+      "displayTitle": "妙狗拯救万圣节",
+      "aliases": [
+        "妙狗拯救万圣节",
+        "The Dog Who Saved Halloween"
+      ]
+    },
+    {
+      "officialId": "B0H5G1FZWT",
+      "originalTitle": "Satisfaction",
+      "kind": "tv",
+      "season": 1,
+      "year": 2007,
+      "displayTitle": "Satisfaction",
+      "aliases": []
+    },
+    {
+      "officialId": "B09QHCPD34",
+      "originalTitle": "The Lord of the Rings: The Rings of Power",
+      "kind": "tv",
+      "season": 1,
+      "year": 2022,
+      "displayTitle": "指环王：力量之戒",
+      "aliases": [
+        "The Lord of the Rings: The Rings of Power"
+      ]
+    },
+    {
+      "officialId": "B0GZVPT8JB",
+      "originalTitle": "Contamination",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Contamination",
+      "aliases": []
+    },
+    {
+      "officialId": "B0B6GH83CZ",
+      "originalTitle": "The House on Sweet and Seventh",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "The House on Sweet and Seventh",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DWHYCSQ6",
+      "originalTitle": "Leverage: Redemption",
+      "kind": "tv",
+      "season": 3,
+      "year": 2025,
+      "displayTitle": "都市侠盗：救赎",
+      "aliases": [
+        "都市侠盗：救赎",
+        "Leverage: Redemption"
+      ]
+    },
+    {
+      "officialId": "B0G3QSSNMV",
+      "originalTitle": "Prey",
+      "kind": "movie",
+      "season": 0,
+      "year": 2007,
+      "displayTitle": "狮口惊魂",
+      "aliases": [
+        "狮口惊魂",
+        "Prey"
+      ]
+    },
+    {
+      "officialId": "B00JJH34JO",
+      "originalTitle": "The Nut Job",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "抢劫坚果店",
+      "aliases": [
+        "抢劫坚果店",
+        "The Nut Job"
+      ]
+    },
+    {
+      "officialId": "B0BX46NV67",
+      "originalTitle": "Something's Brewing",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Something's Brewing",
+      "aliases": []
+    },
+    {
+      "officialId": "B0B8PKXN5J",
+      "originalTitle": "Just Jake",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Just Jake",
+      "aliases": []
+    },
+    {
+      "officialId": "B00D5XO5GE",
+      "originalTitle": "The Dog Who Saved Christmas Vacation",
+      "kind": "movie",
+      "season": 0,
+      "year": 2010,
+      "displayTitle": "妙狗拯救圣诞节2",
+      "aliases": [
+        "妙狗拯救圣诞节2",
+        "The Dog Who Saved Christmas Vacation"
+      ]
+    },
+    {
+      "officialId": "B0FWZNZVN6",
+      "originalTitle": "Ginger Snaps",
+      "kind": "movie",
+      "season": 0,
+      "year": 2000,
+      "displayTitle": "变种女狼",
+      "aliases": [
+        "变种女狼",
+        "Ginger Snaps",
+        "女狼传奇"
+      ]
+    },
+    {
+      "officialId": "B0B8QYQLC8",
+      "originalTitle": "Harry and Meghan: The Great Divide",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Harry and Meghan: The Great Divide",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GLDTBSQ5",
+      "originalTitle": "Cell",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "夺命来电",
+      "aliases": [
+        "夺命来电",
+        "Cell",
+        "科技浩劫"
+      ]
+    },
+    {
+      "officialId": "B0HKTGCCG1",
+      "originalTitle": "Love Language",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "爱语",
+      "aliases": [
+        "爱语",
+        "Love Language"
+      ]
+    },
+    {
+      "officialId": "B00NFRBNAG",
+      "originalTitle": "Dangerous Money - Sidney Toler As Charlie Chan",
+      "kind": "movie",
+      "season": 0,
+      "year": 1946,
+      "displayTitle": "Dangerous Money - Sidney Toler As Charlie Chan",
+      "aliases": []
+    },
+    {
+      "officialId": "B00D5DY9NS",
+      "originalTitle": "The Thing",
+      "kind": "movie",
+      "season": 0,
+      "year": 1982,
+      "displayTitle": "怪形",
+      "aliases": []
+    },
+    {
+      "officialId": "B0BSMMS9VS",
+      "originalTitle": "Casino Royale",
+      "kind": "movie",
+      "season": 0,
+      "year": 2006,
+      "displayTitle": "皇家赌场",
+      "aliases": [
+        "皇家赌场",
+        "007：大战皇家赌场"
+      ]
+    },
+    {
+      "officialId": "B0H6D5883T",
+      "originalTitle": "Rich Kid",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "富二代",
+      "aliases": [
+        "富二代",
+        "Rich Kid"
+      ]
+    },
+    {
+      "officialId": "B0FFX5QZPK",
+      "originalTitle": "Traumatika",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "心灵创伤",
+      "aliases": [
+        "心灵创伤",
+        "Traumatika",
+        "烙印"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0FFX5QZPK",
+        "originalTitle": "Traumatika",
+        "officialYear": 2025,
+        "kind": "movie",
+        "season": 0,
+        "imdbId": "tt32903867",
+        "releases": [
+          {
+            "year": 2024,
+            "region": "London festival",
+            "url": "https://movie.douban.com/subject/37000575/"
+          },
+          {
+            "year": 2025,
+            "region": "Selected official US edition",
+            "url": "https://www.sabanfilms.com/genre-blending-horror-film-traumatika-to-see-north-american-theatrical-release-from-saban-films/"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0DMPMJ2JH",
+      "originalTitle": "Pusherman: Frank Lucas & The True Story Of American Gangster",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "Pusherman: Frank Lucas & The True Story Of American Gangster",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DPWXRTZ4",
+      "originalTitle": "The Wrecking Crew",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "特工迷阵",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GVGPY5ZH",
+      "originalTitle": "Deepwater Horizon",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "深海浩劫",
+      "aliases": [
+        "深海浩劫",
+        "Deepwater Horizon",
+        "怒火地平线"
+      ]
+    },
+    {
+      "officialId": "B00BUBKRV0",
+      "originalTitle": "Bridesmaids",
+      "kind": "movie",
+      "season": 0,
+      "year": 2011,
+      "displayTitle": "伴娘",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HCJ112J8",
+      "originalTitle": "Drawn Together",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "玛菲尔",
+      "aliases": [
+        "保镖恋人",
+        "玛菲尔",
+        "Drawn Together"
+      ]
+    },
+    {
+      "officialId": "B079HVYYS7",
+      "originalTitle": "Kung Fu Panda 3",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "功夫熊猫3",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DJN8LZPL",
+      "originalTitle": "Wrath of Man",
+      "kind": "movie",
+      "season": 0,
+      "year": 2021,
+      "displayTitle": "人之怒",
+      "aliases": [
+        "人之怒",
+        "Wrath of Man"
+      ]
+    },
+    {
+      "officialId": "B0H7KT9HRT",
+      "originalTitle": "Amish Grace",
+      "kind": "movie",
+      "season": 0,
+      "year": 2010,
+      "displayTitle": "阿米什的恩典",
+      "aliases": [
+        "阿米什的恩典",
+        "Amish Grace"
+      ]
+    },
+    {
+      "officialId": "B0HLR4KFKC",
+      "originalTitle": "The Monster She Married",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "The Monster She Married",
+      "aliases": []
+    },
+    {
+      "officialId": "B0G6SSJYPG",
+      "originalTitle": "One Mile: Chapter Two",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "一英哩：第二章",
+      "aliases": [
+        "一英哩：第二章",
+        "One Mile: Chapter Two",
+        "一英里：第二章",
+        "再一英里"
+      ]
+    },
+    {
+      "officialId": "B00DVNJT7S",
+      "originalTitle": "Tora! Tora! Tora!",
+      "kind": "movie",
+      "season": 0,
+      "year": 1970,
+      "displayTitle": "偷袭珍珠港",
+      "aliases": [
+        "偷袭珍珠港",
+        "Tora! Tora! Tora!",
+        "虎！虎！虎！"
+      ]
+    },
+    {
+      "officialId": "B0FX32YFS6",
+      "originalTitle": "A Harvest Homecoming",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "A Harvest Homecoming",
+      "aliases": []
+    },
+    {
+      "officialId": "B071LMP18J",
+      "originalTitle": "The Mummy",
+      "kind": "movie",
+      "season": 0,
+      "year": 2017,
+      "displayTitle": "新木乃伊",
+      "aliases": [
+        "新木乃伊",
+        "The Mummy",
+        "神鬼传奇"
+      ]
+    },
+    {
+      "officialId": "B01EGSX8N2",
+      "originalTitle": "Bend Of The River",
+      "kind": "movie",
+      "season": 0,
+      "year": 1952,
+      "displayTitle": "怒河",
+      "aliases": [
+        "怒河",
+        "Bend Of The River"
+      ]
+    },
+    {
+      "officialId": "B0CY5RT3CS",
+      "originalTitle": "Wild Cards",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "百变王牌",
+      "aliases": [
+        "百变王牌",
+        "Wild Cards"
+      ]
+    },
+    {
+      "officialId": "B0H8QFZDWJ",
+      "originalTitle": "MobLand",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "黑帮领地",
+      "aliases": [
+        "黑帮领地",
+        "MobLand"
+      ]
+    },
+    {
+      "officialId": "B0GCCZ149T",
+      "originalTitle": "Tyler Perry's Sistas",
+      "kind": "tv",
+      "season": 10,
+      "year": 2026,
+      "displayTitle": "姐妹们 第十季",
+      "aliases": [
+        "姐妹们 第十季",
+        "姐妹们",
+        "Tyler Perry's Sistas"
+      ]
+    },
+    {
+      "officialId": "B0F74L6JH8",
+      "originalTitle": "Person of Interest",
+      "kind": "tv",
+      "season": 1,
+      "year": 2011,
+      "displayTitle": "疑犯追踪",
+      "aliases": [
+        "疑犯追踪",
+        "Person of Interest"
+      ]
+    },
+    {
+      "officialId": "B0G23M51QZ",
+      "originalTitle": "Sight Unseen",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "未曾目睹",
+      "aliases": [
+        "拨云见日第一季",
+        "未曾目睹",
+        "Sight Unseen"
+      ]
+    },
+    {
+      "officialId": "B0DH3BS67Q",
+      "originalTitle": "Last Resort",
+      "kind": "tv",
+      "season": 1,
+      "year": 2012,
+      "displayTitle": "破釜沉舟",
+      "aliases": [
+        "破釜沉舟",
+        "Last Resort"
+      ]
+    },
+    {
+      "officialId": "B0DNCDQ1W9",
+      "originalTitle": "Downton Abbey - Season 6",
+      "kind": "tv",
+      "season": 6,
+      "year": 2016,
+      "displayTitle": "唐顿庄园",
+      "aliases": [
+        "唐顿庄园 第六季",
+        "唐顿庄园",
+        "Downton Abbey - Season 6"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0DNCDQ1W9",
+        "originalTitle": "Downton Abbey - Season 6",
+        "officialYear": 2016,
+        "kind": "tv",
+        "season": 6,
+        "imdbId": "tt1606375",
+        "releases": [
+          {
+            "year": 2015,
+            "region": "UK season 6",
+            "url": "https://www.douban.com/doulist/152843318/"
+          },
+          {
+            "year": 2016,
+            "region": "Selected official US edition",
+            "url": "https://www.pbs.org/video/masterpiece-downton-abbey-final-season-e1-scene/"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0F55DL82Z",
+      "originalTitle": "The Summer I Turned Pretty",
+      "kind": "tv",
+      "season": 3,
+      "year": 2025,
+      "displayTitle": "《我变漂亮的那个夏天》",
+      "aliases": [
+        "The Summer I Turned Pretty",
+        "我变漂亮的那个夏天 第三季",
+        "我变漂亮的那个夏天",
+        "我变美的那个夏天 第三季",
+        "《我变漂亮的那个夏天》",
+        "我变美的那夏天 第三季"
+      ]
+    },
+    {
+      "officialId": "B0D2JX585N",
+      "originalTitle": "Blippi - Blippi's Educational Adventures for Kids",
+      "kind": "tv",
+      "season": 13,
+      "year": 2024,
+      "displayTitle": "Blippi - Blippi's Educational Adventures for Kids",
+      "aliases": []
+    },
+    {
+      "officialId": "B0F871YSCJ",
+      "originalTitle": "Married...With Children",
+      "kind": "tv",
+      "season": 1,
+      "year": 1987,
+      "displayTitle": "凡夫俗妻妙宝贝",
+      "aliases": [
+        "凡夫俗妻妙宝贝",
+        "Married...With Children",
+        "奉子成婚 第一季",
+        "拖家带口 第一季",
+        "憔悴潘郎 第一季"
+      ]
+    },
+    {
+      "officialId": "B0GWMD3HBL",
+      "originalTitle": "The Legend of Vox Machina - Season 4",
+      "kind": "tv",
+      "season": 4,
+      "year": 2026,
+      "displayTitle": "机械之声的传奇",
+      "aliases": []
+    },
+    {
+      "officialId": "B0HF9ZKN7Z",
+      "originalTitle": "The Seven Knights of the Marronnier Kingdom",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "马罗尼耶王国的七骑士",
+      "aliases": []
+    },
+    {
+      "officialId": "B0B6959TCX",
+      "originalTitle": "Hot Wheels: Monster Trucks Island",
+      "kind": "tv",
+      "season": 1,
+      "year": 2021,
+      "displayTitle": "Hot Wheels: Monster Trucks Island",
+      "aliases": []
+    },
+    {
+      "officialId": "B0FH5MQ9LS",
+      "originalTitle": "Thomas & Friends Classic",
+      "kind": "tv",
+      "season": 9,
+      "year": 2005,
+      "displayTitle": "托马斯和他的朋友们 第九季",
+      "aliases": [
+        "托马斯和他的朋友们 第九季",
+        "托马斯和朋友们 第九季",
+        "Thomas & Friends Classic"
+      ]
+    },
+    {
+      "officialId": "B0GV91QKJR",
+      "originalTitle": "Wild Kratts",
+      "kind": "tv",
+      "season": 1,
+      "year": 2011,
+      "displayTitle": "动物兄弟",
+      "aliases": [
+        "动物兄弟",
+        "Wild Kratts"
+      ]
+    },
+    {
+      "officialId": "B0GMRXCBW6",
+      "originalTitle": "The Fog",
+      "kind": "movie",
+      "season": 0,
+      "year": 1980,
+      "displayTitle": "夜雾杀机",
+      "aliases": [
+        "夜雾杀机",
+        "The Fog"
+      ]
+    },
+    {
+      "officialId": "B01J2JLU0I",
+      "originalTitle": "Bad Moms",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "坏妈妈",
+      "aliases": [
+        "坏妈妈",
+        "Bad Moms",
+        "阿姐万万醉"
+      ]
+    },
+    {
+      "officialId": "B0CW1JQ7GD",
+      "originalTitle": "Cash Out",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "套现",
+      "aliases": [
+        "套现",
+        "Cash Out",
+        "要命劫案"
+      ]
+    },
+    {
+      "officialId": "B0GZYB6JQJ",
+      "originalTitle": "Float",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "浮板",
+      "aliases": [
+        "浮板",
+        "Float"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0GZYB6JQJ",
+        "originalTitle": "Float",
+        "officialYear": 2024,
+        "kind": "movie",
+        "season": 0,
+        "imdbId": "tt13205458",
+        "releases": [
+          {
+            "year": 2023,
+            "region": "Original film year",
+            "url": "https://en.wikipedia.org/wiki/Float_(2023_film)"
+          },
+          {
+            "year": 2024,
+            "region": "Selected official US edition",
+            "url": "https://www.bbfc.co.uk/release/float-q29sbgvjdglvbjpwwc0xmde4nju1"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0C5KL6L2Y",
+      "originalTitle": "Santa and the Three Bears",
+      "kind": "movie",
+      "season": 0,
+      "year": 1970,
+      "displayTitle": "Santa and the Three Bears",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DGW4N84R",
+      "originalTitle": "Our Father's Keeper",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "我们父亲的守护者",
+      "aliases": [
+        "我们父亲的守护者",
+        "爱，在记忆消失的那一天",
+        "Our Father's Keeper"
+      ]
+    },
+    {
+      "officialId": "B0DNRCX9WM",
+      "originalTitle": "Reacher",
+      "kind": "tv",
+      "season": 3,
+      "year": 2025,
+      "displayTitle": "侠探杰克",
+      "aliases": [
+        "Reacher"
+      ]
+    },
+    {
+      "officialId": "B0D6XBQQ43",
+      "originalTitle": "Cross",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "《神探追缉令》",
+      "aliases": [
+        "Cross",
+        "亚历克斯·克罗斯第一季",
+        "亚历克斯·克罗斯",
+        "神探追缉令第一季",
+        "法医心理学家克洛斯第一季",
+        "法医心理学家克洛斯",
+        "《神探追缉令》"
+      ]
+    },
+    {
+      "officialId": "B0DFMW4NNM",
+      "originalTitle": "Baja - The Other California",
+      "kind": "movie",
+      "season": 0,
+      "year": 2005,
+      "displayTitle": "Baja - The Other California",
+      "aliases": []
+    },
+    {
+      "officialId": "B0B8TPM7T9",
+      "originalTitle": "Dead Ringers",
+      "kind": "tv",
+      "season": 1,
+      "year": 2023,
+      "displayTitle": "双生姝",
+      "aliases": [
+        "孽扣",
+        "孽扣 第一季",
+        "双生姝",
+        "Dead Ringers"
+      ]
+    },
+    {
+      "officialId": "B08P69J7XT",
+      "originalTitle": "Barbarian Queen",
+      "kind": "movie",
+      "season": 0,
+      "year": 1985,
+      "displayTitle": "野蛮女王",
+      "aliases": [
+        "野蛮女王",
+        "Barbarian Queen [Lana Clarkson]",
+        "Barbarian Queen"
+      ]
+    },
+    {
+      "officialId": "B0B5VXQF9G",
+      "originalTitle": "Goodnight Mommy",
+      "kind": "movie",
+      "season": 0,
+      "year": 2022,
+      "displayTitle": "《晚安妈咪》",
+      "aliases": [
+        "晚安妈咪",
+        "晚安妈咪 美国版",
+        "《晚安妈咪》",
+        "Goodnight Mommy"
+      ]
+    },
+    {
+      "officialId": "B010FEVMZM",
+      "originalTitle": "Max",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "军犬麦克斯",
+      "aliases": [
+        "军犬麦克斯",
+        "Max",
+        "海军忠犬马克斯"
+      ]
+    },
+    {
+      "officialId": "B083L572Q5",
+      "originalTitle": "Dolittle",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "多力特的奇幻冒险",
+      "aliases": [
+        "多力特的奇幻冒险",
+        "Dolittle",
+        "杜立德"
+      ]
+    },
+    {
+      "officialId": "B07RBCK437",
+      "originalTitle": "Killer Whales",
+      "kind": "movie",
+      "season": 0,
+      "year": 2000,
+      "displayTitle": "Killer Whales",
+      "aliases": []
+    },
+    {
+      "officialId": "B076F1Y4NJ",
+      "originalTitle": "MVP: Most Valuable Primate",
+      "kind": "movie",
+      "season": 0,
+      "year": 2000,
+      "displayTitle": "大展猴威",
+      "aliases": [
+        "大展猴威",
+        "MVP: Most Valuable Primate"
+      ]
+    },
+    {
+      "officialId": "B0GM6V7GKQ",
+      "originalTitle": "Two Night Stand",
+      "kind": "movie",
+      "season": 0,
+      "year": 2014,
+      "displayTitle": "一夜情未了",
+      "aliases": [
+        "一夜情未了",
+        "Two Night Stand"
+      ]
+    },
+    {
+      "officialId": "B0DCSDYFD9",
+      "originalTitle": "Monsters of Man",
+      "kind": "movie",
+      "season": 0,
+      "year": 2020,
+      "displayTitle": "人造怪物",
+      "aliases": [
+        "人造怪物",
+        "Monsters of Man"
+      ]
+    },
+    {
+      "officialId": "B0GWQWZDW6",
+      "originalTitle": "Larissa - the Lost Romanov?",
+      "kind": "movie",
+      "season": 0,
+      "year": 2018,
+      "displayTitle": "Larissa - the Lost Romanov?",
+      "aliases": []
+    },
+    {
+      "officialId": "B0F5N94W85",
+      "originalTitle": "Creepshow III",
+      "kind": "movie",
+      "season": 0,
+      "year": 2007,
+      "displayTitle": "鬼作秀3",
+      "aliases": [
+        "鬼作秀3",
+        "Creepshow III",
+        "鬼做秀3"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0F5N94W85",
+        "originalTitle": "Creepshow III",
+        "officialYear": 2007,
+        "kind": "movie",
+        "season": 0,
+        "imdbId": "tt0478125",
+        "releases": [
+          {
+            "year": 2006,
+            "region": "Original film year",
+            "url": "https://movie.douban.com/subject/1578715/"
+          },
+          {
+            "year": 2007,
+            "region": "Selected official US edition",
+            "url": "https://www.blu-ray.com/dvd/Creepshow-III-DVD/1509/"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0H8LRZMMC",
+      "originalTitle": "Motor City",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "狂暴对峙",
+      "aliases": [
+        "狂暴对峙",
+        "Motor City"
+      ]
+    },
+    {
+      "officialId": "B0GVH3B3CX",
+      "originalTitle": "The Bat",
+      "kind": "movie",
+      "season": 0,
+      "year": 1959,
+      "displayTitle": "蝙蝠",
+      "aliases": [
+        "蝙蝠",
+        "The Bat"
+      ]
+    },
+    {
+      "officialId": "B0DVZ5K5ZK",
+      "originalTitle": "Hereditary",
+      "kind": "movie",
+      "season": 0,
+      "year": 2018,
+      "displayTitle": "遗传厄运",
+      "aliases": [
+        "遗传厄运",
+        "Hereditary",
+        "宿怨"
+      ]
+    },
+    {
+      "officialId": "B0GXLK943G",
+      "originalTitle": "Your Fault: London",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "你的错误：伦敦版",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GFCF1M48",
+      "originalTitle": "Love Me Love Me",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "爱我 爱我",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GL7ZQ6ML",
+      "originalTitle": "Merry Mystery Christmas",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "Merry Mystery Christmas",
+      "aliases": []
+    },
+    {
+      "officialId": "B0GVPRMJSV",
+      "originalTitle": "House at the End of the Street",
+      "kind": "movie",
+      "season": 0,
+      "year": 2012,
+      "displayTitle": "街尾之宅",
+      "aliases": [
+        "街尾之宅",
+        "House at the End of the Street"
+      ]
+    },
+    {
+      "officialId": "B0FXN622RX",
+      "originalTitle": "Paul McCartney: Man On The Run",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "保罗·麦卡特尼：在逃人生",
+      "aliases": [
+        "奔向新乐章",
+        "保罗·麦卡特尼：在逃人生",
+        "Paul McCartney: Man On The Run"
+      ]
+    },
+    {
+      "officialId": "B0GWJ2FNMJ",
+      "originalTitle": "The Mummy",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "木乃伊",
+      "aliases": [
+        "木乃伊",
+        "The Mummy"
+      ]
+    },
+    {
+      "officialId": "B0CQCFG7V6",
+      "originalTitle": "The Beekeeper",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "养蜂人",
+      "aliases": [
+        "养蜂人",
+        "The Beekeeper",
+        "蜂刑者"
+      ]
+    },
+    {
+      "officialId": "B0GZVDLNG9",
+      "originalTitle": "Now You See Me 2",
+      "kind": "movie",
+      "season": 0,
+      "year": 2016,
+      "displayTitle": "惊天魔盗团2",
+      "aliases": [
+        "惊天魔盗团2",
+        "Now You See Me 2",
+        "出神入化2"
+      ]
+    },
+    {
+      "officialId": "B0H8Q7NP6Q",
+      "originalTitle": "The Last Sunrise",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "最后的曙光",
+      "aliases": [
+        "最后的日出",
+        "最后的曙光",
+        "The Last Sunrise"
+      ]
+    },
+    {
+      "officialId": "B0DCPP541V",
+      "originalTitle": "Sonic The Hedgehog 3",
+      "kind": "movie",
+      "season": 0,
+      "year": 2024,
+      "displayTitle": "刺猬索尼克3",
+      "aliases": [
+        "刺猬索尼克3",
+        "Sonic The Hedgehog 3"
+      ]
+    },
+    {
+      "officialId": "B0BZZB26XZ",
+      "originalTitle": "Young Guns II",
+      "kind": "movie",
+      "season": 0,
+      "year": 1990,
+      "displayTitle": "少壮屠龙阵2",
+      "aliases": [
+        "少壮屠龙阵2",
+        "Young Guns II"
+      ]
+    },
+    {
+      "officialId": "B0B8TY3BCG",
+      "originalTitle": "Miss Austen Regrets",
+      "kind": "movie",
+      "season": 0,
+      "year": 2008,
+      "displayTitle": "简·奥斯丁的遗憾",
+      "aliases": [
+        "简·奥斯丁的遗憾",
+        "Miss Austen Regrets",
+        "简·奥斯汀的遗憾",
+        "简·奥斯汀的抉择",
+        "珍奥丝汀的独白"
+      ]
+    },
+    {
+      "officialId": "B0HFN8RN7G",
+      "originalTitle": "The Sun Never Sets",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "The Sun Never Sets",
+      "aliases": [
+        "太阳永不落"
+      ]
+    },
+    {
+      "officialId": "B0GHRJV6P9",
+      "originalTitle": "One Mile: Chapter One",
+      "kind": "movie",
+      "season": 0,
+      "year": 2026,
+      "displayTitle": "一英哩：第一章",
+      "aliases": [
+        "一英哩：第一章",
+        "One Mile: Chapter One",
+        "一英里"
+      ]
+    },
+    {
+      "officialId": "B0BNCH2ND3",
+      "originalTitle": "Tolkien",
+      "kind": "movie",
+      "season": 0,
+      "year": 2019,
+      "displayTitle": "托尔金",
+      "aliases": [
+        "托尔金",
+        "Tolkien",
+        "托尔金传"
+      ]
+    },
+    {
+      "officialId": "B0HBQB2BMC",
+      "originalTitle": "The English Estate",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "The English Estate",
+      "aliases": []
+    },
+    {
+      "officialId": "B00D611WT8",
+      "originalTitle": "Winchester '73",
+      "kind": "movie",
+      "season": 0,
+      "year": 1950,
+      "displayTitle": "百战宝枪",
+      "aliases": [
+        "百战宝枪",
+        "Winchester '73"
+      ]
+    },
+    {
+      "officialId": "B0H2JWVB3L",
+      "originalTitle": "The Chosen",
+      "kind": "tv",
+      "season": 1,
+      "year": 2019,
+      "displayTitle": "拣选",
+      "aliases": [
+        "拣选",
+        "The Chosen",
+        "拣选第一季",
+        "天选者们"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0H2JWVB3L",
+        "originalTitle": "The Chosen",
+        "officialYear": 2019,
+        "kind": "tv",
+        "season": 1,
+        "imdbId": "tt9471404",
+        "releases": [
+          {
+            "year": 2017,
+            "region": "Concept pilot / series inception; actual S1 source separately verified as 8 episodes",
+            "url": "https://www.prnewswire.com/news-releases/the-chosen1-crowdfunded-media-project-in-historyreleases-official-trailer-and-first-episode-for-free-300833311.html"
+          },
+          {
+            "year": 2019,
+            "region": "Selected official US edition",
+            "url": "https://tv.apple.com/us/season/season-1/umc.cmc.3u6oxtyqync0sqe4f09cylzob"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0H2MCDJBV",
+      "originalTitle": "Legend of the Seeker",
+      "kind": "tv",
+      "season": 1,
+      "year": 2009,
+      "displayTitle": "探索者传说",
+      "aliases": [
+        "探索者传说",
+        "Legend of the Seeker"
+      ]
+    },
+    {
+      "officialId": "B0H4C21QCP",
+      "originalTitle": "Perception",
+      "kind": "tv",
+      "season": 1,
+      "year": 2012,
+      "displayTitle": "罪案第六感",
+      "aliases": [
+        "罪案第六感",
+        "Perception"
+      ]
+    },
+    {
+      "officialId": "B0GR26PN35",
+      "originalTitle": "Firefly",
+      "kind": "tv",
+      "season": 1,
+      "year": 2002,
+      "displayTitle": "萤火虫",
+      "aliases": [
+        "萤火虫",
+        "Firefly"
+      ]
+    },
+    {
+      "officialId": "B0HL4LQ4J3",
+      "originalTitle": "FROM",
+      "kind": "tv",
+      "season": 4,
+      "year": 2026,
+      "displayTitle": "梦魇绝镇",
+      "aliases": [
+        "梦魇绝镇",
+        "FROM"
+      ]
+    },
+    {
+      "officialId": "B0C5LCJ3XJ",
+      "originalTitle": "Reign",
+      "kind": "tv",
+      "season": 1,
+      "year": 2013,
+      "displayTitle": "风中的女王",
+      "aliases": [
+        "风中的女王",
+        "Reign"
+      ]
+    },
+    {
+      "officialId": "B00C13AKRW",
+      "originalTitle": "Hart of Dixie",
+      "kind": "tv",
+      "season": 1,
+      "year": 2011,
+      "displayTitle": "南国医恋",
+      "aliases": [
+        "南国医恋",
+        "Hart of Dixie"
+      ]
+    },
+    {
+      "officialId": "B0CKTTD147",
+      "originalTitle": "Taxi",
+      "kind": "tv",
+      "season": 1,
+      "year": 1978,
+      "displayTitle": "的士",
+      "aliases": [
+        "的士",
+        "Taxi",
+        "出租汽车第一季",
+        "出租汽车",
+        "阳光计程车公司"
+      ]
+    },
+    {
+      "officialId": "B0CPYTJ2KH",
+      "originalTitle": "Marry My Husband",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "请和我的老公结婚",
+      "aliases": [
+        "请和我的老公结婚",
+        "Marry My Husband",
+        "和我老公结婚吧"
+      ]
+    },
+    {
+      "officialId": "B0DZHBVTP5",
+      "originalTitle": "Murder Drones - Season 1",
+      "kind": "tv",
+      "season": 1,
+      "year": 2025,
+      "displayTitle": "无机杀手",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DGF2C565",
+      "originalTitle": "Genevieve's Playhouse - Season 2",
+      "kind": "tv",
+      "season": 2,
+      "year": 2026,
+      "displayTitle": "Genevieve's Playhouse",
+      "aliases": []
+    },
+    {
+      "officialId": "B0F1CYHF2T",
+      "originalTitle": "Blue Mountain State",
+      "kind": "tv",
+      "season": 1,
+      "year": 2010,
+      "displayTitle": "蓝山球队",
+      "aliases": [
+        "蓝山球队",
+        "Blue Mountain State",
+        "蓝山球队 第一季"
+      ]
+    },
+    {
+      "officialId": "B0FBM4CR4D",
+      "originalTitle": "Paw Patrol: Pup Tales",
+      "kind": "tv",
+      "season": 7,
+      "year": 2020,
+      "displayTitle": "Paw Patrol: Pup Tales",
+      "aliases": []
+    },
+    {
+      "officialId": "B0DKVQG5H5",
+      "originalTitle": "THE CREEP TAPES",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "怪人录像带",
+      "aliases": [
+        "怪人录像带",
+        "THE CREEP TAPES"
+      ]
+    },
+    {
+      "officialId": "B0GXC71BT8",
+      "originalTitle": "Clifford's Puppy Days",
+      "kind": "tv",
+      "season": 1,
+      "year": 2003,
+      "displayTitle": "大红狗小时候 第一季",
+      "aliases": [
+        "大红狗小时候 第一季",
+        "Clifford's Puppy Days"
+      ]
+    },
+    {
+      "officialId": "B0FXJVB5ZJ",
+      "originalTitle": "This Time Next Year",
+      "kind": "movie",
+      "season": 0,
+      "year": 2025,
+      "displayTitle": "明年此时",
+      "aliases": [
+        "明年此时",
+        "This Time Next Year",
+        "来年此时"
+      ],
+      "releaseYearEvidence": {
+        "officialId": "B0FXJVB5ZJ",
+        "originalTitle": "This Time Next Year",
+        "officialYear": 2025,
+        "kind": "movie",
+        "season": 0,
+        "imdbId": "tt16301164",
+        "releases": [
+          {
+            "year": 2024,
+            "region": "UK original release",
+            "url": "https://movie.douban.com/subject/36618571/"
+          },
+          {
+            "year": 2025,
+            "region": "Selected official US edition",
+            "url": "https://www.imdb.com/title/tt16301164/"
+          }
+        ]
+      }
+    },
+    {
+      "officialId": "B0FQX8HZS8",
+      "originalTitle": "The Crazies",
+      "kind": "movie",
+      "season": 0,
+      "year": 2010,
+      "displayTitle": "杀出狂人镇",
+      "aliases": [
+        "杀出狂人镇",
+        "The Crazies",
+        "尸心疯"
+      ]
+    },
+    {
+      "officialId": "B0GWV3G8ZP",
+      "originalTitle": "Maya The Bee",
+      "kind": "movie",
+      "season": 0,
+      "year": 2015,
+      "displayTitle": "玛雅蜜蜂历险记",
+      "aliases": [
+        "玛雅蜜蜂历险记",
+        "Maya The Bee"
+      ]
+    },
+    {
+      "officialId": "B079SSXMKP",
+      "originalTitle": "My Brother's Wife",
+      "kind": "movie",
+      "season": 0,
+      "year": 1989,
+      "displayTitle": "My Brother's Wife",
+      "aliases": []
+    },
+    {
+      "officialId": "B0D24SZSHG",
+      "originalTitle": "Blue Ridge: The Series",
+      "kind": "tv",
+      "season": 1,
+      "year": 2024,
+      "displayTitle": "蓝岭谋杀案",
+      "aliases": [
+        "蓝岭谋杀案",
+        "Blue Ridge: The Series",
+        "蓝岭 第一季"
+      ]
+    },
+    {
+      "officialId": "B0GHRP44BL",
+      "originalTitle": "Spider-Noir",
+      "kind": "tv",
+      "season": 1,
+      "year": 2026,
+      "displayTitle": "暗影蜘蛛",
+      "aliases": [
+        "Spider-Noir",
+        "暗影蜘蛛侠"
+      ]
+    },
+    {
+      "officialId": "B0B8SZDY73",
+      "originalTitle": "Judy Blume Forever",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "《永远的朱迪布鲁姆》",
+      "aliases": [
+        "永远的朱迪·布鲁姆",
+        "《永远的朱迪布鲁姆》",
+        "Judy Blume Forever"
+      ]
+    },
+    {
+      "officialId": "B0FHVC474K",
+      "originalTitle": "Spaceballs",
+      "kind": "movie",
+      "season": 0,
+      "year": 1987,
+      "displayTitle": "太空炮弹",
+      "aliases": [
+        "太空炮弹",
+        "Spaceballs"
+      ]
+    },
+    {
+      "officialId": "B00CSBJDK2",
+      "originalTitle": "Hostel Part II",
+      "kind": "movie",
+      "season": 0,
+      "year": 2007,
+      "displayTitle": "人皮客栈2",
+      "aliases": [
+        "人皮客栈2",
+        "Hostel Part II"
+      ]
+    },
+    {
+      "officialId": "B0BX2HVXRN",
+      "originalTitle": "Sweet on You",
+      "kind": "movie",
+      "season": 0,
+      "year": 2023,
+      "displayTitle": "Sweet on You",
+      "aliases": []
+    },
+    {
+      "officialId": "B0H8KJG5NP",
+      "originalTitle": "The Monster Squad",
+      "kind": "movie",
+      "season": 0,
+      "year": 1987,
+      "displayTitle": "除魔特攻队",
+      "aliases": [
+        "除魔特攻队",
+        "The Monster Squad",
+        "降妖别动队",
+        "打怪别动队",
+        "怪物小分队",
+        "伏魔奇兵"
+      ]
+    }
+  ]
+}

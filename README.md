@@ -1,5 +1,7 @@
 # Prime Video Chinese Metadata Catalog
 
+2026-10-31: Publish identity-bound source-verification results before App delivery. The App can reuse prior status without launching whole-catalog source discovery; private provider configuration and live playback data stay outside the public snapshot.
+
 2026-10-31: Add evidence-bound source identity checks, strict-first lookup with verified-name fallback, private provider-ID reuse, and a documented 2023/2024 release exception for *In the Land of Saints and Sinners*. Regression checks run before catalog publication.
 
 Public film and TV metadata for a personal Android TV app: verified title mappings, Chinese and original-language names, season descriptions, release dates, genres, and landscape artwork. This repository does not publish playback URLs, provider sessions, personal watchlists, playback progress, signing keys, or upload credentials.
@@ -58,6 +60,8 @@ Configure `TAVILY_API_KEY_1` through `TAVILY_API_KEY_4` in Actions Secrets. The 
 - `python scripts/title_lookup.py --check-keys` calls the official `/usage` endpoint and reports only slot/status information. It does not print credentials or account responses and does not perform searches.
 
 ## Source identity and verified fallback
+
+The preprocessing delivery contract is described in [Source verification publication](config/source-verification.md). Each normal workflow runs a bounded source check and publishes an allowlisted result snapshot through an SHA-256 manifest before Pages delivery. Missing/blocked checks remain explicit; publishing old results never refreshes their check dates. The sidecar contains official identity and verification status only, with no provider IDs, endpoints or media URLs.
 
 See [Source matching policy](config/source-matching.md) for the reference/candidate format and private review command. The policy requires exact verified titles and media type; TV seasons cannot be substituted. Movie release years can differ only when public release evidence is bound to the same official ID, English original, medium, season and IMDb ID. The official display year stays unchanged.
 
