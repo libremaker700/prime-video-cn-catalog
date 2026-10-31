@@ -103,10 +103,16 @@ jobs:
           retention-days: 7
       - name: Check source availability after metadata resolution
         env:
+          LOOKUP_OFFICIAL_ID: ${{ inputs.official_id || '' }}
           SOURCE_PROVIDERS_JSON: ${{ secrets.SOURCE_PROVIDERS_JSON }}
           SOURCE_CHECK_LIMIT: ${{ vars.SOURCE_CHECK_LIMIT || '12' }}
           SOURCE_CHECK_BUDGET_SECONDS: ${{ vars.SOURCE_CHECK_BUDGET_SECONDS || '120' }}
-        run: python scripts/check_source_verification.py --limit "$SOURCE_CHECK_LIMIT" --budget-seconds "$SOURCE_CHECK_BUDGET_SECONDS"
+        run: |
+          if [ -n "$LOOKUP_OFFICIAL_ID" ]; then
+            python scripts/check_source_verification.py --official-id "$LOOKUP_OFFICIAL_ID" --limit 1 --budget-seconds 60
+          else
+            python scripts/check_source_verification.py --limit "$SOURCE_CHECK_LIMIT" --budget-seconds "$SOURCE_CHECK_BUDGET_SECONDS"
+          fi
       - name: Publish identity-bound source verification metadata
         run: python scripts/publish_source_verification.py
       - name: Validate complete catalogue before publishing

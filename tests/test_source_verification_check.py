@@ -52,6 +52,14 @@ class Response:
 
 
 class SourceVerificationCheckTests(unittest.TestCase):
+    def test_single_title_rechecks_pending_after_name_update_without_probing_other_titles(self):
+        from unittest.mock import Mock
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);a,b=target(1),target(2)
+            old=[result(a,status='pending',checkedAt=CLOCK.isoformat()),result(b,status='pending',checkedAt=CLOCK.isoformat())]
+            self.files(root,[a,b],old);probe=Mock();probe.check.return_value='matched';probe.requests=1
+            out=run(root,providers=[{'url':'https://example.test'}],probe=probe,clock=CLOCK,official_id=a['officialId'])
+            probe.check.assert_called_once();self.assertEqual(out['items'][0]['status'],'matched');self.assertEqual(out['items'][1],old[1])
     def files(self, root, targets=None, previous=None):
         data = root / 'data'; data.mkdir(parents=True, exist_ok=True)
         (data / 'source-verification-targets.json').write_text(json.dumps({'schema': 1, 'items': targets or [target()]}), encoding='utf-8')

@@ -150,7 +150,8 @@ def configured(value):
     return result
 
 
-def run(root=ROOT, limit=12, budget=120, providers=None, probe=None, clock=None):
+def run(root=ROOT, limit=12, budget=120, providers=None, probe=None, clock=None, official_id=None):
+    if official_id and not re.fullmatch(r'[A-Z0-9]{10,26}',official_id):raise ValueError('Invalid official identity')
     targets = json.loads((root / 'data/source-verification-targets.json').read_text(encoding='utf-8'))['items']
     catalog_path = root / 'docs/catalog.json'
     if catalog_path.exists():
@@ -183,10 +184,11 @@ def run(root=ROOT, limit=12, budget=120, providers=None, probe=None, clock=None)
     attempted = changed = 0
     # All old positives are reused for seven days; incomplete checks cannot erase one.
     for row in sorted(output, key=lambda item: item.get('checkedAt') or ''):
+        if official_id and row['officialId'] != official_id:continue
         if attempted >= max(0, min(int(limit), 30)) or time.monotonic() >= deadline: break
         if row.get('checkedAt'):
             age = clock - datetime.fromisoformat(row['checkedAt'].replace('Z', '+00:00'))
-            if age < timedelta(days=7 if row['status'] == 'matched' else 1): continue
+            if age < timedelta(days=7 if row['status'] == 'matched' else 1) and (not official_id or row['status']=='matched'): continue
         target = next(target for target in targets if scope(target) == scope(row)); attempted += 1
         status = probe.check(target)
         if status == 'matched' or row['status'] != 'matched':
@@ -201,7 +203,8 @@ def run(root=ROOT, limit=12, budget=120, providers=None, probe=None, clock=None)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__); parser.add_argument('--limit', type=int, default=12); parser.add_argument('--budget-seconds', type=int, default=120)
+    parser.add_argument('--official-id')
     args = parser.parse_args()
-    try: run(limit=args.limit, budget=args.budget_seconds)
+    try: run(limit=args.limit, budget=args.budget_seconds, official_id=args.official_id)
     except Exception as exc:
         print('Source preflight stopped: ' + type(exc).__name__ + ' (private transport details suppressed)'); raise SystemExit(1)
