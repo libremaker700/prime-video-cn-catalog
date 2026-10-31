@@ -1,7 +1,7 @@
 import unittest,sys,copy
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from lookup_context import contextualize
+from lookup_context import contextualize,resolved_aliases
 from metadata_resolution import query,candidate_links,resolve
 from unittest.mock import Mock
 
@@ -29,3 +29,13 @@ class ContextTests(unittest.TestCase):
   client=Mock();client.key='';client.stopped=False;client.verify_results.return_value={'display_name_zh':'蝙蝠侠：动画版','aliases_zh':['蝙蝠侠：动画版']}
   _,e=resolve(client,{'candidate_links':self.context['candidateLinks']},'now',source_probe=lambda *_:'matched')
   self.assertEqual(len(e['stages']),1);self.assertEqual(e['playback_status'],'matched')
+ def test_only_verified_same_identity_aliases_feed_source_checks(self):
+  from datetime import datetime,timezone
+  now=datetime.now(timezone.utc)
+  row={'identity':{'prime_id':self.target['officialId'],'kind':'tv','first_air_year':1992,'english_title':'Batman'},'season':1,'checked_at':now.isoformat(),
+       'patch':{'display_name_zh':'蝙蝠侠：动画版','aliases_zh':['蝙蝠侠动画版'],'name_status':'verified_title_sources','sources':[{'url':self.context['candidateLinks'][0]}]}}
+  cache={'batch_records':{'x':row}}
+  result=resolved_aliases([self.target],cache,now)[0];self.assertIn('蝙蝠侠动画版',result['aliases'])
+  for field,value in [('season',2),('checked_at','bad')]:
+   bad=copy.deepcopy(row);bad[field]=value;self.assertEqual(resolved_aliases([self.target],{'batch_records':{'x':bad}},now)[0],self.target)
+  bad=copy.deepcopy(row);bad['patch']['name_status']='ai_candidate';self.assertEqual(resolved_aliases([self.target],{'batch_records':{'x':bad}},now)[0],self.target)

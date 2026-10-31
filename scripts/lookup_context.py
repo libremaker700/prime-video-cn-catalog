@@ -1,8 +1,27 @@
 """Identity-bound, reviewed lookup context for App titles outside the legacy cloud list."""
 import argparse,copy,json,re
+from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from catalog import norm,write_json
 ROOT=Path(__file__).resolve().parents[1]
+
+def resolved_aliases(targets,cache,clock=None):
+    """Only independently verified, same-identity name patches feed source checks."""
+    from metadata_resolution import safe_source
+    clock=clock or datetime.now(timezone.utc);result=copy.deepcopy(targets)
+    for t in result:
+        for row in cache.get('batch_records',{}).values():
+            ident=row.get('identity',{});patch=row.get('patch',{})
+            if (ident.get('prime_id')!=t['officialId'] or ident.get('kind')!=t['kind'] or ident.get('first_air_year')!=t['year']
+                    or row.get('season')!=t['season'] or norm(ident.get('english_title'))!=norm(t['originalTitle'])):continue
+            if not str(patch.get('name_status','')).startswith('verified') or not any(safe_source(s.get('url')) for s in patch.get('sources',[])):continue
+            try:age=clock-datetime.fromisoformat(row['checked_at'].replace('Z','+00:00'))
+            except (KeyError,ValueError,TypeError):continue
+            if age<timedelta(0) or age>timedelta(days=30):continue
+            names=[patch.get('display_name_zh')]+patch.get('aliases_zh',[])
+            names=[s for s in names if isinstance(s,str) and len(s)<=100 and re.search(r'[\u3400-\u9fff]',s)]
+            t['aliases']=list(dict.fromkeys(names+t.get('aliases',[])))[:8]
+    return result
 
 def contextualize(targets, contexts):
     result=copy.deepcopy(targets)
