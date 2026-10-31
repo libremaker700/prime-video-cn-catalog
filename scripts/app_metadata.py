@@ -4,6 +4,7 @@ import re
 from urllib.parse import urlsplit
 
 from catalog import family, merge
+from season_parts import season_fields
 
 
 def compact_id(url):
@@ -18,14 +19,19 @@ def normalize_fields(items):
     """Keep current top-level fields and support the original nested movie format."""
     result = copy.deepcopy(items)
     for item in result:
-        # Prime encodes some specials as 202 etc. These are not ordinary App seasons.
+        # Prime encodes parts/specials as 102/202 etc. A confirmed part is not
+        # an additional ordinary season, even when its code fits the old range.
         # Retain their source metadata separately without adding unsupported UI seasons
         # or image references outside the App's validated image manifest.
         supported, extras = [], {s['season']: s for s in item.get('official_unmapped_seasons', [])}
         for season in item.get('seasons', []):
             number = season.get('season')
-            if type(number) is int and number > 200:
-                extras[number] = {key: value for key, value in season.items() if key not in ('poster', 'poster_scope', 'poster_status')}
+            resolved = season_fields(number, season.get('official_title_zh') or season.get('official_title'))
+            if type(number) is int and (number > 200 or resolved.get('seasonPart')):
+                extra = {key: value for key, value in season.items() if key not in ('poster', 'poster_scope', 'poster_status')}
+                if resolved.get('seasonPart'):
+                    extra.update(display_season=resolved['season'], part=resolved['seasonPart'])
+                extras[number] = extra
             else:
                 supported.append(season)
         if 'seasons' in item:

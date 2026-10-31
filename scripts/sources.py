@@ -12,6 +12,7 @@ import requests
 from PIL import Image
 
 from catalog import family, norm, now
+from season_parts import season_fields
 
 
 class SourceError(RuntimeError):
@@ -43,7 +44,10 @@ def parse_prime(content, asin, expected_season=None):
         data["_compact_id"] = identity.get("compactGTI")
         data["_seasons"] = state.get("seasons", {}).get(page_id, [])
         sn = int(data.get("seasonNumber") or 0)
-        if expected_season is not None and sn != expected_season:
+        resolved = season_fields(sn, data.get('title'))
+        data['_logical_season'] = resolved['season']
+        data['_season_part'] = resolved.get('seasonPart')
+        if expected_season is not None and resolved['season'] != expected_season:
             raise SourceError("Prime season mismatch")
         if not clean(data.get("title")) or data.get("entityType") not in ("Movie", "TV Show"):
             raise SourceError("Prime page is not a film/TV title")
@@ -179,7 +183,7 @@ class Clients:
                 raise SourceError("Prime public page too large")
             self.cache[asin] = parse_prime(response.text, asin)
         data = self.cache[asin]
-        if season is not None and int(data.get("seasonNumber") or 0) != season:
+        if season is not None and int(data.get('_logical_season', data.get("seasonNumber")) or 0) != season:
             raise SourceError("Prime season mismatch")
         return data
 
@@ -189,6 +193,13 @@ class Clients:
         canonical_id = data.get("_compact_id") or asin
         url = f"https://www.primevideo.com/-/zh/detail/{canonical_id}"
         source = {"type": "prime_official", "name": "Prime Video public page", "url": url, "retrieved_at": now()}
+        resolved = season_fields(sn, data.get('title'))
+        if television and resolved.get('seasonPart'):
+            # Parts retain their own official identity and are never merged over
+            # a complete season's synopsis, artwork or playback mapping.
+            part = {'season': sn, 'display_season': resolved['season'], 'part': resolved['seasonPart'],
+                    'official_id': asin, 'official_title_zh': clean(data['title']), 'official_link': url}
+            return {'official_unmapped_seasons': [part], 'sources': [source]}
         patch = {"official_id": asin, "official_title_zh": clean(data["title"]),
                  "official_catalog_id": data.get("_catalog_id"),
                  "year": data.get("releaseYear"), "release_date": data.get("releaseDate"),

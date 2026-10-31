@@ -1,5 +1,7 @@
 # Prime Video Chinese Metadata Catalog
 
+2026-11-01: Resolve explicit season/part labels independently of Prime's numeric codes. `Season 1, Part 2` with code 102 means logical season 1, part 2. Preserve each part's official identity separately; never overwrite a complete season's artwork, synopsis or playback binding with a part. Add the user-confirmed domestic title and both punctuation variants for Angry Birds: Mystery Island.
+
 2026-10-31: Publish identity-bound source-verification results before App delivery. The App can reuse prior status without launching whole-catalog source discovery; private provider configuration and live playback data stay outside the public snapshot.
 
 2026-10-31: Add evidence-bound source identity checks, strict-first lookup with verified-name fallback, private provider-ID reuse, and a documented 2023/2024 release exception for *In the Land of Saints and Sinners*. Regression checks run before catalog publication.

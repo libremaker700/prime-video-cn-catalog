@@ -5,11 +5,25 @@
       "originalTitle": "Vinland Saga",
       "mediaType": "anime",
       "preferredTitleZh": "海盗战记",
-      "aliasesZh": ["冰海战记", "海盜戰記", "冰海戰記", "Vinland Saga", "ヴィンランド・サガ"],
+      "aliasesZh": [
+        "冰海战记",
+        "海盜戰記",
+        "冰海戰記",
+        "Vinland Saga",
+        "ヴィンランド・サガ"
+      ],
       "status": "user_app_preference",
       "sources": [
-        {"type": "user_confirmed_title", "url": "https://bangumi.tv/subject/240386", "retrieved_at": "2026-10-29T15:38:27+00:00"},
-        {"type": "user_confirmed_title", "url": "https://baike.baidu.com/item/海盗战记/22441962", "retrieved_at": "2026-10-29T15:38:27+00:00"}
+        {
+          "type": "user_confirmed_title",
+          "url": "https://bangumi.tv/subject/240386",
+          "retrieved_at": "2026-10-29T15:38:27+00:00"
+        },
+        {
+          "type": "user_confirmed_title",
+          "url": "https://baike.baidu.com/item/海盗战记/22441962",
+          "retrieved_at": "2026-10-29T15:38:27+00:00"
+        }
       ]
     },
     {
@@ -32,6 +46,24 @@
         "神隱任務"
       ],
       "status": "user_app_preference"
+    },
+    {
+      "originalTitle": "Angry Birds Mystery Island A Hatchlings Adventure",
+      "mediaType": "tv",
+      "preferredTitleZh": "愤怒的小鸟：神秘岛",
+      "aliasesZh": [
+        "愤怒的小鸟：神秘岛",
+        "愤怒的小鸟神秘岛",
+        "Angry Birds: Mystery Island"
+      ],
+      "status": "user_app_preference",
+      "sources": [
+        {
+          "type": "user_confirmed_title",
+          "url": "https://movie.douban.com/subject/36433417/",
+          "retrieved_at": "2026-10-31T22:15:17.370577+00:00"
+        }
+      ]
     }
   ]
 }
