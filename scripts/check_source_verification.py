@@ -9,6 +9,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit
 import requests
+from catalog import norm
 from source_matching import select, with_release_evidence
 from publish_source_verification import validate_snapshot
 
