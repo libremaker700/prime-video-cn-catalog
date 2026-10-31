@@ -23,7 +23,9 @@ def clean(text):
 
 
 def chinese(text):
-    return bool(re.search(r"[\u3400-\u9fff]", text or ""))
+    text = re.sub(r'^\s*第\s*[0-9一二三四五六七八九十]+\s*季\s*', '', text or '')
+    han = len(re.findall(r'[\u3400-\u9fff]',text))
+    return han >= 2 and len(re.findall(r'[A-Za-z]',text)) <= 2*han
 
 
 def parse_prime(content, asin, expected_season=None):

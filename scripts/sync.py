@@ -13,6 +13,7 @@ import yaml
 from catalog import match, merge, now, publish, repair, write_json
 from sources import Clients, SourceError
 from title_lookup import apply_cache
+from metadata_resolution import apply_summary_cache
 from app_metadata import apply_app_metadata
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -211,7 +212,7 @@ def run(root=ROOT, argv=None, clients_factory=Clients):
     if app_asset:
         items = apply_app_metadata(items, app_asset)
     title_cache = load(root / "data/title-cache.json", {"records": {}})
-    items = [apply_cache(item, title_cache) for item in items]
+    items = [apply_summary_cache(apply_cache(item, title_cache), title_cache) for item in items]
     seeds = yaml.safe_load((root / "config/seeds.yaml").read_text(encoding="utf-8"))["seeds"]
     items = add_seeds(items, seeds)
     if args.repair:

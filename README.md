@@ -1,5 +1,7 @@
 # Prime Video Chinese Metadata Catalog
 
+2026-10-31: Add evidence-bound source identity checks, strict-first lookup with verified-name fallback, private provider-ID reuse, and a documented 2023/2024 release exception for *In the Land of Saints and Sinners*. Regression checks run before catalog publication.
+
 Public film and TV metadata for a personal Android TV app: verified title mappings, Chinese and original-language names, season descriptions, release dates, genres, and landscape artwork. This repository does not publish playback URLs, provider sessions, personal watchlists, playback progress, signing keys, or upload credentials.
 
 ## Publication and app updates
@@ -42,18 +44,26 @@ python scripts/prune_publication.py
 
 Manual `mode=sync` forces collection. `mode=publish` aligns and validates the existing catalog without collecting new content. Optional TMDB and translation settings are described in [Translation configuration](config/translation.md).
 
-## Chinese title lookup and two Tavily credentials
+## Chinese title lookup and numbered Tavily credentials
 
-The title workflow checks daily at approximately 03:47 UTC (11:47 Asia/Shanghai), with an independent seven-day title-cache schedule. It reuses verified names, saved preferences, and cached evidence. Unverified titles first use Chinese Wikipedia or Bangumi; Tavily is used only when reliable evidence is still missing. Original name, year, and media type must agree. Search snippets are not used to invent names or replace season descriptions.
+The title workflow checks daily at approximately 03:47 UTC (11:47 Asia/Shanghai), with an independent seven-day title-cache schedule. It reuses verified names, saved preferences, and cached evidence. The ordered metadata resolver checks Tavily candidates, Douban pages, Chinese Wikipedia and Baidu Baike. Quoted/bracketed AI names are search terms, never verified identities. The original title, year, media type and season scope must agree before a name or description is published. A series-wide synopsis cannot overwrite a particular season's synopsis.
 
-Configure `TAVILY_API_KEY_1` as the primary credential and `TAVILY_API_KEY_2` as the backup in Actions Secrets. They authenticate to the same Tavily API. Duplicate values are deduplicated; legacy environments can still use `TAVILY_API_KEY` when numbered credentials are absent.
+Configure `TAVILY_API_KEY_1` through `TAVILY_API_KEY_4` in Actions Secrets. The first configured credential is primary; remaining unique credentials are backups. They authenticate to the same Tavily API. Duplicate values are deduplicated; legacy environments can still use `TAVILY_API_KEY` when numbered credentials are absent.
 
 - Authentication/account-quota responses 401, 403, 432, or 433 can switch to the backup. Each credential is attempted at most once per query, and a working backup is reused afterward.
 - Rate limiting (429), timeouts, and server failures stop paid requests for the run. The workflow does not cycle keys to bypass rate limits or enable a more expensive search tier.
-- Reserve budget before every HTTP request, including failed primary and backup attempts. Both slots share one monthly budget and have separate usage counters.
+- Reserve budget before every paid search request, including failed primary and backup attempts. All slots share one monthly budget and have separate usage counters.
 - Defaults: at most 12 titles per run (hard limit 20) and 100 reserved requests per month (hard limit 200). Configure `TITLE_LOOKUP_LIMIT` and `TITLE_LOOKUP_MONTHLY_LIMIT` as repository variables. Usage by other programs is outside this local ledger.
-- Reuse verified identity-based results; wait at least 30 days before retrying unresolved entries. `review_saved=true` with `limit=0` reviews saved evidence without new searches.
+- Reuse verified identity-based results; unresolved entries normally wait seven days, with shorter retries after search-service failures. `review_saved=true` with `limit=0` reviews saved evidence without new searches.
 - `python scripts/title_lookup.py --check-keys` calls the official `/usage` endpoint and reports only slot/status information. It does not print credentials or account responses and does not perform searches.
+
+## Source identity and verified fallback
+
+See [Source matching policy](config/source-matching.md) for the reference/candidate format and private review command. The policy requires exact verified titles and media type; TV seasons cannot be substituted. Movie release years can differ only when public release evidence is bound to the same official ID, English original, medium, season and IMDb ID. The official display year stays unchanged.
+
+`scripts/source_matching.py` is a reusable policy with injected search/detail callbacks; it does not make provider requests itself. It checks strict provider results before requesting a verified name fallback, revalidates a saved provider ID before searching again, and never stores media URLs. Interface failures remain unavailable rather than becoming negative matches. Provider IDs and local binding caches remain private; they are not catalog fields or public artifacts.
+
+`data/release-year-evidence.json` currently contains the independently checked Saints and Sinners exception. The title-page verifier uses the same evidence. Adding a new exception requires explicit public dates; this is not an automatic one-year tolerance. Existing App 1.3.60 matching still runs on the device. Updating this repository alone does not replace installed App code or upload its source bindings.
 
 ## Retention
 

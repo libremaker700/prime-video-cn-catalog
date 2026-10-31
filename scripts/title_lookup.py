@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 import re
+import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -78,7 +79,8 @@ def wiki_patch(record, page, checked_at):
     expected = year(record)
     if not names or not expected or not any(mentions_original(n, lead[:500]) for n in names):
         return None
-    if str(expected) not in lead:
+    from source_matching import release_years,with_release_evidence
+    if not any(str(y) in lead for y in release_years(with_release_evidence(record))):
         return None
     words = {'movie': ('电影', '電影', '影片'), 'tv': ('电视剧', '電視劇', '影集', '剧集', '劇集', '情境喜剧', '情境喜劇', '情景喜剧', '情景喜劇'), 'anime': ('电视动画', '電視動畫', '动画影集', '動畫影集', '动画剧集', '動畫劇集')}.get(record.get('kind'), ())
     title = re.match(r'^《([^》]{1,90})》', lead)
@@ -94,9 +96,16 @@ def wiki_patch(record, page, checked_at):
         if norm(old) not in norm(lead):
             return None  # Different regional name: retain old display until reviewed.
         display = old
-    return {'display_name_zh': display, 'aliases_zh': [title[1]],
+    patch = {'display_name_zh': display, 'aliases_zh': [title[1]],
             'name_status': 'verified_title_sources', 'name_checked_at': checked_at,
             'sources': [source('wikipedia_title', url, checked_at)]}
+    # A series article may describe the series, never an arbitrary requested season.
+    if not record.get('season'):
+        from sources import chinese as chinese_summary
+        summary=page.get('extract','').strip()[:5000]
+        if chinese_summary(summary):
+            patch.update(synopsis_zh=summary,synopsis_status='ok',synopsis_source_type='wikipedia',synopsis_source_url=url)
+    return patch
 
 
 def bangumi_patch(record, subject, checked_at):
@@ -119,7 +128,7 @@ def bangumi_patch(record, subject, checked_at):
 
 class Lookup:
     def __init__(self, key='', session=None, keys=None):
-        supplied = keys if keys is not None else ([key] if key else [os.getenv('TAVILY_API_KEY_1', ''), os.getenv('TAVILY_API_KEY_2', '')])
+        supplied = keys if keys is not None else ([key] if key else [os.getenv(f'TAVILY_API_KEY_{slot}', '') for slot in range(1, 5)])
         self.keys = list(dict.fromkeys(str(value).strip() for value in supplied if str(value).strip()))
         if not self.keys and os.getenv('TAVILY_API_KEY', '').strip():
             self.keys = [os.environ['TAVILY_API_KEY'].strip()]
@@ -131,10 +140,25 @@ class Lookup:
         self.network_errors = 0
         self.diagnostics = []
         self.stopped = False
+        self.last_source_request = {}
+        self.blocked_sources = set()
+
+    def source_get(self, url, **kwargs):
+        host=urlsplit(url).hostname
+        if host in self.blocked_sources:
+            return None
+        wait=max(0,3.0-(time.monotonic()-self.last_source_request.get(host,0)))
+        if wait:time.sleep(wait)
+        self.last_source_request[host]=time.monotonic()
+        response=self.session.get(url,headers={'User-Agent':'PrimeVideoCnCatalog/4.0 (public metadata verification)'},
+            timeout=(8,20),allow_redirects=False,**kwargs)
+        if response.status_code in (401,403,429):self.blocked_sources.add(host)
+        return response
 
     def get_json(self, url, **kwargs):
         try:
-            response = self.session.get(url, headers={'User-Agent': 'PrimeVideoCnCatalog/3.0 (public title verification)'}, timeout=(8, 20), allow_redirects=False, **kwargs)
+            response = self.source_get(url, **kwargs)
+            if response is None:return {}
             if response.status_code == 200:
                 return response.json()
             self.diagnostics.append({'host': urlsplit(url).hostname, 'http_status': response.status_code})
@@ -173,10 +197,15 @@ class Lookup:
     def search_with_budget(self, record, checked_at, reserve):
         return self.search(record, checked_at, reserve)
 
-    def search(self, record, checked_at, reserve=None):
+    def resolve(self, record, checked_at, reserve=None, source_probe=None):
+        from metadata_resolution import resolve
+        return resolve(self, record, checked_at, reserve, source_probe)
+
+    def search(self, record, checked_at, reserve=None, stage='tavily'):
+        from metadata_resolution import query as metadata_query, bracket_names, grounded_answer_names, HOSTS
         title = record.get('english_title') or record.get('original_title')
         hint = {'movie': '电影', 'tv': '电视剧', 'anime': '电视动画'}.get(record.get('kind'), '')
-        query = f'{title} {year(record) or ""} {hint} 中文名 国内译名'.strip()
+        query = metadata_query(record, stage)
         # At most one attempt per configured key. Reserve every HTTP request first.
         # Rate limits, timeouts and server errors stop the run without key cycling.
         response = None
@@ -189,7 +218,8 @@ class Lookup:
             try:
                 response = self.session.post('https://api.tavily.com/search', headers={'Authorization': 'Bearer ' + self.keys[self.active_key]},
                 json={'query': query, 'search_depth': 'basic', 'auto_parameters': False, 'max_results': 6,
-                      'include_answer': False, 'include_raw_content': 'text', 'include_images': False, 'include_usage': True},
+                      'include_answer': True, 'include_domains': sorted(HOSTS.get(stage, [])),
+                      'include_raw_content': 'text', 'include_images': False, 'include_usage': True},
                 timeout=(8, 45), allow_redirects=False)
             except requests.RequestException:
                 self.stopped = True
@@ -215,7 +245,14 @@ class Lookup:
             url = item.get('url', '')
             if urlsplit(url).scheme != 'https' or urlsplit(url).username or urlsplit(url).password:
                 continue
+            if stage in HOSTS and urlsplit(url).hostname not in HOSTS[stage]:
+                continue
             results.append({'title': str(item.get('title', ''))[:200], 'url': url, 'score': item.get('score')})
+            # Retain retrieved page text separately from the AI answer for verification.
+            if item.get('raw_content'):
+                results[-1]['page_text'] = str(item['raw_content'])[:16000]
+            if item.get('content'):
+                results[-1]['snippet'] = str(item['content'])[:1500]
             if urlsplit(url).hostname == 'zh.wikipedia.org' and item.get('raw_content'):
                 # Only the first defining paragraph, not snippets or a later mention.
                 paragraphs = [p.strip() for p in str(item['raw_content']).split('\n') if p.strip().startswith('《')]
@@ -223,14 +260,21 @@ class Lookup:
                     results[-1]['definition'] = paragraphs[0][:1000]
                     results[-1]['page_sha256'] = hashlib.sha256(item['raw_content'].encode()).hexdigest()
         patch = self.verify_results(record, results, checked_at)
-        return patch, {'query': query, 'usage': payload.get('usage'), 'results': results,
+        return patch, {'stage': stage, 'query': query, 'usage': payload.get('usage'), 'results': results,
+                       'answer_text': str(payload.get('answer') or '')[:6000],
+                       'candidate_names': list(dict.fromkeys(bracket_names(payload.get('answer'))+grounded_answer_names(payload.get('answer'),results))),
                        'status': 'verified' if patch else 'pending_review'}
 
     def verify_results(self, record, results, checked_at):
+        from metadata_resolution import safe_source, page_patch, retrieved_page_patch
         patches = []
         for item in results:
             url = item.get('url', '')
             parts = urlsplit(url)
+            retrieved=retrieved_page_patch(record,item,checked_at)
+            if retrieved:
+                if retrieved not in patches:patches.append(retrieved)
+                continue
             # Search only locates a page. The page API must independently pass identity gates.
             if parts.hostname == 'zh.wikipedia.org':
                 candidate = unquote(parts.path.rsplit('/', 1)[-1])
@@ -242,12 +286,30 @@ class Lookup:
                 patch = bangumi_patch(record, subject, checked_at)
                 if patch and patch not in patches:
                     patches.append(patch)
+            elif safe_source(url):
+                try:
+                    response = self.source_get(url)
+                    if response is None:continue
+                    if response.status_code == 200:
+                        patch = page_patch(record, response.text, url, checked_at)
+                        if patch and patch not in patches:
+                            patches.append(patch)
+                    else:
+                        self.diagnostics.append({'host':parts.hostname,'http_status':response.status_code})
+                except requests.RequestException:
+                    self.network_errors += 1
         unique = {norm(p['display_name_zh']) for p in patches}
         return patches[0] if len(unique) == 1 else None
 
 
 def load(path, default):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
+
+def saved_results(evidence):
+    result=list(evidence.get('results',[]))
+    for stage in evidence.get('stages',[]):
+        result.extend(stage.get('results',[]))
+    return result
 
 
 def check_keys():
@@ -321,8 +383,9 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
             report['skipped_verified'] += 1
             updated.append(out)
             continue
-        if review_saved and old.get('identity') == identity(out) and old.get('evidence', {}).get('results'):
-            patch = client.verify_results(out, old['evidence']['results'], checked_at)
+        previous_results=saved_results(old.get('evidence',{}))
+        if review_saved:
+            patch = client.verify_results(out, previous_results, checked_at) if old.get('identity') == identity(out) and previous_results else None
             if patch:
                 patch = sanitize(patch, getattr(client, 'keys', [client.key]))
                 cache['records'][key] = old | {'status': 'verified', 'patch': patch, 'checked_at': checked_at}
@@ -342,32 +405,47 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
             continue
         report['attempted'] += 1
         patch = None
-        if old.get('identity') == identity(out) and old.get('evidence', {}).get('results'):
-            patch = client.verify_results(out, old['evidence']['results'], checked_at)
+        if old.get('identity') == identity(out) and previous_results:
+            patch = client.verify_results(out, previous_results, checked_at)
             if patch:
                 report['cache_hits'] += 1
-        patch = patch or client.direct(out, checked_at)
         evidence = {'status': 'direct_source'}
+        if not patch and hasattr(client, 'resolve'):
+            patch, evidence = client.resolve(out, checked_at, reserve)
+        elif not patch:
+            patch = client.direct(out, checked_at)
         if patch:
             report['direct_verified'] += 1
-        elif client.key and not client.stopped and used < monthly_limit:
+        elif not hasattr(client, 'resolve') and client.key and not client.stopped and used < monthly_limit:
             if hasattr(client, 'search_with_budget'):
                 patch, evidence = client.search_with_budget(out, checked_at, reserve)
             elif reserve():
                 patch, evidence = client.search(out, checked_at)
         entry = {'identity': identity(out), 'checked_at': checked_at, 'status': 'verified' if patch else 'pending_review',
-                 'evidence': evidence, 'next_retry_at': (clock + timedelta(days=30)).isoformat(timespec='seconds')}
+                 'evidence': evidence, 'next_retry_at': (clock + (timedelta(hours=6) if client.stopped else timedelta(days=7))).isoformat(timespec='seconds')}
+        if evidence.get('candidate_names'):
+            entry['candidate_names'] = evidence['candidate_names']
         if patch:
+            if hasattr(client,'resolve'):
+                from metadata_resolution import remember_summary
+                remember_summary(out,patch,cache,checked_at)
             entry['patch'] = sanitize({k:v for k,v in patch.items() if k in FIELDS}, getattr(client, 'keys', [client.key]))
             out = merge(out, entry['patch'])
         else:
             report['pending'] += 1
         cache['records'][key] = sanitize(entry, getattr(client, 'keys', [client.key]))
         updated.append(out)
-    # Preserve catalogue order, IDs, playback binding, seasons, summaries and posters.
+    # Chinese descriptions use a separate entity/season-bound cache, not the name cache.
+    if hasattr(client, 'resolve'):
+        from metadata_resolution import enrich_summaries
+        updated, summary_report = enrich_summaries(updated, cache, client, checked_at, reserve,
+            0 if review_saved else max(0, limit-report['attempted']), path)
+        report['summaries'] = summary_report
+    # Preserve catalogue order, IDs, playback binding and artwork.
     order = {r['id']: n for n,r in enumerate(current['items'])}
     updated.sort(key=lambda r: order[r['id']])
-    cache['last_run_at'] = checked_at
+    if not client.stopped:
+        cache['last_run_at'] = checked_at
     report['monthly_reserved'] = used
     report['keys_configured'] = len(getattr(client, 'keys', [client.key] if client.key else []))
     report['key_failovers'] = getattr(client, 'failovers', 0)
@@ -377,7 +455,9 @@ def run(root=ROOT, *, force=False, limit=12, monthly_limit=100, clock=None, clie
     report['verified_changes'] = [{'id': a['id'], 'before': a['display_name_zh'], 'after': b['display_name_zh'], 'name_status': b.get('name_status')}
                                   for a,b in zip(current['items'], updated) if a != b]
     report['published_name_changes'] = sum(a != b for a,b in zip(current['items'], updated))
-    report['status'] = 'degraded' if client.stopped else 'completed'
+    report['lookup_order'] = ['tavily','douban','wikipedia','baidu']
+    pending = report['remaining_unverified'] or report.get('summaries',{}).get('pending',0)
+    report['status'] = 'degraded' if client.stopped else ('completed_with_pending' if pending else 'completed')
     if updated != current['items']:
         report['version'] = publish(root/'docs', updated, version, reason='verified_title_lookup')
     # Never store a credential or raw transport errors in public data/logs.

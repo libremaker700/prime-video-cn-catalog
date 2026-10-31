@@ -41,6 +41,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
+      - name: Validate identity-bound source matching evidence
+        run: python scripts/review_sources.py --check-policy
       - name: Align public App mappings and compatible movie fields
         run: python scripts/import_app_metadata.py
       - name: Sync (skip if <7 days / 604800s since last success; manual run forces)

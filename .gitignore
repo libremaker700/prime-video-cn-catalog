@@ -3,5 +3,6 @@ __pycache__/
 .env
 docs/.catalog.tmp
 .venv/
+.local/
 docs/.version.json.tmp
 logs/last_attempt.json

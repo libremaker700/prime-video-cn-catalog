@@ -1,4 +1,4 @@
-name: Update verified Chinese titles
+name: Update verified Chinese titles and descriptions
 
 # Check daily; title-cache.json enforces seven days independently of full crawling.
 on:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Maximum unresolved titles to attempt (0–20); verified names are always reused'
+        description: 'Maximum unresolved name/description targets (0–20); verified metadata is reused'
         default: '12'
         type: string
       review_saved:
@@ -36,19 +36,25 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
+      - name: Validate identity-bound source matching evidence
+        run: python scripts/review_sources.py --check-policy
       - name: Align public App mappings
         run: python scripts/import_app_metadata.py
       - name: Verify configured search credentials without searches
         env:
           TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
+          TAVILY_API_KEY_3: ${{ secrets.TAVILY_API_KEY_3 }}
+          TAVILY_API_KEY_4: ${{ secrets.TAVILY_API_KEY_4 }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python scripts/title_lookup.py --check-keys
-      - name: Resolve missing and unverified titles within budget
+      - name: Resolve Chinese names and descriptions in ordered source stages
         id: lookup
         env:
           TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}
+          TAVILY_API_KEY_3: ${{ secrets.TAVILY_API_KEY_3 }}
+          TAVILY_API_KEY_4: ${{ secrets.TAVILY_API_KEY_4 }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           TITLE_LOOKUP_LIMIT: ${{ inputs.limit || vars.TITLE_LOOKUP_LIMIT || '12' }}
           TITLE_LOOKUP_MONTHLY_LIMIT: ${{ vars.TITLE_LOOKUP_MONTHLY_LIMIT || '100' }}
