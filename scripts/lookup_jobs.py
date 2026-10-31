@@ -36,6 +36,7 @@ def run(input_path,output_path,*,execute=False,title='',limit=12,monthly_limit=1
     for r in jobs:
         # Include season here: the legacy name cache is deliberately series-wide.
         context={k:r.get(k) for k in ('lookup_title','official_url','candidate_links')}
+        context['query_policy']='official-link-context-v2'
         context_hash=hashlib.sha256(json.dumps(context,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
         key=cache_key(r)+':scope:'+summary_key(r)+':context:'+context_hash
         old=cache.setdefault('batch_records',{}).get(key,{})

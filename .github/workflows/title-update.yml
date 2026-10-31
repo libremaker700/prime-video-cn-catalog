@@ -49,6 +49,7 @@ jobs:
       - name: Align public App mappings
         run: python scripts/import_app_metadata.py
       - name: Verify configured search credentials without searches
+        if: inputs.official_id == ''
         env:
           TAVILY_API_KEY_1: ${{ secrets.TAVILY_API_KEY_1 }}
           TAVILY_API_KEY_2: ${{ secrets.TAVILY_API_KEY_2 }}

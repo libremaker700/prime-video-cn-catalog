@@ -56,7 +56,7 @@ def query(record, stage):
     if stage == 'tavily':
         official = str(record.get('official_url') or '')
         if re.fullmatch(r'https://www\.primevideo\.com/(?:-/[a-zA-Z-]+/)?detail/[A-Z0-9]{10,26}', official):
-            return f'根据官网链接 {official}，作品“{title}” {year}年{kind}' + (f' 第{season}季' if season else '') + '，查找同一作品的豆瓣条目链接和中国中文名，用[中文名]列出；避免其他作品或年份，不猜测名称或豆瓣ID。'
+            return f'"{title}" {year} {kind}' + (f' 第{season}季' if season else '') + f' 豆瓣中文名与条目链接 官网 {official}'
         # Search is not a chat-completion prompt: a long instruction dilutes the title.
         return f'"{title}" {year} 中文名'
     domain = next(iter(HOSTS[stage]))

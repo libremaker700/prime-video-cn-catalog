@@ -46,7 +46,7 @@ def prepare(official_id,root=ROOT):
     return {'schema':1,'items':[{'id':t['officialId'],'prime_id':t['officialId'],'kind':t['kind'],'year':t['year'],'season':t['season'],
         'english_title':t['originalTitle'],'original_title':t['originalTitle'],'display_name_zh':t['displayTitle'],
         'name_status':'pending_domestic_alias_review','lookup_title':t.get('lookup_title',t['originalTitle']),
-        'official_url':t.get('official_url',''),'candidate_links':t.get('candidate_links',[])}]}
+        'official_url':t.get('official_url') or 'https://www.primevideo.com/detail/'+t['officialId'],'candidate_links':t.get('candidate_links',[])}]}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--official-id',required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
