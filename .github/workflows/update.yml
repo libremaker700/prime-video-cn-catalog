@@ -34,6 +34,8 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Refresh main after queued workflows
         run: git pull --ff-only origin main
       - uses: actions/setup-python@v5
@@ -86,6 +88,7 @@ jobs:
           if [ -f data/discovery_queue.json ]; then git add data/discovery_queue.json; fi
           if [ -f data/source-verification.json ]; then git add data/source-verification.json; fi
           git diff --cached --quiet || git commit -m "catalog: auto update $(date -u +%F)"
+          git pull --rebase --autostash origin main
           git push
       - name: Publish verified catalogue to Oracle Object Storage
         env:
