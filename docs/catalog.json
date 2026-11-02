@@ -1,7 +1,7 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-01T04:02:41+00:00",
-  "item_count": 181,
+  "generated_at": "2026-11-02T04:10:36+00:00",
+  "item_count": 183,
   "items": [
     {
       "id": "seed:the-tomorrow-war",
@@ -9645,13 +9645,13 @@
           "official_title_zh": "Clifford the Big Red Dog - Season 2",
           "year": 2020,
           "release_date": "2020年5月21日",
-          "official_checked_at": "2026-11-01T04:02:30+00:00",
+          "official_checked_at": "2026-11-02T04:10:21+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-              "retrieved_at": "2026-11-01T04:02:30+00:00"
+              "retrieved_at": "2026-11-02T04:10:21+00:00"
             }
           ],
           "synopsis_original": "Emily Elizabeth, Clifford, and all of Birdwell Island continue the adventures as they build the island’s first mini golf course, hang ten on some gnarly waves, and meet the cutest new puppy pal - Hudson! From gathering clues disguised as special agents to singing a sea shanty with the elusive Babette, the friends learn patience, teamwork, and that practice makes perfect when trying something new.",
@@ -9667,7 +9667,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/3c55573cf7c0bc84b4afe91e51c232d7cf04660da282cf439ba76eb7279d80c4._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-01T04:02:30+00:00"
+            "retrieved_at": "2026-11-02T04:10:22+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9691,7 +9691,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/5aed5adaa44c9a54960c1f47374d0ab5175762ce491559a6a0a569b476cb86fc._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-01T04:02:30+00:00"
+            "retrieved_at": "2026-11-02T04:10:22+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9701,13 +9701,13 @@
           "official_link": "/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
           "identity_source": "app_official_selector_snapshot",
           "official_catalog_id": "amzn1.dv.gti.1ebadd0a-6010-1c15-36f8-990b685f4921",
-          "official_checked_at": "2026-11-01T04:02:30+00:00",
+          "official_checked_at": "2026-11-02T04:10:22+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-              "retrieved_at": "2026-11-01T04:02:30+00:00"
+              "retrieved_at": "2026-11-02T04:10:22+00:00"
             }
           ],
           "synopsis_original": "Come along with Emily Elizabeth, Clifford, and their friends as they spend a day at the Birdwell Fun Fair, become hard hitting reporters, and build a cool clubhouse! From throwing a welcome party for a new islander to turning the sounds of a thunderstorm into a new song, the friends learn that they can always look to each other when they feel scared and the importance of enjoying today.",
@@ -9725,27 +9725,27 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-          "retrieved_at": "2026-11-01T04:02:30+00:00"
+          "retrieved_at": "2026-11-02T04:10:22+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "retrieved_at": "2026-11-01T04:02:31+00:00"
+          "retrieved_at": "2026-11-02T04:10:21+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-          "retrieved_at": "2026-11-01T04:02:30+00:00"
+          "retrieved_at": "2026-11-02T04:10:21+00:00"
         }
       ],
-      "updated_at": "2026-11-01T04:02:34+00:00",
+      "updated_at": "2026-11-02T04:10:26+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-01T04:02:34+00:00",
+      "metadata_attempted_at": "2026-11-02T04:10:26+00:00",
       "refresh_status": "partial",
       "prime_series_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-      "metadata_checked_at": "2026-11-01T04:02:34+00:00",
+      "metadata_checked_at": "2026-11-02T04:10:26+00:00",
       "official_unmapped_seasons": [
         {
           "season": 1,
@@ -17732,7 +17732,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0NBVXAJ6EQW7OTHPOIWASZ9313",
-          "retrieved_at": "2026-10-31T03:56:41+00:00"
+          "retrieved_at": "2026-11-02T04:10:19+00:00"
         }
       ],
       "original_title": null,
@@ -17744,7 +17744,7 @@
       "official_catalog_id": "amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97",
       "year": 2026,
       "release_date": "2026年10月29日",
-      "official_checked_at": "2026-10-31T03:56:41+00:00",
+      "official_checked_at": "2026-11-02T04:10:19+00:00",
       "synopsis_zh": "TSJ病毒爆發後，加納利群島成了歐洲最後的避難所。當一支任務小隊前往馬德里搜尋物資，羅貝托懷著可疑的動機加入。遭遇感染者後，團隊意見出現分歧，他們在奮力求生的同時還面臨道德兩難：自保或為了殘存的人性賭上一切？",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -17759,14 +17759,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/72e367a89f8441fb0d4e45d5dfa50053747b90ea42edb801e16aaea84aacf1fb._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-10-31T03:56:42+00:00"
+        "retrieved_at": "2026-11-02T04:10:20+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 冒险片",
-      "metadata_attempted_at": "2026-11-01T04:02:24+00:00",
-      "refresh_status": "failed"
+      "metadata_attempted_at": "2026-11-02T04:10:20+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-02T04:10:20+00:00",
+      "updated_at": "2026-11-02T04:10:20+00:00"
     },
     {
       "id": "prime:0FD2RKCTYSPIRT0XJ2HO0X6TR6",
@@ -18209,7 +18211,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GZ76HXP3TQS4E42G5JI9KQR6Q",
-          "retrieved_at": "2026-11-01T04:02:39+00:00"
+          "retrieved_at": "2026-11-02T04:10:17+00:00"
         }
       ],
       "original_title": null,
@@ -18221,7 +18223,7 @@
       "official_catalog_id": "amzn1.dv.gti.1ec659dd-697c-4a03-bbd1-ddd41c164422",
       "year": 2026,
       "release_date": "2026年9月8日",
-      "official_checked_at": "2026-11-01T04:02:39+00:00",
+      "official_checked_at": "2026-11-02T04:10:17+00:00",
       "synopsis_zh": "玛菲尔是一个西班牙富商的女儿，她在纽约的生活因一次绑架然后莫名其妙的获释而彻底颠覆。她的父亲雇佣了塞巴斯蒂安·摩尔作为她的保镖，两人被迫朝夕相处。在这个看似一切都不真实的世界里，一种无法避免的吸引力在他们之间悄然萌生。本片改编自梅塞德斯·罗恩《错误》系列小说。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -18236,12 +18238,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/361d045eed735374fdb715a16f0ad3998ebb04378cbcb24c509cb75271f09cc8._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-01T04:02:39+00:00"
+        "retrieved_at": "2026-11-02T04:10:17+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "动作片 / 爱情"
+      "genres": "动作片 / 爱情",
+      "metadata_attempted_at": "2026-11-02T04:10:17+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-02T04:10:17+00:00",
+      "updated_at": "2026-11-02T04:10:17+00:00"
     },
     {
       "id": "prime:0S0OIMOTSETYIWA2EVTWWH7JR9",
@@ -18290,7 +18296,9 @@
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "剧情片 / 爱情"
+      "genres": "剧情片 / 爱情",
+      "metadata_attempted_at": "2026-11-02T04:10:17+00:00",
+      "refresh_status": "failed"
     },
     {
       "id": "prime:0HBE4W5I7RRPPPB63C8GBBZ5I8",
@@ -18307,7 +18315,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0HBE4W5I7RRPPPB63C8GBBZ5I8",
-          "retrieved_at": "2026-11-01T04:02:40+00:00"
+          "retrieved_at": "2026-11-02T04:10:18+00:00"
         }
       ],
       "original_title": null,
@@ -18319,7 +18327,7 @@
       "official_catalog_id": "amzn1.dv.gti.247ef0c6-1963-4692-b09c-4c4d0a52fda0",
       "year": 2026,
       "release_date": "2026年8月13日",
-      "official_checked_at": "2026-11-01T04:02:40+00:00",
+      "official_checked_at": "2026-11-02T04:10:18+00:00",
       "synopsis_original": "Vishesh Bhatt brings to you the second chapter of the blockbuster franchise Awarapan. Once a feared gangster, Shivam lives hidden away from his past, with no faith left in God or himself. But when fate pulls him into Bangkok's cartel war and forces him back into the darkness he swore never to return to, Shivam must choose what he is willing to live for, when there is nothing left to lose.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0HBE4W5I7RRPPPB63C8GBBZ5I8",
       "synopsis_status": "translation_pending",
@@ -18333,12 +18341,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/193aa2ffc7906ad89bb37438368dbaeff27550a21b35ee36fb9d36bc8b663476._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-01T04:02:41+00:00"
+        "retrieved_at": "2026-11-02T04:10:18+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "动作片 / 剧情片 / 爱情 / 悬疑"
+      "genres": "动作片 / 剧情片 / 爱情 / 悬疑",
+      "metadata_attempted_at": "2026-11-02T04:10:18+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-02T04:10:18+00:00",
+      "updated_at": "2026-11-02T04:10:18+00:00"
     },
     {
       "id": "prime:0HQZH1S9GAK1T4I30G7BCCXCSZ",
@@ -18355,7 +18367,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0HQZH1S9GAK1T4I30G7BCCXCSZ",
-          "retrieved_at": "2026-11-01T04:02:41+00:00"
+          "retrieved_at": "2026-11-02T04:10:19+00:00"
         }
       ],
       "original_title": null,
@@ -18367,7 +18379,7 @@
       "official_catalog_id": "amzn1.dv.gti.2bcfdcd0-0738-465a-a24d-94f7af946b13",
       "year": 2026,
       "release_date": "2026年2月12日",
-      "official_checked_at": "2026-11-01T04:02:41+00:00",
+      "official_checked_at": "2026-11-02T04:10:19+00:00",
       "synopsis_original": "Featuring American Sign Language (ASL) interpretation. From Warner Bros. Pictures and award-winning filmmaker Emerald Fennell comes \"Wuthering Heights,\" starring Margot Robbie and Jacob Elordi.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0HQZH1S9GAK1T4I30G7BCCXCSZ",
       "synopsis_status": "translation_pending",
@@ -18381,12 +18393,112 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/69a53a3ce5d4fe90ebe5dcae876e6bcbc15fd35a7ef8e6656aaff424d0e5fbdb._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-01T04:02:41+00:00"
+        "retrieved_at": "2026-11-02T04:10:19+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "剧情片 / 爱情"
+      "genres": "剧情片 / 爱情",
+      "metadata_attempted_at": "2026-11-02T04:10:19+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-02T04:10:19+00:00",
+      "updated_at": "2026-11-02T04:10:19+00:00"
+    },
+    {
+      "id": "prime:0H5X9VAJP3WU9CMN0CPCM63K2S",
+      "slug": "prime-0h5x9vajp3wu9cmn0cpcm63k2s",
+      "prime_id": "0H5X9VAJP3WU9CMN0CPCM63K2S",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "The Wild Robot",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "The Wild Robot",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0H5X9VAJP3WU9CMN0CPCM63K2S",
+          "retrieved_at": "2026-11-02T04:10:35+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2024年9月26日",
+        "genres": "动画 / 冒险片 / 科幻 / 奇幻"
+      },
+      "official_catalog_id": "amzn1.dv.gti.21ee1ac6-e382-43f4-8939-0e76f98b6664",
+      "year": 2024,
+      "release_date": "2024年9月26日",
+      "official_checked_at": "2026-11-02T04:10:35+00:00",
+      "synopsis_original": "Follow the epic adventure of Roz, a robot that is shipwrecked on an island and must adapt to the harsh surroundings while becoming the adoptive parent of an orphaned gosling.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0H5X9VAJP3WU9CMN0CPCM63K2S",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/ccffb6d43d59a84a185d0e357c13cc9b72a28298752d56c5fa3bc404893fd670.jpg",
+        "sha256": "ccffb6d43d59a84a185d0e357c13cc9b72a28298752d56c5fa3bc404893fd670",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/9c98f49365f6451e02ed5fc2df5db2bfdbd3280675bc1af65b71148ab7bc7618._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-02T04:10:35+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "动画 / 冒险片 / 科幻 / 奇幻"
+    },
+    {
+      "id": "prime:0TVL0IPPLXF7SQBFU4KW3BZTH8",
+      "slug": "prime-0tvl0ipplxf7sqbfu4kw3bzth8",
+      "prime_id": "0TVL0IPPLXF7SQBFU4KW3BZTH8",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Spookley: The Square Pumpkin",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Spookley: The Square Pumpkin",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0TVL0IPPLXF7SQBFU4KW3BZTH8",
+          "retrieved_at": "2026-11-02T04:10:36+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2004年9月30日",
+        "genres": "特殊兴趣 / 儿童 / 动画 / 奇幻"
+      },
+      "official_catalog_id": "amzn1.dv.gti.f8a9f734-dca4-4022-f898-aecdbb2e56fc",
+      "year": 2004,
+      "release_date": "2004年9月30日",
+      "official_checked_at": "2026-11-02T04:10:36+00:00",
+      "synopsis_original": "Poor Spookley is a pumpkin whose shape is square rather then round. He's teased and taunted by other mean round pumpkins. But he receives help from a Scarecrow and his 2 bat side-kicks and 3 very funny spiders.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0TVL0IPPLXF7SQBFU4KW3BZTH8",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/8e260ce0c3ffd7fff629ec937f9839c5fa813f90f69e16e1ee014f86cf3cea31.jpg",
+        "sha256": "8e260ce0c3ffd7fff629ec937f9839c5fa813f90f69e16e1ee014f86cf3cea31",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/17c621547a4c428a1df172e063b01e504134fa3a6da28086b28afe5d195aeca0._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-02T04:10:36+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "特殊兴趣 / 儿童 / 动画 / 奇幻"
     }
   ]
 }
