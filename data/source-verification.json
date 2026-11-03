@@ -782,7 +782,7 @@
       "season": 0,
       "year": 2005,
       "status": "pending",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0HKPFZGXY",
@@ -809,7 +809,7 @@
       "season": 0,
       "year": 2013,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B00O8NP6U4",
@@ -854,7 +854,7 @@
       "season": 0,
       "year": 2011,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0H3YVPW7Z",
@@ -935,7 +935,7 @@
       "season": 0,
       "year": 2024,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0HJ6HCC5S",
@@ -953,7 +953,7 @@
       "season": 0,
       "year": 2026,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0HJ14KMQR",
@@ -971,7 +971,7 @@
       "season": 0,
       "year": 2025,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B00BZFBL5W",
@@ -1061,7 +1061,7 @@
       "season": 1,
       "year": 2026,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:46:18+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0B6P35PB4",
@@ -1088,7 +1088,7 @@
       "season": 1,
       "year": 2026,
       "status": "pending",
-      "checkedAt": "2026-10-31T22:48:32+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0CH75NKTX",
@@ -1115,7 +1115,7 @@
       "season": 1,
       "year": 2024,
       "status": "no_match",
-      "checkedAt": "2026-10-31T22:48:32+00:00"
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0HFWYCS79",
@@ -1132,8 +1132,8 @@
       "kind": "tv",
       "season": 1,
       "year": 2000,
-      "status": "pending",
-      "checkedAt": "2026-10-31T22:48:32+00:00"
+      "status": "unavailable",
+      "checkedAt": "2026-11-03T04:04:34+00:00"
     },
     {
       "officialId": "B0CVKZHM88",
