@@ -2185,8 +2185,8 @@
       "kind": "movie",
       "season": 0,
       "year": 1985,
-      "status": "no_match",
-      "checkedAt": "2026-11-01T04:31:58+00:00"
+      "status": "unavailable",
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0B5VXQF9G",
@@ -2438,7 +2438,7 @@
       "season": 0,
       "year": 2023,
       "status": "no_match",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B00D611WT8",
@@ -2537,7 +2537,7 @@
       "season": 1,
       "year": 2025,
       "status": "pending",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0DGF2C565",
@@ -2546,7 +2546,7 @@
       "season": 2,
       "year": 2026,
       "status": "unavailable",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0F1CYHF2T",
@@ -2564,7 +2564,7 @@
       "season": 7,
       "year": 2020,
       "status": "no_match",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0DKVQG5H5",
@@ -2582,7 +2582,7 @@
       "season": 1,
       "year": 2003,
       "status": "unavailable",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0FXJVB5ZJ",
@@ -2609,7 +2609,7 @@
       "season": 0,
       "year": 2015,
       "status": "pending",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B079SSXMKP",
@@ -2618,7 +2618,7 @@
       "season": 0,
       "year": 1989,
       "status": "unavailable",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0D24SZSHG",
@@ -2627,7 +2627,7 @@
       "season": 1,
       "year": 2024,
       "status": "no_match",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0GHRP44BL",
@@ -2672,7 +2672,7 @@
       "season": 0,
       "year": 2023,
       "status": "no_match",
-      "checkedAt": "2026-11-01T04:02:42+00:00"
+      "checkedAt": "2026-11-05T04:40:12+00:00"
     },
     {
       "officialId": "B0H8KJG5NP",
