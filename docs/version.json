@@ -1,10 +1,10 @@
 {
-  "version": "075508cc1a5a8e23",
-  "catalog_sha256": "075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3",
-  "catalog_path": "releases/075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3/catalog.json",
-  "generated_at": "2026-11-06T04:26:19+00:00",
+  "version": "4aa612945fe7317e",
+  "catalog_sha256": "4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058",
+  "catalog_path": "releases/4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058/catalog.json",
+  "generated_at": "2026-11-06T04:42:33+00:00",
   "last_success_at": "2026-10-29T00:56:48+00:00",
-  "publication_reason": "partial_sync",
+  "publication_reason": "verified_title_lookup",
   "item_count": 204,
   "image_count": 268,
   "refresh_status": "partial",
@@ -20,5 +20,5 @@
     "deferred": 0,
     "budget_seconds": 1200
   },
-  "previous_catalog_path": "releases/7c6ae961d8a84575407e22f6c4fc47fe038edc3e1807486cf9b162451751e3dd/catalog.json"
+  "previous_catalog_path": "releases/075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3/catalog.json"
 }

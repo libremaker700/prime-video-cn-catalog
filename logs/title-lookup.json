@@ -1,19 +1,71 @@
 {
-  "checked_at": "2026-10-30T00:04:37+00:00",
-  "searched": 0,
+  "checked_at": "2026-11-06T04:40:32+00:00",
+  "searched": 36,
   "direct_verified": 0,
   "cache_hits": 0,
-  "skipped_verified": 9,
-  "pending": 70,
-  "attempted": 0,
-  "monthly_reserved": 4,
+  "skipped_verified": 42,
+  "pending": 104,
+  "attempted": 12,
+  "monthly_reserved": 36,
   "monthly_limit": 100,
-  "keys_configured": 2,
+  "summaries": {
+    "attempted": 0,
+    "verified": 0,
+    "pending": 77,
+    "cache_hits": 0
+  },
+  "keys_configured": 4,
   "key_failovers": 0,
-  "remaining_unverified": 147,
-  "direct_network_errors": 0,
-  "source_diagnostics": [],
-  "verified_changes": [],
-  "published_name_changes": 0,
-  "status": "completed"
+  "remaining_unverified": 162,
+  "direct_network_errors": 1,
+  "source_diagnostics": [
+    {
+      "host": "baike.baidu.com",
+      "http_status": 403
+    },
+    {
+      "host": "zh.wikipedia.org",
+      "http_status": 429
+    }
+  ],
+  "verified_changes": [
+    {
+      "id": "seed:seed-a5bbef0d5c350b1e",
+      "before": "愤怒的小鸟：神秘岛",
+      "after": "愤怒的小鸟：神秘岛",
+      "name_status": "user_app_preference"
+    }
+  ],
+  "published_name_changes": 1,
+  "lookup_order": [
+    "tavily",
+    "douban",
+    "wikipedia",
+    "baidu"
+  ],
+  "status": "completed_with_pending",
+  "version": {
+    "version": "4aa612945fe7317e",
+    "catalog_sha256": "4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058",
+    "catalog_path": "releases/4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058/catalog.json",
+    "generated_at": "2026-11-06T04:42:33+00:00",
+    "last_success_at": "2026-10-29T00:56:48+00:00",
+    "publication_reason": "verified_title_lookup",
+    "item_count": 204,
+    "image_count": 268,
+    "refresh_status": "partial",
+    "last_attempt_at": "2026-11-06T04:26:19+00:00",
+    "last_partial_at": "2026-11-06T04:26:19+00:00",
+    "refresh_counts": {
+      "processed": 202,
+      "checked": 119,
+      "reused": 43,
+      "pending": 35,
+      "failures": 20,
+      "attempted": 159,
+      "deferred": 0,
+      "budget_seconds": 1200
+    },
+    "previous_catalog_path": "releases/075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3/catalog.json"
+  }
 }

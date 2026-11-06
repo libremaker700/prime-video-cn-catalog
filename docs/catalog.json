@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-06T04:26:19+00:00",
+  "generated_at": "2026-11-06T04:42:33+00:00",
   "item_count": 204,
   "items": [
     {
@@ -9595,7 +9595,13 @@
       "poster_scope": null,
       "poster_status": "missing",
       "seasons": [],
-      "sources": [],
+      "sources": [
+        {
+          "type": "user_confirmed_title",
+          "url": "https://movie.douban.com/subject/36433417/",
+          "retrieved_at": "2026-10-31T22:15:17.370577+00:00"
+        }
+      ],
       "updated_at": "2026-10-29T00:00:00+08:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "metadata_attempted_at": "2026-11-06T04:14:06+00:00",
