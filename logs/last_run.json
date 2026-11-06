@@ -1,633 +1,773 @@
 {
-  "started_at": "2026-11-05T04:07:49+00:00",
-  "finished_at": "2026-11-05T04:08:10+00:00",
+  "started_at": "2026-11-06T04:06:18+00:00",
+  "finished_at": "2026-11-06T04:26:18+00:00",
   "status": "partial",
-  "processed": 200,
-  "checked": 14,
-  "retained_without_refresh": 186,
-  "reused": 185,
+  "processed": 202,
+  "checked": 119,
+  "retained_without_refresh": 83,
+  "reused": 43,
   "pending": 35,
   "deferred": 0,
-  "attempted": 15,
+  "attempted": 159,
   "budget_seconds": 1200,
   "new_verified_titles": 2,
-  "failures": 7,
+  "failures": 20,
   "records": [
     {
       "id": "seed:the-tomorrow-war",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0FLSZBRZJ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FLSZBRZJ",
+        "prime_official:B0CN4GGGQ2"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FX3G8F44",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FX3G8F44",
+        "prime_official:B0DWSKFWQJ",
+        "prime_official:B0FH4VFV7M",
+        "prime_official:B0F9T8VC4C",
+        "prime_official:B0CLWVYPXF"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H8N9812R",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H8N9812R",
+        "prime_official:B09ML1QV1S",
+        "prime_official:0PW27PB7O60V7NZOIXFYF68ZG8",
+        "prime_official:0H1T1C23B07HLZPPHJSSPMYSL7"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08WJN83XZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08WJN83XZ",
+        "prime_official:0KRK7IABRYDORGPDYP1XO3OT0Q",
+        "prime_official:0RI8K407MG2FJ6F2GBY1PQTIGX",
+        "prime_official:0L4S6GN5QKGODF5COGHK3Q4D8N"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:vinland-saga",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0CNDCMN8R",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CNDCMN8R",
+        "prime_official:0OMZBKL7NFW0Z3SOHFJH1LEJ3O",
+        "prime_official:0IDSFXM96JUS4CR2VDMJJ6LZBQ",
+        "prime_official:0OV0R0PHPSCIG43BU1Y81U8IQG"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-91f9b0126f4e69b8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0HFKGHNH6",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HFKGHNH6",
+        "prime_official:0J0XJCDB0KSVIU3PD8KMX5TOG0"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B089XSMKR4",
-      "checked": [],
+      "checked": [
+        "prime_official:B089XSMKR4",
+        "prime_official:0JC81MKW4OTQOTDRS5HUW1W6IE",
+        "prime_official:0G9EVIYYA98UM8453TY18R265D",
+        "prime_official:0NPYZ4WLKJQS6C48ZHC6391571",
+        "prime_official:0PDPADIKB64TJHJZD0C8MZD129"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09PZG2979",
-      "checked": [],
+      "checked": [
+        "prime_official:B09PZG2979",
+        "prime_official:0R3MTHCYG6XL7IO4J8LL4FBNT5",
+        "prime_official:0IAJHAARVF80XQ37H6JV3RROL6",
+        "prime_official:0TRPUVCMBE3U349CTIUPXE4X26"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H31VL8YK",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H31VL8YK",
+        "prime_official:0KMAMO9155DE5SP91E46RT4KGL",
+        "prime_official:0QLA1KJJ0L3LT24YUMQJ9IK4PH",
+        "prime_official:0HX4CXWWO3E6NRVF81QOS54D6P",
+        "prime_official:0SAECKOR9UIXEFAIJ6YO070NE4",
+        "prime_official:0HYZJWW6XQYD3FD7W20LZG6W9D",
+        "prime_official:0RKKFE0USMHNZ3I6NK7O4BDZPM"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GVBYW4RR",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GVBYW4RR",
+        "prime_official:0HOTXWLB4X8ZZBL1S2YQUGKXVJ",
+        "prime_official:0S1RE65JRS6XKX8QJZT0POG3TW",
+        "prime_official:0LL3K38UDB290H69CXCWL1F9D3",
+        "prime_official:0SPJS4W18NPJZC6L5DSDLZ8Y6D"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZLX5228",
       "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GZLX5228",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "failed"
     },
     {
       "id": "seed:seed-73f59adce0b9843b",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GYQHYW8H",
       "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0GYQHYW8H",
+          "reason": "Prime page identity mismatch"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0NMIOPNJUSU1CNHEFZ0R3K6Q96",
+          "reason": "Prime page identity mismatch"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0MJZ6KMSS9UHBKYUADEFZTK4IR",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "failed"
     },
     {
       "id": "prime:B0HHBD8YYD",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HHBD8YYD"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HF4L8KV3",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HF4L8KV3",
+        "prime_official:0TJUQYHPIQC5R8KOUZ5P1C3F22"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0824SJW7J",
-      "checked": [],
+      "checked": [
+        "prime_official:B0824SJW7J",
+        "prime_official:0I1DKYX6WOUA7B9MM5457PZMDN",
+        "prime_official:0G0YCKK7OIAMSL42QC00BU5VT2"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09F59CZ7R",
-      "checked": [],
+      "checked": [
+        "prime_official:B09F59CZ7R",
+        "prime_official:0QTL61M0QM31AWS92ZBI4Y1AZC",
+        "prime_official:0O0T3QWQ2OOTT8KCKC1PW233XW"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CLM8LHS7",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CLM8LHS7",
+        "prime_official:0K67FVL3VHXNTE3JST8GXWOOFG",
+        "prime_official:0G3DWE2OT6QBWBAEWJ7EM1458X"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0875KQ9MV",
-      "checked": [],
+      "checked": [
+        "prime_official:B0875KQ9MV",
+        "prime_official:0SP2U705DOGQQJPBD7IJBLSHDF",
+        "prime_official:0R4LW5GOJCDAJX84LS17OB6LBK",
+        "prime_official:0GM5E1RA8Q2EDGTB5SC1UB76VY"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-8a99d30414ac52c6",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-7a805ae029221891",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H4LD7LYS",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4LD7LYS",
+        "prime_official:0HIYALAUVS1FS8HVF299SZONEY",
+        "prime_official:0QGUP4W6GL3ZLYRD6RC3WWZEZ2",
+        "prime_official:0R245YWI2U7TB3YKMV1JWUFGT7",
+        "prime_official:0OBDSPAICFE4VNWZNFPW2I8TYU",
+        "prime_official:0P5PBGVVW11X6D7IBS6OP020Q8"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-7e818a0fb48093a8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ed9b36ce082e41c8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-75e76252b6300b96",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B08B49VWZ8",
-      "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "checked": [
+        "prime_official:0QX1HV46SQRWSIYAG9F6YF2EN8",
+        "prime_official:0QBRE5FXDJZ7B0PZUIZEQZMNPP"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B08B49VWZ8",
+          "reason": "Prime page identity mismatch"
+        },
+        {
+          "source": "prime_official",
+          "official_id": "0JXJPKJ7VBVQ3V6S1LX3YJ1BD1",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "partial"
     },
     {
       "id": "prime:B0H3CZ7L43",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H3CZ7L43"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H1SN3LJ5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H1SN3LJ5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B086VXXBB2",
-      "checked": [],
+      "checked": [
+        "prime_official:B086VXXBB2",
+        "prime_official:0JTCA6FGIYYFQHHTGF8JZEW3BA"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-d964796538cc0532",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-8b7e715b9f79ab02",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0CBFTRGPZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CBFTRGPZ",
+        "prime_official:0HJ2H3R5HW77Y4Y2A2XCI1BZGF"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B086HWJ1FS",
-      "checked": [],
+      "checked": [
+        "prime_official:B086HWJ1FS",
+        "prime_official:0NHULYTA95DYUY6CX2118S2SNT"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08XC2DV8N",
-      "checked": [],
+      "checked": [
+        "prime_official:B08XC2DV8N"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-2869c4196d490d2d",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0CLRQGR5G",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CLRQGR5G"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B5LFBYJW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B5LFBYJW",
+        "prime_official:0RQM30WHZ0O19EQ9XPUZ19E6N3"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-f55985a91f7dcfae",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8NLVH1L",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8NLVH1L"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-bea09172a92995f0",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-160622687487ccb8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0HCML147X",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HCML147X",
+        "prime_official:0OQCO2B69OEVL2NTGI87FIJWDL",
+        "prime_official:0ORNKPJ5IRV5SN5THD155V05ES"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HK5LCWRC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HK5LCWRC"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-9d0817297a4c9742",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H4NW3HYP",
       "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4NW3HYP",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "failed"
     },
     {
       "id": "prime:B0H4GD3B6G",
-      "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "checked": [
+        "prime_official:0Q7GFNBQ6IPO87MX4G4WD4GT4I",
+        "prime_official:0H2D58AC8YVVZ44OTTZ1LGUFHW"
+      ],
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0H4GD3B6G",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "partial"
     },
     {
       "id": "prime:B0B76J495K",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B76J495K",
+        "prime_official:0OLC53FWQRZ38BXD9UW2C09WDD",
+        "prime_official:0QHAUXBITDS9DLFYMM1WYEE4LK"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08T6S3KMR",
-      "checked": [],
+      "checked": [
+        "prime_official:B08T6S3KMR"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-557850c46c1a2bb1",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0F54XFS1H",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F54XFS1H"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-ba12f7e6e0e333bd",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H38ZZ8GZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H38ZZ8GZ",
+        "prime_official:0T540BA2YI1XDMC8QF7Q5CFPZQ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08J18TQ9T",
-      "checked": [],
+      "checked": [
+        "prime_official:B08J18TQ9T"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FLX154BL",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FLX154BL"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DJPRGTF2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DJPRGTF2"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B086VWBXP5",
-      "checked": [],
+      "checked": [
+        "prime_official:B086VWBXP5",
+        "prime_official:0LLBXS00DJMRFVG28GB7JB3WHF",
+        "prime_official:0N8Y66TN6W2H7BM081ZZBO84VE",
+        "prime_official:0LTTRFTWMZXER0OFWQFGG2MFOT"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H25ZJSSC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H25ZJSSC",
+        "prime_official:0RMOJJ5V14E4YSAMTDMUD4I5OV"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08957N5FJ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08957N5FJ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08TT3V5FJ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08TT3V5FJ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0C4VLB35N",
-      "checked": [],
+      "checked": [
+        "prime_official:B0C4VLB35N"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08B49FXST",
-      "checked": [],
+      "checked": [
+        "prime_official:B08B49FXST",
+        "prime_official:0NQQHDOS2PH6YC0KTF7HIGIK5W"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0875LMZGR",
-      "checked": [],
+      "checked": [
+        "prime_official:B0875LMZGR"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HGZ25YMQ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HGZ25YMQ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-5a45f08cb318d422",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B09QH98YG1",
-      "checked": [],
+      "checked": [
+        "prime_official:B09QH98YG1",
+        "prime_official:0UB2ZI7XTDU5ENEYYH4GR048TQ",
+        "prime_official:0NGJWN4I3V9O8AY50RRY31MQV4"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-e763c3d458ac9ac0",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8MTCYVM",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8MTCYVM"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-afb3de5a4eab80b8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ff6c7082dfb90f4e",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H45HCW5V",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H45HCW5V"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B01N4UWE2T",
-      "checked": [],
+      "checked": [
+        "prime_official:B01N4UWE2T"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DJ9MKHTZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DJ9MKHTZ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-ec29e2814121fd18",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-2429a2a6318f3f3b",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B094P1XDXR",
-      "checked": [],
+      "checked": [
+        "prime_official:B094P1XDXR"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-d6693d6235945ba2",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B8TKPV7G",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TKPV7G",
+        "prime_official:0QUM5BE864IQNUMSMGS6NBVSSC"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09PVRLSLB",
-      "checked": [],
+      "checked": [
+        "prime_official:B09PVRLSLB",
+        "prime_official:0NNEP0PVMYZBMHYAZOD63QDETV"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09GPSWV6L",
-      "checked": [],
+      "checked": [
+        "prime_official:B09GPSWV6L"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-f6920f665d91db8c",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0B857V4TH",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B857V4TH"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B6QGZXXP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B6QGZXXP"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DGNX438P",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DGNX438P"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H3FQ4YYL",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H3FQ4YYL"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-a5bbef0d5c350b1e",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GYPZYNH3",
@@ -649,470 +789,577 @@
       "id": "seed:seed-048b35d4cf75514f",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GT2JSFBC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GT2JSFBC"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B08F62FXXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B08F62FXXZ",
+        "prime_official:0N805JDAOQ0OMZJBPJ69M0OP6C"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HGLKXKCW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HGLKXKCW",
+        "prime_official:0N20FPWUDHNXHS2F8NEEQHY63D"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8LFCLSQ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8LFCLSQ",
+        "prime_official:0S7NABDHXG9Y76ZT6RBYL6W11D"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TFMYXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TFMYXZ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TQGHP3",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TQGHP3",
+        "prime_official:0HFHXUEBB1RL9N5YR48S6XF3RR",
+        "wikipedia"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FNNHM1MT",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FNNHM1MT",
+        "prime_official:0FOT2IDMBS1WKUD3OA2QVHI004"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CV3TXFXZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CV3TXFXZ",
+        "prime_official:0OI4F9W11ELNU28PK4FIJ2QPYQ",
+        "prime_official:0LSZQU1YSSD3P6XMI7V2N7NNEG"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B086VWYY84",
-      "checked": [],
+      "checked": [
+        "prime_official:B086VWYY84",
+        "prime_official:0TEO51CZ36DC3ZFX8P5JD60009",
+        "prime_official:0KVVYBZY0BSL18E864O4HEA48V"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CVY2YX65",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CVY2YX65",
+        "prime_official:0G88E4BE21TZA35FIJ8U6ZBKJW"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-826c0cb517e9db67",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H5TJGKYD",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H5TJGKYD"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GGLLCQM5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGLLCQM5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H8V4PTP8",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H8V4PTP8"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H8MH1JP1",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H8MH1JP1"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-c2245c6840823126",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-ebe36097d3165ea5",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "seed:seed-46f0f5520a4ef7ec",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0BX1XSPG4",
-      "checked": [],
+      "checked": [
+        "prime_official:B0BX1XSPG4"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09D3R3L71",
-      "checked": [],
+      "checked": [
+        "prime_official:B09D3R3L71",
+        "prime_official:0KXH9VD79G06M5UDF3Q3DFLQKD"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CKM3N1ZP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CKM3N1ZP"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DM9PWSZC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DM9PWSZC"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CTXS6DFD",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CTXS6DFD"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-27b9df9181f6a7ae",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0H1F6SPGZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H1F6SPGZ",
+        "prime_official:0SHGKA0J8D4G01ZGD647627NEJ",
+        "prime_official:0HXBV30J672YHO5G6L7TPEO44R",
+        "prime_official:0HO8ENK0AIDHSLMA7DJV43S6YS",
+        "prime_official:0JZ7BYV8EYHMAW6DDHA0KGA9LP"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GGWH7SZ5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGWH7SZ5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-6ea0dbd122298b94",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0GGVRT9J2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GGVRT9J2"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HHFPWWVB",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HHFPWWVB"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "seed:seed-c9049a79e4dbbcf8",
       "checked": [],
       "failures": [],
-      "status": "reused",
-      "previous_status": "pending_source_or_identity"
+      "status": "pending_source_or_identity"
     },
     {
       "id": "prime:B0DTDTKSQW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DTDTKSQW"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FZLS3ZTN",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FZLS3ZTN"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZ73JQKC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZ73JQKC"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H4WHJ9M5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4WHJ9M5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CBHFMWND",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CBHFMWND"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GHXTWRV2",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GHXTWRV2"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DWJZ75SF",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DWJZ75SF"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HBL5T7TV",
       "checked": [],
-      "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "failures": [
+        {
+          "source": "prime_official",
+          "official_id": "B0HBL5T7TV",
+          "reason": "Prime page identity mismatch"
+        }
+      ],
+      "status": "failed"
     },
     {
       "id": "prime:B0GSCGQ1PY",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GSCGQ1PY",
+        "prime_official:0L40BWIL4O7CRFWIGQHXJ8VPJP",
+        "prime_official:0MFJDCRJF8210XA40PIVEN88HP",
+        "prime_official:0Q4GHMY9F2LNPKHJ11FJ93VRBC",
+        "prime_official:0MJZ794A9PTH2Q7UA78IBLIE53",
+        "prime_official:0LKHXQ4MYLT5CUUQF5L03FMR94",
+        "prime_official:0RBOHEI4K3IQ4IMYNH1EUA87T4"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FKTRNLL8",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FKTRNLL8"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B015ENAX9U",
-      "checked": [],
+      "checked": [
+        "prime_official:B015ENAX9U"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HG2VCRBC",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HG2VCRBC",
+        "prime_official:0R4L986D9M1W0RF5Y2I4CPFZ6K",
+        "prime_official:0OPZS74MAGYLYFSR5L6D8MZP8L",
+        "prime_official:0I93O6QU985ZMYRJXJHNUQFN08",
+        "prime_official:0OP2PH2BEV5WLOS6LSHPZ9483R",
+        "prime_official:0K97ZSD778725B5U3YIIFFLAPD",
+        "prime_official:0J72EXQ5VNXESUTBYHUQIT512U",
+        "prime_official:0U69XSZZEE5DF5T4WSUMDFWMD7",
+        "prime_official:0TKQ59W5MKNT1QI8IXPAXDOSK8",
+        "prime_official:0LAXCVJRCJR3Q2G2IP2RPH2KU3",
+        "prime_official:0PUAJJRY0B2H5E5T4I47FZNK5Y",
+        "prime_official:0GPXJIOHXS3FC0R3R49ZQXG92Y",
+        "prime_official:0O5E1TJVR05JLQY65GQQFWHNJW",
+        "prime_official:0QHMKCNRZ2H313BIB67BFYMIO1",
+        "prime_official:0LR6C9VB5U8BS8D8INC1JHUN72"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FW4NGZFP",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FW4NGZFP"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0F7HFJ64C",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F7HFJ64C"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GDVGCMGW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GDVGCMGW"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DDHZF36Y",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DDHZF36Y",
+        "prime_official:0SK0IDGT7V1MMG6VPSK3SH1QXH"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DNKHQM8B",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DNKHQM8B"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8NZ2TJ5",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8NZ2TJ5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0CGKHJM4B",
-      "checked": [],
+      "checked": [
+        "prime_official:B0CGKHJM4B"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZHLSV86",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZHLSV86"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0B8TFCPHM",
-      "checked": [],
+      "checked": [
+        "prime_official:B0B8TFCPHM"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B000U63ZDS",
-      "checked": [],
+      "checked": [
+        "prime_official:B000U63ZDS",
+        "prime_official:0QX0P4DRLK5GVNK0MJ48Y809IW",
+        "prime_official:0MW3B1HTCJCI1S6F53INNRAFBI",
+        "prime_official:0MW3B1Z93Q29ZKBTKHBKMICWYF",
+        "prime_official:0FBAC364JEX5LCTFK1S5LF1BPD",
+        "prime_official:0GUP7XZH3ZKNIB46OIP97J8MPK",
+        "prime_official:0MW3B1VCHHR97CPUZ1NCGQLUSQ",
+        "prime_official:0JKQMQSG0SIM7N1ZZALNH81WHM",
+        "prime_official:0K61W81Y427R2IOVY2FGI8GJTU"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B09ZP5ZM9Z",
-      "checked": [],
+      "checked": [
+        "prime_official:B09ZP5ZM9Z",
+        "prime_official:0FUHYQYX015T1NTJA281M3J8MI",
+        "prime_official:0TAQ18EHBGDDXR03GGAOED01MX",
+        "prime_official:0QHR9PHMTZSRLZ6HY2BOY6LD1C",
+        "prime_official:0GVR2LALMS63QI6IT5K6J1VNH7",
+        "prime_official:0QBQBIVAJYT4661750PL8O96OL"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0GZ39BDJS",
-      "checked": [],
+      "checked": [
+        "prime_official:B0GZ39BDJS"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DP9GC5NY",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DP9GC5NY"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0F3DYQ77M",
-      "checked": [],
+      "checked": [
+        "prime_official:B0F3DYQ77M"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DNHSF1W4",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DNHSF1W4"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FNWN756K",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FNWN756K"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0H4BZVYZ3",
-      "checked": [],
+      "checked": [
+        "prime_official:B0H4BZVYZ3"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B00103DRW4",
-      "checked": [],
+      "checked": [
+        "prime_official:B00103DRW4"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B073VD4W4Z",
-      "checked": [],
+      "checked": [
+        "prime_official:B073VD4W4Z"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0FHJHX1YZ",
-      "checked": [],
+      "checked": [
+        "prime_official:B0FHJHX1YZ",
+        "prime_official:0TN0LO4HFYN5HB2YSI7IOSOQA2",
+        "prime_official:0GEB35CUYRCDVXUV0UXQY9FHIF"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DXKQSSL9",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DXKQSSL9"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DSJPQPJ9",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DSJPQPJ9"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0HN5HYTB6",
-      "checked": [],
+      "checked": [
+        "prime_official:B0HN5HYTB6"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:B0DH5DMSRW",
-      "checked": [],
+      "checked": [
+        "prime_official:B0DH5DMSRW"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0PLOVHXBJJ2U3EEF2BW02YGYGJ",
@@ -1312,11 +1559,10 @@
     },
     {
       "id": "prime:0NRT15S2XG06SG5HBV5NQAW3E3",
-      "checked": [
-        "prime_official:0NRT15S2XG06SG5HBV5NQAW3E3"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:0MK3JNWBGKXSGBX9L4DTTR8DAQ",
@@ -1334,128 +1580,132 @@
     },
     {
       "id": "prime:0J71TVVX2R7ISTOIVFTXIC4US8",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0LHTLQWXITS7NO60KJKW9DJ2T0",
       "checked": [
-        "prime_official:0J71TVVX2R7ISTOIVFTXIC4US8"
+        "prime_official:0LHTLQWXITS7NO60KJKW9DJ2T0"
       ],
       "failures": [],
       "status": "checked"
     },
     {
-      "id": "prime:0LHTLQWXITS7NO60KJKW9DJ2T0",
+      "id": "prime:0R39LCGLFJQQ0OC4WER9DIK018",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0FHW07P64EEBTUAKC060NSJAKY",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0JYPGGDH4AHT9J1W3RPG53OULH",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0MY3TUT6K4V5EV40VMLJDDGQBT",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0GAWDRSO8MYUD4XEQ647XXIOI2",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0FDH7OFUIDL1NJO6UY9PLG3Z6A",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0QV7JGMMWTD5E67SJ4XPWGNKN5",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0N6BDUJ0L59WS15W72C14URYLD",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0RIFZJUIW0X2BVL8WCVANEH5GL",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0I7B507ICKOZM5R5OEUEL9MDEW",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0OJDOTXNGU1JJ84D82H4XBYOSJ",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0FC3O0LQUX1IKRA19XD4UKJASF",
+      "checked": [
+        "prime_official:0FC3O0LQUX1IKRA19XD4UKJASF"
+      ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "prime:0PCRKKG8397FYGEC8X1RH994X0",
       "checked": [],
       "failures": [
         {
           "source": "prime_official",
-          "official_id": "0LHTLQWXITS7NO60KJKW9DJ2T0",
+          "official_id": "0PCRKKG8397FYGEC8X1RH994X0",
           "reason": "www.primevideo.com: redirect unavailable or refused"
         }
       ],
       "status": "failed"
-    },
-    {
-      "id": "prime:0R39LCGLFJQQ0OC4WER9DIK018",
-      "checked": [
-        "prime_official:0R39LCGLFJQQ0OC4WER9DIK018"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0FHW07P64EEBTUAKC060NSJAKY",
-      "checked": [
-        "prime_official:0FHW07P64EEBTUAKC060NSJAKY"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0JYPGGDH4AHT9J1W3RPG53OULH",
-      "checked": [
-        "prime_official:0JYPGGDH4AHT9J1W3RPG53OULH"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0MY3TUT6K4V5EV40VMLJDDGQBT",
-      "checked": [
-        "prime_official:0MY3TUT6K4V5EV40VMLJDDGQBT"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0GAWDRSO8MYUD4XEQ647XXIOI2",
-      "checked": [
-        "prime_official:0GAWDRSO8MYUD4XEQ647XXIOI2"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0FDH7OFUIDL1NJO6UY9PLG3Z6A",
-      "checked": [
-        "prime_official:0FDH7OFUIDL1NJO6UY9PLG3Z6A"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0QV7JGMMWTD5E67SJ4XPWGNKN5",
-      "checked": [
-        "prime_official:0QV7JGMMWTD5E67SJ4XPWGNKN5"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0N6BDUJ0L59WS15W72C14URYLD",
-      "checked": [
-        "prime_official:0N6BDUJ0L59WS15W72C14URYLD"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0RIFZJUIW0X2BVL8WCVANEH5GL",
-      "checked": [
-        "prime_official:0RIFZJUIW0X2BVL8WCVANEH5GL"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0I7B507ICKOZM5R5OEUEL9MDEW",
-      "checked": [
-        "prime_official:0I7B507ICKOZM5R5OEUEL9MDEW"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0OJDOTXNGU1JJ84D82H4XBYOSJ",
-      "checked": [
-        "prime_official:0OJDOTXNGU1JJ84D82H4XBYOSJ"
-      ],
-      "failures": [],
-      "status": "checked"
     }
   ],
   "discovery_failures": [
     {
       "source": "discovery_detail",
-      "official_id": "B0H61YCFG3",
+      "official_id": "B0HJ8F5HPZ",
       "reason": "Prime page identity mismatch"
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0HKWDWH2G",
+      "official_id": "B0HG62HTR7",
       "reason": "Prime page identity mismatch"
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0CXGTK4HY",
-      "reason": "Prime page identity mismatch"
+      "official_id": "B0H1WKR1CQ",
+      "reason": "Prime page is not a film/TV title"
     },
     {
       "source": "discovery_detail",
@@ -1464,95 +1714,143 @@
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0H9VVKMPS",
+      "official_id": "B0H8V6XRQJ",
       "reason": "Prime page identity mismatch"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "0M3G53UPJMR9M2WMN4UO0O41UR",
+      "reason": "refresh time budget reached; retained previous metadata"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "0QYW7PZS87HQG6LRN4XMD1AJIH",
+      "reason": "refresh time budget reached; retained previous metadata"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "0MT2TQIRFEDX5W101JH1AN1CVN",
+      "reason": "refresh time budget reached; retained previous metadata"
+    },
+    {
+      "source": "discovery_detail",
+      "official_id": "0Q5C69F31Y6DD73T9KHW19R8ZT",
+      "reason": "refresh time budget reached; retained previous metadata"
     }
   ],
   "discovery_queue": [
     {
-      "prime_id": "B0H61YCFG3",
+      "prime_id": "B0HJ8F5HPZ",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0HKWDWH2G",
+      "prime_id": "B0HG62HTR7",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0CXGTK4HY",
+      "prime_id": "B0H1WKR1CQ",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
-      "reason": "Prime page identity mismatch"
+      "reason": "Prime page is not a film/TV title"
     },
     {
       "prime_id": "0S0WXS1U1QJ8MTVB4G4NWZTHTQ",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0H9VVKMPS",
+      "prime_id": "B0H8V6XRQJ",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "0SCG5QTW5LRZ8LTL8OY67XVB5J",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "verified_public_prime_page"
     },
     {
       "prime_id": "0N3OHMS8K24DKH0IKMV9A7BS5U",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "possible existing series/new season; identity needs confirmation"
+    },
+    {
+      "prime_id": "0OUAOS1UYT65XJT57HEC4666U2",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "verified_public_prime_page"
     },
     {
       "prime_id": "0N9BB22P2FZ8UD2BBLNX07RP22",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
       "status": "pending_review",
       "reason": "possible existing series/new season; identity needs confirmation"
     },
     {
-      "prime_id": "0FC3O0LQUX1IKRA19XD4UKJASF",
+      "prime_id": "0M3G53UPJMR9M2WMN4UO0O41UR",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
-      "status": "verified_public_prime_page"
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "pending_review",
+      "reason": "refresh time budget reached; retained previous metadata"
     },
     {
-      "prime_id": "0PCRKKG8397FYGEC8X1RH994X0",
+      "prime_id": "0QYW7PZS87HQG6LRN4XMD1AJIH",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-05T04:08:04+00:00",
-      "status": "verified_public_prime_page"
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "pending_review",
+      "reason": "refresh time budget reached; retained previous metadata"
+    },
+    {
+      "prime_id": "0MT2TQIRFEDX5W101JH1AN1CVN",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "pending_review",
+      "reason": "refresh time budget reached; retained previous metadata"
+    },
+    {
+      "prime_id": "0Q5C69F31Y6DD73T9KHW19R8ZT",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-06T04:26:10+00:00",
+      "status": "pending_review",
+      "reason": "refresh time budget reached; retained previous metadata"
     }
   ],
   "version": {
-    "version": "7c6ae961d8a84575",
-    "catalog_sha256": "7c6ae961d8a84575407e22f6c4fc47fe038edc3e1807486cf9b162451751e3dd",
-    "catalog_path": "releases/7c6ae961d8a84575407e22f6c4fc47fe038edc3e1807486cf9b162451751e3dd/catalog.json",
-    "generated_at": "2026-11-05T04:08:10+00:00",
+    "version": "075508cc1a5a8e23",
+    "catalog_sha256": "075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3",
+    "catalog_path": "releases/075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3/catalog.json",
+    "generated_at": "2026-11-06T04:26:19+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
     "publication_reason": "partial_sync",
-    "item_count": 202,
-    "image_count": 266,
+    "item_count": 204,
+    "image_count": 268,
     "refresh_status": "partial",
-    "last_attempt_at": "2026-11-05T04:08:10+00:00",
-    "last_partial_at": "2026-11-05T04:08:10+00:00",
+    "last_attempt_at": "2026-11-06T04:26:19+00:00",
+    "last_partial_at": "2026-11-06T04:26:19+00:00",
     "refresh_counts": {
-      "processed": 200,
-      "checked": 14,
-      "reused": 185,
+      "processed": 202,
+      "checked": 119,
+      "reused": 43,
       "pending": 35,
-      "failures": 7,
-      "attempted": 15,
+      "failures": 20,
+      "attempted": 159,
       "deferred": 0,
       "budget_seconds": 1200
     },
-    "previous_catalog_path": "releases/80f743f110983695909b41c7065df952b185db7e14d1155240bc0cdee3f70f9d/catalog.json"
+    "previous_catalog_path": "releases/7c6ae961d8a84575407e22f6c4fc47fe038edc3e1807486cf9b162451751e3dd/catalog.json"
   }
 }
