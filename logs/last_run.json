@@ -1,16 +1,16 @@
 {
-  "started_at": "2026-11-07T04:02:11+00:00",
-  "finished_at": "2026-11-07T04:03:12+00:00",
+  "started_at": "2026-11-08T04:04:35+00:00",
+  "finished_at": "2026-11-08T04:05:23+00:00",
   "status": "partial",
-  "processed": 204,
-  "checked": 17,
-  "retained_without_refresh": 187,
-  "reused": 183,
+  "processed": 205,
+  "checked": 12,
+  "retained_without_refresh": 193,
+  "reused": 189,
   "pending": 35,
   "deferred": 0,
-  "attempted": 21,
+  "attempted": 16,
   "budget_seconds": 1200,
-  "new_verified_titles": 1,
+  "new_verified_titles": 9,
   "failures": 13,
   "records": [
     {
@@ -231,14 +231,10 @@
     },
     {
       "id": "prime:B08B49VWZ8",
-      "checked": [
-        "prime_official:B08B49VWZ8",
-        "prime_official:0JXJPKJ7VBVQ3V6S1LX3YJ1BD1",
-        "prime_official:0QX1HV46SQRWSIYAG9F6YF2EN8",
-        "prime_official:0QBRE5FXDJZ7B0PZUIZEQZMNPP"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:B0H3CZ7L43",
@@ -380,13 +376,10 @@
     },
     {
       "id": "prime:B0H4GD3B6G",
-      "checked": [
-        "prime_official:B0H4GD3B6G",
-        "prime_official:0Q7GFNBQ6IPO87MX4G4WD4GT4I",
-        "prime_official:0H2D58AC8YVVZ44OTTZ1LGUFHW"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:B0B76J495K",
@@ -1153,105 +1146,96 @@
     },
     {
       "id": "prime:0PLOVHXBJJ2U3EEF2BW02YGYGJ",
-      "checked": [
-        "prime_official:0PLOVHXBJJ2U3EEF2BW02YGYGJ"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:0T0W5IBN2BBDVHNONZV7O56801",
-      "checked": [],
+      "checked": [
+        "prime_official:0T0W5IBN2BBDVHNONZV7O56801"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0NM0EQAY1WIB964DQTBLGA9G7X",
-      "checked": [
-        "prime_official:0NM0EQAY1WIB964DQTBLGA9G7X"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0K04DMLEJSTE354379LLPZ9ZAN",
-      "checked": [
-        "prime_official:0K04DMLEJSTE354379LLPZ9ZAN"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0L8V88NU7CFYRKM857QDN2O5B4",
-      "checked": [
-        "prime_official:0L8V88NU7CFYRKM857QDN2O5B4"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0RIGW4JX68ZVOHH5ZIKMJTBWJW",
-      "checked": [
-        "prime_official:0RIGW4JX68ZVOHH5ZIKMJTBWJW"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0N8YGO7AQVQZK6IVPX5ALBLVD5",
-      "checked": [
-        "prime_official:0N8YGO7AQVQZK6IVPX5ALBLVD5"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0NNPX1A132JM0QS6EKLWJA24LB",
-      "checked": [
-        "prime_official:0NNPX1A132JM0QS6EKLWJA24LB"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0H3GSOTSH3G0D10TMM93QQX7Y2",
-      "checked": [
-        "prime_official:0H3GSOTSH3G0D10TMM93QQX7Y2"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0HGV581LYP7SK1E5WWCTPV7BVY",
-      "checked": [
-        "prime_official:0HGV581LYP7SK1E5WWCTPV7BVY"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0TN7D9O4HCUK1DTOF6R1NRZOUG",
-      "checked": [
-        "prime_official:0TN7D9O4HCUK1DTOF6R1NRZOUG"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0KCNXR520PFM6OD1SRMMG36ZSU",
-      "checked": [
-        "prime_official:0KCNXR520PFM6OD1SRMMG36ZSU"
-      ],
-      "failures": [],
-      "status": "checked"
-    },
-    {
-      "id": "prime:0RQIMJGXQRO3TJ5YMC2X1Y0UJ9",
       "checked": [],
       "failures": [],
       "status": "reused",
       "previous_status": "checked"
+    },
+    {
+      "id": "prime:0K04DMLEJSTE354379LLPZ9ZAN",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0L8V88NU7CFYRKM857QDN2O5B4",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0RIGW4JX68ZVOHH5ZIKMJTBWJW",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0N8YGO7AQVQZK6IVPX5ALBLVD5",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0NNPX1A132JM0QS6EKLWJA24LB",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0H3GSOTSH3G0D10TMM93QQX7Y2",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0HGV581LYP7SK1E5WWCTPV7BVY",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0TN7D9O4HCUK1DTOF6R1NRZOUG",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0KCNXR520PFM6OD1SRMMG36ZSU",
+      "checked": [],
+      "failures": [],
+      "status": "reused",
+      "previous_status": "checked"
+    },
+    {
+      "id": "prime:0RQIMJGXQRO3TJ5YMC2X1Y0UJ9",
+      "checked": [
+        "prime_official:0RQIMJGXQRO3TJ5YMC2X1Y0UJ9"
+      ],
+      "failures": [],
+      "status": "checked"
     },
     {
       "id": "prime:0NBVXAJ6EQW7OTHPOIWASZ9313",
@@ -1262,52 +1246,60 @@
     },
     {
       "id": "prime:0FD2RKCTYSPIRT0XJ2HO0X6TR6",
-      "checked": [],
+      "checked": [
+        "prime_official:0FD2RKCTYSPIRT0XJ2HO0X6TR6",
+        "prime_official:0NGB908JKDOZ29WLQ2GS45USOV"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0QQB41W1D6OXPODUOSE4IYST7E",
-      "checked": [],
+      "checked": [
+        "prime_official:0QQB41W1D6OXPODUOSE4IYST7E"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0KQ70S1P07Z3YWK1LA7MHP66MJ",
-      "checked": [],
+      "checked": [
+        "prime_official:0KQ70S1P07Z3YWK1LA7MHP66MJ"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0HM3DRN79M0E7QOBLMYTS41IG0",
-      "checked": [],
+      "checked": [
+        "prime_official:0HM3DRN79M0E7QOBLMYTS41IG0"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0T4QQ149SJ0V8W8MHKZUZZ70RP",
-      "checked": [],
+      "checked": [
+        "prime_official:0T4QQ149SJ0V8W8MHKZUZZ70RP"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0R4HOUHPV4SU3LSWK7M1K5S5JB",
-      "checked": [],
+      "checked": [
+        "prime_official:0R4HOUHPV4SU3LSWK7M1K5S5JB"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0LTVC3IVCLW19Y51M3N6J31UX5",
-      "checked": [],
+      "checked": [
+        "prime_official:0LTVC3IVCLW19Y51M3N6J31UX5"
+      ],
       "failures": [],
-      "status": "reused",
-      "previous_status": "checked"
+      "status": "checked"
     },
     {
       "id": "prime:0GZ76HXP3TQS4E42G5JI9KQR6Q",
@@ -1479,33 +1471,40 @@
     },
     {
       "id": "prime:0PCRKKG8397FYGEC8X1RH994X0",
-      "checked": [
-        "prime_official:0PCRKKG8397FYGEC8X1RH994X0"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:0SCG5QTW5LRZ8LTL8OY67XVB5J",
-      "checked": [
-        "prime_official:0SCG5QTW5LRZ8LTL8OY67XVB5J"
-      ],
+      "checked": [],
       "failures": [],
-      "status": "checked"
+      "status": "reused",
+      "previous_status": "checked"
     },
     {
       "id": "prime:0OUAOS1UYT65XJT57HEC4666U2",
       "checked": [
+        "prime_official:0OUAOS1UYT65XJT57HEC4666U2",
         "prime_official:0M5M4Z2E0Y6KOK1N7NGAP01BBW",
         "prime_official:0U5TWWDE1671Y5SXRAHQUY9H3K",
         "prime_official:0JZ07A3DT6LTOOWRPPIUHMTDL5",
         "prime_official:0U46OIXUQ7YWWXYT1PKQ91HEDO",
         "prime_official:0OX68XQ85P96UQB8J9ZCDL65C0"
       ],
+      "failures": [],
+      "status": "checked"
+    },
+    {
+      "id": "prime:0KJBDA1XBBCGLLRSIOAISFT4Y7",
+      "checked": [
+        "prime_official:0KJBDA1XBBCGLLRSIOAISFT4Y7"
+      ],
       "failures": [
         {
           "source": "prime_official",
-          "official_id": "0OUAOS1UYT65XJT57HEC4666U2",
+          "official_id": "0FKWLNTAYMFTSZ7TRZSPLG84NM",
           "reason": "www.primevideo.com: redirect unavailable or refused"
         }
       ],
@@ -1515,18 +1514,18 @@
   "discovery_failures": [
     {
       "source": "discovery_detail",
-      "official_id": "B0FD6RJRZG",
+      "official_id": "B0HF4GRKLF",
       "reason": "Prime page identity mismatch"
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0HJ8F5HPZ",
+      "official_id": "B0HJFN61GH",
       "reason": "Prime page identity mismatch"
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0HMCVZDVG",
-      "reason": "Prime page is not a film/TV title"
+      "official_id": "B0HH44QWRB",
+      "reason": "Prime page identity mismatch"
     },
     {
       "source": "discovery_detail",
@@ -1535,117 +1534,137 @@
     },
     {
       "source": "discovery_detail",
-      "official_id": "B0HGFQ8SNW",
+      "official_id": "B0HJFFCZHL",
       "reason": "Prime page identity mismatch"
     }
   ],
   "discovery_queue": [
     {
-      "prime_id": "B0FD6RJRZG",
+      "prime_id": "B0HF4GRKLF",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0HJ8F5HPZ",
+      "prime_id": "B0HJFN61GH",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0HMCVZDVG",
+      "prime_id": "B0HH44QWRB",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
-      "reason": "Prime page is not a film/TV title"
+      "reason": "Prime page identity mismatch"
     },
     {
       "prime_id": "0S0WXS1U1QJ8MTVB4G4NWZTHTQ",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
     },
     {
-      "prime_id": "B0HGFQ8SNW",
+      "prime_id": "B0HJFFCZHL",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
       "reason": "Prime page identity mismatch"
+    },
+    {
+      "prime_id": "0JP3YPUKPPI2J2DUBNLKW6Z9KH",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0KIGMC6N9VCRTOSEGV2PS25N0K",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0ILGJ4D4ZYPGJCCG2VNGX3LCR3",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "pending_review",
+      "reason": "possible existing series/new season; identity needs confirmation"
+    },
+    {
+      "prime_id": "0ISRGOILN75SRC7LPEWGTEFAWU",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0KREI4H24CHW3BDJFJW335IIRA",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0TOIBNTDLDYAT07BYHEJAW9GH9",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0QV595XEAHBIE2CH0RAA89ES5V",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0TIU4JU2OACKZRS6DJYGBPWU7G",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0KWNTFYOW4E9G1OBXT9BUN2Z6X",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
+    },
+    {
+      "prime_id": "0SZAYS49ORSPXDTX6OSYEP7FV6",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
+      "status": "verified_public_prime_page"
     },
     {
       "prime_id": "0LPJITUUG4OPFN23EQ16P5SH3I",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "pending_review",
-      "reason": "possible existing series/new season; identity needs confirmation"
-    },
-    {
-      "prime_id": "0J35D20PPSSNACER7Z6BEAHQFW",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "pending_review",
-      "reason": "possible existing series/new season; identity needs confirmation"
-    },
-    {
-      "prime_id": "0N3OHMS8K24DKH0IKMV9A7BS5U",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "pending_review",
-      "reason": "possible existing series/new season; identity needs confirmation"
-    },
-    {
-      "prime_id": "0K16R3PLUFGC2JUE457C26O4OD",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "pending_review",
-      "reason": "possible existing series/new season; identity needs confirmation"
-    },
-    {
-      "prime_id": "0QYW7PZS87HQG6LRN4XMD1AJIH",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "pending_review",
-      "reason": "possible existing series/new season; identity needs confirmation"
-    },
-    {
-      "prime_id": "0KJBDA1XBBCGLLRSIOAISFT4Y7",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
-      "status": "verified_public_prime_page"
-    },
-    {
-      "prime_id": "0INEYNSINLQC82ZUIFLK7VNV09",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "discovered_at": "2026-11-07T04:03:05+00:00",
+      "discovered_at": "2026-11-08T04:05:14+00:00",
       "status": "pending_review",
       "reason": "possible existing series/new season; identity needs confirmation"
     }
   ],
   "version": {
-    "version": "ab8fb1bb4093c781",
-    "catalog_sha256": "ab8fb1bb4093c7810c2c7caa6bf09884b98e5f5b6799213963ecebf506026f4a",
-    "catalog_path": "releases/ab8fb1bb4093c7810c2c7caa6bf09884b98e5f5b6799213963ecebf506026f4a/catalog.json",
-    "generated_at": "2026-11-07T04:03:12+00:00",
+    "version": "d7d83c87f2d2f031",
+    "catalog_sha256": "d7d83c87f2d2f03145c9e5c97cc3ccf000135f9d1bfaeae7202fa466e65b49c1",
+    "catalog_path": "releases/d7d83c87f2d2f03145c9e5c97cc3ccf000135f9d1bfaeae7202fa466e65b49c1/catalog.json",
+    "generated_at": "2026-11-08T04:05:23+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
     "publication_reason": "partial_sync",
-    "item_count": 205,
-    "image_count": 274,
+    "item_count": 214,
+    "image_count": 283,
     "refresh_status": "partial",
-    "last_attempt_at": "2026-11-07T04:03:12+00:00",
-    "last_partial_at": "2026-11-07T04:03:12+00:00",
+    "last_attempt_at": "2026-11-08T04:05:23+00:00",
+    "last_partial_at": "2026-11-08T04:05:23+00:00",
     "refresh_counts": {
-      "processed": 204,
-      "checked": 17,
-      "reused": 183,
+      "processed": 205,
+      "checked": 12,
+      "reused": 189,
       "pending": 35,
       "failures": 13,
-      "attempted": 21,
+      "attempted": 16,
       "deferred": 0,
       "budget_seconds": 1200
     },
-    "previous_catalog_path": "releases/4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058/catalog.json"
+    "previous_catalog_path": "releases/ab8fb1bb4093c7810c2c7caa6bf09884b98e5f5b6799213963ecebf506026f4a/catalog.json"
   }
 }
