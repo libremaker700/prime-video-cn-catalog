@@ -1,7 +1,7 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-09T04:11:54+00:00",
-  "item_count": 216,
+  "generated_at": "2026-11-10T04:03:57+00:00",
+  "item_count": 218,
   "items": [
     {
       "id": "seed:the-tomorrow-war",
@@ -2627,7 +2627,7 @@
       ],
       "updated_at": "2026-10-30T00:53:01+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-09T04:11:33+00:00",
+      "metadata_attempted_at": "2026-11-10T04:03:37+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:53:01+00:00"
     },
@@ -2837,7 +2837,7 @@
       ],
       "updated_at": "2026-10-30T00:53:07+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-09T04:11:39+00:00",
+      "metadata_attempted_at": "2026-11-10T04:03:42+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.6159cf4c-78ee-4efd-80e7-f6e055bfeebd",
       "metadata_checked_at": "2026-10-30T00:53:07+00:00"
@@ -6142,7 +6142,7 @@
       ],
       "updated_at": "2026-10-30T00:39:02+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-09T04:11:29+00:00",
+      "metadata_attempted_at": "2026-11-10T04:03:32+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:39:02+00:00"
     },
@@ -9687,13 +9687,13 @@
           "official_title_zh": "Clifford the Big Red Dog - Season 2",
           "year": 2020,
           "release_date": "2020年5月21日",
-          "official_checked_at": "2026-11-09T04:11:41+00:00",
+          "official_checked_at": "2026-11-10T04:03:44+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-              "retrieved_at": "2026-11-09T04:11:41+00:00"
+              "retrieved_at": "2026-11-10T04:03:44+00:00"
             }
           ],
           "synopsis_original": "Emily Elizabeth, Clifford, and all of Birdwell Island continue the adventures as they build the island’s first mini golf course, hang ten on some gnarly waves, and meet the cutest new puppy pal - Hudson! From gathering clues disguised as special agents to singing a sea shanty with the elusive Babette, the friends learn patience, teamwork, and that practice makes perfect when trying something new.",
@@ -9709,7 +9709,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/3c55573cf7c0bc84b4afe91e51c232d7cf04660da282cf439ba76eb7279d80c4._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-09T04:11:41+00:00"
+            "retrieved_at": "2026-11-10T04:03:44+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9733,7 +9733,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/5aed5adaa44c9a54960c1f47374d0ab5175762ce491559a6a0a569b476cb86fc._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-09T04:11:42+00:00"
+            "retrieved_at": "2026-11-10T04:03:45+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9743,13 +9743,13 @@
           "official_link": "/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
           "identity_source": "app_official_selector_snapshot",
           "official_catalog_id": "amzn1.dv.gti.1ebadd0a-6010-1c15-36f8-990b685f4921",
-          "official_checked_at": "2026-11-09T04:11:41+00:00",
+          "official_checked_at": "2026-11-10T04:03:45+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-              "retrieved_at": "2026-11-09T04:11:41+00:00"
+              "retrieved_at": "2026-11-10T04:03:45+00:00"
             }
           ],
           "synopsis_original": "Come along with Emily Elizabeth, Clifford, and their friends as they spend a day at the Birdwell Fun Fair, become hard hitting reporters, and build a cool clubhouse! From throwing a welcome party for a new islander to turning the sounds of a thunderstorm into a new song, the friends learn that they can always look to each other when they feel scared and the importance of enjoying today.",
@@ -9767,27 +9767,27 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-          "retrieved_at": "2026-11-09T04:11:41+00:00"
+          "retrieved_at": "2026-11-10T04:03:45+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "retrieved_at": "2026-11-09T04:11:40+00:00"
+          "retrieved_at": "2026-11-10T04:03:44+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-          "retrieved_at": "2026-11-09T04:11:41+00:00"
+          "retrieved_at": "2026-11-10T04:03:44+00:00"
         }
       ],
-      "updated_at": "2026-11-09T04:11:45+00:00",
+      "updated_at": "2026-11-10T04:03:48+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-09T04:11:45+00:00",
+      "metadata_attempted_at": "2026-11-10T04:03:48+00:00",
       "refresh_status": "partial",
       "prime_series_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-      "metadata_checked_at": "2026-11-09T04:11:45+00:00",
+      "metadata_checked_at": "2026-11-10T04:03:48+00:00",
       "official_unmapped_seasons": [
         {
           "season": 1,
@@ -13321,7 +13321,7 @@
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "release_date": "2002年6月20日",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-09T04:11:29+00:00",
+      "metadata_attempted_at": "2026-11-10T04:03:32+00:00",
       "refresh_status": "failed",
       "official_catalog_id": "amzn1.dv.gti.4b0c9f3d-c948-408f-939e-4dcebd661bea",
       "year": 2002,
@@ -20081,7 +20081,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0KIGMC6N9VCRTOSEGV2PS25N0K",
-          "retrieved_at": "2026-11-08T04:05:18+00:00"
+          "retrieved_at": "2026-11-10T04:03:20+00:00"
         }
       ],
       "original_title": null,
@@ -20093,7 +20093,7 @@
       "official_catalog_id": "amzn1.dv.gti.5a7c7ac3-935e-41d2-80ad-f8ec1b8545c4",
       "year": 2015,
       "release_date": "2015年6月10日",
-      "official_checked_at": "2026-11-08T04:05:18+00:00",
+      "official_checked_at": "2026-11-10T04:03:20+00:00",
       "synopsis_original": "A young girl moves from New York to a mythical village in Ireland.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0KIGMC6N9VCRTOSEGV2PS25N0K",
       "synopsis_status": "translation_pending",
@@ -20107,14 +20107,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/14cec5c95a475c95fee1067ca3391fc267c4c818b249485b2ea59084b59d1170._SX1280_FMpng_.png",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-08T04:05:18+00:00"
+        "retrieved_at": "2026-11-10T04:03:21+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "儿童 / 奇幻 / 冒险片",
-      "metadata_attempted_at": "2026-11-09T04:11:11+00:00",
-      "refresh_status": "failed"
+      "metadata_attempted_at": "2026-11-10T04:03:21+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-10T04:03:21+00:00",
+      "updated_at": "2026-11-10T04:03:21+00:00"
     },
     {
       "id": "prime:0ISRGOILN75SRC7LPEWGTEFAWU",
@@ -20495,19 +20497,19 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0M3G53UPJMR9M2WMN4UO0O41UR",
-          "retrieved_at": "2026-11-09T04:11:51+00:00"
+          "retrieved_at": "2026-11-10T04:03:19+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {
         "release_date": "2024年10月3日",
-        "genres": "奇幻 / 动作片 / 恐怖内容 / 科幻"
+        "genres": "恐怖内容 / 动作片 / 剧情片 / 科幻"
       },
       "official_catalog_id": "amzn1.dv.gti.7539730f-8fc8-4a60-b506-a8f9f6fefa63",
       "year": 2024,
       "release_date": "2024年10月3日",
-      "official_checked_at": "2026-11-09T04:11:51+00:00",
+      "official_checked_at": "2026-11-10T04:03:19+00:00",
       "synopsis_zh": "一种类似狂犬病的疾病在全球传播开来，将感染者变成极具攻击性的生物。马内尔带着他的猫躲在家中，凭借他的智慧生存下来。很快，他们将不得不外出觅食，寻找陆地和海上的安全之所。《天启Z：完结的起点》是一个身体和情感上的生存故事，伴随着刺激的打斗、紧张的气氛、疯狂的感染......以及一只脾气暴躁的猫。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -20522,12 +20524,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/9569aebe2d384efd1514c295a56e6002112622b8fbc20beccd1a8f319d298de9._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-09T04:11:51+00:00"
+        "retrieved_at": "2026-11-10T04:03:20+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "奇幻 / 动作片 / 恐怖内容 / 科幻"
+      "genres": "奇幻 / 动作片 / 恐怖内容 / 科幻",
+      "metadata_attempted_at": "2026-11-10T04:03:20+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-10T04:03:20+00:00",
+      "updated_at": "2026-11-10T04:03:20+00:00"
     },
     {
       "id": "prime:0JK1HA6MPXLYO5BJYXC61PGLSD",
@@ -20575,7 +20581,106 @@
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "科幻 / 动作片 / 悬疑"
+      "genres": "科幻 / 动作片 / 悬疑",
+      "metadata_attempted_at": "2026-11-10T04:03:20+00:00",
+      "refresh_status": "failed"
+    },
+    {
+      "id": "prime:0IUGS56V361WRU60PCC5XH5D8Z",
+      "slug": "prime-0iugs56v361wru60pcc5xh5d8z",
+      "prime_id": "0IUGS56V361WRU60PCC5XH5D8Z",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Hunting Season",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Hunting Season",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0IUGS56V361WRU60PCC5XH5D8Z",
+          "retrieved_at": "2026-11-10T04:03:54+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2025年12月4日",
+        "genres": "悬疑 / 动作片 / 剧情片 / 西部"
+      },
+      "official_catalog_id": "amzn1.dv.gti.3e561ae5-0185-4a0d-a821-0163dadcf753",
+      "year": 2025,
+      "release_date": "2025年12月4日",
+      "official_checked_at": "2026-11-10T04:03:54+00:00",
+      "synopsis_original": "A girl and her father living deep in the woods, rescue a wounded young woman that washes up on the bank of the local river. Their lives are forever changed by the mysterious stranger, and the ruthless drug lord who will stop at nothing to kill her once and for all.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0IUGS56V361WRU60PCC5XH5D8Z",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/fa4621e0ac11be9ca6884a42e0b4ed87ed274e53a853af75924f4edbda9420af.jpg",
+        "sha256": "fa4621e0ac11be9ca6884a42e0b4ed87ed274e53a853af75924f4edbda9420af",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/835c6ae6951fad8aa311a29670f22da68f6a451874e2c41561f1f77702727ce3._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-10T04:03:54+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "悬疑 / 动作片 / 剧情片 / 西部"
+    },
+    {
+      "id": "prime:0LAX0XFANPXMFOTVAFV5H0LD1H",
+      "slug": "prime-0lax0xfanpxmfotvafv5h0ld1h",
+      "prime_id": "0LAX0XFANPXMFOTVAFV5H0LD1H",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "皇家赌场",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "皇家赌场",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0LAX0XFANPXMFOTVAFV5H0LD1H",
+          "retrieved_at": "2026-11-10T04:03:57+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2006年11月16日",
+        "genres": "动作片 / 冒险片 / 剧情片 / 悬疑"
+      },
+      "official_catalog_id": "amzn1.dv.gti.67d67132-66a8-46fb-9b4d-3ebe25602945",
+      "year": 2006,
+      "release_date": "2006年11月16日",
+      "official_checked_at": "2026-11-10T04:03:57+00:00",
+      "synopsis_zh": "根据伊恩·弗莱明的第一部 007 小说，詹姆斯·邦德 (丹尼尔·克雷格饰) 必须阻止一名危险的俄罗斯间谍资助全球恐怖分子赢得价值数百万美元的扑克游戏。 电影史上最成功的系列电影中的第 21 部。",
+      "synopsis_status": "ok",
+      "synopsis_source_type": "prime_official",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0LAX0XFANPXMFOTVAFV5H0LD1H",
+      "poster": {
+        "path": "images/62aa04b2684b52a224165bf15f65ad7d74ab678db7f7661a8fd939c65312d240.jpg",
+        "sha256": "62aa04b2684b52a224165bf15f65ad7d74ab678db7f7661a8fd939c65312d240",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/b9cf471a7758b6c19ba592b7711e37713059517c20ebfcc023bbaab4ae02b6e3._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-10T04:03:57+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "动作片 / 冒险片 / 剧情片 / 悬疑"
     }
   ]
 }
