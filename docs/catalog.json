@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-14T04:06:28+00:00",
+  "generated_at": "2026-11-14T04:35:38+00:00",
   "item_count": 223,
   "items": [
     {
@@ -8112,10 +8112,12 @@
       "seed_id": "B09QH98YG1",
       "original_title": "The Lord of the Rings: The Rings of Power",
       "english_title": "The Lord of the Rings: The Rings of Power",
-      "display_name_zh": "指环王力量之戒",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "display_name_zh": "魔戒：力量之戒",
+      "name_status": "verified_title_sources",
       "prime_official_name_zh": "指环王：力量之戒 - 第一季",
-      "aliases_zh": [],
+      "aliases_zh": [
+        "魔戒：力量之戒"
+      ],
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {
@@ -8272,6 +8274,11 @@
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0NGJWN4I3V9O8AY50RRY31MQV4",
           "retrieved_at": "2026-11-13T04:12:06+00:00"
+        },
+        {
+          "type": "tavily_retrieved_encyclopedia_page",
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%88%92%EF%BC%9A%E5%8A%9B%E9%87%8F%E4%B9%8B%E6%88%92",
+          "retrieved_at": "2026-11-14T04:33:37+00:00"
         }
       ],
       "updated_at": "2026-11-13T04:12:12+00:00",
@@ -8279,7 +8286,8 @@
       "metadata_attempted_at": "2026-11-13T04:12:12+00:00",
       "refresh_status": "checked",
       "prime_series_id": "amzn1.dv.gti.f856462e-f3f0-47d6-99a7-8e7900ffb935",
-      "metadata_checked_at": "2026-11-13T04:12:12+00:00"
+      "metadata_checked_at": "2026-11-13T04:12:12+00:00",
+      "name_checked_at": "2026-11-14T04:33:37+00:00"
     },
     {
       "id": "seed:seed-e763c3d458ac9ac0",

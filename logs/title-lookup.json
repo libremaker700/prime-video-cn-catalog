@@ -1,22 +1,22 @@
 {
-  "checked_at": "2026-11-06T04:40:32+00:00",
+  "checked_at": "2026-11-14T04:33:37+00:00",
   "searched": 36,
-  "direct_verified": 0,
+  "direct_verified": 1,
   "cache_hits": 0,
-  "skipped_verified": 42,
-  "pending": 104,
+  "skipped_verified": 47,
+  "pending": 118,
   "attempted": 12,
-  "monthly_reserved": 36,
+  "monthly_reserved": 72,
   "monthly_limit": 100,
   "summaries": {
     "attempted": 0,
     "verified": 0,
-    "pending": 77,
+    "pending": 98,
     "cache_hits": 0
   },
   "keys_configured": 4,
   "key_failovers": 0,
-  "remaining_unverified": 162,
+  "remaining_unverified": 175,
   "direct_network_errors": 1,
   "source_diagnostics": [
     {
@@ -30,10 +30,10 @@
   ],
   "verified_changes": [
     {
-      "id": "seed:seed-a5bbef0d5c350b1e",
-      "before": "愤怒的小鸟：神秘岛",
-      "after": "愤怒的小鸟：神秘岛",
-      "name_status": "user_app_preference"
+      "id": "prime:B09QH98YG1",
+      "before": "指环王力量之戒",
+      "after": "魔戒：力量之戒",
+      "name_status": "verified_title_sources"
     }
   ],
   "published_name_changes": 1,
@@ -45,27 +45,27 @@
   ],
   "status": "completed_with_pending",
   "version": {
-    "version": "4aa612945fe7317e",
-    "catalog_sha256": "4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058",
-    "catalog_path": "releases/4aa612945fe7317e4802a35179ea65b51a4ba5486b01c859a731b056f2778058/catalog.json",
-    "generated_at": "2026-11-06T04:42:33+00:00",
+    "version": "336aaaf99894b124",
+    "catalog_sha256": "336aaaf99894b124c78b62eb3d949320ee3df50d94c4717969c930443543308f",
+    "catalog_path": "releases/336aaaf99894b124c78b62eb3d949320ee3df50d94c4717969c930443543308f/catalog.json",
+    "generated_at": "2026-11-14T04:35:38+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
     "publication_reason": "verified_title_lookup",
-    "item_count": 204,
-    "image_count": 268,
+    "item_count": 223,
+    "image_count": 298,
     "refresh_status": "partial",
-    "last_attempt_at": "2026-11-06T04:26:19+00:00",
-    "last_partial_at": "2026-11-06T04:26:19+00:00",
+    "last_attempt_at": "2026-11-14T04:06:28+00:00",
+    "last_partial_at": "2026-11-14T04:06:28+00:00",
     "refresh_counts": {
-      "processed": 202,
-      "checked": 119,
-      "reused": 43,
-      "pending": 35,
-      "failures": 20,
-      "attempted": 159,
+      "processed": 223,
+      "checked": 17,
+      "reused": 200,
+      "pending": 34,
+      "failures": 19,
+      "attempted": 23,
       "deferred": 0,
       "budget_seconds": 1200
     },
-    "previous_catalog_path": "releases/075508cc1a5a8e23fd18b4a8b66786248f9e3c5e4e1904f576b8162463fa3af3/catalog.json"
+    "previous_catalog_path": "releases/beccf5a5989418e89445772f93e2b1bc11677d12c4aa28076aa86da1b2a2963e/catalog.json"
   }
 }
