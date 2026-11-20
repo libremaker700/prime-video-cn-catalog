@@ -1,105 +1,99 @@
 [
   {
-    "prime_id": "B0HKCSHTY3",
+    "prime_id": "B0HG62HTR7",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "Prime page identity mismatch"
   },
   {
-    "prime_id": "B0HL26NX6N",
+    "prime_id": "B0GZSNFJWK",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
-    "reason": "Prime page identity mismatch"
-  },
-  {
-    "prime_id": "B0G6MQSW53",
-    "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
-    "status": "pending_review",
-    "reason": "Prime page identity mismatch"
+    "reason": "Prime page is not a film/TV title"
   },
   {
     "prime_id": "0S0WXS1U1QJ8MTVB4G4NWZTHTQ",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "Prime page identity mismatch"
   },
   {
     "prime_id": "B0HL4LQ4J3",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "Prime page identity mismatch"
   },
   {
     "prime_id": "0I4OWKAPLUWIO5013W3F3ZN952",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
     "prime_id": "0IT5QD04WG06AKTABIYKVOTHYM",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
     "prime_id": "0K94N2UBORZCLPIC46VTJQ093E",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
-    "status": "pending_review",
-    "reason": "possible existing series/new season; identity needs confirmation"
-  },
-  {
-    "prime_id": "0OTJMH3M00F58TD6SAJM4SIE27",
-    "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
-    "status": "pending_review",
-    "reason": "possible existing series/new season; identity needs confirmation"
-  },
-  {
-    "prime_id": "0K677J96WQ96K6UY6BL15O70CO",
-    "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
     "prime_id": "0HZWTBZYQQXYW48YBANMDM2MZE",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
+    "status": "pending_review",
+    "reason": "possible existing series/new season; identity needs confirmation"
+  },
+  {
+    "prime_id": "0K677J96WQ96K6UY6BL15O70CO",
+    "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
     "prime_id": "0RZB1U1IL8TB1J9Z2UN3UF7H2C",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
-    "prime_id": "0R5AKKU9VTUSGZP8J4M94V9SCJ",
+    "prime_id": "0OTJMH3M00F58TD6SAJM4SIE27",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "pending_review",
     "reason": "possible existing series/new season; identity needs confirmation"
   },
   {
-    "prime_id": "0HG0HEORRIS0WGLZ9L13VD2JO8",
+    "prime_id": "0MX2JS0AXXJTGUOL39Q7VLY9TS",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
+    "status": "pending_review",
+    "reason": "possible existing series/new season; identity needs confirmation"
+  },
+  {
+    "prime_id": "0FN87WS3K5HE631QWEHLFTBS0J",
+    "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+    "discovered_at": "2026-11-20T04:09:11+00:00",
     "status": "verified_public_prime_page"
   },
   {
-    "prime_id": "0HX7NRQ3K5AGENKYJ8CD4R0EJ8",
+    "prime_id": "0TN3AK5GC9XOPY213DOYF2H8OP",
     "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-    "discovered_at": "2026-11-19T04:13:14+00:00",
-    "status": "verified_public_prime_page"
+    "discovered_at": "2026-11-20T04:09:11+00:00",
+    "status": "pending_review",
+    "reason": "possible existing series/new season; identity needs confirmation"
   }
 ]

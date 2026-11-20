@@ -1,7 +1,7 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-19T04:13:24+00:00",
-  "item_count": 227,
+  "generated_at": "2026-11-20T04:09:21+00:00",
+  "item_count": 228,
   "items": [
     {
       "id": "seed:the-tomorrow-war",
@@ -2627,7 +2627,7 @@
       ],
       "updated_at": "2026-10-30T00:53:01+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-19T04:13:03+00:00",
+      "metadata_attempted_at": "2026-11-20T04:09:01+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:53:01+00:00"
     },
@@ -2837,7 +2837,7 @@
       ],
       "updated_at": "2026-10-30T00:53:07+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-19T04:13:07+00:00",
+      "metadata_attempted_at": "2026-11-20T04:09:05+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.6159cf4c-78ee-4efd-80e7-f6e055bfeebd",
       "metadata_checked_at": "2026-10-30T00:53:07+00:00"
@@ -6154,7 +6154,7 @@
       ],
       "updated_at": "2026-10-30T00:39:02+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-19T04:12:59+00:00",
+      "metadata_attempted_at": "2026-11-20T04:08:53+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:39:02+00:00"
     },
@@ -9717,13 +9717,13 @@
           "official_title_zh": "Clifford the Big Red Dog - Season 2",
           "year": 2020,
           "release_date": "2020年5月21日",
-          "official_checked_at": "2026-11-19T04:13:09+00:00",
+          "official_checked_at": "2026-11-20T04:09:07+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-              "retrieved_at": "2026-11-19T04:13:09+00:00"
+              "retrieved_at": "2026-11-20T04:09:07+00:00"
             }
           ],
           "synopsis_original": "Emily Elizabeth, Clifford, and all of Birdwell Island continue the adventures as they build the island’s first mini golf course, hang ten on some gnarly waves, and meet the cutest new puppy pal - Hudson! From gathering clues disguised as special agents to singing a sea shanty with the elusive Babette, the friends learn patience, teamwork, and that practice makes perfect when trying something new.",
@@ -9739,7 +9739,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/3c55573cf7c0bc84b4afe91e51c232d7cf04660da282cf439ba76eb7279d80c4._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-19T04:13:09+00:00"
+            "retrieved_at": "2026-11-20T04:09:07+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9763,7 +9763,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/5aed5adaa44c9a54960c1f47374d0ab5175762ce491559a6a0a569b476cb86fc._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-19T04:13:10+00:00"
+            "retrieved_at": "2026-11-20T04:09:07+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9773,13 +9773,13 @@
           "official_link": "/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
           "identity_source": "app_official_selector_snapshot",
           "official_catalog_id": "amzn1.dv.gti.1ebadd0a-6010-1c15-36f8-990b685f4921",
-          "official_checked_at": "2026-11-19T04:13:10+00:00",
+          "official_checked_at": "2026-11-20T04:09:07+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-              "retrieved_at": "2026-11-19T04:13:10+00:00"
+              "retrieved_at": "2026-11-20T04:09:07+00:00"
             }
           ],
           "synopsis_original": "Come along with Emily Elizabeth, Clifford, and their friends as they spend a day at the Birdwell Fun Fair, become hard hitting reporters, and build a cool clubhouse! From throwing a welcome party for a new islander to turning the sounds of a thunderstorm into a new song, the friends learn that they can always look to each other when they feel scared and the importance of enjoying today.",
@@ -9797,27 +9797,27 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-          "retrieved_at": "2026-11-19T04:13:10+00:00"
+          "retrieved_at": "2026-11-20T04:09:07+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "retrieved_at": "2026-11-19T04:13:08+00:00"
+          "retrieved_at": "2026-11-20T04:09:06+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-          "retrieved_at": "2026-11-19T04:13:09+00:00"
+          "retrieved_at": "2026-11-20T04:09:07+00:00"
         }
       ],
-      "updated_at": "2026-11-19T04:13:12+00:00",
+      "updated_at": "2026-11-20T04:09:10+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-19T04:13:12+00:00",
+      "metadata_attempted_at": "2026-11-20T04:09:10+00:00",
       "refresh_status": "partial",
       "prime_series_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-      "metadata_checked_at": "2026-11-19T04:13:12+00:00",
+      "metadata_checked_at": "2026-11-20T04:09:10+00:00",
       "official_unmapped_seasons": [
         {
           "season": 1,
@@ -13351,7 +13351,7 @@
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "release_date": "2002年6月20日",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-19T04:12:59+00:00",
+      "metadata_attempted_at": "2026-11-20T04:08:54+00:00",
       "refresh_status": "failed",
       "official_catalog_id": "amzn1.dv.gti.4b0c9f3d-c948-408f-939e-4dcebd661bea",
       "year": 2002,
@@ -16094,7 +16094,7 @@
       ],
       "updated_at": "2026-11-06T04:20:25+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-19T04:12:42+00:00",
+      "metadata_attempted_at": "2026-11-20T04:08:41+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.c1ed569e-ac5b-41fd-8e81-bb521ecdd9ec",
       "metadata_checked_at": "2026-11-06T04:20:25+00:00"
@@ -18829,7 +18829,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0J71TVVX2R7ISTOIVFTXIC4US8",
-          "retrieved_at": "2026-11-12T04:08:45+00:00"
+          "retrieved_at": "2026-11-20T04:08:32+00:00"
         }
       ],
       "original_title": null,
@@ -18841,7 +18841,7 @@
       "official_catalog_id": "amzn1.dv.gti.443db758-06aa-47ac-ac2d-ef6dfd2fd8d8",
       "year": 2009,
       "release_date": "2009年8月20日",
-      "official_checked_at": "2026-11-12T04:08:45+00:00",
+      "official_checked_at": "2026-11-20T04:08:32+00:00",
       "synopsis_zh": "这部精彩绝伦的虚幻二战电影，由奥斯卡奖提名演员布拉德·彼特（《本杰明·巴顿奇事》）主演，奥斯卡奖提名导演昆汀·塔伦蒂诺（《低俗小说》）执导。讲述在战火连天的欧洲，少女苏珊娜（梅拉尼·罗兰饰）在德军上校汉斯屠杀犹太人的行动中侥幸逃脱，三年后她在巴黎继承了一家电影院。同时，一支被纳粹军取名为“混蛋”的美军队横空出世，在奥尔多（布拉德·彼特饰）的带领下，他们的任务是拿下第三帝国的高级军事将领，平时顺便杀几个纳粹，再削几个纳粹的头皮。奥尔多的计划是在德军高级将领在电影院看戏的时候执行暗杀任务，正巧那家电影院就是苏珊娜所经营的，而苏珊娜也准备在这时候替亲人报仇。两帮素不相识的人，因为同一个目标而走到一起。《滚石》杂志影评人彼得·特拉维斯盛赞本片“充满枪林弹雨的场面以及连珠炮似的搞笑对白”，CBS电视网影评人杰克·哈密尔顿则认为本片是导演昆汀·塔伦蒂诺的又一部杰作！",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -18856,16 +18856,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e186d846d772be338fe6436b7395db6a567e53b6f23756d41b3e043869f6b506._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-12T04:08:46+00:00"
+        "retrieved_at": "2026-11-20T04:08:32+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 剧情片 / 历史 / 军事与战争",
-      "metadata_attempted_at": "2026-11-19T04:12:25+00:00",
-      "refresh_status": "failed",
-      "metadata_checked_at": "2026-11-12T04:08:46+00:00",
-      "updated_at": "2026-11-12T04:08:46+00:00"
+      "metadata_attempted_at": "2026-11-20T04:08:32+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-20T04:08:32+00:00",
+      "updated_at": "2026-11-20T04:08:32+00:00"
     },
     {
       "id": "prime:0LHTLQWXITS7NO60KJKW9DJ2T0",
@@ -21645,7 +21645,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0HG0HEORRIS0WGLZ9L13VD2JO8",
-          "retrieved_at": "2026-11-19T04:13:23+00:00"
+          "retrieved_at": "2026-11-20T04:08:31+00:00"
         }
       ],
       "original_title": null,
@@ -21657,7 +21657,7 @@
       "official_catalog_id": "amzn1.dv.gti.26a9f70a-01f3-81e0-ee8d-5378ac2d4918",
       "year": 2011,
       "release_date": "2011年11月3日",
-      "official_checked_at": "2026-11-19T04:13:23+00:00",
+      "official_checked_at": "2026-11-20T04:08:31+00:00",
       "synopsis_zh": "本斯蒂勒与艾迪墨菲联合众多巨星一起演出了《高楼大劫案》这部喜剧。故事描述一群普通的上班族联手报复那些曾经欺骗他们的华尔街骗子。在中央公园一座豪华公寓的员工发现他们的退休金都被住在顶楼的亿万富翁给骗走之后，他们便密谋了一场终极报复行动：要把被骗走的全部都抢回来。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -21672,12 +21672,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e38059dfeac2ff6c106dd2dfc453634dc93e1233d19f5c999d034ae4b9adb2f9._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:13:23+00:00"
+        "retrieved_at": "2026-11-20T04:08:31+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "喜剧 / 动作片"
+      "genres": "喜剧 / 动作片",
+      "metadata_attempted_at": "2026-11-20T04:08:31+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-20T04:08:31+00:00",
+      "updated_at": "2026-11-20T04:08:31+00:00"
     },
     {
       "id": "prime:0HX7NRQ3K5AGENKYJ8CD4R0EJ8",
@@ -21725,7 +21729,58 @@
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "喜剧 / 爱情 / 艺术、娱乐和文化 / 年轻成人观众"
+      "genres": "喜剧 / 爱情 / 艺术、娱乐和文化 / 年轻成人观众",
+      "metadata_attempted_at": "2026-11-20T04:08:31+00:00",
+      "refresh_status": "failed"
+    },
+    {
+      "id": "prime:0FN87WS3K5HE631QWEHLFTBS0J",
+      "slug": "prime-0fn87ws3k5he631qwehlftbs0j",
+      "prime_id": "0FN87WS3K5HE631QWEHLFTBS0J",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "马登",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "马登",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0FN87WS3K5HE631QWEHLFTBS0J",
+          "retrieved_at": "2026-11-20T04:09:20+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2026年11月17日",
+        "genres": "剧情片 / 运动"
+      },
+      "official_catalog_id": "amzn1.dv.gti.084449d5-219e-4b76-b45d-5eeae15bcb93",
+      "year": 2026,
+      "release_date": "2026年11月17日",
+      "official_checked_at": "2026-11-20T04:09:20+00:00",
+      "synopsis_zh": "《马登》改编自一位深受爱戴的美国传奇人物的生平，讲述约翰·马登的人生历程：他曾携手阿尔·戴维斯，随奥克兰突袭者队拿下超级碗冠军，之后成为美式橄榄球最具标志性的解说名嘴，更打造了风靡全球的《马登橄榄球》电子游戏。影片赞颂这位才智卓绝的人物，他的不屈精神、和妻子薇吉尼娅的相守，以及那份极具感染力的对世人和橄榄球的热爱，早已突破体育的边界。",
+      "synopsis_status": "ok",
+      "synopsis_source_type": "prime_official",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FN87WS3K5HE631QWEHLFTBS0J",
+      "poster": {
+        "path": "images/8feadab88ae2c752d895c3115ee14be82beb8d76da40440463c8098d8d011ca3.jpg",
+        "sha256": "8feadab88ae2c752d895c3115ee14be82beb8d76da40440463c8098d8d011ca3",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/c9570e05a85dcde04ed13fd9857f009da4acbb77121bdc979ed00ade85438bec._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-20T04:09:21+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "剧情片 / 运动"
     }
   ]
 }
