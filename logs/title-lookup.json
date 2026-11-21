@@ -1,22 +1,22 @@
 {
-  "checked_at": "2026-11-14T04:33:37+00:00",
-  "searched": 36,
+  "checked_at": "2026-11-21T04:39:39+00:00",
+  "searched": 28,
   "direct_verified": 1,
   "cache_hits": 0,
-  "skipped_verified": 47,
-  "pending": 118,
+  "skipped_verified": 51,
+  "pending": 126,
   "attempted": 12,
-  "monthly_reserved": 72,
+  "monthly_reserved": 100,
   "monthly_limit": 100,
   "summaries": {
     "attempted": 0,
     "verified": 0,
-    "pending": 98,
+    "pending": 111,
     "cache_hits": 0
   },
   "keys_configured": 4,
   "key_failovers": 0,
-  "remaining_unverified": 175,
+  "remaining_unverified": 182,
   "direct_network_errors": 1,
   "source_diagnostics": [
     {
@@ -30,9 +30,9 @@
   ],
   "verified_changes": [
     {
-      "id": "prime:B09QH98YG1",
-      "before": "指环王力量之戒",
-      "after": "魔戒：力量之戒",
+      "id": "prime:B0B8TFMYXZ",
+      "before": "外围",
+      "after": "邊緣世界",
       "name_status": "verified_title_sources"
     }
   ],
@@ -43,29 +43,29 @@
     "wikipedia",
     "baidu"
   ],
-  "status": "completed_with_pending",
+  "status": "degraded",
   "version": {
-    "version": "336aaaf99894b124",
-    "catalog_sha256": "336aaaf99894b124c78b62eb3d949320ee3df50d94c4717969c930443543308f",
-    "catalog_path": "releases/336aaaf99894b124c78b62eb3d949320ee3df50d94c4717969c930443543308f/catalog.json",
-    "generated_at": "2026-11-14T04:35:38+00:00",
+    "version": "219d5ac5a55b80f4",
+    "catalog_sha256": "219d5ac5a55b80f4924d216944f45ffa51a78ea516250b378f457d97981627f8",
+    "catalog_path": "releases/219d5ac5a55b80f4924d216944f45ffa51a78ea516250b378f457d97981627f8/catalog.json",
+    "generated_at": "2026-11-21T04:41:28+00:00",
     "last_success_at": "2026-10-29T00:56:48+00:00",
     "publication_reason": "verified_title_lookup",
-    "item_count": 223,
-    "image_count": 298,
+    "item_count": 234,
+    "image_count": 313,
     "refresh_status": "partial",
-    "last_attempt_at": "2026-11-14T04:06:28+00:00",
-    "last_partial_at": "2026-11-14T04:06:28+00:00",
+    "last_attempt_at": "2026-11-21T04:24:13+00:00",
+    "last_partial_at": "2026-11-21T04:24:13+00:00",
     "refresh_counts": {
-      "processed": 223,
-      "checked": 17,
-      "reused": 200,
-      "pending": 34,
-      "failures": 19,
-      "attempted": 23,
+      "processed": 228,
+      "checked": 133,
+      "reused": 52,
+      "pending": 35,
+      "failures": 25,
+      "attempted": 176,
       "deferred": 0,
       "budget_seconds": 1200
     },
-    "previous_catalog_path": "releases/beccf5a5989418e89445772f93e2b1bc11677d12c4aa28076aa86da1b2a2963e/catalog.json"
+    "previous_catalog_path": "releases/fb44f4c1b8758e0125192eec088114ed8a0b1a2b0afe5cf912fa8ad12c0db8c8/catalog.json"
   }
 }

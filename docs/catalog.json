@@ -1,6 +1,6 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-21T04:24:13+00:00",
+  "generated_at": "2026-11-21T04:41:28+00:00",
   "item_count": 234,
   "items": [
     {
@@ -10438,10 +10438,12 @@
       "seed_id": "B0B8TFMYXZ",
       "original_title": "The Peripheral",
       "english_title": "The Peripheral",
-      "display_name_zh": "外围",
-      "name_status": "existing_app_curated_not_fresh_web_verified",
+      "display_name_zh": "邊緣世界",
+      "name_status": "verified_title_sources",
       "prime_official_name_zh": "The Peripheral - 季 1",
-      "aliases_zh": [],
+      "aliases_zh": [
+        "邊緣世界"
+      ],
       "synopsis_zh": "",
       "synopsis_source_type": null,
       "details": {
@@ -10505,13 +10507,19 @@
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0PE2SANXUROCEZ5W2FD7WGMM9R",
           "retrieved_at": "2026-11-21T04:13:14+00:00"
+        },
+        {
+          "type": "tavily_retrieved_encyclopedia_page",
+          "url": "https://zh.wikipedia.org/wiki/%E9%82%8A%E7%B7%A3%E4%B8%96%E7%95%8C_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
+          "retrieved_at": "2026-11-21T04:39:39+00:00"
         }
       ],
       "updated_at": "2026-11-21T04:13:19+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "metadata_attempted_at": "2026-11-21T04:13:19+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-21T04:13:19+00:00"
+      "metadata_checked_at": "2026-11-21T04:13:19+00:00",
+      "name_checked_at": "2026-11-21T04:39:39+00:00"
     },
     {
       "id": "prime:B0B8TQGHP3",
