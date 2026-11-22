@@ -7054,6 +7054,570 @@
         "status": "pending_review"
       },
       "next_retry_at": "2026-11-21T10:39:39+00:00"
+    },
+    "c8073c5f2b429a6263b1eab8719e576ad6ef696a2522e165ad17e176e65ad5bd": {
+      "identity": {
+        "id": "prime:B0DGNX438P",
+        "prime_id": "B0DGNX438P",
+        "kind": "tv",
+        "original_title": "Cruel Intentions",
+        "english_title": "Cruel Intentions",
+        "first_air_year": 2024
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "query": "\"Cruel Intentions\" 2024 中文名",
+            "error": "local_budget_exhausted",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "1d3ff198ab7e8fb20793451ddb0dac544be43651648d2669e90bfec209650d78": {
+      "identity": {
+        "id": "prime:B0DJ9MKHTZ",
+        "prime_id": "B0DJ9MKHTZ",
+        "kind": "tv",
+        "original_title": "Countdown",
+        "english_title": "Countdown",
+        "first_air_year": 2025
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "17f70a2eea23ccb7934467963dc4109b6f8601af2dc7ffff662163bde22837cc": {
+      "identity": {
+        "id": "prime:B0DJPRGTF2",
+        "prime_id": "B0DJPRGTF2",
+        "kind": "anime",
+        "original_title": "Secret Level",
+        "english_title": "Secret Level",
+        "first_air_year": 2024
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "0c4ce59ee7e24bae3f1c8f46a7199b1ad4d170b65dd60ab8b89fa40c0dfffa00": {
+      "identity": {
+        "id": "prime:B0DM9PWSZC",
+        "prime_id": "B0DM9PWSZC",
+        "kind": "tv",
+        "original_title": "Ziddi Girls",
+        "english_title": "Ziddi Girls",
+        "first_air_year": 2025
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "5cb1a56621e48b10f56606afa78f8b4259bff18bbd6d70e6efdcf65df34e6aab": {
+      "identity": {
+        "id": "prime:B0F54XFS1H",
+        "prime_id": "B0F54XFS1H",
+        "kind": "tv",
+        "original_title": "Ballard",
+        "english_title": "Ballard",
+        "first_air_year": 2025
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "35fb617b648d22b46ecb56b07f790800ca905568a9d7653f4ddd59f90be4e6b6": {
+      "identity": {
+        "id": "prime:B0FLX154BL",
+        "prime_id": "B0FLX154BL",
+        "kind": "tv",
+        "original_title": "Mammals",
+        "english_title": "Mammals",
+        "first_air_year": 2024
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "cf51fd8d1ac60aed303694ae948ce97a3efff2662b8f908f5921e770205eb009": {
+      "identity": {
+        "id": "prime:B0FNNHM1MT",
+        "prime_id": "B0FNNHM1MT",
+        "kind": "tv",
+        "original_title": "House of David",
+        "english_title": "House of David",
+        "first_air_year": 2025
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "799379ac73c998cc52f5c37ad4bced1a55b72554c99c92b52ec7d391972a0a50": {
+      "identity": {
+        "id": "prime:B0GGLLCQM5",
+        "prime_id": "B0GGLLCQM5",
+        "kind": "tv",
+        "original_title": "56 Days",
+        "english_title": "56 Days",
+        "first_air_year": 2026
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "0d8cd44b0144aa4eef159b19ade4d106c8b3c24a6ec6d18f8b142be01b3e82ad": {
+      "identity": {
+        "id": "prime:B0GGVRT9J2",
+        "prime_id": "B0GGVRT9J2",
+        "kind": "tv",
+        "original_title": "La casa de los espíritus",
+        "english_title": "La casa de los espíritus",
+        "first_air_year": 2026
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "6a1adbbe6b30e79eee8d7fca5460db33668d3b1d66c8d65517cd64d88233b05b": {
+      "identity": {
+        "id": "prime:B0GGWH7SZ5",
+        "prime_id": "B0GGWH7SZ5",
+        "kind": "tv",
+        "original_title": "Daldal",
+        "english_title": "Daldal",
+        "first_air_year": 2026
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "39a646a9c1965016637f5c40a2cf0d96b676ab27a9a54030d53b33774daf438e": {
+      "identity": {
+        "id": "prime:B0GT2JSFBC",
+        "prime_id": "B0GT2JSFBC",
+        "kind": "tv",
+        "original_title": "The Pyramid Scheme",
+        "english_title": "The Pyramid Scheme",
+        "first_air_year": 2026
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "b6f261034050ea24cd1084cab299dd0ab964ac487477162e66532fe9f06c170d": {
+      "identity": {
+        "id": "prime:B0GYQHYW8H",
+        "prime_id": "B0GYQHYW8H",
+        "kind": "tv",
+        "original_title": "Red Oaks",
+        "english_title": "Red Oaks",
+        "first_air_year": 2014
+      },
+      "checked_at": "2026-11-22T04:41:23+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-22T10:41:23+00:00"
     }
   },
   "budgets": {
