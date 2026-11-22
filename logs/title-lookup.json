@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-21T04:39:39+00:00",
-  "searched": 28,
-  "direct_verified": 1,
+  "checked_at": "2026-11-22T04:41:23+00:00",
+  "searched": 0,
+  "direct_verified": 0,
   "cache_hits": 0,
-  "skipped_verified": 51,
-  "pending": 126,
+  "skipped_verified": 53,
+  "pending": 127,
   "attempted": 12,
   "monthly_reserved": 100,
   "monthly_limit": 100,
@@ -20,52 +20,17 @@
   "direct_network_errors": 1,
   "source_diagnostics": [
     {
-      "host": "baike.baidu.com",
-      "http_status": 403
-    },
-    {
       "host": "zh.wikipedia.org",
       "http_status": 429
     }
   ],
-  "verified_changes": [
-    {
-      "id": "prime:B0B8TFMYXZ",
-      "before": "外围",
-      "after": "邊緣世界",
-      "name_status": "verified_title_sources"
-    }
-  ],
-  "published_name_changes": 1,
+  "verified_changes": [],
+  "published_name_changes": 0,
   "lookup_order": [
     "tavily",
     "douban",
     "wikipedia",
     "baidu"
   ],
-  "status": "degraded",
-  "version": {
-    "version": "219d5ac5a55b80f4",
-    "catalog_sha256": "219d5ac5a55b80f4924d216944f45ffa51a78ea516250b378f457d97981627f8",
-    "catalog_path": "releases/219d5ac5a55b80f4924d216944f45ffa51a78ea516250b378f457d97981627f8/catalog.json",
-    "generated_at": "2026-11-21T04:41:28+00:00",
-    "last_success_at": "2026-10-29T00:56:48+00:00",
-    "publication_reason": "verified_title_lookup",
-    "item_count": 234,
-    "image_count": 313,
-    "refresh_status": "partial",
-    "last_attempt_at": "2026-11-21T04:24:13+00:00",
-    "last_partial_at": "2026-11-21T04:24:13+00:00",
-    "refresh_counts": {
-      "processed": 228,
-      "checked": 133,
-      "reused": 52,
-      "pending": 35,
-      "failures": 25,
-      "attempted": 176,
-      "deferred": 0,
-      "budget_seconds": 1200
-    },
-    "previous_catalog_path": "releases/fb44f4c1b8758e0125192eec088114ed8a0b1a2b0afe5cf912fa8ad12c0db8c8/catalog.json"
-  }
+  "status": "degraded"
 }
