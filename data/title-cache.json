@@ -7618,6 +7618,570 @@
         "status": "pending_review"
       },
       "next_retry_at": "2026-11-22T10:41:23+00:00"
+    },
+    "c2e046dfac99f8288b4689dd5712849bce5b566a4be9aa9a679292583c0a5ea1": {
+      "identity": {
+        "id": "prime:B0GZLX5228",
+        "prime_id": "B0GZLX5228",
+        "kind": "tv",
+        "original_title": "I Love Dick",
+        "english_title": "I Love Dick",
+        "first_air_year": 2016
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "query": "\"I Love Dick\" 2016 中文名",
+            "error": "local_budget_exhausted",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "b8d9182c295c6fb06f9241853b09cea61bef5daab3fe10f29a457124c0440eed": {
+      "identity": {
+        "id": "prime:B0H1SN3LJ5",
+        "prime_id": "B0H1SN3LJ5",
+        "kind": "tv",
+        "original_title": "American Playboy: The Hugh Hefner Story",
+        "english_title": "American Playboy: The Hugh Hefner Story",
+        "first_air_year": 2017
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "033ffe6e3e9433548281fb2f514fc50f07ca8778c830e5970559703995f6a283": {
+      "identity": {
+        "id": "prime:B0H25ZJSSC",
+        "prime_id": "B0H25ZJSSC",
+        "kind": "tv",
+        "original_title": "The Tick",
+        "english_title": "The Tick",
+        "first_air_year": 2016
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "096e42683fe984e21ca805127c92b6db186a727cd395779ade4d55ed1f4c2432": {
+      "identity": {
+        "id": "prime:B0H31VL8YK",
+        "prime_id": "B0H31VL8YK",
+        "kind": "tv",
+        "original_title": "Bosch",
+        "english_title": "Bosch",
+        "first_air_year": 2014
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "f1ef07cc9d7dea9b78b587597844f55d73da38047e6901772236d3f3491f7b6e": {
+      "identity": {
+        "id": "prime:B0H38ZZ8GZ",
+        "prime_id": "B0H38ZZ8GZ",
+        "kind": "tv",
+        "original_title": "Carnival Row",
+        "english_title": "Carnival Row",
+        "first_air_year": 2019
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "343c7aefad3d35478de8b223dc687271b7422b22d64fab1d22dda21c60955922": {
+      "identity": {
+        "id": "prime:B0H3CZ7L43",
+        "prime_id": "B0H3CZ7L43",
+        "kind": "tv",
+        "original_title": "Good Girls Revolt",
+        "english_title": "Good Girls Revolt",
+        "first_air_year": 2015
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "63105f1bbcfc71d5af80cc5785b864c5492e2851ca86728e7df2709ed219b3ba": {
+      "identity": {
+        "id": "prime:B0H3FQ4YYL",
+        "prime_id": "B0H3FQ4YYL",
+        "kind": "tv",
+        "original_title": "Beat",
+        "english_title": "Beat",
+        "first_air_year": 2018
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "db87e7af6553280d4af031f120257cb9354965affe7057aa27394bd382b94b9b": {
+      "identity": {
+        "id": "prime:B0H45HCW5V",
+        "prime_id": "B0H45HCW5V",
+        "kind": "tv",
+        "original_title": "The Forgotten Army - Azaadi Ke Liye",
+        "english_title": "The Forgotten Army - Azaadi Ke Liye",
+        "first_air_year": 2020
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "70ef77cf3dff6e7811be4d5bbc779fed358ded35ea05ca0f79b49106734ec9af": {
+      "identity": {
+        "id": "prime:B0H4GD3B6G",
+        "prime_id": "B0H4GD3B6G",
+        "kind": "tv",
+        "original_title": "Good Omens",
+        "english_title": "Good Omens",
+        "first_air_year": 2019
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "be684dcf63a82290f14950b60774136a106339237968bf60741dd2ffe85a090b": {
+      "identity": {
+        "id": "prime:B0H4LD7LYS",
+        "prime_id": "B0H4LD7LYS",
+        "kind": "tv",
+        "original_title": "The Expanse",
+        "english_title": "The Expanse",
+        "first_air_year": 2015
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "533fb669ff7ad5d334762296e3a330861667bf1cf9ed6539c20371e98da47ed7": {
+      "identity": {
+        "id": "prime:B0H4NW3HYP",
+        "prime_id": "B0H4NW3HYP",
+        "kind": "tv",
+        "original_title": "Too Old to Die Young",
+        "english_title": "Too Old to Die Young",
+        "first_air_year": 2019
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
+    },
+    "f25d499c635b3438418c31fb51df79830d1e49105a9069d6f552a4afdadc844d": {
+      "identity": {
+        "id": "prime:B0H5TJGKYD",
+        "prime_id": "B0H5TJGKYD",
+        "kind": "tv",
+        "original_title": "Sterling Point",
+        "english_title": "Sterling Point",
+        "first_air_year": 2026
+      },
+      "checked_at": "2026-11-23T04:54:03+00:00",
+      "status": "pending_review",
+      "evidence": {
+        "stage_order": [
+          "tavily",
+          "douban",
+          "wikipedia",
+          "baidu"
+        ],
+        "stages": [
+          {
+            "stage": "tavily",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "douban",
+            "status": "unavailable",
+            "results": []
+          },
+          {
+            "stage": "wikipedia",
+            "status": "not_found",
+            "results": []
+          },
+          {
+            "stage": "baidu",
+            "status": "unavailable",
+            "results": []
+          }
+        ],
+        "candidate_names": [],
+        "playback_status": "not_checked",
+        "retryable": true,
+        "status": "pending_review"
+      },
+      "next_retry_at": "2026-11-23T10:54:03+00:00"
     }
   },
   "budgets": {
