@@ -61,6 +61,14 @@ def verified_release(path, raw):
     return doc
 
 
+def object_stamp(response):
+    if response.status_code == 404:
+        return 404, None
+    if response.status_code == 200 and (etag := response.headers.get("ETag")):
+        return 200, etag
+    raise PublishError("Current OCI object status or ETag is unavailable")
+
+
 def check_urls(upload, public):
     u, p = urlsplit(upload), urlsplit(public)
     if any(x.scheme != "https" or x.username or x.password or x.query or x.fragment for x in (u, p)):
@@ -86,8 +94,9 @@ class Mirror:
             raise PublishError("public OCI endpoint unavailable") from None
         return response
 
-    def put(self, relative, *, before=None, require_absent=False):
-        data = (self.docs / relative).read_bytes()
+    def put(self, relative, *, before=None, require_absent=False, data=None):
+        if data is None:
+            data = (self.docs / relative).read_bytes()
         immutable = relative.startswith(("images/", "releases/"))
         headers = {"Content-Type": "image/jpeg" if relative.endswith(".jpg") else "application/json; charset=utf-8",
                    "Cache-Control": "public, max-age=31536000, immutable" if immutable else "no-cache",
@@ -112,21 +121,58 @@ class Mirror:
                 pass
             if attempt < 2:
                 time.sleep(2 ** attempt)
-        raise PublishError("OCI upload failed after bounded retries; version pointer was not advanced")
+        raise PublishError("OCI upload response could not be confirmed after bounded retries")
 
-    def replace(self, relative, current):
+    def replace(self, relative, current, *, data=None):
         if current.status_code == 404:
-            self.put(relative, require_absent=True)
+            self.put(relative, require_absent=True, data=data)
         elif current.status_code == 200 and (etag := current.headers.get("ETag")):
-            self.put(relative, before=etag)
+            self.put(relative, before=etag, data=data)
         else:
             raise PublishError("Current OCI object ETag is unavailable")
 
+    def reconcile_compatibility(self):
+        """Restore the compatibility file from the release named by the live manifest."""
+        for attempt in range(3):
+            current = self.get("version.json")
+            stamp = object_stamp(current)
+            legacy = self.get("catalog.json")
+            object_stamp(legacy)
+            if current.status_code == 404:
+                return current, legacy
+
+            version = current.json()
+            if not isinstance(version, dict):
+                raise PublishError("Current OCI manifest is malformed")
+            path = safe_release(version.get("catalog_path"))
+            if path.split("/")[1] != version.get("catalog_sha256"):
+                raise PublishError("Current OCI manifest has inconsistent release identity")
+            release = self.get(path)
+            if release.status_code != 200:
+                raise PublishError("Current OCI release is unavailable")
+            verified_release(path, release.content)
+            if object_stamp(self.get("version.json")) != stamp:
+                continue
+            if legacy.status_code == 200 and legacy.content == release.content:
+                return current, legacy
+
+            try:
+                self.replace("catalog.json", legacy, data=release.content)
+            except PublishError:
+                if attempt == 2:
+                    raise PublishError("OCI compatibility recovery did not finish; retry publication") from None
+                continue
+            legacy = self.get("catalog.json")
+            if (legacy.status_code == 200 and legacy.content == release.content
+                    and object_stamp(self.get("version.json")) == stamp):
+                print("OCI compatibility catalog aligned with the verified current release.")
+                return current, legacy
+        raise PublishError("OCI version or compatibility object kept changing; retry publication")
+
     def publish(self, force=False):
         version, paths = checked_files(self.docs)
-        current = self.get("version.json")
-        if current.status_code not in (200, 404) or current.status_code == 200 and not current.headers.get("ETag"):
-            raise PublishError("Could not read the current OCI version and ETag")
+        # Also handles a previous process stopping after committing its manifest.
+        current, legacy = self.reconcile_compatibility()
         rollback_ready = True
         if rollback := version.get("previous_catalog_path"):
             old = self.get(rollback)
@@ -136,18 +182,13 @@ class Mirror:
                 require_filtered(verified_release(rollback, old.content), read_registry())
             else:
                 raise PublishError("Rollback object is unavailable")
-        legacy = self.get("catalog.json")
-        if legacy.status_code not in (200, 404) or legacy.status_code == 200 and not legacy.headers.get("ETag"):
-            raise PublishError("Could not read the compatibility catalog and ETag")
         expected_version = (self.docs / "version.json").read_bytes()
         expected_catalog = (self.docs / "catalog.json").read_bytes()
         if (not force and rollback_ready and current.status_code == legacy.status_code == 200
                 and current.content == expected_version and legacy.content == expected_catalog):
-            existing = self.get(version["catalog_path"])
-            if existing.status_code == 200 and existing.content == expected_catalog:
-                print("OCI mirror already current; no uploads needed.")
-                return
-        # Upload and verify immutable assets before changing either public pointer.
+            print("OCI mirror already current; no uploads needed.")
+            return
+        # Publish the primary manifest only after validating its immutable dependencies.
         with ThreadPoolExecutor(max_workers=6) as pool:
             list(pool.map(self.put, paths))
         remote = self.get(version["catalog_path"])
@@ -158,17 +199,19 @@ class Mirror:
             if old.status_code != 200:
                 raise PublishError("Rollback object is unavailable at readback")
             verified_release(rollback, old.content)
-        observed = self.get("version.json")
-        if observed.status_code != current.status_code or observed.headers.get("ETag") != current.headers.get("ETag"):
-            raise PublishError("OCI version changed before compatibility publication")
-        if legacy.content != expected_catalog:
-            self.replace("catalog.json", legacy)
-        if self.get("catalog.json").content != expected_catalog:
-            raise PublishError("Compatibility catalog readback failed")
-        self.replace("version.json", current)
-        remote_version = self.get("version.json")
+        try:
+            if current.content != expected_version:
+                self.replace("version.json", current)
+        except PublishError:
+            # A lost response can mean the PUT succeeded. Read the live pointer
+            # instead of guessing whether compatibility should follow old or new.
+            remote_version, legacy = self.reconcile_compatibility()
+            if remote_version.content != expected_version:
+                raise
+        else:
+            remote_version, legacy = self.reconcile_compatibility()
         if (remote_version.status_code != 200 or remote_version.content != expected_version
-                or self.get("catalog.json").content != expected_catalog):
+                or legacy.status_code != 200 or legacy.content != expected_catalog):
             raise PublishError("OCI version pointer verification failed")
         print(f'OCI mirror verified: {version["item_count"]} titles, {version["image_count"]} images, version={version["version"]}.')
 
@@ -196,7 +239,10 @@ def main():
 if __name__ == "__main__":
     try:
         sys.exit(main())
-    except (PublishError, OSError, ValueError, KeyError, requests.RequestException) as exc:
+    except PublishError as exc:
+        print(f"OCI mirror publication failed: {exc}")
+        sys.exit(2)
+    except (OSError, ValueError, KeyError, requests.RequestException):
         # Request exceptions include full URLs, which could reveal the upload credential.
         print("OCI mirror publication failed. Check configured scope, expiry, network and validated assets; upload credentials were not logged.")
         sys.exit(2)

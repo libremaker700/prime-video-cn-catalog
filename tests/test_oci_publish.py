@@ -8,6 +8,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+import requests
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -29,7 +30,8 @@ class Response:
 class Objects:
     def __init__(self, fail=None):
         self.data, self.puts, self.fail = {}, [], fail
-        self.race = False
+        self.concurrent_manifest = None
+        self.lost_manifest_response = False
     def get(self, url, **kwargs):
         relative = url[len(PUBLIC):]
         return Response(200, self.data[relative]) if relative in self.data else Response(404)
@@ -38,14 +40,18 @@ class Objects:
         self.puts.append(relative)
         if relative == self.fail:
             return Response(503)
-        if self.race and relative == "version.json":
-            self.data[relative] = b'{"version":"concurrent"}'
+        if self.concurrent_manifest and relative == "version.json":
+            self.data[relative] = self.concurrent_manifest
+            self.concurrent_manifest = None
         existing = self.data.get(relative)
         if ((existing is not None and headers.get("If-None-Match") == "*")
                 or ("If-Match" in headers and (existing is None
                     or hashlib.sha256(existing).hexdigest() != headers["If-Match"]))):
             return Response(412)
         self.data[relative] = data
+        if relative == "version.json" and self.lost_manifest_response:
+            self.lost_manifest_response = False
+            raise requests.Timeout()
         return Response(200)
 
 
@@ -61,26 +67,36 @@ class PublisherTests(unittest.TestCase):
         for name in ("preview.keystore", "provider-private.json", "app.apk"):
             (docs / name).write_text("must stay local")
 
-    def test_only_validated_public_assets_and_version_last(self):
+    def revised_catalog(self, docs, name="修正"):
+        previous = json.loads((docs / "version.json").read_bytes())
+        items = json.loads((docs / "catalog.json").read_bytes())["items"]
+        return publish(docs, [{**items[0], "display_name_zh": name}], previous)
+
+    def test_only_validated_public_assets_before_manifest_then_compatibility(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             docs = Path(tmp)
             self.fixture(docs)
             store = Objects()
             Mirror(docs, UPLOAD, PUBLIC, store).publish()
-            self.assertEqual(store.puts[-1], "version.json")
+            self.assertEqual(store.puts[-2:], ["version.json", "catalog.json"])
             self.assertEqual(len(store.puts), 4)
             self.assertFalse(any(x.endswith((".keystore", ".apk")) or "private" in x for x in store.puts))
 
     def test_failed_asset_upload_preserves_existing_remote_version(self):
-        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"):
+        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
             docs = Path(tmp)
             self.fixture(docs)
-            store = Objects(fail="images/test.jpg")
-            store.data["version.json"] = b'{"version":"previous"}'
+            store = Objects()
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            previous = store.data["version.json"]
+            self.revised_catalog(docs)
+            store.puts.clear()
+            store.fail = "images/test.jpg"
             with self.assertRaises(PublishError):
-                Mirror(docs, UPLOAD, PUBLIC, store).publish(force=True)
+                mirror.publish(force=True)
             self.assertNotIn("version.json", store.puts)
-            self.assertEqual(store.data["version.json"], b'{"version":"previous"}')
+            self.assertEqual(store.data["version.json"], previous)
 
     def test_repeated_publication_skips_uploads_after_hash_verification(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
@@ -108,18 +124,89 @@ class PublisherTests(unittest.TestCase):
             store = Objects()
             Mirror(docs, UPLOAD, PUBLIC, store).publish()
             self.assertEqual(store.data[previous["catalog_path"]], (docs / previous["catalog_path"]).read_bytes())
-            self.assertEqual(store.puts[-1], "version.json")
+            self.assertEqual(store.puts[-2:], ["version.json", "catalog.json"])
 
-    def test_conditional_write_preserves_a_concurrent_version(self):
+    def test_conditional_write_preserves_a_concurrent_version_and_repairs_its_compatibility(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             docs = Path(tmp)
             self.fixture(docs)
             store = Objects()
-            store.data["version.json"] = b'{"version":"before"}'
-            store.race = True
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            winner = self.revised_catalog(docs, "另一任务发布")
+            winner_manifest = (docs / "version.json").read_bytes()
+            winner_catalog = (docs / "catalog.json").read_bytes()
+            store.data[winner["catalog_path"]] = winner_catalog
+            self.revised_catalog(docs)
+            store.concurrent_manifest = winner_manifest
             with self.assertRaises(PublishError):
-                Mirror(docs, UPLOAD, PUBLIC, store).publish()
-            self.assertEqual(store.data["version.json"], b'{"version":"concurrent"}')
+                mirror.publish()
+            self.assertEqual(store.data["version.json"], winner_manifest)
+            self.assertEqual(store.data["catalog.json"], winner_catalog)
+
+    def test_manifest_failure_does_not_publish_uncommitted_compatibility_catalog(self):
+        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+            docs = Path(tmp)
+            self.fixture(docs)
+            store = Objects()
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            before = {name: store.data[name] for name in ("version.json", "catalog.json")}
+            self.revised_catalog(docs)
+            store.fail = "version.json"
+            store.puts.clear()
+            with self.assertRaises(PublishError):
+                mirror.publish()
+            self.assertNotIn("catalog.json", store.puts)
+            self.assertEqual({name: store.data[name] for name in before}, before)
+
+    def test_retry_repairs_compatibility_from_a_previous_successful_manifest_write(self):
+        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+            docs = Path(tmp)
+            self.fixture(docs)
+            store = Objects()
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            old_legacy = store.data["catalog.json"]
+            self.revised_catalog(docs)
+            store.fail = "catalog.json"
+            with self.assertRaisesRegex(PublishError, "compatibility recovery did not finish"):
+                mirror.publish()
+            self.assertEqual(store.data["version.json"], (docs / "version.json").read_bytes())
+            self.assertEqual(store.data["catalog.json"], old_legacy)
+            store.fail = None
+            store.puts.clear()
+            mirror.publish()
+            self.assertEqual(store.puts, ["catalog.json"])
+            self.assertEqual(store.data["catalog.json"], (docs / "catalog.json").read_bytes())
+
+    def test_recovers_legacy_drift_even_when_next_manifest_attempt_fails(self):
+        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+            docs = Path(tmp)
+            self.fixture(docs)
+            store = Objects()
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            old_legacy = store.data["catalog.json"]
+            self.revised_catalog(docs)
+            store.data["catalog.json"] = (docs / "catalog.json").read_bytes()
+            store.fail = "version.json"
+            with self.assertRaises(PublishError):
+                mirror.publish()
+            self.assertEqual(store.data["catalog.json"], old_legacy)
+
+    def test_lost_manifest_response_does_not_restore_the_old_catalog(self):
+        with tempfile.TemporaryDirectory() as tmp, patch("publish_oci.time.sleep"), contextlib.redirect_stdout(io.StringIO()):
+            docs = Path(tmp)
+            self.fixture(docs)
+            store = Objects()
+            mirror = Mirror(docs, UPLOAD, PUBLIC, store)
+            mirror.publish()
+            self.revised_catalog(docs)
+            store.lost_manifest_response = True
+            mirror.publish()
+            self.assertEqual(store.data["version.json"], (docs / "version.json").read_bytes())
+            self.assertEqual(store.data["catalog.json"], (docs / "catalog.json").read_bytes())
 
     def test_scope_and_transport_are_restricted(self):
         check_urls(UPLOAD, PUBLIC)
