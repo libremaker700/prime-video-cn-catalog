@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 from catalog import validate
+from catalog_exclusions import read_registry, require_filtered
 from publish_source_verification import validate_publication
 
 DOCS = Path(__file__).resolve().parent.parent / "docs"
@@ -15,6 +16,10 @@ def main():
     catalog = json.loads(raw)
     version = json.loads((DOCS / "version.json").read_bytes())
     failures = validate(catalog, DOCS, version, raw)
+    try:
+        require_filtered(catalog, read_registry())
+    except (ValueError, OSError) as error:
+        failures.append("reviewed catalog exclusions: " + str(error))
     try:
         validate_publication(DOCS)
     except (ValueError, OSError) as error:

@@ -1,12 +1,12 @@
 {
-  "version": "17b1034958dc4f02",
-  "catalog_sha256": "17b1034958dc4f02dbca369c66148ab2318f0128098f84d1f26893d60b2695c7",
-  "catalog_path": "releases/17b1034958dc4f02dbca369c66148ab2318f0128098f84d1f26893d60b2695c7/catalog.json",
-  "generated_at": "2026-11-25T04:26:34+00:00",
+  "version": "5e738eb98a17d0db",
+  "catalog_sha256": "5e738eb98a17d0dbda453fd4e1d5fa4f46b094deeb9296e8e72b2e9db5339133",
+  "catalog_path": "releases/5e738eb98a17d0dbda453fd4e1d5fa4f46b094deeb9296e8e72b2e9db5339133/catalog.json",
+  "generated_at": "2026-11-25T10:55:37+00:00",
   "last_success_at": "2026-10-29T00:56:48+00:00",
-  "publication_reason": "partial_sync",
-  "item_count": 249,
-  "image_count": 337,
+  "publication_reason": "reviewed_exclusion_sync",
+  "item_count": 247,
+  "image_count": 334,
   "refresh_status": "partial",
   "last_attempt_at": "2026-11-25T04:26:34+00:00",
   "last_partial_at": "2026-11-25T04:26:34+00:00",
@@ -19,6 +19,5 @@
     "attempted": 23,
     "deferred": 0,
     "budget_seconds": 1200
-  },
-  "previous_catalog_path": "releases/752d69bd983bd23aa280cef1a769fa5368f8920e427a9a43ce606615730d451e/catalog.json"
+  }
 }

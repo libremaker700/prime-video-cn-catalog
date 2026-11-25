@@ -1,7 +1,7 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-25T04:26:34+00:00",
-  "item_count": 249,
+  "generated_at": "2026-11-25T10:55:37+00:00",
+  "item_count": 247,
   "items": [
     {
       "id": "seed:the-tomorrow-war",
@@ -18633,58 +18633,6 @@
       "updated_at": "2026-11-25T04:25:06+00:00"
     },
     {
-      "id": "prime:0TVL0IPPLXF7SQBFU4KW3BZTH8",
-      "slug": "prime-0tvl0ipplxf7sqbfu4kw3bzth8",
-      "prime_id": "0TVL0IPPLXF7SQBFU4KW3BZTH8",
-      "kind": "movie",
-      "identity_status": "verified_official_mapping",
-      "display_name_zh": "Spookley: The Square Pumpkin",
-      "name_status": "verified_prime_official",
-      "prime_official_name_zh": "Spookley: The Square Pumpkin",
-      "seasons": [],
-      "sources": [
-        {
-          "type": "prime_official",
-          "name": "Prime Video public page",
-          "url": "https://www.primevideo.com/-/zh/detail/0TVL0IPPLXF7SQBFU4KW3BZTH8",
-          "retrieved_at": "2026-11-25T04:25:10+00:00"
-        }
-      ],
-      "original_title": null,
-      "aliases_zh": [],
-      "details": {
-        "release_date": "2004年9月30日",
-        "genres": "儿童 / 奇幻"
-      },
-      "official_catalog_id": "amzn1.dv.gti.f8a9f734-dca4-4022-f898-aecdbb2e56fc",
-      "year": 2004,
-      "release_date": "2004年9月30日",
-      "official_checked_at": "2026-11-25T04:25:10+00:00",
-      "synopsis_original": "Poor Spookley is a pumpkin whose shape is square rather then round. He's teased and taunted by other mean round pumpkins. But he receives help from a Scarecrow and his 2 bat side-kicks and 3 very funny spiders.",
-      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0TVL0IPPLXF7SQBFU4KW3BZTH8",
-      "synopsis_status": "translation_pending",
-      "poster": {
-        "path": "images/76764a7f16231271d3514683ae9c510ddd58c674e2dcb7a4b647352df9f77cf8.jpg",
-        "sha256": "76764a7f16231271d3514683ae9c510ddd58c674e2dcb7a4b647352df9f77cf8",
-        "width": 1280,
-        "height": 720,
-        "scope": "series",
-        "season_number": null,
-        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/17c621547a4c428a1df172e063b01e504134fa3a6da28086b28afe5d195aeca0._SX1280_FMjpg_.jpg",
-        "source_type": "prime_official",
-        "provenance": "public_source_download",
-        "retrieved_at": "2026-11-25T04:25:10+00:00"
-      },
-      "poster_scope": "series",
-      "poster_status": "ok",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "genres": "特殊兴趣 / 儿童 / 动画 / 奇幻",
-      "metadata_attempted_at": "2026-11-25T04:25:10+00:00",
-      "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-25T04:25:10+00:00",
-      "updated_at": "2026-11-25T04:25:10+00:00"
-    },
-    {
       "id": "prime:0NLAW2HKBYAYY8MEVNVHRU22YY",
       "slug": "prime-0nlaw2hkbyayy8mevnvhru22yy",
       "prime_id": "0NLAW2HKBYAYY8MEVNVHRU22YY",
@@ -20026,115 +19974,6 @@
       "refresh_status": "checked",
       "metadata_checked_at": "2026-11-22T04:08:11+00:00",
       "updated_at": "2026-11-22T04:08:11+00:00"
-    },
-    {
-      "id": "prime:0KJBDA1XBBCGLLRSIOAISFT4Y7",
-      "slug": "prime-0kjbda1xbbcgllrsioaisft4y7",
-      "prime_id": "0KJBDA1XBBCGLLRSIOAISFT4Y7",
-      "kind": "tv",
-      "identity_status": "verified_official_mapping",
-      "display_name_zh": "LOL: Last One Laughing Philippines",
-      "name_status": "verified_prime_official",
-      "prime_official_name_zh": "LOL: Last One Laughing Philippines - Season 2",
-      "seasons": [
-        {
-          "season": 1,
-          "official_compact_id": "0FKWLNTAYMFTSZ7TRZSPLG84NM",
-          "official_catalog_id": "amzn1.dv.gti.072d4b46-634b-4c99-ab1e-d227f785dd92",
-          "official_link": "/-/zh/detail/0FKWLNTAYMFTSZ7TRZSPLG84NM",
-          "id": "prime:0KJBDA1XBBCGLLRSIOAISFT4Y7:s1",
-          "synopsis_status": "translation_pending",
-          "official_id": "0FKWLNTAYMFTSZ7TRZSPLG84NM",
-          "official_title_zh": "LOL: Last One Laughing Philippines - Season 1",
-          "year": 2024,
-          "release_date": "2024年7月3日",
-          "official_checked_at": "2026-11-24T04:15:44+00:00",
-          "sources": [
-            {
-              "type": "prime_official",
-              "name": "Prime Video public page",
-              "url": "https://www.primevideo.com/-/zh/detail/0FKWLNTAYMFTSZ7TRZSPLG84NM",
-              "retrieved_at": "2026-11-24T04:15:44+00:00"
-            }
-          ],
-          "synopsis_original": "“LOL” or “Last One Laughing” is a reality show where ten comedians battle it out to make each other laugh. With no smiles allowed, they unleash their best jokes and antics, aiming to make each other crack up for six hours. It’s a hilarious battle of wit and self-control, where the last one laughing wins ONE MILLION PESOS!",
-          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FKWLNTAYMFTSZ7TRZSPLG84NM",
-          "poster": {
-            "path": "images/d55ee21f764acd1ea665748c44ebe2609e0d1cbfd16e6fd2d244226e23da30bf.jpg",
-            "sha256": "d55ee21f764acd1ea665748c44ebe2609e0d1cbfd16e6fd2d244226e23da30bf",
-            "width": 1280,
-            "height": 720,
-            "scope": "season",
-            "season_number": 1,
-            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/7d5b379575cebb4095c75897cf4f37e0a5bf2fe66f3e784299295347dd2115ee._SX1280_FMjpg_.jpg",
-            "source_type": "prime_official",
-            "provenance": "public_source_download",
-            "retrieved_at": "2026-11-24T04:15:44+00:00"
-          },
-          "poster_scope": "season",
-          "poster_status": "ok"
-        },
-        {
-          "season": 2,
-          "official_compact_id": "0KJBDA1XBBCGLLRSIOAISFT4Y7",
-          "official_catalog_id": "amzn1.dv.gti.5ae3128d-487c-4f89-93af-ee95d4bcbd4f",
-          "official_link": "/-/zh/detail/0KJBDA1XBBCGLLRSIOAISFT4Y7",
-          "official_id": "0KJBDA1XBBCGLLRSIOAISFT4Y7",
-          "official_title_zh": "LOL: Last One Laughing Philippines - Season 2",
-          "year": 2026,
-          "release_date": "2026年10月29日",
-          "official_checked_at": "2026-11-24T04:15:43+00:00",
-          "sources": [
-            {
-              "type": "prime_official",
-              "name": "Prime Video public page",
-              "url": "https://www.primevideo.com/-/zh/detail/0KJBDA1XBBCGLLRSIOAISFT4Y7",
-              "retrieved_at": "2026-11-24T04:15:43+00:00"
-            }
-          ],
-          "synopsis_original": "A new batch of the Philippines' best comedians joins host Vice Ganda in a brutal but hilarious six-hour battle to keep a straight face or risk being out of the game. With rougher roads, wilder detours, and double the madness, Season 2 raises the stakes. The ride begins. Who will be the Last One Laughing?",
-          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0KJBDA1XBBCGLLRSIOAISFT4Y7",
-          "synopsis_status": "translation_pending",
-          "poster": {
-            "path": "images/efa68c099b9d9cd86bb7921ff2221cd654bc11dbb20605a89e3eeb85f8d44cd1.jpg",
-            "sha256": "efa68c099b9d9cd86bb7921ff2221cd654bc11dbb20605a89e3eeb85f8d44cd1",
-            "width": 1280,
-            "height": 720,
-            "scope": "season",
-            "season_number": 2,
-            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/0d6356e47d1e322e0831c97853d4348241627b91494b8dee320855f69b50760b._SX1280_FMjpg_.jpg",
-            "source_type": "prime_official",
-            "provenance": "public_source_download",
-            "retrieved_at": "2026-11-24T04:15:43+00:00"
-          },
-          "poster_scope": "season",
-          "poster_status": "ok",
-          "id": "prime:0KJBDA1XBBCGLLRSIOAISFT4Y7:s2"
-        }
-      ],
-      "sources": [
-        {
-          "type": "prime_official",
-          "name": "Prime Video public page",
-          "url": "https://www.primevideo.com/-/zh/detail/0KJBDA1XBBCGLLRSIOAISFT4Y7",
-          "retrieved_at": "2026-11-24T04:15:43+00:00"
-        },
-        {
-          "type": "prime_official",
-          "name": "Prime Video public page",
-          "url": "https://www.primevideo.com/-/zh/detail/0FKWLNTAYMFTSZ7TRZSPLG84NM",
-          "retrieved_at": "2026-11-24T04:15:44+00:00"
-        }
-      ],
-      "original_title": null,
-      "aliases_zh": [],
-      "details": {},
-      "prime_series_id": "amzn1.dv.gti.072d4b46-634b-4c99-ab1e-d227f785dd92",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "metadata_attempted_at": "2026-11-24T04:15:44+00:00",
-      "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-24T04:15:44+00:00",
-      "updated_at": "2026-11-24T04:15:44+00:00"
     },
     {
       "id": "prime:0JP3YPUKPPI2J2DUBNLKW6Z9KH",

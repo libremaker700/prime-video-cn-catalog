@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
+from catalog_exclusions import filter_items, read_registry, require_filtered
 
 
 def now():
@@ -205,7 +206,8 @@ def write_json(path, value):
 
 def publish(docs, items, previous, *, success=False, reason="sync", refresh=None):
     from app_metadata import normalize_fields
-    items = normalize_fields(items)
+    registry = read_registry()
+    items = filter_items(normalize_fields(items), registry)
     catalog = {"schema": "prime-video-cn-catalog/1", "generated_at": now(), "item_count": len(items), "items": items}
     failures = validate(catalog, docs)
     if failures:
@@ -232,9 +234,20 @@ def publish(docs, items, previous, *, success=False, reason="sync", refresh=None
             version['last_partial_at'] = catalog['generated_at']
         elif refresh['status'] == 'success' and success:
             version['last_full_success_at'] = catalog['generated_at']
-    old_path = previous.get('catalog_path')
-    if old_path and old_path != rel:
-        version['previous_catalog_path'] = old_path
+    for field in ("catalog_path", "previous_catalog_path"):
+        old_path = previous.get(field)
+        match = re.fullmatch(r"releases/([a-f0-9]{64})/catalog\.json", old_path or "")
+        if not match or old_path == rel or not (docs / old_path).is_file():
+            continue
+        old_raw = (docs / old_path).read_bytes()
+        if hashlib.sha256(old_raw).hexdigest() != match[1]:
+            continue
+        try:
+            require_filtered(json.loads(old_raw), registry)
+        except (ValueError, KeyError):
+            continue
+        version["previous_catalog_path"] = old_path
+        break
     release = docs / rel
     release.parent.mkdir(parents=True, exist_ok=True)
     if release.exists() and release.read_bytes() != raw:
