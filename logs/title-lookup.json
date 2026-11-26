@@ -1,22 +1,22 @@
 {
-  "checked_at": "2026-11-25T04:48:20+00:00",
+  "checked_at": "2026-11-26T04:48:02+00:00",
   "searched": 0,
   "direct_verified": 0,
   "cache_hits": 0,
-  "skipped_verified": 54,
-  "pending": 140,
+  "skipped_verified": 55,
+  "pending": 139,
   "attempted": 12,
   "monthly_reserved": 100,
   "monthly_limit": 100,
   "summaries": {
     "attempted": 0,
     "verified": 0,
-    "pending": 168,
+    "pending": 165,
     "cache_hits": 0
   },
   "keys_configured": 4,
   "key_failovers": 0,
-  "remaining_unverified": 195,
+  "remaining_unverified": 194,
   "direct_network_errors": 1,
   "source_diagnostics": [
     {
