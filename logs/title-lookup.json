@@ -1,28 +1,24 @@
 {
-  "checked_at": "2026-11-26T04:48:02+00:00",
+  "checked_at": "2026-11-27T04:46:22+00:00",
   "searched": 0,
   "direct_verified": 0,
   "cache_hits": 0,
-  "skipped_verified": 55,
-  "pending": 139,
+  "skipped_verified": 57,
+  "pending": 145,
   "attempted": 12,
   "monthly_reserved": 100,
   "monthly_limit": 100,
   "summaries": {
     "attempted": 0,
     "verified": 0,
-    "pending": 165,
+    "pending": 171,
     "cache_hits": 0
   },
   "keys_configured": 4,
   "key_failovers": 0,
-  "remaining_unverified": 194,
+  "remaining_unverified": 200,
   "direct_network_errors": 1,
   "source_diagnostics": [
-    {
-      "host": "baike.baidu.com",
-      "http_status": 403
-    },
     {
       "host": "zh.wikipedia.org",
       "http_status": 429
