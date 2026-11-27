@@ -1,7 +1,7 @@
 {
   "schema": "prime-video-cn-catalog/1",
-  "generated_at": "2026-11-25T10:55:37+00:00",
-  "item_count": 247,
+  "generated_at": "2026-11-27T04:23:49+00:00",
+  "item_count": 257,
   "items": [
     {
       "id": "seed:the-tomorrow-war",
@@ -2699,7 +2699,7 @@
       ],
       "updated_at": "2026-10-30T00:53:01+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:26:02+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:28+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:53:01+00:00"
     },
@@ -2909,7 +2909,7 @@
       ],
       "updated_at": "2026-10-30T00:53:07+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:26:08+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:32+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.6159cf4c-78ee-4efd-80e7-f6e055bfeebd",
       "metadata_checked_at": "2026-10-30T00:53:07+00:00"
@@ -4642,7 +4642,7 @@
       ],
       "updated_at": "2026-11-14T04:05:43+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:25:36+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:05+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.674c80d4-49b4-4707-bf8d-b017e9ea90e6",
       "metadata_checked_at": "2026-11-14T04:05:43+00:00"
@@ -6226,7 +6226,7 @@
       ],
       "updated_at": "2026-10-30T00:39:02+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:25:56+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:23+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-10-30T00:39:02+00:00"
     },
@@ -7577,7 +7577,7 @@
       ],
       "updated_at": "2026-11-13T04:11:01+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:25:27+00:00",
+      "metadata_attempted_at": "2026-11-27T04:22:58+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.da5ce776-2d19-4228-bc36-88581e0bf429",
       "metadata_checked_at": "2026-11-13T04:11:01+00:00"
@@ -8713,7 +8713,7 @@
       "updated_at": "2026-11-13T04:13:09+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "name_checked_at": "2026-10-29T15:52:36+00:00",
-      "metadata_attempted_at": "2026-11-25T04:25:28+00:00",
+      "metadata_attempted_at": "2026-11-27T04:22:59+00:00",
       "refresh_status": "failed",
       "metadata_checked_at": "2026-11-13T04:13:09+00:00"
     },
@@ -9789,13 +9789,13 @@
           "official_title_zh": "Clifford the Big Red Dog - Season 2",
           "year": 2020,
           "release_date": "2020年5月21日",
-          "official_checked_at": "2026-11-25T04:26:10+00:00",
+          "official_checked_at": "2026-11-27T04:23:34+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-              "retrieved_at": "2026-11-25T04:26:10+00:00"
+              "retrieved_at": "2026-11-27T04:23:34+00:00"
             }
           ],
           "synopsis_original": "Emily Elizabeth, Clifford, and all of Birdwell Island continue the adventures as they build the island’s first mini golf course, hang ten on some gnarly waves, and meet the cutest new puppy pal - Hudson! From gathering clues disguised as special agents to singing a sea shanty with the elusive Babette, the friends learn patience, teamwork, and that practice makes perfect when trying something new.",
@@ -9811,7 +9811,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/3c55573cf7c0bc84b4afe91e51c232d7cf04660da282cf439ba76eb7279d80c4._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:10+00:00"
+            "retrieved_at": "2026-11-27T04:23:34+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9835,7 +9835,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/5aed5adaa44c9a54960c1f47374d0ab5175762ce491559a6a0a569b476cb86fc._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:11+00:00"
+            "retrieved_at": "2026-11-27T04:23:35+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -9845,13 +9845,13 @@
           "official_link": "/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
           "identity_source": "app_official_selector_snapshot",
           "official_catalog_id": "amzn1.dv.gti.1ebadd0a-6010-1c15-36f8-990b685f4921",
-          "official_checked_at": "2026-11-25T04:26:11+00:00",
+          "official_checked_at": "2026-11-27T04:23:35+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-              "retrieved_at": "2026-11-25T04:26:11+00:00"
+              "retrieved_at": "2026-11-27T04:23:35+00:00"
             }
           ],
           "synopsis_original": "Come along with Emily Elizabeth, Clifford, and their friends as they spend a day at the Birdwell Fun Fair, become hard hitting reporters, and build a cool clubhouse! From throwing a welcome party for a new islander to turning the sounds of a thunderstorm into a new song, the friends learn that they can always look to each other when they feel scared and the importance of enjoying today.",
@@ -9869,27 +9869,27 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GZ3QJUCJ4NQH7LN4473BVF6E9",
-          "retrieved_at": "2026-11-25T04:26:11+00:00"
+          "retrieved_at": "2026-11-27T04:23:35+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0RUQ85ACX38H2CYGZWPEJ5J9Q2",
-          "retrieved_at": "2026-11-25T04:26:10+00:00"
+          "retrieved_at": "2026-11-27T04:23:34+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TK5BQA4A3PR2279WGFHTQNX7G",
-          "retrieved_at": "2026-11-25T04:26:10+00:00"
+          "retrieved_at": "2026-11-27T04:23:34+00:00"
         }
       ],
-      "updated_at": "2026-11-25T04:26:15+00:00",
+      "updated_at": "2026-11-27T04:23:38+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:26:15+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:38+00:00",
       "refresh_status": "partial",
       "prime_series_id": "amzn1.dv.gti.d67af1e5-6bf7-4c6b-bad5-1acd26bb28fa",
-      "metadata_checked_at": "2026-11-25T04:26:15+00:00",
+      "metadata_checked_at": "2026-11-27T04:23:38+00:00",
       "official_unmapped_seasons": [
         {
           "season": 1,
@@ -13431,7 +13431,7 @@
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
       "release_date": "2002年6月20日",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-25T04:25:56+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:24+00:00",
       "refresh_status": "failed",
       "official_catalog_id": "amzn1.dv.gti.4b0c9f3d-c948-408f-939e-4dcebd661bea",
       "year": 2002,
@@ -16174,7 +16174,7 @@
       ],
       "updated_at": "2026-11-06T04:20:25+00:00",
       "snapshot_status": "existing_app_snapshot_not_redownloaded",
-      "metadata_attempted_at": "2026-11-25T04:25:44+00:00",
+      "metadata_attempted_at": "2026-11-27T04:23:13+00:00",
       "refresh_status": "failed",
       "prime_series_id": "amzn1.dv.gti.c1ed569e-ac5b-41fd-8e81-bb521ecdd9ec",
       "metadata_checked_at": "2026-11-06T04:20:25+00:00"
@@ -18699,7 +18699,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0NRT15S2XG06SG5HBV5NQAW3E3",
-          "retrieved_at": "2026-11-19T04:12:32+00:00"
+          "retrieved_at": "2026-11-26T04:20:53+00:00"
         }
       ],
       "original_title": null,
@@ -18711,7 +18711,7 @@
       "official_catalog_id": "amzn1.dv.gti.918b5f07-0744-4ada-ab44-979c14087b2b",
       "year": 2024,
       "release_date": "2024年5月1日",
-      "official_checked_at": "2026-11-19T04:12:32+00:00",
+      "official_checked_at": "2026-11-26T04:20:53+00:00",
       "synopsis_zh": "根据广受好评的当代同名爱情小说改编，《对你的想象》女主角索琳（安妮海瑟薇饰）是一位40岁的单身母亲，她与全世界最炙手可热的男生乐队“八月月亮”24岁的主唱黑兹坎贝尔（尼古拉斯加利赞饰）开始了一段意想不到的恋情。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -18726,16 +18726,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/2c2d49f54ac23f0281bf5f5d98bda99a769882c7a09003f646a3198175d7cb69._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:33+00:00"
+        "retrieved_at": "2026-11-26T04:20:54+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "喜剧 / 剧情片 / 爱情",
-      "metadata_attempted_at": "2026-11-19T04:12:33+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:54+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:33+00:00",
-      "updated_at": "2026-11-19T04:12:33+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:54+00:00",
+      "updated_at": "2026-11-26T04:20:54+00:00"
     },
     {
       "id": "prime:0MK3JNWBGKXSGBX9L4DTTR8DAQ",
@@ -18857,7 +18857,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0J71TVVX2R7ISTOIVFTXIC4US8",
-          "retrieved_at": "2026-11-20T04:08:32+00:00"
+          "retrieved_at": "2026-11-27T04:22:49+00:00"
         }
       ],
       "original_title": null,
@@ -18869,7 +18869,7 @@
       "official_catalog_id": "amzn1.dv.gti.443db758-06aa-47ac-ac2d-ef6dfd2fd8d8",
       "year": 2009,
       "release_date": "2009年8月20日",
-      "official_checked_at": "2026-11-20T04:08:32+00:00",
+      "official_checked_at": "2026-11-27T04:22:49+00:00",
       "synopsis_zh": "这部精彩绝伦的虚幻二战电影，由奥斯卡奖提名演员布拉德·彼特（《本杰明·巴顿奇事》）主演，奥斯卡奖提名导演昆汀·塔伦蒂诺（《低俗小说》）执导。讲述在战火连天的欧洲，少女苏珊娜（梅拉尼·罗兰饰）在德军上校汉斯屠杀犹太人的行动中侥幸逃脱，三年后她在巴黎继承了一家电影院。同时，一支被纳粹军取名为“混蛋”的美军队横空出世，在奥尔多（布拉德·彼特饰）的带领下，他们的任务是拿下第三帝国的高级军事将领，平时顺便杀几个纳粹，再削几个纳粹的头皮。奥尔多的计划是在德军高级将领在电影院看戏的时候执行暗杀任务，正巧那家电影院就是苏珊娜所经营的，而苏珊娜也准备在这时候替亲人报仇。两帮素不相识的人，因为同一个目标而走到一起。《滚石》杂志影评人彼得·特拉维斯盛赞本片“充满枪林弹雨的场面以及连珠炮似的搞笑对白”，CBS电视网影评人杰克·哈密尔顿则认为本片是导演昆汀·塔伦蒂诺的又一部杰作！",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -18884,16 +18884,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e186d846d772be338fe6436b7395db6a567e53b6f23756d41b3e043869f6b506._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-20T04:08:32+00:00"
+        "retrieved_at": "2026-11-27T04:22:49+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 剧情片 / 历史 / 军事与战争",
-      "metadata_attempted_at": "2026-11-20T04:08:32+00:00",
+      "metadata_attempted_at": "2026-11-27T04:22:49+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-20T04:08:32+00:00",
-      "updated_at": "2026-11-20T04:08:32+00:00"
+      "metadata_checked_at": "2026-11-27T04:22:49+00:00",
+      "updated_at": "2026-11-27T04:22:49+00:00"
     },
     {
       "id": "prime:0LHTLQWXITS7NO60KJKW9DJ2T0",
@@ -18962,7 +18962,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0R39LCGLFJQQ0OC4WER9DIK018",
-          "retrieved_at": "2026-11-19T04:12:25+00:00"
+          "retrieved_at": "2026-11-26T04:20:40+00:00"
         }
       ],
       "original_title": null,
@@ -18974,7 +18974,7 @@
       "official_catalog_id": "amzn1.dv.gti.c9985625-2be7-4883-bef3-784b332c332c",
       "year": 2026,
       "release_date": "2026年10月8日",
-      "official_checked_at": "2026-11-19T04:12:25+00:00",
+      "official_checked_at": "2026-11-26T04:20:40+00:00",
       "synopsis_original": "Set in 1990s Andhra Pradesh amid Naxalite unrest, IPS officer George Kutty seeks revenge after a landmine blast kills his pregnant wife and unborn daughter. Meanwhile, carefree Kalyan dreams of owning a cinema but disguises himself as a Naxalite to save Sitara. Mistaken for a rebel leader, he becomes trapped between Kutty and the PWG, leading to chaos, action, emotion and redemption.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0R39LCGLFJQQ0OC4WER9DIK018",
       "synopsis_status": "translation_pending",
@@ -18988,16 +18988,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/cd6d09959c2906ad4b9daed28f98730e0e71151ba8cb5fc937bc804d37e153ff._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:26+00:00"
+        "retrieved_at": "2026-11-26T04:20:40+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 喜剧 / 剧情片 / 悬疑",
-      "metadata_attempted_at": "2026-11-19T04:12:26+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:40+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:26+00:00",
-      "updated_at": "2026-11-19T04:12:26+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:40+00:00",
+      "updated_at": "2026-11-26T04:20:40+00:00"
     },
     {
       "id": "prime:0FHW07P64EEBTUAKC060NSJAKY",
@@ -19014,7 +19014,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0FHW07P64EEBTUAKC060NSJAKY",
-          "retrieved_at": "2026-11-19T04:12:26+00:00"
+          "retrieved_at": "2026-11-26T04:20:41+00:00"
         }
       ],
       "original_title": null,
@@ -19026,7 +19026,7 @@
       "official_catalog_id": "amzn1.dv.gti.05c2f5ea-e48f-4d73-bbbd-953ee2659452",
       "year": 2014,
       "release_date": "2014年1月30日",
-      "official_checked_at": "2026-11-19T04:12:26+00:00",
+      "official_checked_at": "2026-11-26T04:20:41+00:00",
       "synopsis_original": "Mark Wahlberg stars in the incredible true story of four heroic Navy SEALs ambushed on a covert mission in Afghanistan. Rolling Stone calls it \"A Powerful Film.\"",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FHW07P64EEBTUAKC060NSJAKY",
       "synopsis_status": "translation_pending",
@@ -19040,16 +19040,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/1e1163e17a17bfaa5a0a5518c4cc13e42a11187aae7acc15d2b0ee602b317ee1._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:26+00:00"
+        "retrieved_at": "2026-11-26T04:20:42+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 剧情片 / 军事与战争",
-      "metadata_attempted_at": "2026-11-19T04:12:26+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:42+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:26+00:00",
-      "updated_at": "2026-11-19T04:12:26+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:42+00:00",
+      "updated_at": "2026-11-26T04:20:42+00:00"
     },
     {
       "id": "prime:0JYPGGDH4AHT9J1W3RPG53OULH",
@@ -19066,7 +19066,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0JYPGGDH4AHT9J1W3RPG53OULH",
-          "retrieved_at": "2026-11-19T04:12:27+00:00"
+          "retrieved_at": "2026-11-26T04:20:43+00:00"
         }
       ],
       "original_title": null,
@@ -19078,7 +19078,7 @@
       "official_catalog_id": "amzn1.dv.gti.5137a8aa-c189-4b10-a57e-fde1849007e5",
       "year": 2016,
       "release_date": "2016年9月29日",
-      "official_checked_at": "2026-11-19T04:12:27+00:00",
+      "official_checked_at": "2026-11-26T04:20:43+00:00",
       "synopsis_original": "On April 20, 2010, the Deepwater Horizon drilling rig explodes in the Gulf of Mexico, igniting a massive fireball that kills several crew members. Chief electronics technician Mike Williams (Mark Wahlberg) and his colleagues find themselves fighting for survival as the heat and the flames become stifling and overwhelming.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0JYPGGDH4AHT9J1W3RPG53OULH",
       "synopsis_status": "translation_pending",
@@ -19092,16 +19092,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/5f460d23f54ed1d7a78718b9363c067f770ebb504097dd39f14d2c8b2798e21f._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:27+00:00"
+        "retrieved_at": "2026-11-26T04:20:43+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 悬疑 / 剧情片",
-      "metadata_attempted_at": "2026-11-19T04:12:27+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:43+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:27+00:00",
-      "updated_at": "2026-11-19T04:12:27+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:43+00:00",
+      "updated_at": "2026-11-26T04:20:43+00:00"
     },
     {
       "id": "prime:0MY3TUT6K4V5EV40VMLJDDGQBT",
@@ -19118,19 +19118,19 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0MY3TUT6K4V5EV40VMLJDDGQBT",
-          "retrieved_at": "2026-11-19T04:12:28+00:00"
+          "retrieved_at": "2026-11-26T04:20:44+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {
         "release_date": "2017年5月24日",
-        "genres": "动作片"
+        "genres": "喜剧 / 动作片"
       },
       "official_catalog_id": "amzn1.dv.gti.839bf094-f7af-47d1-a1a6-4e89388eda49",
       "year": 2017,
       "release_date": "2017年5月24日",
-      "official_checked_at": "2026-11-19T04:12:28+00:00",
+      "official_checked_at": "2026-11-26T04:20:44+00:00",
       "synopsis_zh": "一股危险的犯罪浪潮席卷海滩，米奇·布坎南（德韦恩·强森饰演）带领他的精英救生员队伍执行任务，其中就包括前途无量的新人马特·布洛迪（扎克·埃夫隆饰演），他们要证明不需要戴警徽也能拯救海湾。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -19145,16 +19145,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/d3648d52414c463552a63980a8a1b796051207240fb8399e830a5c45eacceca6._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:28+00:00"
+        "retrieved_at": "2026-11-26T04:20:45+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-19T04:12:28+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:45+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:28+00:00",
-      "updated_at": "2026-11-19T04:12:28+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:45+00:00",
+      "updated_at": "2026-11-26T04:20:45+00:00"
     },
     {
       "id": "prime:0GAWDRSO8MYUD4XEQ647XXIOI2",
@@ -19171,7 +19171,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0GAWDRSO8MYUD4XEQ647XXIOI2",
-          "retrieved_at": "2026-11-19T04:12:28+00:00"
+          "retrieved_at": "2026-11-26T04:20:45+00:00"
         }
       ],
       "original_title": null,
@@ -19183,7 +19183,7 @@
       "official_catalog_id": "amzn1.dv.gti.135f8eec-38c2-4930-90de-5d11384aa18a",
       "year": 1962,
       "release_date": "1962年10月9日",
-      "official_checked_at": "2026-11-19T04:12:28+00:00",
+      "official_checked_at": "2026-11-26T04:20:45+00:00",
       "synopsis_zh": "他的名字是邦德，詹姆斯·邦德。 在这里，在他爆炸性的电影处女作中，伊恩·弗莱明的不朽动作英雄在他最壮观的冒险之一中大放异彩。 肖恩·康纳利以无与伦比的风格，体现了特工 007 的温文尔雅却又致命的酷感。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -19198,16 +19198,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/28ba9829d773c08a92b961c129a17f566dfd3b8d52d3c3fc242fad1b50d1be49._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:29+00:00"
+        "retrieved_at": "2026-11-26T04:20:46+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 冒险片 / 悬疑",
-      "metadata_attempted_at": "2026-11-19T04:12:29+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:46+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:29+00:00",
-      "updated_at": "2026-11-19T04:12:29+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:46+00:00",
+      "updated_at": "2026-11-26T04:20:46+00:00"
     },
     {
       "id": "prime:0FDH7OFUIDL1NJO6UY9PLG3Z6A",
@@ -19224,7 +19224,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0FDH7OFUIDL1NJO6UY9PLG3Z6A",
-          "retrieved_at": "2026-11-19T04:12:29+00:00"
+          "retrieved_at": "2026-11-26T04:20:47+00:00"
         }
       ],
       "original_title": null,
@@ -19236,7 +19236,7 @@
       "official_catalog_id": "amzn1.dv.gti.03b124c5-cdc8-44e1-82fb-5e788aff28d2",
       "year": 2017,
       "release_date": "2017年2月9日",
-      "official_checked_at": "2026-11-19T04:12:29+00:00",
+      "official_checked_at": "2026-11-26T04:20:47+00:00",
       "synopsis_original": "John Wick is forced out of retirement, and this time, he must face off against a shadowy international assassins' guild and more of the world's deadliest killers.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FDH7OFUIDL1NJO6UY9PLG3Z6A",
       "synopsis_status": "translation_pending",
@@ -19250,16 +19250,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e345fa8bce99377d59e60ea19653271f257956b918227561eac559f96e04bed4._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:29+00:00"
+        "retrieved_at": "2026-11-26T04:20:48+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 悬疑",
-      "metadata_attempted_at": "2026-11-19T04:12:29+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:48+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:29+00:00",
-      "updated_at": "2026-11-19T04:12:29+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:48+00:00",
+      "updated_at": "2026-11-26T04:20:48+00:00"
     },
     {
       "id": "prime:0QV7JGMMWTD5E67SJ4XPWGNKN5",
@@ -19276,7 +19276,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0QV7JGMMWTD5E67SJ4XPWGNKN5",
-          "retrieved_at": "2026-11-19T04:12:30+00:00"
+          "retrieved_at": "2026-11-26T04:20:48+00:00"
         }
       ],
       "original_title": null,
@@ -19288,7 +19288,7 @@
       "official_catalog_id": "amzn1.dv.gti.c5d0912f-4e6c-46f0-9f52-bdf1f17e2841",
       "year": 2017,
       "release_date": "2017年10月5日",
-      "official_checked_at": "2026-11-19T04:12:30+00:00",
+      "official_checked_at": "2026-11-26T04:20:48+00:00",
       "synopsis_zh": "在銀翼殺手第一集故事後30年，地球陷入一片狂亂，人類與複製人更加難分難解，新「銀翼殺手」K(賴恩高斯寧 飾)延續任務，維持世界秩序，但製造複製人的Wallace(謝拉力圖 飾)卻認為複製人才是物種的未來...... K在追查之中發現一個埋藏已久、關乎複製人生死存亡的秘密，這個發現更引領他尋找已經消聲匿跡的前銀翼殺手Rick Deckard(夏里遜福 飾)！隱伏多年的謎底即將揭曉......",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -19303,16 +19303,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/ffc22b636252bd5e89979b494970b5cb36aa31ffa57f6ac53e3dd1078136a2c7._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:30+00:00"
+        "retrieved_at": "2026-11-26T04:20:49+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 科幻 / 剧情片 / 悬疑",
-      "metadata_attempted_at": "2026-11-19T04:12:30+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:49+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:30+00:00",
-      "updated_at": "2026-11-19T04:12:30+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:49+00:00",
+      "updated_at": "2026-11-26T04:20:49+00:00"
     },
     {
       "id": "prime:0N6BDUJ0L59WS15W72C14URYLD",
@@ -19329,7 +19329,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0N6BDUJ0L59WS15W72C14URYLD",
-          "retrieved_at": "2026-11-19T04:12:30+00:00"
+          "retrieved_at": "2026-11-26T04:20:49+00:00"
         }
       ],
       "original_title": null,
@@ -19341,7 +19341,7 @@
       "official_catalog_id": "amzn1.dv.gti.877611f1-3fe3-490d-88f1-9fe86a6765e1",
       "year": 1965,
       "release_date": "1965年12月21日",
-      "official_checked_at": "2026-11-19T04:12:30+00:00",
+      "official_checked_at": "2026-11-26T04:20:49+00:00",
       "synopsis_zh": "邦德（肖恩·康纳利饰）进入这场引人入胜的冒险，超越使命召唤，潜入海底，追查一个威胁要让世界陷入核浩劫的邪恶罪犯，惊险刺激从未停止 ！",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -19356,16 +19356,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/1bb22196457180f85614a2764a20da029ae433cb538eee903394e3886ff31bac._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:31+00:00"
+        "retrieved_at": "2026-11-26T04:20:50+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 悬疑 / 冒险片",
-      "metadata_attempted_at": "2026-11-19T04:12:31+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:50+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:31+00:00",
-      "updated_at": "2026-11-19T04:12:31+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:50+00:00",
+      "updated_at": "2026-11-26T04:20:50+00:00"
     },
     {
       "id": "prime:0RIFZJUIW0X2BVL8WCVANEH5GL",
@@ -19382,7 +19382,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0RIFZJUIW0X2BVL8WCVANEH5GL",
-          "retrieved_at": "2026-11-19T04:12:31+00:00"
+          "retrieved_at": "2026-11-26T04:20:50+00:00"
         }
       ],
       "original_title": null,
@@ -19394,7 +19394,7 @@
       "official_catalog_id": "amzn1.dv.gti.d0b76681-21e4-9a1e-c885-f34db5041fe5",
       "year": 2019,
       "release_date": "2019年5月16日",
-      "official_checked_at": "2026-11-19T04:12:31+00:00",
+      "official_checked_at": "2026-11-26T04:20:50+00:00",
       "synopsis_original": "Keanu Reeves is back as the legendary hit man John Wick in this sequel that finds him fighting for his life on the streets of NYC.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0RIFZJUIW0X2BVL8WCVANEH5GL",
       "synopsis_status": "translation_pending",
@@ -19408,16 +19408,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/77f4e51bf5bc5f0fe8cb42557eba1310b136942701da4df9a0de5cdc361ff148._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:31+00:00"
+        "retrieved_at": "2026-11-26T04:20:51+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-19T04:12:31+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:51+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:31+00:00",
-      "updated_at": "2026-11-19T04:12:31+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:51+00:00",
+      "updated_at": "2026-11-26T04:20:51+00:00"
     },
     {
       "id": "prime:0I7B507ICKOZM5R5OEUEL9MDEW",
@@ -19434,7 +19434,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0I7B507ICKOZM5R5OEUEL9MDEW",
-          "retrieved_at": "2026-11-19T04:12:32+00:00"
+          "retrieved_at": "2026-11-26T04:20:51+00:00"
         }
       ],
       "original_title": null,
@@ -19446,7 +19446,7 @@
       "official_catalog_id": "amzn1.dv.gti.3378a0c9-1d58-4261-953a-d389f7226a68",
       "year": 2024,
       "release_date": "2024年3月20日",
-      "official_checked_at": "2026-11-19T04:12:32+00:00",
+      "official_checked_at": "2026-11-26T04:20:51+00:00",
       "synopsis_zh": "本片翻拍自1980年代的经典作品，全程紧张刺激，片中由杰克·吉伦哈尔饰演的前终极格斗选手道尔顿来到佛罗里达群岛的一家路边旅馆担任保镖，结果发现这个看似天堂的地方其实并不像看起来那么平静美好。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -19461,16 +19461,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e6a6502e55a1e0c4b6bb109625c2192830e836dd72f8bdf25ca8626a5d9bb845._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:32+00:00"
+        "retrieved_at": "2026-11-26T04:20:52+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片",
-      "metadata_attempted_at": "2026-11-19T04:12:32+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:52+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:32+00:00",
-      "updated_at": "2026-11-19T04:12:32+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:52+00:00",
+      "updated_at": "2026-11-26T04:20:52+00:00"
     },
     {
       "id": "prime:0OJDOTXNGU1JJ84D82H4XBYOSJ",
@@ -19487,7 +19487,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0OJDOTXNGU1JJ84D82H4XBYOSJ",
-          "retrieved_at": "2026-11-19T04:12:33+00:00"
+          "retrieved_at": "2026-11-26T04:20:54+00:00"
         }
       ],
       "original_title": null,
@@ -19499,7 +19499,7 @@
       "official_catalog_id": "amzn1.dv.gti.9e7b6809-3ea6-48a6-960a-c0a1a6524103",
       "year": 2026,
       "release_date": "2026年10月28日",
-      "official_checked_at": "2026-11-19T04:12:33+00:00",
+      "official_checked_at": "2026-11-26T04:20:54+00:00",
       "synopsis_original": "Amazon Music Live Season 5 finale concluded October 29 with Doja Cat's hometown Tour Ma Vie show at The Forum in LA, bringing fans inside her boundary-pushing blend of pop, rap and R&B, with a few surprises. Watch now on Prime Video. Big thank you to Doja Cat's Touring Crew, Good Day Mgmt, NFP, Silent House Studios, Silent House Touring and all the amazing people who helped make the show happen.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0OJDOTXNGU1JJ84D82H4XBYOSJ",
       "synopsis_status": "translation_pending",
@@ -19513,16 +19513,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/042203d366a834af3de4a337777cda91751dace85184a0dd085f5ce03764e043._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:34+00:00"
+        "retrieved_at": "2026-11-26T04:20:55+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "音乐视频和音乐会",
-      "metadata_attempted_at": "2026-11-19T04:12:34+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:55+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:34+00:00",
-      "updated_at": "2026-11-19T04:12:34+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:55+00:00",
+      "updated_at": "2026-11-26T04:20:55+00:00"
     },
     {
       "id": "prime:0FC3O0LQUX1IKRA19XD4UKJASF",
@@ -20563,7 +20563,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0IUGS56V361WRU60PCC5XH5D8Z",
-          "retrieved_at": "2026-11-19T04:12:35+00:00"
+          "retrieved_at": "2026-11-26T04:20:56+00:00"
         }
       ],
       "original_title": null,
@@ -20575,7 +20575,7 @@
       "official_catalog_id": "amzn1.dv.gti.3e561ae5-0185-4a0d-a821-0163dadcf753",
       "year": 2025,
       "release_date": "2025年12月4日",
-      "official_checked_at": "2026-11-19T04:12:35+00:00",
+      "official_checked_at": "2026-11-26T04:20:56+00:00",
       "synopsis_original": "A girl and her father living deep in the woods, rescue a wounded young woman that washes up on the bank of the local river. Their lives are forever changed by the mysterious stranger, and the ruthless drug lord who will stop at nothing to kill her once and for all.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0IUGS56V361WRU60PCC5XH5D8Z",
       "synopsis_status": "translation_pending",
@@ -20589,16 +20589,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/835c6ae6951fad8aa311a29670f22da68f6a451874e2c41561f1f77702727ce3._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:35+00:00"
+        "retrieved_at": "2026-11-26T04:20:57+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "悬疑 / 动作片 / 剧情片 / 西部",
-      "metadata_attempted_at": "2026-11-19T04:12:35+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:57+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:35+00:00",
-      "updated_at": "2026-11-19T04:12:35+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:57+00:00",
+      "updated_at": "2026-11-26T04:20:57+00:00"
     },
     {
       "id": "prime:0LAX0XFANPXMFOTVAFV5H0LD1H",
@@ -20615,19 +20615,19 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0LAX0XFANPXMFOTVAFV5H0LD1H",
-          "retrieved_at": "2026-11-19T04:12:34+00:00"
+          "retrieved_at": "2026-11-26T04:20:55+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {
         "release_date": "2006年11月16日",
-        "genres": "动作片 / 冒险片 / 剧情片 / 悬疑"
+        "genres": "动作片 / 悬疑 / 冒险片 / 爱情"
       },
       "official_catalog_id": "amzn1.dv.gti.67d67132-66a8-46fb-9b4d-3ebe25602945",
       "year": 2006,
       "release_date": "2006年11月16日",
-      "official_checked_at": "2026-11-19T04:12:34+00:00",
+      "official_checked_at": "2026-11-26T04:20:55+00:00",
       "synopsis_zh": "根据伊恩·弗莱明的第一部 007 小说，詹姆斯·邦德 (丹尼尔·克雷格饰) 必须阻止一名危险的俄罗斯间谍资助全球恐怖分子赢得价值数百万美元的扑克游戏。 电影史上最成功的系列电影中的第 21 部。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -20642,16 +20642,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/b9cf471a7758b6c19ba592b7711e37713059517c20ebfcc023bbaab4ae02b6e3._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:34+00:00"
+        "retrieved_at": "2026-11-26T04:20:56+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "动作片 / 冒险片 / 剧情片 / 悬疑",
-      "metadata_attempted_at": "2026-11-19T04:12:34+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:56+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:34+00:00",
-      "updated_at": "2026-11-19T04:12:34+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:56+00:00",
+      "updated_at": "2026-11-26T04:20:56+00:00"
     },
     {
       "id": "prime:0TKAXU8DL2IC3IFW1V3EZKLI9M",
@@ -20668,7 +20668,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TKAXU8DL2IC3IFW1V3EZKLI9M",
-          "retrieved_at": "2026-11-19T04:12:24+00:00"
+          "retrieved_at": "2026-11-26T04:20:38+00:00"
         }
       ],
       "original_title": null,
@@ -20680,7 +20680,7 @@
       "official_catalog_id": "amzn1.dv.gti.f35f15a9-9896-4043-b297-9c6a2904efba",
       "year": 2026,
       "release_date": "2026年10月12日",
-      "official_checked_at": "2026-11-19T04:12:24+00:00",
+      "official_checked_at": "2026-11-26T04:20:38+00:00",
       "synopsis_original": "Lifelong best friends Emma and Phoebe make a pact to get pregnant at the same time. But when only one conceives, their plans to enter motherhood together begin to unravel, threatening to pull their lives in different directions and tear them apart.",
       "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0TKAXU8DL2IC3IFW1V3EZKLI9M",
       "synopsis_status": "translation_pending",
@@ -20694,16 +20694,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/3b715aae7d5775a700caefe105d973f6932a1e8a87ae7e45fd925d1d0642caef._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-19T04:12:25+00:00"
+        "retrieved_at": "2026-11-26T04:20:39+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "喜剧 / 剧情片",
-      "metadata_attempted_at": "2026-11-19T04:12:25+00:00",
+      "metadata_attempted_at": "2026-11-26T04:20:39+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-19T04:12:25+00:00",
-      "updated_at": "2026-11-19T04:12:25+00:00"
+      "metadata_checked_at": "2026-11-26T04:20:39+00:00",
+      "updated_at": "2026-11-26T04:20:39+00:00"
     },
     {
       "id": "prime:0O5QWG1TIHVH9XIKJC9W841SBT",
@@ -21564,7 +21564,7 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0HG0HEORRIS0WGLZ9L13VD2JO8",
-          "retrieved_at": "2026-11-20T04:08:31+00:00"
+          "retrieved_at": "2026-11-27T04:22:48+00:00"
         }
       ],
       "original_title": null,
@@ -21576,7 +21576,7 @@
       "official_catalog_id": "amzn1.dv.gti.26a9f70a-01f3-81e0-ee8d-5378ac2d4918",
       "year": 2011,
       "release_date": "2011年11月3日",
-      "official_checked_at": "2026-11-20T04:08:31+00:00",
+      "official_checked_at": "2026-11-27T04:22:48+00:00",
       "synopsis_zh": "本斯蒂勒与艾迪墨菲联合众多巨星一起演出了《高楼大劫案》这部喜剧。故事描述一群普通的上班族联手报复那些曾经欺骗他们的华尔街骗子。在中央公园一座豪华公寓的员工发现他们的退休金都被住在顶楼的亿万富翁给骗走之后，他们便密谋了一场终极报复行动：要把被骗走的全部都抢回来。",
       "synopsis_status": "ok",
       "synopsis_source_type": "prime_official",
@@ -21591,16 +21591,16 @@
         "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e38059dfeac2ff6c106dd2dfc453634dc93e1233d19f5c999d034ae4b9adb2f9._SX1280_FMjpg_.jpg",
         "source_type": "prime_official",
         "provenance": "public_source_download",
-        "retrieved_at": "2026-11-20T04:08:31+00:00"
+        "retrieved_at": "2026-11-27T04:22:48+00:00"
       },
       "poster_scope": "series",
       "poster_status": "ok",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
       "genres": "喜剧 / 动作片",
-      "metadata_attempted_at": "2026-11-20T04:08:31+00:00",
+      "metadata_attempted_at": "2026-11-27T04:22:48+00:00",
       "refresh_status": "checked",
-      "metadata_checked_at": "2026-11-20T04:08:31+00:00",
-      "updated_at": "2026-11-20T04:08:31+00:00"
+      "metadata_checked_at": "2026-11-27T04:22:48+00:00",
+      "updated_at": "2026-11-27T04:22:48+00:00"
     },
     {
       "id": "prime:0HX7NRQ3K5AGENKYJ8CD4R0EJ8",
@@ -22199,13 +22199,13 @@
           "official_title_zh": "Season 1",
           "year": 2024,
           "release_date": "2024年1月16日",
-          "official_checked_at": "2026-11-25T04:24:34+00:00",
+          "official_checked_at": "2026-11-26T04:20:59+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0ME24EWTFDAVPKCQCTSBNHLJ62",
-              "retrieved_at": "2026-11-25T04:24:34+00:00"
+              "retrieved_at": "2026-11-26T04:20:59+00:00"
             }
           ],
           "synopsis_original": "A crime-solving procedural with a comedic twist that follows the unlikely duo of a by-the-book, sardonic cop and a spirited, clever con woman.",
@@ -22220,7 +22220,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/d3c29bd835db0cc4128503f8e23d96d9f43f23e339ea4f3902d69d2fa30c6414._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:24:34+00:00"
+            "retrieved_at": "2026-11-26T04:20:59+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok"
@@ -22236,13 +22236,13 @@
           "official_title_zh": "Season 2",
           "year": 2025,
           "release_date": "2025年2月4日",
-          "official_checked_at": "2026-11-25T04:24:35+00:00",
+          "official_checked_at": "2026-11-26T04:21:00+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0SWIPZH8NMRPGJADMB88DXZ6UT",
-              "retrieved_at": "2026-11-25T04:24:35+00:00"
+              "retrieved_at": "2026-11-26T04:21:00+00:00"
             }
           ],
           "synopsis_original": "A crime-solving procedural with a comedic twist that follows the unlikely duo of a by-the-book, sardonic cop and a spirited, clever con woman.",
@@ -22257,7 +22257,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/d3c29bd835db0cc4128503f8e23d96d9f43f23e339ea4f3902d69d2fa30c6414._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:24:35+00:00"
+            "retrieved_at": "2026-11-26T04:21:00+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok"
@@ -22271,13 +22271,13 @@
           "official_title_zh": "Wild Cards Season 3",
           "year": 2026,
           "release_date": "2026年1月25日",
-          "official_checked_at": "2026-11-24T04:16:37+00:00",
+          "official_checked_at": "2026-11-26T04:20:57+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0LX12VEB591XIQ0OK5N3UYL8FH",
-              "retrieved_at": "2026-11-24T04:16:37+00:00"
+              "retrieved_at": "2026-11-26T04:20:57+00:00"
             }
           ],
           "synopsis_original": "A crime-solving procedural with a comedic twist that follows the unlikely duo of a by-the-book, sardonic cop and a spirited, clever con woman.",
@@ -22293,7 +22293,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f4e71665effb830cc441dcf92d4968d26e8980d59e70504ea530fd6a6af7d12e._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-24T04:16:37+00:00"
+            "retrieved_at": "2026-11-26T04:20:58+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -22305,19 +22305,19 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0LX12VEB591XIQ0OK5N3UYL8FH",
-          "retrieved_at": "2026-11-24T04:16:37+00:00"
+          "retrieved_at": "2026-11-26T04:20:57+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0ME24EWTFDAVPKCQCTSBNHLJ62",
-          "retrieved_at": "2026-11-25T04:24:34+00:00"
+          "retrieved_at": "2026-11-26T04:20:59+00:00"
         },
         {
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0SWIPZH8NMRPGJADMB88DXZ6UT",
-          "retrieved_at": "2026-11-25T04:24:35+00:00"
+          "retrieved_at": "2026-11-26T04:21:00+00:00"
         }
       ],
       "original_title": null,
@@ -22325,10 +22325,10 @@
       "details": {},
       "prime_series_id": "amzn1.dv.gti.7a33f0ea-954a-4181-a056-da8c86d9714a",
       "discovery_source": "https://www.primevideo.com/-/zh/storefront",
-      "metadata_attempted_at": "2026-11-25T04:24:35+00:00",
-      "refresh_status": "partial",
-      "metadata_checked_at": "2026-11-25T04:24:35+00:00",
-      "updated_at": "2026-11-25T04:24:35+00:00"
+      "metadata_attempted_at": "2026-11-26T04:21:00+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:21:00+00:00",
+      "updated_at": "2026-11-26T04:21:00+00:00"
     },
     {
       "id": "prime:0G9DYFO554YR2AITRX7FXMY49A",
@@ -23381,7 +23381,36 @@
           "official_catalog_id": "amzn1.dv.gti.75f077ed-e5d2-480e-a41b-cc43b6e8fe66",
           "official_link": "/-/zh/detail/0M4YZTE8INA4XCX02CXN5OXQ3Q",
           "id": "prime:0LF83MMDQN1BAB1WMMR6M28BM2:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0M4YZTE8INA4XCX02CXN5OXQ3Q",
+          "official_title_zh": "Tulsa King - Season 1",
+          "year": 2022,
+          "release_date": "2022年11月12日",
+          "official_checked_at": "2026-11-27T04:22:50+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0M4YZTE8INA4XCX02CXN5OXQ3Q",
+              "retrieved_at": "2026-11-27T04:22:50+00:00"
+            }
+          ],
+          "synopsis_original": "After serving 25 years in prison, Dwight Manfredi is exiled by his mob boss to set up shop in Oklahoma. Dwight slowly builds a new criminal empire in a place that to him might as well be another planet: Tulsa.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0M4YZTE8INA4XCX02CXN5OXQ3Q",
+          "poster": {
+            "path": "images/8cc97fc6ebbaa1902f18d901aa9763330b45edfaa8d787d922bbd16c24f7d75c.jpg",
+            "sha256": "8cc97fc6ebbaa1902f18d901aa9763330b45edfaa8d787d922bbd16c24f7d75c",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/09c874539833fa73bc649e2b83a86d2dcbc4066e8497c3ccf4e756c392871771._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-27T04:22:50+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23389,7 +23418,36 @@
           "official_catalog_id": "amzn1.dv.gti.6d155796-db40-48be-935d-3b4099c2277f",
           "official_link": "/-/zh/detail/0LM3IC4YP0N6ZON28J9QUFX6RJ",
           "id": "prime:0LF83MMDQN1BAB1WMMR6M28BM2:s2",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0LM3IC4YP0N6ZON28J9QUFX6RJ",
+          "official_title_zh": "Tulsa King - Season 2",
+          "year": 2024,
+          "release_date": "2024年9月14日",
+          "official_checked_at": "2026-11-27T04:22:51+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0LM3IC4YP0N6ZON28J9QUFX6RJ",
+              "retrieved_at": "2026-11-27T04:22:51+00:00"
+            }
+          ],
+          "synopsis_original": "Dwight continues to grow his empire in Tulsa, but just as the crew gets their bearings, a looming turf war threatens to take them down.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0LM3IC4YP0N6ZON28J9QUFX6RJ",
+          "poster": {
+            "path": "images/96244eb048ef628c3efa9c7c897392f715d603b206ab99d4b45a7d00dd51de0d.jpg",
+            "sha256": "96244eb048ef628c3efa9c7c897392f715d603b206ab99d4b45a7d00dd51de0d",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 2,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/ed701fc2f3eebf2eabede8d29ad6f7030a6b65c9fa7ad187ef1f4a05512e721a._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-27T04:22:51+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 3,
@@ -23397,7 +23455,37 @@
           "official_catalog_id": "amzn1.dv.gti.1eee3ad5-d253-4257-b776-449ea403ea76",
           "official_link": "/-/zh/detail/0GZJ4RXRT22ZUDNYSXJA8UALPY",
           "id": "prime:0LF83MMDQN1BAB1WMMR6M28BM2:s3",
-          "synopsis_status": "missing"
+          "synopsis_status": "ok",
+          "official_id": "0GZJ4RXRT22ZUDNYSXJA8UALPY",
+          "official_title_zh": "Tulsa King, Season 3",
+          "year": 2025,
+          "release_date": "2025年9月20日",
+          "official_checked_at": "2026-11-27T04:22:52+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0GZJ4RXRT22ZUDNYSXJA8UALPY",
+              "retrieved_at": "2026-11-27T04:22:52+00:00"
+            }
+          ],
+          "synopsis_zh": "随着德怀特的帝国不断扩张，他的敌人和对他团队的风险也在增加。",
+          "synopsis_source_type": "prime_official",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0GZJ4RXRT22ZUDNYSXJA8UALPY",
+          "poster": {
+            "path": "images/183050134201b2b3be33833decd6617b5e87e70713ccb23abd164f2a491977bf.jpg",
+            "sha256": "183050134201b2b3be33833decd6617b5e87e70713ccb23abd164f2a491977bf",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 3,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/80382deb09e7df056dfc6d3d34da45555ca23b83f0949d4295325a369aef8dd1._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-27T04:22:52+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 4,
@@ -23408,13 +23496,13 @@
           "official_title_zh": "Tulsa King Season 4",
           "year": 2026,
           "release_date": "2026年10月15日",
-          "official_checked_at": "2026-11-25T04:26:19+00:00",
+          "official_checked_at": "2026-11-27T04:22:49+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0LF83MMDQN1BAB1WMMR6M28BM2",
-              "retrieved_at": "2026-11-25T04:26:19+00:00"
+              "retrieved_at": "2026-11-27T04:22:49+00:00"
             }
           ],
           "synopsis_original": "Dwight fights to legitimize his empire as corrupt politicians, dangerous new enemies, and a crushing personal loss hit from every direction. And every hard-won gain comes with even harder truths: about loyalty, leadership and the cost of ambition.",
@@ -23430,7 +23518,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/a3f67047ce8197c906ed94cb147934382f2f402e46f7c081dc131b1ee19c89db._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:19+00:00"
+            "retrieved_at": "2026-11-27T04:22:49+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23442,14 +23530,36 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0LF83MMDQN1BAB1WMMR6M28BM2",
-          "retrieved_at": "2026-11-25T04:26:19+00:00"
+          "retrieved_at": "2026-11-27T04:22:49+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0LM3IC4YP0N6ZON28J9QUFX6RJ",
+          "retrieved_at": "2026-11-27T04:22:51+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0GZJ4RXRT22ZUDNYSXJA8UALPY",
+          "retrieved_at": "2026-11-27T04:22:52+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0M4YZTE8INA4XCX02CXN5OXQ3Q",
+          "retrieved_at": "2026-11-27T04:22:50+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.75f077ed-e5d2-480e-a41b-cc43b6e8fe66",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-27T04:22:52+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-27T04:22:52+00:00",
+      "updated_at": "2026-11-27T04:22:52+00:00"
     },
     {
       "id": "prime:0TM8WEWHXQGB1JRQUK5OQBOEN6",
@@ -23467,7 +23577,36 @@
           "official_catalog_id": "amzn1.dv.gti.5e64115c-7459-4f4c-a9c9-9643e1bfa49f",
           "official_link": "/-/zh/detail/0KQS7JC4ENL8YNTOPRPQLSATNJ",
           "id": "prime:0TM8WEWHXQGB1JRQUK5OQBOEN6:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0KQS7JC4ENL8YNTOPRPQLSATNJ",
+          "official_title_zh": "MobLand, Season 1",
+          "year": 2025,
+          "release_date": "2025年3月29日",
+          "official_checked_at": "2026-11-26T04:20:02+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0KQS7JC4ENL8YNTOPRPQLSATNJ",
+              "retrieved_at": "2026-11-26T04:20:02+00:00"
+            }
+          ],
+          "synopsis_original": "Two mob families clash in a war that threatens to topple empires and lives.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0KQS7JC4ENL8YNTOPRPQLSATNJ",
+          "poster": {
+            "path": "images/660d9cc3cc133fff41789e0afe543689864e773b50fb8f9a992ea33126a4ba94.jpg",
+            "sha256": "660d9cc3cc133fff41789e0afe543689864e773b50fb8f9a992ea33126a4ba94",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/fbd34ce634cfd33d15984f2a06ef71ece9fc66803e4884c43ac1cee270945e78._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:02+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23478,13 +23617,13 @@
           "official_title_zh": "MobLand S2",
           "year": 2026,
           "release_date": "2026年9月17日",
-          "official_checked_at": "2026-11-25T04:26:20+00:00",
+          "official_checked_at": "2026-11-26T04:20:01+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TM8WEWHXQGB1JRQUK5OQBOEN6",
-              "retrieved_at": "2026-11-25T04:26:20+00:00"
+              "retrieved_at": "2026-11-26T04:20:01+00:00"
             }
           ],
           "synopsis_original": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires and ruin lives.",
@@ -23500,7 +23639,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/0c935fb48fe1e6789c0a0778ffe631447d0e6052cbe1797c4f2c06c396603e6b._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:21+00:00"
+            "retrieved_at": "2026-11-26T04:20:01+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23512,14 +23651,24 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TM8WEWHXQGB1JRQUK5OQBOEN6",
-          "retrieved_at": "2026-11-25T04:26:20+00:00"
+          "retrieved_at": "2026-11-26T04:20:01+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0KQS7JC4ENL8YNTOPRPQLSATNJ",
+          "retrieved_at": "2026-11-26T04:20:02+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.5e64115c-7459-4f4c-a9c9-9643e1bfa49f",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:02+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:02+00:00",
+      "updated_at": "2026-11-26T04:20:02+00:00"
     },
     {
       "id": "prime:0QHVFH0DO8DWNOIW7STG1VPVGK",
@@ -23537,7 +23686,36 @@
           "official_catalog_id": "amzn1.dv.gti.0673326e-d47a-48bf-9fdf-1f9c9da94698",
           "official_link": "/-/zh/detail/0FJCTQONBUSYAPHOEPZRIVT8D4",
           "id": "prime:0QHVFH0DO8DWNOIW7STG1VPVGK:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0FJCTQONBUSYAPHOEPZRIVT8D4",
+          "official_title_zh": "The Gilded Age - Season 1",
+          "year": 2022,
+          "release_date": "2022年1月23日",
+          "official_checked_at": "2026-11-26T04:20:04+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0FJCTQONBUSYAPHOEPZRIVT8D4",
+              "retrieved_at": "2026-11-26T04:20:04+00:00"
+            }
+          ],
+          "synopsis_original": "Developed by Downton Abbey creator Julian Fellowes, this drama follows a young woman living in New York City's glittering Gilded Age.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FJCTQONBUSYAPHOEPZRIVT8D4",
+          "poster": {
+            "path": "images/704790214aafa52d86f038a1bc826af4c7fc87287d219660e81b73a51a5d3bfc.jpg",
+            "sha256": "704790214aafa52d86f038a1bc826af4c7fc87287d219660e81b73a51a5d3bfc",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/423f40167dcffdd272274299d396c5c8a0e111ffd3eae56e7c0da6d7288802ae._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:05+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23545,7 +23723,36 @@
           "official_catalog_id": "amzn1.dv.gti.198dce45-67a7-4d2c-b0ed-8182ec301dd5",
           "official_link": "/-/zh/detail/0GO2LNJXJX0YD1O0EMDYLCUJF9",
           "id": "prime:0QHVFH0DO8DWNOIW7STG1VPVGK:s2",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0GO2LNJXJX0YD1O0EMDYLCUJF9",
+          "official_title_zh": "The Gilded Age : Season 2",
+          "year": 2023,
+          "release_date": "2023年10月28日",
+          "official_checked_at": "2026-11-26T04:20:06+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0GO2LNJXJX0YD1O0EMDYLCUJF9",
+              "retrieved_at": "2026-11-26T04:20:06+00:00"
+            }
+          ],
+          "synopsis_original": "In Season 2, Bertha challenges the old guard by backing the new Metropolitan Opera House, George faces battles at his largest steel plant, Marian secretly begins teaching at a girls' school, and Ada finds herself in an unexpected courtship.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0GO2LNJXJX0YD1O0EMDYLCUJF9",
+          "poster": {
+            "path": "images/bbcb14236ca7293e7bcbfad2ac416433fcc5b0fa24e95edc0553bc778e1d6d29.jpg",
+            "sha256": "bbcb14236ca7293e7bcbfad2ac416433fcc5b0fa24e95edc0553bc778e1d6d29",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 2,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e2592694f8b20132215db3a1877285293d35684ebb3888300617d9add6865118._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:06+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 3,
@@ -23553,7 +23760,36 @@
           "official_catalog_id": "amzn1.dv.gti.b2317a8c-17ab-4e6a-9a09-c69ef27563aa",
           "official_link": "/-/zh/detail/0PPE25298TTFIF4UMYZE2S41BE",
           "id": "prime:0QHVFH0DO8DWNOIW7STG1VPVGK:s3",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0PPE25298TTFIF4UMYZE2S41BE",
+          "official_title_zh": "The Gilded Age: Season 3",
+          "year": 2025,
+          "release_date": "2025年6月21日",
+          "official_checked_at": "2026-11-26T04:20:07+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0PPE25298TTFIF4UMYZE2S41BE",
+              "retrieved_at": "2026-11-26T04:20:07+00:00"
+            }
+          ],
+          "synopsis_original": "As power shifts and passions ignite, the Russells gamble everything-while ambition, love, and legacy collide in Gilded Age New York.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0PPE25298TTFIF4UMYZE2S41BE",
+          "poster": {
+            "path": "images/3da7bbd4ae0b4a563aabe815309a5febb4a6773e6aedd51e0bca46e157bc3f0c.jpg",
+            "sha256": "3da7bbd4ae0b4a563aabe815309a5febb4a6773e6aedd51e0bca46e157bc3f0c",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 3,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f1db46fe7d5a90b3b0140bf8606c124ca04bf36f597ff5669cc51bcd49d60474._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:08+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 4,
@@ -23564,13 +23800,13 @@
           "official_title_zh": "The Gilded Age: Season 4",
           "year": 2026,
           "release_date": "2026年10月31日",
-          "official_checked_at": "2026-11-25T04:26:21+00:00",
+          "official_checked_at": "2026-11-26T04:20:03+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0QHVFH0DO8DWNOIW7STG1VPVGK",
-              "retrieved_at": "2026-11-25T04:26:21+00:00"
+              "retrieved_at": "2026-11-26T04:20:03+00:00"
             }
           ],
           "synopsis_original": "Bertha Russell changed Society at a cost. Now, her family must reckon with the consequences as Agnes van Rhijn seizes an opportunity to regain her position. Meanwhile, Marian forges a new path for herself and Peggy works to be accepted by her future in-laws. In this new era, you must be careful what you wish for.",
@@ -23586,7 +23822,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/895b392c87092155821d7d8ad7f96b6ac95d16071ab762295a6676b15fe5d23c._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:22+00:00"
+            "retrieved_at": "2026-11-26T04:20:03+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23598,14 +23834,36 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0QHVFH0DO8DWNOIW7STG1VPVGK",
-          "retrieved_at": "2026-11-25T04:26:21+00:00"
+          "retrieved_at": "2026-11-26T04:20:03+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0FJCTQONBUSYAPHOEPZRIVT8D4",
+          "retrieved_at": "2026-11-26T04:20:04+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0GO2LNJXJX0YD1O0EMDYLCUJF9",
+          "retrieved_at": "2026-11-26T04:20:06+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0PPE25298TTFIF4UMYZE2S41BE",
+          "retrieved_at": "2026-11-26T04:20:07+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.0673326e-d47a-48bf-9fdf-1f9c9da94698",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:08+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:08+00:00",
+      "updated_at": "2026-11-26T04:20:08+00:00"
     },
     {
       "id": "prime:0FJZFR4WU6ZRUDGDM46S4NY1W6",
@@ -23623,7 +23881,36 @@
           "official_catalog_id": "amzn1.dv.gti.0c96a78b-c67d-4f26-9539-e0b68302afe5",
           "official_link": "/-/zh/detail/0FWFT7BJR1JMSXUS45MHBYXA79",
           "id": "prime:0FJZFR4WU6ZRUDGDM46S4NY1W6:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0FWFT7BJR1JMSXUS45MHBYXA79",
+          "official_title_zh": "Dexter: Resurrection, Season 1",
+          "year": 2025,
+          "release_date": "2025年7月10日",
+          "official_checked_at": "2026-11-26T04:20:10+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0FWFT7BJR1JMSXUS45MHBYXA79",
+              "retrieved_at": "2026-11-26T04:20:10+00:00"
+            }
+          ],
+          "synopsis_original": "Dexter Morgan awakens from a coma and sets out for NYC to find Harrison.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0FWFT7BJR1JMSXUS45MHBYXA79",
+          "poster": {
+            "path": "images/287a2789bc14375724666af12f5198a044cb7a43ecffff8a2f07d230604485e4.jpg",
+            "sha256": "287a2789bc14375724666af12f5198a044cb7a43ecffff8a2f07d230604485e4",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/0bff4dcb56d5517412044237702820185294ab7666dbe2ea7f784af74c804671._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:10+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23634,13 +23921,13 @@
           "official_title_zh": "Dexter: Resurrection - Season 2",
           "year": 2026,
           "release_date": "2026年10月29日",
-          "official_checked_at": "2026-11-25T04:26:22+00:00",
+          "official_checked_at": "2026-11-26T04:20:08+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0FJZFR4WU6ZRUDGDM46S4NY1W6",
-              "retrieved_at": "2026-11-25T04:26:22+00:00"
+              "retrieved_at": "2026-11-26T04:20:08+00:00"
             }
           ],
           "synopsis_original": "Dexter Morgan finds himself caught between two killers while battling his greatest adversary yet: a mid-life crisis.",
@@ -23656,7 +23943,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f999991acbdc06e5f570ce16765d30f9c844731915a373d216ba047594d8380e._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:23+00:00"
+            "retrieved_at": "2026-11-26T04:20:09+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23668,14 +23955,24 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0FJZFR4WU6ZRUDGDM46S4NY1W6",
-          "retrieved_at": "2026-11-25T04:26:22+00:00"
+          "retrieved_at": "2026-11-26T04:20:08+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0FWFT7BJR1JMSXUS45MHBYXA79",
+          "retrieved_at": "2026-11-26T04:20:10+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.0c96a78b-c67d-4f26-9539-e0b68302afe5",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:10+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:10+00:00",
+      "updated_at": "2026-11-26T04:20:10+00:00"
     },
     {
       "id": "prime:0IMZDD6L5PNI36BCGU8VFLBCDX",
@@ -23693,7 +23990,36 @@
           "official_catalog_id": "amzn1.dv.gti.35a5a517-03fd-414c-ad22-0e53b8dcea72",
           "official_link": "/-/zh/detail/0IBY30METGBOOBE3TX8MFWW19U",
           "id": "prime:0IMZDD6L5PNI36BCGU8VFLBCDX:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0IBY30METGBOOBE3TX8MFWW19U",
+          "official_title_zh": "The Madame Blanc Mysteries - Season 1",
+          "year": 2021,
+          "release_date": "2021年10月14日",
+          "official_checked_at": "2026-11-26T04:20:12+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0IBY30METGBOOBE3TX8MFWW19U",
+              "retrieved_at": "2026-11-26T04:20:12+00:00"
+            }
+          ],
+          "synopsis_original": "Antiques dealer Jean White (Sally Lindsay, Mount Pleasant) is nearly bankrupt after her husband\"s sudden death, and so she heads to their one last asset: a cottage in antiques hub Sainte Victoire, France. There, Jean begins investigating his death, aided by sympathetic taxi driver Dom (Steve Edge). She soon finds the colorful locals have a treasure trove of other mysteries for her to assess, too.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0IBY30METGBOOBE3TX8MFWW19U",
+          "poster": {
+            "path": "images/d941fecdd368a04bb8214096f7f02c593aa0c119668fc981e9ee009245a4c757.jpg",
+            "sha256": "d941fecdd368a04bb8214096f7f02c593aa0c119668fc981e9ee009245a4c757",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/d6e5ab2b87a08893fafd5bcbcbe1d33d4d00c97bf89c96186aa79185a1e3c80d._SX1280_FMpng_.png",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:13+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23701,7 +24027,36 @@
           "official_catalog_id": "amzn1.dv.gti.5fa6d0d5-790a-4dc4-a0e8-ce7d78880c45",
           "official_link": "/-/zh/detail/0KTGXVDJXAEPXEFY84YNYMX005",
           "id": "prime:0IMZDD6L5PNI36BCGU8VFLBCDX:s2",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0KTGXVDJXAEPXEFY84YNYMX005",
+          "official_title_zh": "The Madame Blanc Mysteries - Season 2",
+          "year": 2022,
+          "release_date": "2022年12月21日",
+          "official_checked_at": "2026-11-26T04:20:14+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0KTGXVDJXAEPXEFY84YNYMX005",
+              "retrieved_at": "2026-11-26T04:20:14+00:00"
+            }
+          ],
+          "synopsis_original": "Antiques dealer Jean White (Sally Lindsay, Mount Pleasant) has embraced her new life and new friends in France. As she begins setting up shop in scenic Sainte Victoire, she continues to be drawn into mysteries, from minor offenses to murder investigations, with admirer Dom (Steve Edge) by her side. Meanwhile, her late husband's killer remains at large, preparing to exact her revenge.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0KTGXVDJXAEPXEFY84YNYMX005",
+          "poster": {
+            "path": "images/d401d9158fedf9ca38944ccdf6bc097716b3231beb009bda60a9aff6a85a2f36.jpg",
+            "sha256": "d401d9158fedf9ca38944ccdf6bc097716b3231beb009bda60a9aff6a85a2f36",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 2,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/33a80b3820c0cc1e88eec1c07b82f0dca04a8bf0d7901922877d5e358c109d29._SX1280_FMpng_.png",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:15+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 3,
@@ -23709,7 +24064,36 @@
           "official_catalog_id": "amzn1.dv.gti.8408ab4c-b8d0-408b-a808-44bdb4628238",
           "official_link": "/-/zh/detail/0MZ0F08O3486QI1EAFNR4F2WXK",
           "id": "prime:0IMZDD6L5PNI36BCGU8VFLBCDX:s3",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0MZ0F08O3486QI1EAFNR4F2WXK",
+          "official_title_zh": "The Madame Blanc Mysteries: Series 3",
+          "year": 2023,
+          "release_date": "2023年12月24日",
+          "official_checked_at": "2026-11-26T04:20:15+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0MZ0F08O3486QI1EAFNR4F2WXK",
+              "retrieved_at": "2026-11-26T04:20:15+00:00"
+            }
+          ],
+          "synopsis_original": "Ex-pat antiques dealer Jean White (Sally Lindsay) solves new mysteries in Sainte Victoire, from a deep-sea diving mishap to a historical duel, alongside her friend-and flirting partner-Dom (Steve Edge). \"Enjoyably gentle Gallic whodunit\" -Telegraph.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0MZ0F08O3486QI1EAFNR4F2WXK",
+          "poster": {
+            "path": "images/17fd437b6df3c06cb37df7e03b297e1d61007afed5c0a7e75d18b99506ecc0e5.jpg",
+            "sha256": "17fd437b6df3c06cb37df7e03b297e1d61007afed5c0a7e75d18b99506ecc0e5",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 3,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/bef1b4a799f5ad074a68533b1f73364f09a8afb71b422e896bcf23e51dd9006f._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:16+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 4,
@@ -23717,7 +24101,36 @@
           "official_catalog_id": "amzn1.dv.gti.a10639cc-3576-4885-81e5-7abb8ae1ff17",
           "official_link": "/-/zh/detail/0OOSQXT0LM8TFSGC86DJTOYYHJ",
           "id": "prime:0IMZDD6L5PNI36BCGU8VFLBCDX:s4",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0OOSQXT0LM8TFSGC86DJTOYYHJ",
+          "official_title_zh": "Season 4",
+          "year": 2025,
+          "release_date": "2025年7月6日",
+          "official_checked_at": "2026-11-26T04:20:17+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0OOSQXT0LM8TFSGC86DJTOYYHJ",
+              "retrieved_at": "2026-11-26T04:20:17+00:00"
+            }
+          ],
+          "synopsis_original": "After confiding their feelings for one another, ex-pat antiques dealer Jean White (Sally Lindsay) and her friend-turned-beau Dom (Steve Edge) tackle complex and daring mysteries while keeping their growing romance a secret. 'Sheer fun' --Daily Mail",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0OOSQXT0LM8TFSGC86DJTOYYHJ",
+          "poster": {
+            "path": "images/cf5780cee2c0b1e872bbcc189b2fff05afc68140d1e3f52d6905d84c66a2c0f7.jpg",
+            "sha256": "cf5780cee2c0b1e872bbcc189b2fff05afc68140d1e3f52d6905d84c66a2c0f7",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 4,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/d7454a7144c57c37e5852e559dd3c030d5446fa207597c577046a6fd7b3ff62b._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:18+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 5,
@@ -23728,13 +24141,13 @@
           "official_title_zh": "Season 5",
           "year": 2026,
           "release_date": "2026年11月8日",
-          "official_checked_at": "2026-11-25T04:26:23+00:00",
+          "official_checked_at": "2026-11-26T04:20:11+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0IMZDD6L5PNI36BCGU8VFLBCDX",
-              "retrieved_at": "2026-11-25T04:26:23+00:00"
+              "retrieved_at": "2026-11-26T04:20:11+00:00"
             }
           ],
           "synopsis_original": "Murder, stolen treasures, and buried secrets keep antiques expert Jean White busy in sun-drenched Sainte Victoire. But as her wedding to Dom approaches, family tensions are on the rise.",
@@ -23750,7 +24163,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/fe81ca401b533005073be4402ff2861026f6a57c7e4724ae1de48b13c39cff09._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:24+00:00"
+            "retrieved_at": "2026-11-26T04:20:11+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23762,14 +24175,42 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0IMZDD6L5PNI36BCGU8VFLBCDX",
-          "retrieved_at": "2026-11-25T04:26:23+00:00"
+          "retrieved_at": "2026-11-26T04:20:11+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0IBY30METGBOOBE3TX8MFWW19U",
+          "retrieved_at": "2026-11-26T04:20:12+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0KTGXVDJXAEPXEFY84YNYMX005",
+          "retrieved_at": "2026-11-26T04:20:14+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0MZ0F08O3486QI1EAFNR4F2WXK",
+          "retrieved_at": "2026-11-26T04:20:15+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0OOSQXT0LM8TFSGC86DJTOYYHJ",
+          "retrieved_at": "2026-11-26T04:20:17+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.35a5a517-03fd-414c-ad22-0e53b8dcea72",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:18+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:18+00:00",
+      "updated_at": "2026-11-26T04:20:18+00:00"
     },
     {
       "id": "prime:0J8LDPABXVU54GXLP5LIHKWXKG",
@@ -23787,7 +24228,36 @@
           "official_catalog_id": "amzn1.dv.gti.8e73a081-7dd0-49ad-b1ef-827f45e11c61",
           "official_link": "/-/zh/detail/0NL7QIVSQO5UZ85B1NA13H6XK1",
           "id": "prime:0J8LDPABXVU54GXLP5LIHKWXKG:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0NL7QIVSQO5UZ85B1NA13H6XK1",
+          "official_title_zh": "The Institute, Season 01",
+          "year": 2025,
+          "release_date": "2025年7月12日",
+          "official_checked_at": "2026-11-26T04:20:20+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0NL7QIVSQO5UZ85B1NA13H6XK1",
+              "retrieved_at": "2026-11-26T04:20:20+00:00"
+            }
+          ],
+          "synopsis_original": "Teenage genius Luke Ellis is abducted by The Institute, a secret organization that takes kids with psychic powers for use in a mysterious project. The place is run by Ms. Sigsby, a sadistic true believer who engages Luke in a deadly battle of wills.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0NL7QIVSQO5UZ85B1NA13H6XK1",
+          "poster": {
+            "path": "images/2404d9225698ab030ff9868883d3efe0b87eb9a06eef0f041b45dc4f7bf448e0.jpg",
+            "sha256": "2404d9225698ab030ff9868883d3efe0b87eb9a06eef0f041b45dc4f7bf448e0",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/6ad9b17c779d256b1df6124d628f202d6d15626b2fed3fcab8f518321d588df5._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:20+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23798,13 +24268,13 @@
           "official_title_zh": "The Institute, Season 02",
           "year": 2026,
           "release_date": "2026年11月7日",
-          "official_checked_at": "2026-11-25T04:26:24+00:00",
+          "official_checked_at": "2026-11-26T04:20:19+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0J8LDPABXVU54GXLP5LIHKWXKG",
-              "retrieved_at": "2026-11-25T04:26:24+00:00"
+              "retrieved_at": "2026-11-26T04:20:19+00:00"
             }
           ],
           "synopsis_original": "In the wake of their climactic escape from Dennison, Luke and his friends search for a way to end the Institute for good. The Director enlists a new ally, tech billionaire Nolan Reeves, to help him rebuild. Sigsby's life as a fugitive pushes her to seek a way back \"in.\"",
@@ -23820,7 +24290,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/42a31ae324efcca878493deb0a0c7a10efb7180577a1d93e007c3c5a07b31f51._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:25+00:00"
+            "retrieved_at": "2026-11-26T04:20:19+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23832,14 +24302,24 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0J8LDPABXVU54GXLP5LIHKWXKG",
-          "retrieved_at": "2026-11-25T04:26:24+00:00"
+          "retrieved_at": "2026-11-26T04:20:19+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0NL7QIVSQO5UZ85B1NA13H6XK1",
+          "retrieved_at": "2026-11-26T04:20:20+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.8e73a081-7dd0-49ad-b1ef-827f45e11c61",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:20+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:20+00:00",
+      "updated_at": "2026-11-26T04:20:20+00:00"
     },
     {
       "id": "prime:0PPOLG3X7QMLB2DDV0L05FB4ZF",
@@ -23857,7 +24337,36 @@
           "official_catalog_id": "amzn1.dv.gti.a130d026-f991-4b7d-bb01-a8a5b87a5d81",
           "official_link": "/-/zh/detail/0OP5IFVIDTHNEHYFUWQZMH429T",
           "id": "prime:0PPOLG3X7QMLB2DDV0L05FB4ZF:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0OP5IFVIDTHNEHYFUWQZMH429T",
+          "official_title_zh": "Beyond the Gates Season 1",
+          "year": 2025,
+          "release_date": "2025年2月23日",
+          "official_checked_at": "2026-11-26T04:20:24+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0OP5IFVIDTHNEHYFUWQZMH429T",
+              "retrieved_at": "2026-11-26T04:20:24+00:00"
+            }
+          ],
+          "synopsis_original": "BEYOND THE GATES follows the Duprees, a powerful and prestigious multi-generational family that is the very definition of Black royalty. But behind the pristine walls and lush, manicured gardens are juicy secrets and scandals waiting to be uncovered.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0OP5IFVIDTHNEHYFUWQZMH429T",
+          "poster": {
+            "path": "images/fb7c57244453f4fc5223b8aceb6043e6fc7924da1e7b17c2a8de5a5f70e2288b.jpg",
+            "sha256": "fb7c57244453f4fc5223b8aceb6043e6fc7924da1e7b17c2a8de5a5f70e2288b",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/1ebc77a6f835a90fd07e8fbe46ccba9a93c6d92322caf472abe90acaff20f55b._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:26+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23868,13 +24377,13 @@
           "official_title_zh": "Beyond The Gates: Season 2",
           "year": 2026,
           "release_date": "2026年1月1日",
-          "official_checked_at": "2026-11-25T04:26:26+00:00",
+          "official_checked_at": "2026-11-26T04:20:22+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0PPOLG3X7QMLB2DDV0L05FB4ZF",
-              "retrieved_at": "2026-11-25T04:26:26+00:00"
+              "retrieved_at": "2026-11-26T04:20:22+00:00"
             }
           ],
           "synopsis_original": "A powerful and prestigious family reigns over a posh gated community with juicy secrets and scandals waiting to be uncovered.",
@@ -23890,7 +24399,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/37f4f409af191cf2513c864ae65e8ba54d3d593c1bec650bffdb60de72a57b96._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:26+00:00"
+            "retrieved_at": "2026-11-26T04:20:22+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23902,14 +24411,24 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0PPOLG3X7QMLB2DDV0L05FB4ZF",
-          "retrieved_at": "2026-11-25T04:26:26+00:00"
+          "retrieved_at": "2026-11-26T04:20:22+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0OP5IFVIDTHNEHYFUWQZMH429T",
+          "retrieved_at": "2026-11-26T04:20:24+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.a130d026-f991-4b7d-bb01-a8a5b87a5d81",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:26+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:26+00:00",
+      "updated_at": "2026-11-26T04:20:26+00:00"
     },
     {
       "id": "prime:0TYINFRADX3DSC71XS20ZI3SB7",
@@ -23927,7 +24446,36 @@
           "official_catalog_id": "amzn1.dv.gti.202383ab-684e-4fe5-96b2-654cf9ed54f0",
           "official_link": "/-/zh/detail/0H23TUEZW9UAVWSVDLGN1BOCMO",
           "id": "prime:0TYINFRADX3DSC71XS20ZI3SB7:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0H23TUEZW9UAVWSVDLGN1BOCMO",
+          "official_title_zh": "Yellowjackets - Season 1",
+          "year": 2021,
+          "release_date": "2021年11月13日",
+          "official_checked_at": "2026-11-26T04:20:28+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0H23TUEZW9UAVWSVDLGN1BOCMO",
+              "retrieved_at": "2026-11-26T04:20:28+00:00"
+            }
+          ],
+          "synopsis_original": "Wildly talented high school girls' soccer players descend into savage clans after their plane crashes in the remote northern wilderness. Twenty-five years later, they discover that what began in the wild is far from over.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0H23TUEZW9UAVWSVDLGN1BOCMO",
+          "poster": {
+            "path": "images/319750e50bc824208bbcb2333a07fcdfcee8880dae5b6f4655919111bcc4ed7c.jpg",
+            "sha256": "319750e50bc824208bbcb2333a07fcdfcee8880dae5b6f4655919111bcc4ed7c",
+            "width": 1200,
+            "height": 675,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/bbaddb0d3e3a3c4fb6ab17bf31bfe3fe4ffbe0897838589aa27473c6edeb88c3._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:28+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -23935,7 +24483,36 @@
           "official_catalog_id": "amzn1.dv.gti.2ab52345-3460-4bd2-a3dd-6169ed81f476",
           "official_link": "/-/zh/detail/0HOMQJTRF4GDJ7CD7ZKJH041H2",
           "id": "prime:0TYINFRADX3DSC71XS20ZI3SB7:s2",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0HOMQJTRF4GDJ7CD7ZKJH041H2",
+          "official_title_zh": "Yellowjackets Season 2",
+          "year": 2023,
+          "release_date": "2023年3月23日",
+          "official_checked_at": "2026-11-26T04:20:29+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0HOMQJTRF4GDJ7CD7ZKJH041H2",
+              "retrieved_at": "2026-11-26T04:20:29+00:00"
+            }
+          ],
+          "synopsis_original": "They barely survived summer, now the Yellowjackets feel winter's sting.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0HOMQJTRF4GDJ7CD7ZKJH041H2",
+          "poster": {
+            "path": "images/a08ffafada2ea68800171462d99d630f84d4a72f9fe026db79a39c444003e11e.jpg",
+            "sha256": "a08ffafada2ea68800171462d99d630f84d4a72f9fe026db79a39c444003e11e",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 2,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/a3dd006249f9f053fcb90d16a397e26868fd65c25ff90e17a4c8215e90f91742._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:29+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 3,
@@ -23943,7 +24520,36 @@
           "official_catalog_id": "amzn1.dv.gti.cc4a6c72-b1db-4e2c-a536-819a4f84ed93",
           "official_link": "/-/zh/detail/0R90F4ZH6PNQV2FIGPPGOT039V",
           "id": "prime:0TYINFRADX3DSC71XS20ZI3SB7:s3",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0R90F4ZH6PNQV2FIGPPGOT039V",
+          "official_title_zh": "Yellowjackets Season 3",
+          "year": 2025,
+          "release_date": "2025年2月13日",
+          "official_checked_at": "2026-11-26T04:20:30+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0R90F4ZH6PNQV2FIGPPGOT039V",
+              "retrieved_at": "2026-11-26T04:20:30+00:00"
+            }
+          ],
+          "synopsis_original": "As summer arrives, the Yellowjackets must confront a chilling question.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0R90F4ZH6PNQV2FIGPPGOT039V",
+          "poster": {
+            "path": "images/b281ce3e8724296e33fdcee34cde3f764b23d537e7f956f8803aaa9f87d955b7.jpg",
+            "sha256": "b281ce3e8724296e33fdcee34cde3f764b23d537e7f956f8803aaa9f87d955b7",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 3,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/e253d57ff956e23315cc59003c5eeb26652869e3056fe8baaf7822e86123c000._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:31+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 4,
@@ -23954,13 +24560,13 @@
           "official_title_zh": "Yellowjackets - Season 4",
           "year": 2026,
           "release_date": "2026年11月19日",
-          "official_checked_at": "2026-11-25T04:26:27+00:00",
+          "official_checked_at": "2026-11-26T04:20:26+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0TYINFRADX3DSC71XS20ZI3SB7",
-              "retrieved_at": "2026-11-25T04:26:27+00:00"
+              "retrieved_at": "2026-11-26T04:20:26+00:00"
             }
           ],
           "synopsis_original": "A team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the Ontario wilderness.",
@@ -23976,7 +24582,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/8523c969ce047959b41368cc17ebe5ab9c687dad3c848c13261c40f2347c8394._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:27+00:00"
+            "retrieved_at": "2026-11-26T04:20:27+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -23988,14 +24594,36 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0TYINFRADX3DSC71XS20ZI3SB7",
-          "retrieved_at": "2026-11-25T04:26:27+00:00"
+          "retrieved_at": "2026-11-26T04:20:26+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0H23TUEZW9UAVWSVDLGN1BOCMO",
+          "retrieved_at": "2026-11-26T04:20:28+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0HOMQJTRF4GDJ7CD7ZKJH041H2",
+          "retrieved_at": "2026-11-26T04:20:29+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0R90F4ZH6PNQV2FIGPPGOT039V",
+          "retrieved_at": "2026-11-26T04:20:30+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.202383ab-684e-4fe5-96b2-654cf9ed54f0",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:31+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:31+00:00",
+      "updated_at": "2026-11-26T04:20:31+00:00"
     },
     {
       "id": "prime:0OQBEOH0LWXGUF2U4H5X63U32X",
@@ -24013,7 +24641,36 @@
           "official_catalog_id": "amzn1.dv.gti.2c95fae2-23ee-4ff1-810c-b9a986539b85",
           "official_link": "/-/zh/detail/0HSMUNZ0UOMPHFMZFIETG4YGED",
           "id": "prime:0OQBEOH0LWXGUF2U4H5X63U32X:s1",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0HSMUNZ0UOMPHFMZFIETG4YGED",
+          "official_title_zh": "All The Queen's Men - Season 1",
+          "year": 2021,
+          "release_date": "2021年9月8日",
+          "official_checked_at": "2026-11-26T04:20:33+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0HSMUNZ0UOMPHFMZFIETG4YGED",
+              "retrieved_at": "2026-11-26T04:20:33+00:00"
+            }
+          ],
+          "synopsis_original": "BET+ ORIGINAL. Marilyn \"Madam\" DeVille is at the top of her game in the Atlanta nightclub industry, and she won't let anyone stand in her way as she rules a crew of male exotic dancers.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0HSMUNZ0UOMPHFMZFIETG4YGED",
+          "poster": {
+            "path": "images/6620921c6eed74607aae333d95ebaef0322dbb6c0db7b70e50ee7841423edde5.jpg",
+            "sha256": "6620921c6eed74607aae333d95ebaef0322dbb6c0db7b70e50ee7841423edde5",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 1,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/c5c69be376d10912558f496ba680ba4d49398337ddecfbce8499674f347feed7._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:33+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 2,
@@ -24021,7 +24678,36 @@
           "official_catalog_id": "amzn1.dv.gti.ede66f87-b8cd-4303-bbd9-d0ad7dde7952",
           "official_link": "/-/zh/detail/0T8N5C90O71WPL89BKH26I1B9U",
           "id": "prime:0OQBEOH0LWXGUF2U4H5X63U32X:s2",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0T8N5C90O71WPL89BKH26I1B9U",
+          "official_title_zh": "All The Queen's Men - Season 2",
+          "year": 2022,
+          "release_date": "2022年7月13日",
+          "official_checked_at": "2026-11-26T04:20:35+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0T8N5C90O71WPL89BKH26I1B9U",
+              "retrieved_at": "2026-11-26T04:20:35+00:00"
+            }
+          ],
+          "synopsis_original": "Marilyn \"Madam\" DeVille is at the top of her game in the Atlanta nightclub industry, and she won't let anyone stand in her way as she rules a crew of male exotic dancers.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0T8N5C90O71WPL89BKH26I1B9U",
+          "poster": {
+            "path": "images/7292da102bf3794861f3718de9703d3478406f9036fab394345fcdf82b8c953a.jpg",
+            "sha256": "7292da102bf3794861f3718de9703d3478406f9036fab394345fcdf82b8c953a",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 2,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/8869c72423bd72c718f564c22d0f8ba8777c41470726162c86e92a850a57ea9b._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:35+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 3,
@@ -24029,7 +24715,36 @@
           "official_catalog_id": "amzn1.dv.gti.bb420d74-a505-44be-9cef-0a19b8f70500",
           "official_link": "/-/zh/detail/0Q8PKASEYTMUMJH9RJLVZA76YO",
           "id": "prime:0OQBEOH0LWXGUF2U4H5X63U32X:s3",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0Q8PKASEYTMUMJH9RJLVZA76YO",
+          "official_title_zh": "All The Queen's Men - Season 3",
+          "year": 2023,
+          "release_date": "2023年7月19日",
+          "official_checked_at": "2026-11-26T04:20:36+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0Q8PKASEYTMUMJH9RJLVZA76YO",
+              "retrieved_at": "2026-11-26T04:20:36+00:00"
+            }
+          ],
+          "synopsis_original": "BET+ ORIGINAL. Marilyn \"Madam\" DeVille is at the top of her game in the Atlanta nightclub industry, and she won't let anyone stand in her way as she rules a crew of male exotic dancers.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0Q8PKASEYTMUMJH9RJLVZA76YO",
+          "poster": {
+            "path": "images/2d35444dc3dbb15b2d641b02611bf1ff1b93501dcde8c291fe1b5d31e00d3496.jpg",
+            "sha256": "2d35444dc3dbb15b2d641b02611bf1ff1b93501dcde8c291fe1b5d31e00d3496",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 3,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/38ece1bcdc78bf43c668b8545322aea81bcb22fa2586e688731e0abcd3609aa6._SX1280_FMjpg_.jpg",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:37+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 4,
@@ -24037,7 +24752,36 @@
           "official_catalog_id": "amzn1.dv.gti.cac5f454-d76e-4f2c-a9fd-789360f8cba4",
           "official_link": "/-/zh/detail/0R5RZP0YK0G73URKXCBJEAYJZ8",
           "id": "prime:0OQBEOH0LWXGUF2U4H5X63U32X:s4",
-          "synopsis_status": "missing"
+          "synopsis_status": "translation_pending",
+          "official_id": "0R5RZP0YK0G73URKXCBJEAYJZ8",
+          "official_title_zh": "All The Queen's Men Season 4",
+          "year": 2024,
+          "release_date": "2024年11月27日",
+          "official_checked_at": "2026-11-26T04:20:38+00:00",
+          "sources": [
+            {
+              "type": "prime_official",
+              "name": "Prime Video public page",
+              "url": "https://www.primevideo.com/-/zh/detail/0R5RZP0YK0G73URKXCBJEAYJZ8",
+              "retrieved_at": "2026-11-26T04:20:38+00:00"
+            }
+          ],
+          "synopsis_original": "BET+ ORIGINAL. Marilyn \"Madam\" DeVille is at the top of her game in the Atlanta nightclub industry, and she won't let anyone stand in her way as she rules a crew of male exotic dancers.",
+          "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0R5RZP0YK0G73URKXCBJEAYJZ8",
+          "poster": {
+            "path": "images/6b10f4f6e3497ceb55d0b86e9313660b41db8fcd977d446a785926d8f166b3d5.jpg",
+            "sha256": "6b10f4f6e3497ceb55d0b86e9313660b41db8fcd977d446a785926d8f166b3d5",
+            "width": 1280,
+            "height": 720,
+            "scope": "season",
+            "season_number": 4,
+            "source_url": "https://m.media-amazon.com/images/S/pv-target-images/068bf114b77bc78941e59db4c83c146f9b027a93d253162cb729323031e407f1._SX1280_FMpng_.png",
+            "source_type": "prime_official",
+            "provenance": "public_source_download",
+            "retrieved_at": "2026-11-26T04:20:38+00:00"
+          },
+          "poster_scope": "season",
+          "poster_status": "ok"
         },
         {
           "season": 5,
@@ -24048,13 +24792,13 @@
           "official_title_zh": "All The Queen's Men - Season 5",
           "year": 2026,
           "release_date": "2026年6月9日",
-          "official_checked_at": "2026-11-25T04:26:28+00:00",
+          "official_checked_at": "2026-11-26T04:20:32+00:00",
           "sources": [
             {
               "type": "prime_official",
               "name": "Prime Video public page",
               "url": "https://www.primevideo.com/-/zh/detail/0OQBEOH0LWXGUF2U4H5X63U32X",
-              "retrieved_at": "2026-11-25T04:26:28+00:00"
+              "retrieved_at": "2026-11-26T04:20:32+00:00"
             }
           ],
           "synopsis_original": "Marilyn \"Madam\" DeVille is at the top of her game in the Atlanta nightclub industry as she rules a crew of male exotic dancers.",
@@ -24070,7 +24814,7 @@
             "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f1fcd3fb67d2dd5eabd59757900f17b15d0bc18d6ee1c0325aba33f20cab46e7._SX1280_FMjpg_.jpg",
             "source_type": "prime_official",
             "provenance": "public_source_download",
-            "retrieved_at": "2026-11-25T04:26:28+00:00"
+            "retrieved_at": "2026-11-26T04:20:32+00:00"
           },
           "poster_scope": "season",
           "poster_status": "ok",
@@ -24082,14 +24826,531 @@
           "type": "prime_official",
           "name": "Prime Video public page",
           "url": "https://www.primevideo.com/-/zh/detail/0OQBEOH0LWXGUF2U4H5X63U32X",
-          "retrieved_at": "2026-11-25T04:26:28+00:00"
+          "retrieved_at": "2026-11-26T04:20:32+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0HSMUNZ0UOMPHFMZFIETG4YGED",
+          "retrieved_at": "2026-11-26T04:20:33+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0T8N5C90O71WPL89BKH26I1B9U",
+          "retrieved_at": "2026-11-26T04:20:35+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0Q8PKASEYTMUMJH9RJLVZA76YO",
+          "retrieved_at": "2026-11-26T04:20:36+00:00"
+        },
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0R5RZP0YK0G73URKXCBJEAYJZ8",
+          "retrieved_at": "2026-11-26T04:20:38+00:00"
         }
       ],
       "original_title": null,
       "aliases_zh": [],
       "details": {},
       "prime_series_id": "amzn1.dv.gti.2c95fae2-23ee-4ff1-810c-b9a986539b85",
-      "discovery_source": "https://www.primevideo.com/-/zh/storefront"
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "metadata_attempted_at": "2026-11-26T04:20:38+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-26T04:20:38+00:00",
+      "updated_at": "2026-11-26T04:20:38+00:00"
+    },
+    {
+      "id": "prime:0SWY63I31VAEF6XSHMB6BQZ1JO",
+      "slug": "prime-0swy63i31vaef6xshmb6bqz1jo",
+      "prime_id": "0SWY63I31VAEF6XSHMB6BQZ1JO",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "捍衛任務4",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "捍衛任務4",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0SWY63I31VAEF6XSHMB6BQZ1JO",
+          "retrieved_at": "2026-11-27T04:22:47+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2023年3月23日",
+        "genres": "动作片 / 悬疑 / 冒险片"
+      },
+      "official_catalog_id": "amzn1.dv.gti.e869d33e-f109-4c54-bdc4-818c4d597894",
+      "year": 2023,
+      "release_date": "2023年3月23日",
+      "official_checked_at": "2026-11-27T04:22:47+00:00",
+      "synopsis_zh": "約翰維克（基努李維飾）有望擊敗「高桌會」，但得先解決一個使老友反目成仇的新勢力。",
+      "synopsis_status": "ok",
+      "synopsis_source_type": "prime_official",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0SWY63I31VAEF6XSHMB6BQZ1JO",
+      "poster": {
+        "path": "images/871e2baa4801f9e5edbd17c318f34a2317a687824fcc3fa6c216c07ad499b9f6.jpg",
+        "sha256": "871e2baa4801f9e5edbd17c318f34a2317a687824fcc3fa6c216c07ad499b9f6",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/f2866a0c85e8d638518d6b0861515345ff8b100180bf38aaf3a94400956b12a2._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:22:47+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "动作片 / 悬疑 / 冒险片",
+      "metadata_attempted_at": "2026-11-27T04:22:47+00:00",
+      "refresh_status": "checked",
+      "metadata_checked_at": "2026-11-27T04:22:47+00:00",
+      "updated_at": "2026-11-27T04:22:47+00:00"
+    },
+    {
+      "id": "prime:0M0MP41XNWVO29LL977I63Z58J",
+      "slug": "prime-0m0mp41xnwvo29ll977i63z58j",
+      "prime_id": "0M0MP41XNWVO29LL977I63Z58J",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Jailer 2",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Jailer 2",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0M0MP41XNWVO29LL977I63Z58J",
+          "retrieved_at": "2026-11-26T04:22:15+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2026年10月14日",
+        "genres": "动作片 / 喜剧 / 悬疑"
+      },
+      "official_catalog_id": "amzn1.dv.gti.73e6fa28-2ee0-44c4-adc7-41d86123a043",
+      "year": 2026,
+      "release_date": "2026年10月14日",
+      "official_checked_at": "2026-11-26T04:22:15+00:00",
+      "synopsis_original": "After the events of his past, Muthuvel Pandian moves to a peaceful locality in the foothills of the Western Ghats with his wife Vijaya, his daughter-in-law and his grandson. Dilip an old business associates of Varman tracks down Muthuvel to avenge the death of his friend. He plots to kill Muthuvel and his family, forcing Muthuvel to fight against all adds to protect his family",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0M0MP41XNWVO29LL977I63Z58J",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/16b912363b3e183b7960c95039df3051aed38979525f421d51185a4b805a60f1.jpg",
+        "sha256": "16b912363b3e183b7960c95039df3051aed38979525f421d51185a4b805a60f1",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/2cef3f6d5418b96f7427bbccf12523e8ffca7737c73945054614ca556c2d47b3._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-26T04:22:15+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "动作片 / 喜剧 / 悬疑",
+      "metadata_attempted_at": "2026-11-27T04:22:47+00:00",
+      "refresh_status": "failed"
+    },
+    {
+      "id": "prime:0K8VVPEK0IMQED6CPFGWCEDP2V",
+      "slug": "prime-0k8vvpek0imqed6cpfgwcedp2v",
+      "prime_id": "0K8VVPEK0IMQED6CPFGWCEDP2V",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Can You Keep A Secret?",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Can You Keep A Secret?",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0K8VVPEK0IMQED6CPFGWCEDP2V",
+          "retrieved_at": "2026-11-27T04:23:42+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2019年9月12日",
+        "genres": "爱情 / 喜剧"
+      },
+      "official_catalog_id": "amzn1.dv.gti.55fe3e5e-0cb0-43ed-9a28-8a4807093e37",
+      "year": 2019,
+      "release_date": "2019年9月12日",
+      "official_checked_at": "2026-11-27T04:23:42+00:00",
+      "synopsis_original": "Thinking her flight is crashing, a woman confides her secrets to the stranger next to her...only to survive and later learn he is her CEO.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0K8VVPEK0IMQED6CPFGWCEDP2V",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/f62745290a9ccd8f81cde71a162661c1dc5e023a6073da848ab3a12f00f0e459.jpg",
+        "sha256": "f62745290a9ccd8f81cde71a162661c1dc5e023a6073da848ab3a12f00f0e459",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/8eb41f8d3abdd163c1b8000c07bb73295f693c4d8592b457f600fc2a034b2746._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:42+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "爱情 / 喜剧"
+    },
+    {
+      "id": "prime:0O2QIETVN8SP1D6DBEBOQNM993",
+      "slug": "prime-0o2qietvn8sp1d6dbeboqnm993",
+      "prime_id": "0O2QIETVN8SP1D6DBEBOQNM993",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Hairspray",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Hairspray",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0O2QIETVN8SP1D6DBEBOQNM993",
+          "retrieved_at": "2026-11-27T04:23:43+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2007年7月19日",
+        "genres": "喜剧 / 艺术、娱乐和文化 / 爱情 / 年轻成人观众"
+      },
+      "official_catalog_id": "amzn1.dv.gti.96ac3a50-6952-e6ee-8a1a-293b27f23757",
+      "year": 2007,
+      "release_date": "2007年7月19日",
+      "official_checked_at": "2026-11-27T04:23:43+00:00",
+      "synopsis_original": "In 1960s Baltimore, Tracy Turnblad auditions for a spot on a show and wins. She becomes a trendsetter in dance, fun and fashion. Her new status is enough to topple Corny's reigning dance queen and bring racial integration to the show.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0O2QIETVN8SP1D6DBEBOQNM993",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/b0d20050d1befdd6c5fe8fd2d94a0905efd31e42622279c658ea8138547993a1.jpg",
+        "sha256": "b0d20050d1befdd6c5fe8fd2d94a0905efd31e42622279c658ea8138547993a1",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/00fd56f96da8da44b373af6ad8d0ff415c32fcaa0526ceaed566b7d2f7355030._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:43+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "喜剧 / 艺术、娱乐和文化 / 爱情 / 年轻成人观众"
+    },
+    {
+      "id": "prime:0OB8QKVOD9W2TR0GJ9QIIMKX7O",
+      "slug": "prime-0ob8qkvod9w2tr0gj9qiimkx7o",
+      "prime_id": "0OB8QKVOD9W2TR0GJ9QIIMKX7O",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Another Cinderella Story",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Another Cinderella Story",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0OB8QKVOD9W2TR0GJ9QIIMKX7O",
+          "retrieved_at": "2026-11-27T04:23:43+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2008年9月15日",
+        "genres": "爱情 / 喜剧 / 艺术、娱乐和文化 / 年轻成人观众"
+      },
+      "official_catalog_id": "amzn1.dv.gti.9aa9f6cf-2128-974d-272c-24d67818e324",
+      "year": 2008,
+      "release_date": "2008年9月15日",
+      "official_checked_at": "2026-11-27T04:23:43+00:00",
+      "synopsis_original": "Somewhere deep in the heart of the San Fernando Valley, a modern-day fairy tale romance is about to come true again!",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0OB8QKVOD9W2TR0GJ9QIIMKX7O",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/02fdae4a220187834e35ef3ffee76f2a3a4f013c1930db64a702f77f4e773651.jpg",
+        "sha256": "02fdae4a220187834e35ef3ffee76f2a3a4f013c1930db64a702f77f4e773651",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/9003d2772d48d84b3e80d77021a01028c88644a08f1d0e1ec8bec60827c1b912._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:44+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "爱情 / 喜剧 / 艺术、娱乐和文化 / 年轻成人观众"
+    },
+    {
+      "id": "prime:0MAVR108VHVELKO567B3HKVNR0",
+      "slug": "prime-0mavr108vhvelko567b3hkvnr0",
+      "prime_id": "0MAVR108VHVELKO567B3HKVNR0",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "A Cinderella Story: Christmas Wish",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "A Cinderella Story: Christmas Wish",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0MAVR108VHVELKO567B3HKVNR0",
+          "retrieved_at": "2026-11-27T04:23:45+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2019年10月14日",
+        "genres": "爱情 / 喜剧 / 艺术、娱乐和文化 / 年轻成人观众"
+      },
+      "official_catalog_id": "amzn1.dv.gti.78b655e9-604b-622b-a4d8-bacad514f1fc",
+      "year": 2019,
+      "release_date": "2019年10月14日",
+      "official_checked_at": "2026-11-27T04:23:45+00:00",
+      "synopsis_original": "Join Laura Marano and Gregg Sulkin in this modern-day classic, featuring original music and holiday favorites.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0MAVR108VHVELKO567B3HKVNR0",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/e7b1728ca6ffa850a2d18bab43720201cbbe9c5af87230668aa6cc7091ee3253.jpg",
+        "sha256": "e7b1728ca6ffa850a2d18bab43720201cbbe9c5af87230668aa6cc7091ee3253",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/feb9dc0f071f627242a43b0ab3803b05387f1683c5124fd66eb9810852eab365._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:45+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "爱情 / 喜剧 / 艺术、娱乐和文化 / 年轻成人观众"
+    },
+    {
+      "id": "prime:0R21SYDOR1OEHQV9W7OPT7IE2T",
+      "slug": "prime-0r21sydor1oehqv9w7opt7ie2t",
+      "prime_id": "0R21SYDOR1OEHQV9W7OPT7IE2T",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "White Christmas",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "White Christmas",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0R21SYDOR1OEHQV9W7OPT7IE2T",
+          "retrieved_at": "2026-11-27T04:23:46+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "1954年10月13日",
+        "genres": "喜剧 / 爱情 / 艺术、娱乐和文化"
+      },
+      "official_catalog_id": "amzn1.dv.gti.c9063bf6-55a6-4ba2-9340-b6c2625aa2c5",
+      "year": 1954,
+      "release_date": "1954年10月13日",
+      "official_checked_at": "2026-11-27T04:23:46+00:00",
+      "synopsis_original": "Two talented song-and-dance men (Bing Crosby and Danny Kaye) team up after the war to become one of the hottest acts in show business.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0R21SYDOR1OEHQV9W7OPT7IE2T",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/95dbc395b2f3e2e8dea761d52c9ca5be20c43f47c28343090020be634ab12636.jpg",
+        "sha256": "95dbc395b2f3e2e8dea761d52c9ca5be20c43f47c28343090020be634ab12636",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/98fead7840a550e7298f5a4f20172287c62c8e54bb54beebd1e19d8f08bf9640._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:46+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "喜剧 / 爱情 / 艺术、娱乐和文化"
+    },
+    {
+      "id": "prime:0MOWOM8JKU21DFQ2XVHPHKFTWN",
+      "slug": "prime-0mowom8jku21dfq2xvhphkftwn",
+      "prime_id": "0MOWOM8JKU21DFQ2XVHPHKFTWN",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "伴郎假期",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "伴郎假期",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0MOWOM8JKU21DFQ2XVHPHKFTWN",
+          "retrieved_at": "2026-11-27T04:23:46+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2013年11月14日",
+        "genres": "剧情片 / 喜剧 / 爱情"
+      },
+      "official_catalog_id": "amzn1.dv.gti.7f4b0fc9-c7e1-4ce2-8fd9-1f0239de8d27",
+      "year": 2013,
+      "release_date": "2013年11月14日",
+      "official_checked_at": "2026-11-27T04:23:46+00:00",
+      "synopsis_zh": "本片是1999年的热门电影《伴郎》的续集，大家一起透过这部电影分享哈珀（泰依·迪格斯饰）、兰斯（摩里斯·切斯塔特饰）、昆汀（泰伦斯·霍华德饰）、乔丹（尼娅·朗饰）、罗萍（桑娜·莱瑟饰）、米娅（莫妮卡·卡尔霍恩饰）、默奇（哈罗德·佩里诺饰）、坎迪斯（雷吉娜·赫尔饰）和雪比（梅丽莎·德·索萨饰）等人的笑声、爱情和惊喜，他们在毕业十四年后，第一次重新聚首并一起欢度圣诞节。多年之后，大学时代的一群朋友在人生的路上都经历了不少变化，却又再次聚在一起。他们很快就会发现，重新点燃已经被遗忘许久的敌对情绪和浪漫火花是多么容易的事，而且他们还会有新的发现，也有秘密会被揭穿。",
+      "synopsis_status": "ok",
+      "synopsis_source_type": "prime_official",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0MOWOM8JKU21DFQ2XVHPHKFTWN",
+      "poster": {
+        "path": "images/0fa526ad342ca3754d33c4c093000de26bdb7cf1b44f96704431d05d141dfecb.jpg",
+        "sha256": "0fa526ad342ca3754d33c4c093000de26bdb7cf1b44f96704431d05d141dfecb",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/9fc2ef5c569b7374ee0006f3c288ee1977ab69eee501f0c6b5bef09256e52e5c._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:47+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "剧情片 / 喜剧 / 爱情"
+    },
+    {
+      "id": "prime:0KPH2JR4ED41HPWTZ79WMDBJ00",
+      "slug": "prime-0kph2jr4ed41hpwtz79wmdbj00",
+      "prime_id": "0KPH2JR4ED41HPWTZ79WMDBJ00",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "Tyler Perry's A Madea Christmas",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "Tyler Perry's A Madea Christmas",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0KPH2JR4ED41HPWTZ79WMDBJ00",
+          "retrieved_at": "2026-11-27T04:23:47+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2013年12月12日",
+        "genres": "喜剧 / 剧情片 / 爱情"
+      },
+      "official_catalog_id": "amzn1.dv.gti.5dc6c9d4-c923-4383-936e-76f9c0d4b9f0",
+      "year": 2013,
+      "release_date": "2013年12月12日",
+      "official_checked_at": "2026-11-27T04:23:47+00:00",
+      "synopsis_original": "Madea (Tyler Perry) dishes out her own brand of Christmas spirit in a small, rural town.",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0KPH2JR4ED41HPWTZ79WMDBJ00",
+      "synopsis_status": "translation_pending",
+      "poster": {
+        "path": "images/7723c5d3a6c91ea0304422c41b93078d38d1b4977cf357fa4b05bcc496b30217.jpg",
+        "sha256": "7723c5d3a6c91ea0304422c41b93078d38d1b4977cf357fa4b05bcc496b30217",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/11df274f7e69da679dd48a07a707085dfdcc52a1adfeaa7f01b10728ab29931d._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:47+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "喜剧 / 剧情片 / 爱情"
+    },
+    {
+      "id": "prime:0O2PU0BVKQRW5UWQP770AG0SC1",
+      "slug": "prime-0o2pu0bvkqrw5uwqp770ag0sc1",
+      "prime_id": "0O2PU0BVKQRW5UWQP770AG0SC1",
+      "kind": "movie",
+      "identity_status": "verified_official_mapping",
+      "display_name_zh": "婚前大考",
+      "name_status": "verified_prime_official",
+      "prime_official_name_zh": "婚前大考",
+      "seasons": [],
+      "sources": [
+        {
+          "type": "prime_official",
+          "name": "Prime Video public page",
+          "url": "https://www.primevideo.com/-/zh/detail/0O2PU0BVKQRW5UWQP770AG0SC1",
+          "retrieved_at": "2026-11-27T04:23:48+00:00"
+        }
+      ],
+      "original_title": null,
+      "aliases_zh": [],
+      "details": {
+        "release_date": "2005年12月15日",
+        "genres": "喜剧 / 爱情"
+      },
+      "official_catalog_id": "amzn1.dv.gti.96a9f752-9036-512c-768a-0a9d66a3c771",
+      "year": 2005,
+      "release_date": "2005年12月15日",
+      "official_checked_at": "2026-11-27T04:23:48+00:00",
+      "synopsis_zh": "这部喜剧电影讲述了一个新英格兰家族--斯通家族新年聚会的故事。",
+      "synopsis_status": "ok",
+      "synopsis_source_type": "prime_official",
+      "synopsis_source_url": "https://www.primevideo.com/-/zh/detail/0O2PU0BVKQRW5UWQP770AG0SC1",
+      "poster": {
+        "path": "images/6f5c00454daf6783d61e1b2bd55324a51c97d1c77806b436392848f4fdda582a.jpg",
+        "sha256": "6f5c00454daf6783d61e1b2bd55324a51c97d1c77806b436392848f4fdda582a",
+        "width": 1280,
+        "height": 720,
+        "scope": "series",
+        "season_number": null,
+        "source_url": "https://m.media-amazon.com/images/S/pv-target-images/28597c941fe12c30c367b8332f6d4963b83d0f1e40892f0db91765f741126d53._SX1280_FMjpg_.jpg",
+        "source_type": "prime_official",
+        "provenance": "public_source_download",
+        "retrieved_at": "2026-11-27T04:23:48+00:00"
+      },
+      "poster_scope": "series",
+      "poster_status": "ok",
+      "discovery_source": "https://www.primevideo.com/-/zh/storefront",
+      "genres": "喜剧 / 爱情"
     }
   ]
 }
